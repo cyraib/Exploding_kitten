@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" fill="none">
+  <title>Authored warm wooden game table</title>
+  <desc>Original vector reconstruction: angled honey-colored planks, a snack bowl, cup, game controller, cable and napkin. No official game image is embedded.</desc>
+  <defs>
+    <linearGradient id="wood" x1="140" y1="90" x2="1630" y2="990" gradientUnits="userSpaceOnUse"><stop stop-color="#c35c24"/><stop offset=".35" stop-color="#ed922e"/><stop offset=".63" stop-color="#f3ae43"/><stop offset="1" stop-color="#c56b2c"/></linearGradient>
+    <linearGradient id="plank" x1="400" y1="0" x2="430" y2="260" gradientUnits="userSpaceOnUse"><stop stop-color="#fff0a7" stop-opacity=".15"/><stop offset=".55" stop-color="#d55920" stop-opacity=".02"/><stop offset="1" stop-color="#79321a" stop-opacity=".2"/></linearGradient>
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientTransform="translate(915 530) rotate(28) scale(1170 730)" gradientUnits="userSpaceOnUse"><stop stop-color="#ffe094" stop-opacity=".27"/><stop offset=".65" stop-color="#edaa46" stop-opacity=".01"/><stop offset="1" stop-color="#371b16" stop-opacity=".54"/></radialGradient>
+    <linearGradient id="purple" x1="20" y1="0" x2="240" y2="180" gradientUnits="userSpaceOnUse"><stop stop-color="#8077aa"/><stop offset=".6" stop-color="#57517c"/><stop offset="1" stop-color="#393850"/></linearGradient>
+    <linearGradient id="coffee" x1="0" y1="-100" x2="0" y2="60" gradientUnits="userSpaceOnUse"><stop stop-color="#ae734a"/><stop offset="1" stop-color="#583529"/></linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="90" y2="140" gradientUnits="userSpaceOnUse"><stop stop-color="#ffe493"/><stop offset=".48" stop-color="#efb94d"/><stop offset="1" stop-color="#d68525"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="240" y2="280" gradientUnits="userSpaceOnUse"><stop stop-color="#fff3ce"/><stop offset="1" stop-color="#d2ad7f"/></linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="220%"><feDropShadow dx="12" dy="18" stdDeviation="12" flood-color="#431d14" flood-opacity=".3"/></filter>
+    <filter id="smallShadow" x="-50%" y="-50%" width="200%" height="220%"><feDropShadow dx="4" dy="8" stdDeviation="4" flood-color="#542313" flood-opacity=".3"/></filter>
+    <g id="cracker"><path d="M-48 25 15-58 63 40Q12 64-48 25Z" fill="url(#chip)" stroke="#db993c" stroke-width="3" stroke-linejoin="round"/><path d="m-22 15 6-8m24-30 7 8m16 13 8-5m-13 27 4 9m-29-3 2 6" stroke="#b9792f" stroke-width="4" stroke-linecap="round" opacity=".8"/></g>
+  </defs>
+  <path fill="url(#wood)" d="M0 0h1920v1080H0z"/>
+  <!-- Broad diagonal boards keep the center quiet for cards and character cues. -->
+  <g transform="rotate(-13 960 540)">
+    <path d="M-320-380h2550v230H-320zM-320-144h2550V92H-320zM-320 100h2550v246H-320zM-320 353h2550v235H-320zM-320 596h2550v240H-320zM-320 844h2550v235H-320zM-320 1086h2550v260H-320z" fill="url(#plank)"/>
+    <g stroke="#823718" stroke-width="7" opacity=".4"><path d="M-320-150h2550M-320 94h2550M-320 348h2550M-320 590h2550M-320 838h2550M-320 1081h2550"/></g>
+    <g stroke="#ffdb80" stroke-width="3" opacity=".38"><path d="M-320-142h2550M-320 103h2550M-320 357h2550M-320 599h2550M-320 847h2550M-320 1090h2550"/></g>
+    <g stroke="#9d4b21" stroke-width="3" opacity=".13"><path d="M-50-42q270 20 485 7t410 8 520-12 600 5M-100 162q190-9 400 6t505-4 615 10 750-13M-200 288q300-28 490-4t440 0 505-8 850 1M-150 426q175-15 395 0t570-7 470 4 820-9M-60 535q250 16 510-3t470 9 475-5 700 4M-120 664q300-11 460 9t480-4 430 4 720-12M-200 782q250 16 470-3t520 7 650-8 650 14M-110 932q225-10 490 0t580-10 500 5 660-11"/></g>
+    <g fill="none" stroke="#aa5529" stroke-width="5" opacity=".23"><ellipse cx="380" cy="58" rx="48" ry="13"/><ellipse cx="1670" cy="432" rx="69" ry="16"/><ellipse cx="210" cy="1030" rx="51" ry="12"/></g>
+  </g>
+  <!-- An authored bowl and loose snack shapes. -->
+  <g transform="translate(75 75) rotate(-12)" filter="url(#shadow)">
+    <path d="M-220-50q50 272 238 262 192-3 238-212Z" fill="url(#purple)"/>
+    <ellipse cx="12" cy="-13" rx="235" ry="112" fill="#696389" stroke="#aca0c0" stroke-width="14"/>
+    <ellipse cx="12" cy="-15" rx="211" ry="88" fill="#393445"/>
+    <use href="#cracker" transform="translate(-91 -40) rotate(-29) scale(1.2)"/><use href="#cracker" transform="translate(28 -55) rotate(71) scale(1.4)"/><use href="#cracker" transform="translate(113 9) rotate(18) scale(1.12)"/><use href="#cracker" transform="translate(-23 28) rotate(139) scale(1.28)"/>
+    <path d="M-210 18q188 113 436 17" stroke="#9689b3" stroke-width="14" opacity=".55"/>
+  </g>
+  <g fill="#eabc67" stroke="#d0893c" stroke-width="2" filter="url(#smallShadow)"><path d="m301 278 27-4-8 15-23 4Z"/><path d="m351 325 13-15 18 7-13 17Z"/><path d="m435 97 19 9-21 14-9-12Z"/><path d="m1634 756 22 10-13 18-14-13Z"/><path d="m1763 851 12-13 18 11-19 11Z"/></g>
+  <!-- Simple controller; intentionally not an official prop model. -->
+  <g transform="translate(1530 18) rotate(16)" filter="url(#shadow)">
+    <path d="M-64 26q-2-29 31-27h303q30-2 39 27l22 107q4 29-22 32l-83-11-32-31H59l-27 28-87 12q-30 2-27-29Z" fill="#625176" stroke="#493a59" stroke-width="7"/>
+    <path d="M3 66h52m-26-26v52" stroke="#2e2838" stroke-width="20" stroke-linecap="square"/>
+    <g fill="#957fad" stroke="#3f344d" stroke-width="3"><circle cx="233" cy="51" r="14"/><circle cx="260" cy="76" r="14"/><circle cx="204" cy="76" r="14"/><circle cx="233" cy="102" r="14"/></g>
+    <rect x="93" y="68" width="30" height="10" rx="5" fill="#b790ad"/><rect x="135" y="68" width="30" height="10" rx="5" fill="#b790ad"/>
+    <path d="M-22 124h44m184 0h68" stroke="#9b82a7" stroke-width="5" opacity=".45"/>
+  </g>
+  <!-- Purple ceramic mug at the upper right edge. -->
+  <g transform="translate(1874 360) rotate(8)" filter="url(#shadow)">
+    <path d="M-104-56q-46 0-54 51-7 70 61 74" fill="none" stroke="#51466b" stroke-width="34"/><path d="M-105-54q-42 1-49 47" fill="none" stroke="#9a87aa" stroke-width="8"/>
+    <path d="M-89-62q6 121 31 172 41 55 143 39 70-15 91-74l16-137Z" fill="url(#purple)"/>
+    <ellipse cx="48" cy="-64" rx="137" ry="69" fill="#89729e" stroke="#aa8eac" stroke-width="11"/><ellipse cx="48" cy="-67" rx="119" ry="53" fill="url(#coffee)"/>
+    <path d="M-24-75q34-28 83-6t66 1" stroke="#cfa07b" stroke-width="12" opacity=".25" stroke-linecap="round"/><path d="M-45-12q5 82 40 115" stroke="#c2a2b7" stroke-width="14" opacity=".23" stroke-linecap="round"/>
+  </g>
+  <!-- Marginal cable, coaster ring and folded paper leave gameplay space open. -->
+  <path d="M-30 624q111-40 204-66t42-89q-79-65-157-10t5 93q66 12 157-59l61-38" stroke="#7a4635" stroke-width="10" opacity=".45"/>
+  <path d="M-30 617q111-40 204-66t42-89q-79-65-157-10t5 93q66 12 157-59l61-38" stroke="#716a72" stroke-width="6"/>
+  <g transform="translate(304 444) rotate(-32)" filter="url(#smallShadow)"><rect x="-27" y="-10" width="47" height="20" rx="4" fill="#b2a5a1" stroke="#695653" stroke-width="2"/><rect x="15" y="-6" width="21" height="12" rx="2" fill="#e2cbc0"/><path d="M-11-6v12m8-12v12" stroke="#72665e" stroke-width="2"/></g>
+  <ellipse cx="1658" cy="486" rx="90" ry="60" transform="rotate(-17 1658 486)" stroke="#8b4d28" stroke-width="13" opacity=".16"/>
+  <g transform="translate(1815 840) rotate(-17)" filter="url(#shadow)"><path d="M-170-144 166-153 192 192-153 215Z" fill="url(#paper)"/><path d="m-153-125 127 24-97 147 94 151" stroke="#fff7dd" stroke-width="34" opacity=".3"/><ellipse cx="83" cy="-31" rx="128" ry="155" fill="#d1ba98" stroke="#f4ddba" stroke-width="16"/><ellipse cx="86" cy="-32" rx="102" ry="128" fill="#947550"/><use href="#cracker" transform="translate(53 -53) rotate(20) scale(1.14)"/><use href="#cracker" transform="translate(128 -6) rotate(134) scale(1.06)"/><use href="#cracker" transform="translate(39 30) rotate(-25) scale(.98)"/></g>
+  <path fill="url(#light)" d="M0 0h1920v1080H0z"/>
+</svg>

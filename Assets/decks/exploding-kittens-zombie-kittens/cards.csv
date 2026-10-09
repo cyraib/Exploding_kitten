@@ -1,0 +1,20 @@
+﻿id,name,family,count,with_paw,without_paw,zone,icon,asset_folder,count_source
+attack-2x,Attack 2x,attack-2x,2,2,0,deck,Assets/cards/attack-2x/attack-2x.png,Assets/cards/attack-2x,rules.pdf page 2
+attack-of-the-dead,Attack of the Dead,attack-of-the-dead,3,0,3,deck,Assets/cards/attack-of-the-dead/attack-of-the-dead.png,Assets/cards/attack-of-the-dead,rules.pdf page 2
+cat-o-lantern,Cat-O-Lantern,cat-card,4,4,0,deck,Assets/cards/cat-card/cat-o-lantern.png,Assets/cards/cat-card,explodi.ng structured card inventory; named cat split
+de-cat-ipated,De-Cat-Ipated,cat-card,4,4,0,deck,Assets/cards/cat-card/de-cat-ipated.png,Assets/cards/cat-card,explodi.ng structured card inventory; named cat split
+electrocat,Electrocat,cat-card,4,0,4,deck,Assets/cards/cat-card/electrocat.png,Assets/cards/cat-card,explodi.ng structured card inventory; named cat split
+vampire-cat,Vampire Cat,cat-card,4,0,4,deck,Assets/cards/cat-card/vampire-cat.png,Assets/cards/cat-card,explodi.ng structured card inventory; named cat split
+clairvoyance,Clairvoyance,clairvoyance,2,1,1,deck,Assets/cards/clairvoyance/clairvoyance.png,Assets/cards/clairvoyance,rules.pdf page 2
+clone,Clone,clone,3,1,2,deck,Assets/cards/clone/clone.png,Assets/cards/clone,rules.pdf page 2
+dig-deeper,Dig Deeper,dig-deeper,4,2,2,deck,Assets/cards/dig-deeper/dig-deeper.png,Assets/cards/dig-deeper,rules.pdf page 2
+exploding-kitten,Exploding Kitten,exploding-kitten,4,0,4,deck,Assets/cards/exploding-kitten/exploding-kitten.png,Assets/cards/exploding-kitten,rules.pdf page 2
+favor,Favor,favor,3,1,2,deck,Assets/cards/favor/favor.png,Assets/cards/favor,rules.pdf page 2
+feed-the-dead,Feed The Dead,feed-the-dead,2,0,2,deck,Assets/cards/feed-the-dead/feed-the-dead.png,Assets/cards/feed-the-dead,rules.pdf page 2
+grave-robber,Grave Robber,grave-robber,1,0,1,deck,Assets/cards/grave-robber/grave-robber.png,Assets/cards/grave-robber,rules.pdf page 2
+nope,Nope,nope,5,2,3,deck,Assets/cards/nope/nope.png,Assets/cards/nope,rules.pdf page 2
+see-the-future-3x,See the Future 3x,see-the-future-3x,4,2,2,deck,Assets/cards/see-the-future-3x/see-the-future-3x.png,Assets/cards/see-the-future-3x,rules.pdf page 2
+shuffle-now,Shuffle NOW,shuffle-now,2,1,1,deck,Assets/cards/shuffle-now/shuffle-now.png,Assets/cards/shuffle-now,rules.pdf page 2
+skip,Skip,skip,3,1,2,deck,Assets/cards/skip/skip.png,Assets/cards/skip,rules.pdf page 2
+super-skip,Super Skip,super-skip,2,1,1,deck,Assets/cards/super-skip/super-skip.png,Assets/cards/super-skip,rules.pdf page 2
+zombie-kitten,Zombie Kitten,zombie-kitten,5,2,3,deck,Assets/cards/zombie-kitten/zombie-kitten.png,Assets/cards/zombie-kitten,rules.pdf page 2

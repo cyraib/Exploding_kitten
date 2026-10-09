@@ -1,0 +1,204 @@
+{
+  "id": "streaking-kittens-expansion",
+  "name": "Streaking Kittens: Expansion",
+  "kind": "Expansion",
+  "players": "base-game player range; illustrated Original-deck setup supports 2-5",
+  "total_cards": 15,
+  "draw_deck_inventory_cards": 15,
+  "card_families": 10,
+  "distinct_named_card_types": 10,
+  "components": [
+    "requires an Exploding Kittens base deck"
+  ],
+  "rules_pdf": "rules.pdf",
+  "rules_source_url": "https://ek-instructions.s3.amazonaws.com/streaking-kittens/streaking-kittens-rules.pdf",
+  "inventory_source_url": "https://explodi.ng/decks/streaking-kittens-expansion",
+  "inventory_definition": "Box contents, before removing unused cards or dealing. Cat identities are distinct types; artwork variants do not add types or copies.",
+  "cards": [
+    {
+      "id": "alter-the-future-5x",
+      "name": "Alter the Future 5x",
+      "family": "alter-the-future-5x",
+      "count": 1,
+      "with_paw": 0,
+      "without_paw": 1,
+      "zone": "deck",
+      "icon": "Assets/cards/alter-the-future-5x/alter-the-future-5x.png",
+      "artwork_files": [
+        "Assets/cards/alter-the-future-5x/artworks/Alter-the-Future-Nikola-Telsa.jpg"
+      ],
+      "asset_folder": "Assets/cards/alter-the-future-5x",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Privately inspect and reorder the top five draw-pile cards, return them face down, and continue your turn."
+    },
+    {
+      "id": "catomic-bomb",
+      "name": "Catomic Bomb",
+      "family": "catomic-bomb",
+      "count": 1,
+      "with_paw": 0,
+      "without_paw": 1,
+      "zone": "deck",
+      "icon": "Assets/cards/catomic-bomb/catomic-bomb.png",
+      "artwork_files": [
+        "Assets/cards/catomic-bomb/artworks/Catomic-Bomb.jpg"
+      ],
+      "asset_folder": "Assets/cards/catomic-bomb",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Remove and reveal all Exploding Kittens from the draw pile, shuffle the remaining draw pile, and place those Exploding Kittens face down on top. End one turn without drawing. Do not remove Imploding Kittens."
+    },
+    {
+      "id": "curse-of-the-cat-butt",
+      "name": "Curse of the Cat Butt",
+      "family": "curse-of-the-cat-butt",
+      "count": 2,
+      "with_paw": 0,
+      "without_paw": 2,
+      "zone": "deck",
+      "icon": "Assets/cards/curse-of-the-cat-butt/curse-of-the-cat-butt.png",
+      "artwork_files": [
+        "Assets/cards/curse-of-the-cat-butt/artworks/1-Curse-of-the-Cat-Butt.jpg",
+        "Assets/cards/curse-of-the-cat-butt/artworks/2-Blind-As-A-Bat.jpg"
+      ],
+      "asset_folder": "Assets/cards/curse-of-the-cat-butt",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Choose a player to become blind: place their hand face down and shuffle it. They cannot inspect their cards until successfully drawing without exploding. Cards played while blind are selected randomly and placed face up; resolve playable ones, lose unplayable ones. A blind Exploding Kitten without Streaking protection requires blindly discarding until a Defuse appears; those non-Defuses have no effect. Successfully defusing returns them to non-blind play. An additional accidentally played Exploding Kitten must also be defused."
+    },
+    {
+      "id": "exploding-kitten",
+      "name": "Exploding Kitten",
+      "family": "exploding-kitten",
+      "count": 1,
+      "with_paw": 0,
+      "without_paw": 1,
+      "zone": "deck",
+      "icon": "Assets/cards/exploding-kitten/exploding-kitten.png",
+      "artwork_files": [
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Alien.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-C4.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Car-Off-Cliff.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-House-Grenade.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Nuclear-Bombs.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Playground.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Science.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-TNT-Ship.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Warp-Core.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Balloon-Bomb.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Divide-By-Zero.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Holy-Water-Balloons.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Pepper.jpg"
+      ],
+      "asset_folder": "Assets/cards/exploding-kitten",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Reveal immediately. Defuse or die. Under the Original/Party Pack/Cat Burglar rules, discard your whole hand and the lethal Kitten when eliminated. A Streaking Kitten changes whether one Exploding Kitten may be held; see its exceptions. This is not a normal action you can Nope."
+    },
+    {
+      "id": "garbage-collection",
+      "name": "Garbage Collection",
+      "family": "garbage-collection",
+      "count": 1,
+      "with_paw": 0,
+      "without_paw": 1,
+      "zone": "deck",
+      "icon": "Assets/cards/garbage-collection/garbage-collection.png",
+      "artwork_files": [
+        "Assets/cards/garbage-collection/artworks/Garbage-Collection.jpg"
+      ],
+      "asset_folder": "Assets/cards/garbage-collection",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Every player with cards, including you, chooses one card to put secretly into the draw pile; shuffle the pile afterward. A protected held Exploding Kitten may be contributed. Players with empty hands do not contribute."
+    },
+    {
+      "id": "mark",
+      "name": "Mark",
+      "family": "mark",
+      "count": 3,
+      "with_paw": 0,
+      "without_paw": 3,
+      "zone": "deck",
+      "icon": "Assets/cards/mark/mark.png",
+      "artwork_files": [
+        "Assets/cards/mark/artworks/Mark.jpg"
+      ],
+      "asset_folder": "Assets/cards/mark",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Randomly choose one card in a target player's hand and return it facing outward so others can see it. The owner may still look at it. Keep it marked until it leaves that hand; a stolen card does not stay marked."
+    },
+    {
+      "id": "see-the-future-5x",
+      "name": "See the Future 5x",
+      "family": "see-the-future-5x",
+      "count": 1,
+      "with_paw": 0,
+      "without_paw": 1,
+      "zone": "deck",
+      "icon": "Assets/cards/see-the-future-5x/see-the-future-5x.png",
+      "artwork_files": [
+        "Assets/cards/see-the-future-5x/artworks/See-the-Future-Behold-the-Angler-Pig.jpg"
+      ],
+      "asset_folder": "Assets/cards/see-the-future-5x",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Privately inspect the top five cards and return them in the same order without showing others. Continue your turn."
+    },
+    {
+      "id": "streaking-kitten",
+      "name": "Streaking Kitten",
+      "family": "streaking-kitten",
+      "count": 1,
+      "with_paw": 0,
+      "without_paw": 1,
+      "zone": "deck",
+      "icon": "Assets/cards/streaking-kitten/streaking-kitten.png",
+      "artwork_files": [
+        "Assets/cards/streaking-kitten/artworks/Streaking-Kitten.jpg"
+      ],
+      "asset_folder": "Assets/cards/streaking-kitten",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "While kept in your hand, protects one secretly held Exploding Kitten. If Streaking leaves while an unprotected Exploding Kitten remains, Defuse it or die. A player receiving a held Exploding Kitten must Defuse or die; this does not replace their normal turn draw. Playing a held Exploding Kitten into the discard also causes an explosion. Does not protect against Imploding Kittens. In editions with a five-card combo, neither Streaking nor Exploding Kittens can be spent or recovered through that combo."
+    },
+    {
+      "id": "super-skip",
+      "name": "Super Skip",
+      "family": "super-skip",
+      "count": 1,
+      "with_paw": 0,
+      "without_paw": 1,
+      "zone": "deck",
+      "icon": "Assets/cards/super-skip/super-skip.png",
+      "artwork_files": [
+        "Assets/cards/super-skip/artworks/Super-Skip-Hitch-A-Ride-on-a-Corgihorse.jpg",
+        "Assets/cards/super-skip/artworks/Super-Skip.jpg"
+      ],
+      "asset_folder": "Assets/cards/super-skip",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "End all your required turns without drawing, including outstanding turns from an Attack."
+    },
+    {
+      "id": "swap-top-and-bottom",
+      "name": "Swap Top and Bottom",
+      "family": "swap-top-and-bottom",
+      "count": 3,
+      "with_paw": 0,
+      "without_paw": 3,
+      "zone": "deck",
+      "icon": "Assets/cards/swap-top-and-bottom/swap-top-and-bottom.png",
+      "artwork_files": [
+        "Assets/cards/swap-top-and-bottom/artworks/Swap-Top-and-Bottom.jpg"
+      ],
+      "asset_folder": "Assets/cards/swap-top-and-bottom",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Swap the top and bottom cards of the draw pile without looking at them. This does not end your turn."
+    }
+  ],
+  "limitations": []
+}

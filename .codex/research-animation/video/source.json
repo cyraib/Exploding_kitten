@@ -1,0 +1,17 @@
+{
+  "collected_at_utc": "2026-10-05T17:02:16.628705+00:00",
+  "title": "Exploding Kittens 2 Trailer",
+  "movie_id": 257040191,
+  "url": "https://video.akamai.steamstatic.com/store_trailers/2999030/730233/6b59f3854a7e04552753cd472f473a690d8ac26d/1750822763/hls_264_master.m3u8?t=1779868331",
+  "source_page": "https://store.steampowered.com/app/2999030/Exploding_Kittens_2/",
+  "path": "video/official-steam-trailer.mp4",
+  "bytes": 21615210,
+  "sha256": "9c94978b39052142c3177bed761dc11a4de201779cbb5e5fb8e500abd2ce11cf",
+  "method": "HLS stream remux without video/audio re-encoding; this is not the studio master",
+  "derived_frames": {
+    "fps": 2,
+    "width": 960,
+    "path": "video/frames/frame-%04d.jpg",
+    "timestamp_seconds": "(frame_number - 0.5) / 2; validate actual frame PTS for fine timing"
+  }
+}

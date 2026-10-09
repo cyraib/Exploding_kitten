@@ -1,0 +1,4276 @@
+{
+  "checked_at": "2026-10-04T15:26:34.910020+07:00",
+  "root": "D:\\Project VS\\Exploding_kitten",
+  "scope": "Full file inventory and hashes, all UTF-8 text files parsed/read, local Markdown targets, JSON/CSV inventory consistency, image decode, PDF parse and text inspection. No online source or full visual/rule revalidation.",
+  "file_count": 354,
+  "bytes": 104280635,
+  "extension_counts": {
+    ".csv": 11,
+    ".jpg": 181,
+    ".json": 12,
+    ".md": 52,
+    ".pdf": 12,
+    ".png": 62,
+    ".py": 1,
+    ".txt": 1,
+    ".webp": 22
+  },
+  "text_files_read": 77,
+  "json_files_parsed": 12,
+  "csv_files_parsed": 11,
+  "git_repository_present": false,
+  "images_decoded": 265,
+  "pdfs_opened": 12,
+  "local_markdown_links_checked": 2266,
+  "broken_local_markdown_links": [
+    {
+      "file": "AGENTS.md",
+      "target": "memory.md",
+      "resolved": "memory.md"
+    },
+    {
+      "file": "Assets/cards/README.md",
+      "target": "../decks/README.md",
+      "resolved": "Assets/decks/README.md"
+    },
+    {
+      "file": "Assets/decks/barking-kittens-expansion/README.md",
+      "target": "../README.md",
+      "resolved": "Assets/decks/README.md"
+    },
+    {
+      "file": "Assets/decks/barking-kittens-expansion/README.md",
+      "target": "../../components/tower-of-power.png",
+      "resolved": "Assets/components/tower-of-power.png"
+    },
+    {
+      "file": "Assets/decks/exploding-kittens-2-player-edition/README.md",
+      "target": "../README.md",
+      "resolved": "Assets/decks/README.md"
+    },
+    {
+      "file": "Assets/decks/exploding-kittens-cat-burglar-edition/README.md",
+      "target": "../README.md",
+      "resolved": "Assets/decks/README.md"
+    },
+    {
+      "file": "Assets/decks/exploding-kittens-good-vs-evil/README.md",
+      "target": "../README.md",
+      "resolved": "Assets/decks/README.md"
+    },
+    {
+      "file": "Assets/decks/exploding-kittens-nsfw-edition/README.md",
+      "target": "../README.md",
+      "resolved": "Assets/decks/README.md"
+    },
+    {
+      "file": "Assets/decks/exploding-kittens-original-edition/README.md",
+      "target": "../README.md",
+      "resolved": "Assets/decks/README.md"
+    },
+    {
+      "file": "Assets/decks/exploding-kittens-party-pack-edition/README.md",
+      "target": "../README.md",
+      "resolved": "Assets/decks/README.md"
+    },
+    {
+      "file": "Assets/decks/exploding-kittens-recipes-for-disaster/README.md",
+      "target": "../README.md",
+      "resolved": "Assets/decks/README.md"
+    },
+    {
+      "file": "Assets/decks/exploding-kittens-zombie-kittens/README.md",
+      "target": "../README.md",
+      "resolved": "Assets/decks/README.md"
+    },
+    {
+      "file": "Assets/decks/imploding-kittens-expansion/README.md",
+      "target": "../README.md",
+      "resolved": "Assets/decks/README.md"
+    },
+    {
+      "file": "Assets/decks/streaking-kittens-expansion/README.md",
+      "target": "../README.md",
+      "resolved": "Assets/decks/README.md"
+    },
+    {
+      "file": "Assets/README.md",
+      "target": "decks/README.md",
+      "resolved": "Assets/decks/README.md"
+    },
+    {
+      "file": "Assets/README.md",
+      "target": "components/README.md",
+      "resolved": "Assets/components/README.md"
+    },
+    {
+      "file": "Assets/README.md",
+      "target": "manifest.json",
+      "resolved": "Assets/manifest.json"
+    },
+    {
+      "file": "Assets/README.md",
+      "target": "../.codex/asset-path-migration.json",
+      "resolved": ".codex/asset-path-migration.json"
+    }
+  ],
+  "missing_referenced_paths": [
+    ".codex/asset-path-migration.json",
+    "Assets/components/README.md",
+    "Assets/components/tower-of-power.png",
+    "Assets/decks/README.md",
+    "Assets/manifest.json",
+    "memory.md"
+  ],
+  "file_errors": [],
+  "deck_count": 11,
+  "deck_checks_passed": true,
+  "decks": [
+    {
+      "id": "barking-kittens-expansion",
+      "name": "Barking Kittens: Expansion",
+      "kind": "Expansion",
+      "players": "base-game player range; illustrated Original-deck setup supports 2-5",
+      "total_cards": 20,
+      "draw_deck_inventory_cards": 20,
+      "card_families": 9,
+      "distinct_named_card_types": 9,
+      "components": [
+        "Tower of Power crown",
+        "requires an Exploding Kittens base deck"
+      ],
+      "rules_pdf": "rules.pdf",
+      "rules_source_url": "https://dumekj556jp75.cloudfront.net/barking-kittens/barking-kittens-rules.pdf",
+      "inventory_source_url": "https://explodi.ng/decks/barking-kittens-expansion",
+      "inventory_definition": "Box contents, before removing unused cards or dealing. Cat identities are distinct types; artwork variants do not add types or copies.",
+      "limitations": [],
+      "folder": "Assets/decks/barking-kittens-expansion",
+      "checks_passed": true,
+      "errors": [],
+      "with_paw_total": 0,
+      "without_paw_total": 20
+    },
+    {
+      "id": "exploding-kittens-2-player-edition",
+      "name": "Exploding Kittens 2-Player Edition",
+      "kind": "Standalone",
+      "players": "exactly 2",
+      "total_cards": 32,
+      "draw_deck_inventory_cards": 32,
+      "card_families": 9,
+      "distinct_named_card_types": 11,
+      "components": [],
+      "rules_pdf": "rules.pdf",
+      "rules_source_url": "https://dumekj556jp75.cloudfront.net/ek-2player/ek2p-English.pdf",
+      "inventory_source_url": "https://explodi.ng/decks/exploding-kittens-2-player-edition",
+      "inventory_definition": "Box contents, before removing unused cards or dealing. Cat identities are distinct types; artwork variants do not add types or copies.",
+      "limitations": [],
+      "folder": "Assets/decks/exploding-kittens-2-player-edition",
+      "checks_passed": true,
+      "errors": [],
+      "with_paw_total": 0,
+      "without_paw_total": 32
+    },
+    {
+      "id": "exploding-kittens-cat-burglar-edition",
+      "name": "Exploding Kittens: Cat Burglar Edition",
+      "kind": "Standalone",
+      "players": "2-5",
+      "total_cards": 56,
+      "draw_deck_inventory_cards": 56,
+      "card_families": 9,
+      "distinct_named_card_types": 13,
+      "components": [
+        "one foam Cat Burglar"
+      ],
+      "rules_pdf": "rules.pdf",
+      "rules_source_url": "https://ek-instructions.s3.amazonaws.com/cat-burglar/EKCB_instructions_17SEP21_r11.pdf",
+      "inventory_source_url": "https://explodi.ng/decks/exploding-kittens-cat-burglar-edition",
+      "inventory_definition": "Box contents, before removing unused cards or dealing. Cat identities are distinct types; artwork variants do not add types or copies.",
+      "limitations": [],
+      "folder": "Assets/decks/exploding-kittens-cat-burglar-edition",
+      "checks_passed": true,
+      "errors": [],
+      "with_paw_total": 0,
+      "without_paw_total": 56
+    },
+    {
+      "id": "exploding-kittens-good-vs-evil",
+      "name": "Exploding Kittens: Good vs. Evil",
+      "kind": "Standalone",
+      "players": "2-5",
+      "total_cards": 55,
+      "draw_deck_inventory_cards": 53,
+      "card_families": 14,
+      "distinct_named_card_types": 17,
+      "components": [
+        "Good vs. Evil playmat",
+        "Godcat and Devilcat are included in the 55 physical cards, but begin on the playmat"
+      ],
+      "rules_pdf": "rules.pdf",
+      "rules_source_url": "https://cdn.shopify.com/s/files/1/0345/9180/1483/files/EK-GVE-6_Instructions_09NOV2022_R2.pdf",
+      "inventory_source_url": "https://explodi.ng/decks/exploding-kittens-good-vs-evil",
+      "inventory_definition": "Box contents, before removing unused cards or dealing. Cat identities are distinct types; artwork variants do not add types or copies.",
+      "limitations": [],
+      "folder": "Assets/decks/exploding-kittens-good-vs-evil",
+      "checks_passed": true,
+      "errors": [],
+      "with_paw_total": 0,
+      "without_paw_total": 55
+    },
+    {
+      "id": "exploding-kittens-nsfw-edition",
+      "name": "Exploding Kittens: NSFW Edition",
+      "kind": "Standalone",
+      "players": "2-5",
+      "total_cards": 56,
+      "draw_deck_inventory_cards": 56,
+      "card_families": 9,
+      "distinct_named_card_types": 13,
+      "components": [],
+      "rules_pdf": "rules.pdf",
+      "rules_source_url": "https://cdn.shopify.com/s/files/1/0345/9180/1483/files/EKG-NSFW_Instructions_20OCT23.pdf",
+      "inventory_source_url": "https://explodi.ng/decks/exploding-kittens-nsfw-edition",
+      "inventory_definition": "Box contents, before removing unused cards or dealing. Cat identities are distinct types; artwork variants do not add types or copies.",
+      "limitations": [
+        "The site's source spelling for Cat's Schrodinger contains a replacement character; the catalog normalizes its readable name while retaining the stable card id and original asset filename."
+      ],
+      "folder": "Assets/decks/exploding-kittens-nsfw-edition",
+      "checks_passed": true,
+      "errors": [],
+      "with_paw_total": 0,
+      "without_paw_total": 56
+    },
+    {
+      "id": "exploding-kittens-original-edition",
+      "name": "Exploding Kittens: Original Edition",
+      "kind": "Standalone",
+      "players": "2-5",
+      "total_cards": 56,
+      "draw_deck_inventory_cards": 56,
+      "card_families": 9,
+      "distinct_named_card_types": 13,
+      "components": [],
+      "rules_pdf": "rules.pdf",
+      "rules_source_url": "https://dumekj556jp75.cloudfront.net/exploding-kittens/English.pdf",
+      "inventory_source_url": "https://explodi.ng/decks/exploding-kittens-original-edition",
+      "inventory_definition": "Box contents, before removing unused cards or dealing. Cat identities are distinct types; artwork variants do not add types or copies.",
+      "limitations": [],
+      "folder": "Assets/decks/exploding-kittens-original-edition",
+      "checks_passed": true,
+      "errors": [],
+      "with_paw_total": 0,
+      "without_paw_total": 56
+    },
+    {
+      "id": "exploding-kittens-party-pack-edition",
+      "name": "Exploding Kittens: Party Pack Edition",
+      "kind": "Standalone",
+      "players": "2-10",
+      "total_cards": 120,
+      "draw_deck_inventory_cards": 120,
+      "card_families": 13,
+      "distinct_named_card_types": 17,
+      "components": [
+        "referenced sheet also includes notices for an electronic/battery-equipped package"
+      ],
+      "rules_pdf": "rules.pdf",
+      "rules_source_url": "https://dumekj556jp75.cloudfront.net/ek-party-pack/EK_Party_Pack-Rules_wAttack.pdf",
+      "inventory_source_url": "https://explodi.ng/decks/exploding-kittens-party-pack-edition",
+      "inventory_definition": "Box contents, before removing unused cards or dealing. Cat identities are distinct types; artwork variants do not add types or copies.",
+      "limitations": [],
+      "folder": "Assets/decks/exploding-kittens-party-pack-edition",
+      "checks_passed": true,
+      "errors": [],
+      "with_paw_total": 44,
+      "without_paw_total": 76
+    },
+    {
+      "id": "exploding-kittens-recipes-for-disaster",
+      "name": "Exploding Kittens: Recipes for Disaster",
+      "kind": "Standalone",
+      "players": "2-5; selected recipe may narrow the range",
+      "total_cards": 121,
+      "draw_deck_inventory_cards": 121,
+      "card_families": 27,
+      "distinct_named_card_types": 30,
+      "components": [
+        "13 printed recipe booklets/cards",
+        "5 blank recipe booklets/cards",
+        "Cone of Shame",
+        "separate Field Guide"
+      ],
+      "rules_pdf": "rules.pdf",
+      "rules_source_url": "https://dumekj556jp75.cloudfront.net/recipes-for-disaster/RFD_instructions.pdf",
+      "inventory_source_url": "https://explodi.ng/decks/exploding-kittens-recipes-for-disaster",
+      "inventory_definition": "Box contents, before removing unused cards or dealing. Cat identities are distinct types; artwork variants do not add types or copies.",
+      "limitations": [
+        "Exact scans of all 13 printed recipe booklets are not included in the supplied main PDF; the supplemental online catalog may differ and contains flagged source conflicts.",
+        "Shared card artwork is not a verified print-by-print Recipes for Disaster scan."
+      ],
+      "supplementary_field_guide": "field-guide.pdf",
+      "folder": "Assets/decks/exploding-kittens-recipes-for-disaster",
+      "checks_passed": true,
+      "errors": [],
+      "with_paw_total": 0,
+      "without_paw_total": 121
+    },
+    {
+      "id": "exploding-kittens-zombie-kittens",
+      "name": "Exploding Kittens: Zombie Kittens",
+      "kind": "Standalone",
+      "players": "2-5 standalone; 2-9 in the linked combined-game variant",
+      "total_cards": 61,
+      "draw_deck_inventory_cards": 61,
+      "card_families": 16,
+      "distinct_named_card_types": 19,
+      "components": [],
+      "rules_pdf": "rules.pdf",
+      "rules_source_url": "https://ek-instructions.s3.amazonaws.com/ek-zombie-kittens/zombie-kittens-rules.pdf",
+      "inventory_source_url": "https://explodi.ng/decks/exploding-kittens-zombie-kittens",
+      "inventory_definition": "Box contents, before removing unused cards or dealing. Cat identities are distinct types; artwork variants do not add types or copies.",
+      "limitations": [
+        "The supplied PDF does not fully specify the combined 2-9-player Zombie Apocalypse setup; its official tutorial reference is retained instead of inventing a merged-deck recipe."
+      ],
+      "folder": "Assets/decks/exploding-kittens-zombie-kittens",
+      "checks_passed": true,
+      "errors": [],
+      "with_paw_total": 24,
+      "without_paw_total": 37
+    },
+    {
+      "id": "imploding-kittens-expansion",
+      "name": "Imploding Kittens: Expansion",
+      "kind": "Expansion",
+      "players": "base-game range; up to 6 with an Original 56-card deck",
+      "total_cards": 20,
+      "draw_deck_inventory_cards": 20,
+      "card_families": 6,
+      "distinct_named_card_types": 6,
+      "components": [
+        "Cone of Shame",
+        "requires an Exploding Kittens base deck"
+      ],
+      "rules_pdf": "rules.pdf",
+      "rules_source_url": "https://dumekj556jp75.cloudfront.net/imploding-kittens/imploding-english.pdf",
+      "inventory_source_url": "https://explodi.ng/decks/imploding-kittens-expansion",
+      "inventory_definition": "Box contents, before removing unused cards or dealing. Cat identities are distinct types; artwork variants do not add types or copies.",
+      "limitations": [],
+      "folder": "Assets/decks/imploding-kittens-expansion",
+      "checks_passed": true,
+      "errors": [],
+      "with_paw_total": 0,
+      "without_paw_total": 20
+    },
+    {
+      "id": "streaking-kittens-expansion",
+      "name": "Streaking Kittens: Expansion",
+      "kind": "Expansion",
+      "players": "base-game player range; illustrated Original-deck setup supports 2-5",
+      "total_cards": 15,
+      "draw_deck_inventory_cards": 15,
+      "card_families": 10,
+      "distinct_named_card_types": 10,
+      "components": [
+        "requires an Exploding Kittens base deck"
+      ],
+      "rules_pdf": "rules.pdf",
+      "rules_source_url": "https://ek-instructions.s3.amazonaws.com/streaking-kittens/streaking-kittens-rules.pdf",
+      "inventory_source_url": "https://explodi.ng/decks/streaking-kittens-expansion",
+      "inventory_definition": "Box contents, before removing unused cards or dealing. Cat identities are distinct types; artwork variants do not add types or copies.",
+      "limitations": [],
+      "folder": "Assets/decks/streaking-kittens-expansion",
+      "checks_passed": true,
+      "errors": [],
+      "with_paw_total": 0,
+      "without_paw_total": 15
+    }
+  ],
+  "recipe_count": 15,
+  "recipes": [
+    {
+      "id": "mind-games",
+      "name": "Mind Games",
+      "source_url": "https://www.explodingkittens.com/pages/recipes?name=mind-games",
+      "play_time_minutes": 15,
+      "issues": [],
+      "variants_count": 4,
+      "player_counts": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "card-hoarders",
+      "name": "Card Hoarders",
+      "source_url": "https://www.explodingkittens.com/pages/recipes?name=card-hoarders",
+      "play_time_minutes": 10,
+      "issues": [],
+      "variants_count": 3,
+      "player_counts": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "cat-fight",
+      "name": "Cat Fight",
+      "source_url": "https://www.explodingkittens.com/pages/recipes?name=cat-fight",
+      "play_time_minutes": 5,
+      "issues": [],
+      "variants_count": 3,
+      "player_counts": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "attack-of-the-attacks",
+      "name": "Attack Of The Attacks",
+      "source_url": "https://www.explodingkittens.com/pages/recipes?name=attack-of-the-attacks",
+      "play_time_minutes": 15,
+      "issues": [
+        "3 players: Super Skip requests 4; box contains 2.",
+        "5 players: Targeted Attack 2x requests 6; box contains 4."
+      ],
+      "variants_count": 4,
+      "player_counts": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "black-hole",
+      "name": "Black Hole",
+      "source_url": "https://www.explodingkittens.com/pages/recipes?name=black-hole",
+      "play_time_minutes": 15,
+      "issues": [],
+      "variants_count": 3,
+      "player_counts": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "danger-mode",
+      "name": "Danger Mode",
+      "source_url": "https://www.explodingkittens.com/pages/recipes?name=danger-mode",
+      "play_time_minutes": 10,
+      "issues": [],
+      "variants_count": 3,
+      "player_counts": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "exploding-kittens-classic-mode",
+      "name": "Exploding Kittens Classic Mode",
+      "source_url": "https://www.explodingkittens.com/pages/recipes?name=exploding-kittens-classic-mode",
+      "play_time_minutes": 5,
+      "issues": [],
+      "variants_count": 4,
+      "player_counts": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "eye-for-an-eye",
+      "name": "Eye For An Eye",
+      "source_url": "https://www.explodingkittens.com/pages/recipes?name=eye-for-an-eye",
+      "play_time_minutes": 15,
+      "issues": [],
+      "variants_count": 3,
+      "player_counts": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "lightning-kittens",
+      "name": "Lightning Kittens",
+      "source_url": "https://www.explodingkittens.com/pages/recipes?name=lightning-kittens",
+      "play_time_minutes": 2,
+      "issues": [],
+      "variants_count": 3,
+      "player_counts": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "nope-sauce",
+      "name": "Nope Sauce",
+      "source_url": "https://www.explodingkittens.com/pages/recipes?name=nope-sauce",
+      "play_time_minutes": 15,
+      "issues": [],
+      "variants_count": 4,
+      "player_counts": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "power-play",
+      "name": "Power Play",
+      "source_url": "https://www.explodingkittens.com/pages/recipes?name=power-play",
+      "play_time_minutes": 15,
+      "issues": [],
+      "variants_count": 3,
+      "player_counts": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "sharing-is-caring",
+      "name": "Sharing Is Caring",
+      "source_url": "https://www.explodingkittens.com/pages/recipes?name=sharing-is-caring",
+      "play_time_minutes": 10,
+      "issues": [],
+      "variants_count": 3,
+      "player_counts": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "sticky-fingers",
+      "name": "Sticky Fingers",
+      "source_url": "https://www.explodingkittens.com/pages/recipes?name=sticky-fingers",
+      "play_time_minutes": 15,
+      "issues": [
+        "The 2021 PDF example shows a five-player starting-hand exception of five regular cards; online data uses seven for all player counts. Check the printed recipe booklet."
+      ],
+      "variants_count": 4,
+      "player_counts": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "the-purrrge",
+      "name": "The Purrrge",
+      "source_url": "https://www.explodingkittens.com/pages/recipes?name=the-purrrge",
+      "play_time_minutes": 10,
+      "issues": [],
+      "variants_count": 3,
+      "player_counts": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "meowsochist",
+      "name": "Meowsochist",
+      "source_url": "https://www.explodingkittens.com/pages/recipes?name=meowsochist",
+      "play_time_minutes": 10,
+      "issues": [],
+      "variants_count": 4,
+      "player_counts": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "source_urls_in_local_text": {
+    "https://cdn.shopify.com/s/files/1/0345/9180/1483/files/EK-GVE-6_Instructions_09NOV2022_R2.pdf": [
+      "Assets/decks/exploding-kittens-good-vs-evil/README.md",
+      "Assets/decks/exploding-kittens-good-vs-evil/deck.json",
+      "Assets/decks/exploding-kittens-good-vs-evil/instructions.md"
+    ],
+    "https://cdn.shopify.com/s/files/1/0345/9180/1483/files/EKG-NSFW_Instructions_20OCT23.pdf": [
+      "Assets/decks/exploding-kittens-nsfw-edition/README.md",
+      "Assets/decks/exploding-kittens-nsfw-edition/deck.json",
+      "Assets/decks/exploding-kittens-nsfw-edition/instructions.md"
+    ],
+    "https://dumekj556jp75.cloudfront.net/barking-kittens/barking-kittens-rules.pdf": [
+      "Assets/decks/barking-kittens-expansion/README.md",
+      "Assets/decks/barking-kittens-expansion/deck.json",
+      "Assets/decks/barking-kittens-expansion/instructions.md"
+    ],
+    "https://dumekj556jp75.cloudfront.net/ek-2player/ek2p-English.pdf": [
+      "Assets/decks/exploding-kittens-2-player-edition/README.md",
+      "Assets/decks/exploding-kittens-2-player-edition/deck.json",
+      "Assets/decks/exploding-kittens-2-player-edition/instructions.md"
+    ],
+    "https://dumekj556jp75.cloudfront.net/ek-party-pack/EK_Party_Pack-Rules_wAttack.pdf": [
+      "Assets/decks/exploding-kittens-party-pack-edition/README.md",
+      "Assets/decks/exploding-kittens-party-pack-edition/deck.json",
+      "Assets/decks/exploding-kittens-party-pack-edition/instructions.md"
+    ],
+    "https://dumekj556jp75.cloudfront.net/exploding-kittens/English.pdf": [
+      "Assets/decks/exploding-kittens-original-edition/README.md",
+      "Assets/decks/exploding-kittens-original-edition/deck.json",
+      "Assets/decks/exploding-kittens-original-edition/instructions.md"
+    ],
+    "https://dumekj556jp75.cloudfront.net/imploding-kittens/imploding-english.pdf": [
+      "Assets/decks/imploding-kittens-expansion/README.md",
+      "Assets/decks/imploding-kittens-expansion/deck.json",
+      "Assets/decks/imploding-kittens-expansion/instructions.md"
+    ],
+    "https://dumekj556jp75.cloudfront.net/recipes-for-disaster/RFD_instructions.pdf": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/README.md",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/deck.json",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/instructions.md"
+    ],
+    "https://ek-instructions.s3.amazonaws.com/cat-burglar/EKCB_instructions_17SEP21_r11.pdf": [
+      "Assets/decks/exploding-kittens-cat-burglar-edition/README.md",
+      "Assets/decks/exploding-kittens-cat-burglar-edition/deck.json",
+      "Assets/decks/exploding-kittens-cat-burglar-edition/instructions.md"
+    ],
+    "https://ek-instructions.s3.amazonaws.com/ek-zombie-kittens/zombie-kittens-rules.pdf": [
+      "Assets/decks/exploding-kittens-zombie-kittens/README.md",
+      "Assets/decks/exploding-kittens-zombie-kittens/deck.json",
+      "Assets/decks/exploding-kittens-zombie-kittens/instructions.md"
+    ],
+    "https://ek-instructions.s3.amazonaws.com/streaking-kittens/streaking-kittens-rules.pdf": [
+      "Assets/decks/streaking-kittens-expansion/README.md",
+      "Assets/decks/streaking-kittens-expansion/deck.json",
+      "Assets/decks/streaking-kittens-expansion/instructions.md"
+    ],
+    "https://explodi.ng/decks/barking-kittens-expansion": [
+      "Assets/decks/barking-kittens-expansion/README.md",
+      "Assets/decks/barking-kittens-expansion/deck.json"
+    ],
+    "https://explodi.ng/decks/exploding-kittens-2-player-edition": [
+      "Assets/decks/exploding-kittens-2-player-edition/README.md",
+      "Assets/decks/exploding-kittens-2-player-edition/deck.json"
+    ],
+    "https://explodi.ng/decks/exploding-kittens-cat-burglar-edition": [
+      "Assets/decks/exploding-kittens-cat-burglar-edition/README.md",
+      "Assets/decks/exploding-kittens-cat-burglar-edition/deck.json"
+    ],
+    "https://explodi.ng/decks/exploding-kittens-good-vs-evil": [
+      "Assets/decks/exploding-kittens-good-vs-evil/README.md",
+      "Assets/decks/exploding-kittens-good-vs-evil/deck.json"
+    ],
+    "https://explodi.ng/decks/exploding-kittens-nsfw-edition": [
+      "Assets/decks/exploding-kittens-nsfw-edition/README.md",
+      "Assets/decks/exploding-kittens-nsfw-edition/deck.json"
+    ],
+    "https://explodi.ng/decks/exploding-kittens-original-edition": [
+      "Assets/decks/exploding-kittens-original-edition/README.md",
+      "Assets/decks/exploding-kittens-original-edition/deck.json"
+    ],
+    "https://explodi.ng/decks/exploding-kittens-party-pack-edition": [
+      "Assets/decks/exploding-kittens-party-pack-edition/README.md",
+      "Assets/decks/exploding-kittens-party-pack-edition/deck.json"
+    ],
+    "https://explodi.ng/decks/exploding-kittens-recipes-for-disaster": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/README.md",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/deck.json"
+    ],
+    "https://explodi.ng/decks/exploding-kittens-zombie-kittens": [
+      "Assets/decks/exploding-kittens-zombie-kittens/README.md",
+      "Assets/decks/exploding-kittens-zombie-kittens/deck.json"
+    ],
+    "https://explodi.ng/decks/imploding-kittens-expansion": [
+      "Assets/decks/imploding-kittens-expansion/README.md",
+      "Assets/decks/imploding-kittens-expansion/deck.json"
+    ],
+    "https://explodi.ng/decks/streaking-kittens-expansion": [
+      "Assets/decks/streaking-kittens-expansion/README.md",
+      "Assets/decks/streaking-kittens-expansion/deck.json"
+    ],
+    "https://www.ekcatburglar.com/how-to-play": [
+      "Assets/decks/exploding-kittens-cat-burglar-edition/instructions.md"
+    ],
+    "https://www.ekgoodvsevil.com/how": [
+      "Assets/decks/exploding-kittens-good-vs-evil/instructions.md"
+    ],
+    "https://www.ekzombiekittens.com/how": [
+      "Assets/decks/exploding-kittens-zombie-kittens/instructions.md"
+    ],
+    "https://www.explodingkittens.com/how": [
+      "Assets/decks/barking-kittens-expansion/instructions.md",
+      "Assets/decks/exploding-kittens-nsfw-edition/instructions.md",
+      "Assets/decks/exploding-kittens-original-edition/instructions.md",
+      "Assets/decks/exploding-kittens-party-pack-edition/instructions.md",
+      "Assets/decks/imploding-kittens-expansion/instructions.md",
+      "Assets/decks/streaking-kittens-expansion/instructions.md"
+    ],
+    "https://www.explodingkittens.com/pages/recipes": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/README.md"
+    ],
+    "https://www.explodingkittens.com/pages/recipes?name=attack-of-the-attacks": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/attack-of-the-attacks.md",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/recipes.json"
+    ],
+    "https://www.explodingkittens.com/pages/recipes?name=black-hole": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/black-hole.md",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/recipes.json"
+    ],
+    "https://www.explodingkittens.com/pages/recipes?name=card-hoarders": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/card-hoarders.md",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/recipes.json"
+    ],
+    "https://www.explodingkittens.com/pages/recipes?name=cat-fight": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/cat-fight.md",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/recipes.json"
+    ],
+    "https://www.explodingkittens.com/pages/recipes?name=danger-mode": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/danger-mode.md",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/recipes.json"
+    ],
+    "https://www.explodingkittens.com/pages/recipes?name=exploding-kittens-classic-mode": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/exploding-kittens-classic-mode.md",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/recipes.json"
+    ],
+    "https://www.explodingkittens.com/pages/recipes?name=eye-for-an-eye": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/eye-for-an-eye.md",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/recipes.json"
+    ],
+    "https://www.explodingkittens.com/pages/recipes?name=lightning-kittens": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/lightning-kittens.md",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/recipes.json"
+    ],
+    "https://www.explodingkittens.com/pages/recipes?name=meowsochist": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/meowsochist.md",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/recipes.json"
+    ],
+    "https://www.explodingkittens.com/pages/recipes?name=mind-games": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/mind-games.md",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/recipes.json"
+    ],
+    "https://www.explodingkittens.com/pages/recipes?name=nope-sauce": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/nope-sauce.md",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/recipes.json"
+    ],
+    "https://www.explodingkittens.com/pages/recipes?name=power-play": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/power-play.md",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/recipes.json"
+    ],
+    "https://www.explodingkittens.com/pages/recipes?name=sharing-is-caring": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/recipes.json",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/sharing-is-caring.md"
+    ],
+    "https://www.explodingkittens.com/pages/recipes?name=sticky-fingers": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/recipes.json",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/sticky-fingers.md"
+    ],
+    "https://www.explodingkittens.com/pages/recipes?name=the-purrrge": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/recipes.json",
+      "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/the-purrrge.md"
+    ],
+    "https://www.explodingkittens.com/pages/rules-recipes-for-disaster": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/instructions.md"
+    ],
+    "https://www.recipes.game": [
+      "Assets/decks/exploding-kittens-recipes-for-disaster/instructions.md"
+    ]
+  },
+  "images": [
+    {
+      "path": "Assets/cards/alter-the-future-3x/alter-the-future-3x.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-3x/artworks/Alter-the-Future-Cat-Wizard.jpg",
+      "width": 720,
+      "height": 995,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-3x/artworks/Alter-the-Future-Furmaid.jpg",
+      "width": 720,
+      "height": 1014,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-3x/artworks/Alter-the-Future-Golden-Haired-Manatee.jpg",
+      "width": 720,
+      "height": 1016,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-3x/artworks/Alter-the-Future-Time-Traveling-Crab.jpg",
+      "width": 720,
+      "height": 1017,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-3x-now/alter-the-future-3x-now.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-3x-now/artworks/Alter-the-Future-Get-That-Perm-Youve-Always-Wanted.jpg",
+      "width": 720,
+      "height": 1048,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-5x/alter-the-future-5x.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-5x/artworks/Alter-the-Future-Nikola-Telsa.jpg",
+      "width": 720,
+      "height": 1040,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/armageddon/armageddon.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/armageddon/artworks/Armageddon-Anything-Can-Become-Armor.jpg",
+      "width": 720,
+      "height": 1002,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/armageddon/artworks/Armageddon-Fight-Outside.jpg",
+      "width": 720,
+      "height": 1008,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/armageddon/artworks/Armageddon-Showdown.jpg",
+      "width": 720,
+      "height": 1003,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/attack-2x/artworks/Attack-Bear-o-Dactyl.jpg",
+      "width": 720,
+      "height": 1003,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/attack-2x/artworks/Attack-Catterwocky.jpg",
+      "width": 720,
+      "height": 998,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/attack-2x/artworks/Attack-Crab-a-Pult.jpg",
+      "width": 720,
+      "height": 1005,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/attack-2x/artworks/Attack-Grow-a-Magnifient-Squid-Arm-and-Start-Slapping-Fat-Babies.jpg",
+      "width": 720,
+      "height": 1018,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/attack-2x/artworks/Attack-Penguin-Diarrhea.jpg",
+      "width": 720,
+      "height": 1006,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/attack-2x/artworks/Attack-Rubber-Duck-Collection.jpg",
+      "width": 720,
+      "height": 1013,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/attack-2x/artworks/Attack-Thousand-Year-Back-Hair.jpg",
+      "width": 720,
+      "height": 994,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/attack-2x/artworks/Attack-Torture-Bunnies.jpg",
+      "width": 720,
+      "height": 1017,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/attack-2x/attack-2x.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/attack-of-the-dead/artworks/Attack-Of-The-Dead-Burn-Some-Bread-To-Summon-A-Toast-Ghost.jpg",
+      "width": 720,
+      "height": 1012,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/attack-of-the-dead/artworks/Attack-Of-The-Dead-Gift-Tickets-To-Some-Terrible-Zombie-Stand-Up.jpg",
+      "width": 720,
+      "height": 1005,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/attack-of-the-dead/artworks/Attack-Of-The-Dead-Release-A-Swam-Of-Zom-Bees.jpg",
+      "width": 720,
+      "height": 1005,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/attack-of-the-dead/attack-of-the-dead.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/barking-kitten/artworks/1-Barking-Kitten-Dog-House-New.jpg",
+      "width": 712,
+      "height": 1005,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/barking-kitten/artworks/2-Barking-Kitten-Fence-New.jpg",
+      "width": 713,
+      "height": 997,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/barking-kitten/artworks/Barking-Kitten-Dog-House.jpg",
+      "width": 720,
+      "height": 1019,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/barking-kitten/artworks/Barking-Kitten-Fence.jpg",
+      "width": 720,
+      "height": 1020,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/barking-kitten/barking-kitten.png",
+      "width": 90,
+      "height": 90,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/bury/artworks/Bury-Bury-Something-That-Probably-Shouldnt-be-Buried.jpg",
+      "width": 720,
+      "height": 1032,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/bury/artworks/Bury-Clean-Up-While-Your-Cat-Watches.jpg",
+      "width": 720,
+      "height": 1023,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/bury/bury.png",
+      "width": 90,
+      "height": 90,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Beard-Cat.jpg",
+      "width": 720,
+      "height": 1005,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Bikini-Cat.jpg",
+      "width": 720,
+      "height": 1010,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Cat-Henge.jpg",
+      "width": 720,
+      "height": 992,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Cat-O-Lantern.jpg",
+      "width": 720,
+      "height": 1009,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Cats-Schrodinger.jpg",
+      "width": 720,
+      "height": 1021,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Cattermelon.jpg",
+      "width": 720,
+      "height": 1016,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/De-Cat-Ipated.jpg",
+      "width": 720,
+      "height": 1034,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Electrocat.jpg",
+      "width": 720,
+      "height": 1004,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Football-Cat.jpg",
+      "width": 720,
+      "height": 996,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Hairy-Potato-Cat.jpg",
+      "width": 720,
+      "height": 1003,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Horse-Cat.jpg",
+      "width": 720,
+      "height": 1006,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Kit-Tea-Cat.jpg",
+      "width": 1232,
+      "height": 1686,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Knight-Cat.jpg",
+      "width": 720,
+      "height": 1005,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Loch-Ness-Kitty.jpg",
+      "width": 720,
+      "height": 997,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Mercat.jpg",
+      "width": 720,
+      "height": 1007,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Momma-Cat.jpg",
+      "width": 720,
+      "height": 1016,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Rainbow-Ralphing-Cat.jpg",
+      "width": 720,
+      "height": 1007,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Shy-Bladder-Cat.jpg",
+      "width": 720,
+      "height": 1014,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Tacocat.jpg",
+      "width": 720,
+      "height": 1012,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Telephone-Boxcat.jpg",
+      "width": 720,
+      "height": 988,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Troll-Cat.jpg",
+      "width": 720,
+      "height": 1005,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Vampire-Cat.jpg",
+      "width": 720,
+      "height": 1017,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Zombie-Cat.jpg",
+      "width": 720,
+      "height": 1007,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/cat-card/beard-cat.png",
+      "width": 88,
+      "height": 88,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/bikini-cat.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/cat-o-lantern.png",
+      "width": 86,
+      "height": 88,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/cat-s-schrodinger.png",
+      "width": 95,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/cattermelon.png",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/de-cat-ipated.png",
+      "width": 86,
+      "height": 88,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/electrocat.png",
+      "width": 86,
+      "height": 88,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/hairy-potato-cat.png",
+      "width": 90,
+      "height": 89,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/horse-cat.png",
+      "width": 91,
+      "height": 85,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/knight-cat.png",
+      "width": 91,
+      "height": 93,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/mercat.png",
+      "width": 91,
+      "height": 85,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/momma-cat.png",
+      "width": 105,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/rainbow-ralphing-cat.png",
+      "width": 88,
+      "height": 88,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/shy-bladder-cat.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/tacocat.png",
+      "width": 90,
+      "height": 87,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/troll-cat.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/vampire-cat.png",
+      "width": 93,
+      "height": 88,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/cat-card/zombie-cat.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/catomic-bomb/artworks/Catomic-Bomb.jpg",
+      "width": 720,
+      "height": 1025,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/catomic-bomb/catomic-bomb.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/clairvoyance/artworks/Clairvoyance-Now-Get-Stronger-Wifi-For-Your-Cauldron.jpg",
+      "width": 720,
+      "height": 1008,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/clairvoyance/artworks/Clairvoyance-Now-See-Right-Through-Your-Friends.jpg",
+      "width": 720,
+      "height": 1007,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/clairvoyance/clairvoyance.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/clone/artworks/Clone-Find-A-Pair-Of-Nosfera-Twos.jpg",
+      "width": 720,
+      "height": 1041,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/clone/artworks/Clone-Make-Your-Voodoo-Dolls-Do-All-The-Dirty-Work.jpg",
+      "width": 720,
+      "height": 1028,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/clone/artworks/Clone-Work-Out-The-Kinks-Later.jpg",
+      "width": 720,
+      "height": 1039,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/clone/clone.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/curse-of-the-cat-butt/artworks/1-Curse-of-the-Cat-Butt.jpg",
+      "width": 720,
+      "height": 1036,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/curse-of-the-cat-butt/artworks/2-Blind-As-A-Bat.jpg",
+      "width": 471,
+      "height": 671,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/curse-of-the-cat-butt/curse-of-the-cat-butt.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-3AM-Flatulence.jpg",
+      "width": 720,
+      "height": 1004,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Belly-Rubs.jpg",
+      "width": 720,
+      "height": 1011,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Catnip-Sandwiches.jpg",
+      "width": 720,
+      "height": 999,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Catnip-Sweater.jpg",
+      "width": 720,
+      "height": 1006,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Crate.jpg",
+      "width": 720,
+      "height": 1011,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Excessive-Ball-Cleaning.jpg",
+      "width": 720,
+      "height": 1002,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Flattering-LARP.jpg",
+      "width": 720,
+      "height": 1004,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Kitten-Therapy.jpg",
+      "width": 720,
+      "height": 1001,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Laser-Pointer.jpg",
+      "width": 720,
+      "height": 1011,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Laser-Tag.jpg",
+      "width": 720,
+      "height": 1033,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Mauling-a-Baby.jpg",
+      "width": 720,
+      "height": 1009,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Nature-Documentaries.jpg",
+      "width": 720,
+      "height": 1012,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Participation-in-Kitten-Yoga.jpg",
+      "width": 720,
+      "height": 1002,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Porkback-Riding-into-the-Sunset-Together.jpg",
+      "width": 720,
+      "height": 1005,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Scratching.jpg",
+      "width": 720,
+      "height": 1005,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Spay-Neuter.jpg",
+      "width": 720,
+      "height": 1010,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Tummy-Rubs.jpg",
+      "width": 720,
+      "height": 1003,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Turning-Into-Tuna.jpg",
+      "width": 720,
+      "height": 1005,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/defuse/defuse.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/devilcat/artworks/Devilcat-The-Worst-Of-The-Cursed.jpg",
+      "width": 720,
+      "height": 1013,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/devilcat/devilcat.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/dig-deeper/artworks/Dig-Deeper-Get-More-Than-You-Bargained-For.jpg",
+      "width": 720,
+      "height": 993,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/dig-deeper/artworks/Dig-Deeper-Make-A-Deal-With-A-Devil-In-A-Bad-Disguise.jpg",
+      "width": 720,
+      "height": 1036,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/dig-deeper/artworks/Dig-Deeper-Pity-The-Zombie-With-Zero-Upper-Body-Strength.jpg",
+      "width": 720,
+      "height": 1063,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/dig-deeper/artworks/Dig-Deeper-Tend-To-Your-Dying-Garden.jpg",
+      "width": 720,
+      "height": 1027,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/dig-deeper/dig-deeper.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/draw-from-the-bottom/artworks/Draw-from-the-Bottom-Take-a-Big-Bite-of-Your-Coward-Sandwich.jpg",
+      "width": 720,
+      "height": 1009,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/draw-from-the-bottom/draw-from-the-bottom.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Alien.jpg",
+      "width": 720,
+      "height": 1008,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-C4.jpg",
+      "width": 720,
+      "height": 1000,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Car-Off-Cliff.jpg",
+      "width": 720,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-House-Grenade.jpg",
+      "width": 720,
+      "height": 1005,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Nuclear-Bombs.jpg",
+      "width": 720,
+      "height": 1003,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Playground.jpg",
+      "width": 720,
+      "height": 1012,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Science.jpg",
+      "width": 720,
+      "height": 1018,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-TNT-Ship.jpg",
+      "width": 720,
+      "height": 1011,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Warp-Core.jpg",
+      "width": 720,
+      "height": 1001,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Balloon-Bomb.jpg",
+      "width": 720,
+      "height": 1000,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Divide-By-Zero.jpg",
+      "width": 720,
+      "height": 1006,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Holy-Water-Balloons.jpg",
+      "width": 720,
+      "height": 1001,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Pepper.jpg",
+      "width": 720,
+      "height": 1003,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/exploding-kitten.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/favor/artworks/Favor-Fall-So-Deeply-in-Love.jpg",
+      "width": 720,
+      "height": 999,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/favor/artworks/Favor-Get-Enslaved-by-Party-Squirrels.jpg",
+      "width": 720,
+      "height": 1003,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/favor/artworks/Favor-Rub-Peanut-Butter-on-Your-Belly-Button.jpg",
+      "width": 720,
+      "height": 1017,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/favor/artworks/Favor-Take-Your-Friends-Beard-Sailing.jpg",
+      "width": 720,
+      "height": 998,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/favor/artworks/Favor-Teach-Someone-a-New-Palindrome.jpg",
+      "width": 720,
+      "height": 1016,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/favor/artworks/Favour-Give-A-Horsey-Ride-To-A-Horse.jpg",
+      "width": 720,
+      "height": 996,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/favor/favor.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/feed-the-dead/artworks/Feed-The-Dead-Give-Your-Friend-A-Hand.jpg",
+      "width": 720,
+      "height": 989,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/feed-the-dead/artworks/Feed-The-Dead-Take-Special-Care-Of-A-Picky-Zombie.jpg",
+      "width": 720,
+      "height": 1051,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/feed-the-dead/feed-the-dead.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/feral-cat/artworks/Feral-Cat.jpg",
+      "width": 720,
+      "height": 1010,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/feral-cat/feral-cat.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/garbage-collection/artworks/Garbage-Collection.jpg",
+      "width": 720,
+      "height": 1013,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/garbage-collection/garbage-collection.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/godcat/artworks/Godcat-The-Best-Of-The-Blessed.jpg",
+      "width": 720,
+      "height": 1005,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/godcat/godcat.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/grave-robber/artworks/Grave-Robber-Return-The-Terrible-Tie-You-Were-Buried-With.jpg",
+      "width": 720,
+      "height": 1015,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/grave-robber/grave-robber.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/i-ll-take-that/artworks/Ill-Take-That-A-Hedgehog-Hogs-the-Blankets.jpg",
+      "width": 720,
+      "height": 1031,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/i-ll-take-that/artworks/Ill-Take-That-Send-in-a-Seagull-Who-Steals-Things.jpg",
+      "width": 720,
+      "height": 1013,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/i-ll-take-that/artworks/Ill-Take-That-Send-in-a-Vampug.jpg",
+      "width": 720,
+      "height": 1037,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/i-ll-take-that/artworks/Ill-Take-That-Send-the-Klepto-Cat.jpg",
+      "width": 720,
+      "height": 1019,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/i-ll-take-that/i-ll-take-that.png",
+      "width": 90,
+      "height": 90,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/imploding-kitten/artworks/Imploding-Kitten.jpg",
+      "width": 720,
+      "height": 1019,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/imploding-kitten/imploding-kitten.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/mark/artworks/Mark.jpg",
+      "width": 720,
+      "height": 1012,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/mark/mark.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-A-Jackanope-Bounds-into-the-Room.jpg",
+      "width": 720,
+      "height": 1003,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-a-Nope-Ninja.jpg",
+      "width": 720,
+      "height": 1001,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-Awaken-the-Narnope.jpg",
+      "width": 720,
+      "height": 1023,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-Deliver-some-Nope-on-Your-Jump-Rope.jpg",
+      "width": 720,
+      "height": 1027,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-Feed-your-Apponent-Some-Cantanope.jpg",
+      "width": 720,
+      "height": 1016,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-Feed-your-Opponent-a-Nope-Sandwich.jpg",
+      "width": 720,
+      "height": 1003,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-Nopestradamus-Speaks-the-Truth.jpg",
+      "width": 720,
+      "height": 1002,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-Put-on-Your-Necktie-of-Nope.jpg",
+      "width": 720,
+      "height": 1026,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-The-Pope-of-Nope-has-Spoken.jpg",
+      "width": 720,
+      "height": 1015,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-Win-the-Nopebell-Peace-Prize.jpg",
+      "width": 720,
+      "height": 1003,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/nope/nope.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/personal-attack-3x/artworks/Personal-Attack-Finally-Throw-Up-All-the-Crayons-You-Ate-When-You-Were-A-Kid.jpg",
+      "width": 720,
+      "height": 1031,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/personal-attack-3x/artworks/Personal-Attack-Get-Cursed-at-by-a-Heck-Beaver.jpg",
+      "width": 720,
+      "height": 1012,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/personal-attack-3x/artworks/Personal-Attack-Give-Yourself-a-Fierce-Spankin.jpg",
+      "width": 720,
+      "height": 1027,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/personal-attack-3x/artworks/Personal-Attack-Listen-to-the-Boastings-of-Some-Very-Accomplished-Trout.jpg",
+      "width": 720,
+      "height": 1027,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/personal-attack-3x/personal-attack-3x.png",
+      "width": 90,
+      "height": 90,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/potluck/artworks/Pot-Luck-Dog-Pile-Until-it-Reaches-the-Stars.jpg",
+      "width": 720,
+      "height": 1037,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/potluck/artworks/Potluck-Share-with-the-Group-at-Catnip-Anonymous.jpg",
+      "width": 720,
+      "height": 1023,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/potluck/potluck.png",
+      "width": 90,
+      "height": 90,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/raising-heck/artworks/Raising-Heck-Demon.jpg",
+      "width": 720,
+      "height": 1001,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/raising-heck/artworks/Raising-Heck-Flushed-Goldfish.jpg",
+      "width": 720,
+      "height": 1000,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/raising-heck/raising-heck.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/reveal-the-future-3x/artworks/Reveal-The-Future-Extra-Pair-of-Eyes.jpg",
+      "width": 720,
+      "height": 1012,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/reveal-the-future-3x/artworks/Reveal-The-Future-Go-Back-In-Time.jpg",
+      "width": 720,
+      "height": 1015,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/reveal-the-future-3x/artworks/Reveal-The-Future-Particle-Accelerator.jpg",
+      "width": 720,
+      "height": 1015,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/reveal-the-future-3x/reveal-the-future-3x.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/reverse/artworks/Reverse-Go-Back-In-Time-And-Steal-A-Pregnant-Dinosaur.jpg",
+      "width": 720,
+      "height": 991,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/reverse/artworks/Reverse-Receive-A-Hairy-Tummy-Massage.jpg",
+      "width": 720,
+      "height": 1025,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/reverse/artworks/Reverse-Return-From-An-Unpleasant-Doctor-s-Visit.jpg",
+      "width": 720,
+      "height": 1046,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/reverse/artworks/Reverse-Try-Something-New-Today.jpg",
+      "width": 720,
+      "height": 1056,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/reverse/reverse.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Ask-the-All-Seeing-Goat-Wizard.jpg",
+      "width": 720,
+      "height": 1016,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Attach-a-Butterfly-to-Your-Genitals.jpg",
+      "width": 720,
+      "height": 1007,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Crawl-Inside-a-Goat-Butt.jpg",
+      "width": 720,
+      "height": 1014,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Deploy-the-Special-Ops-Bunnies.jpg",
+      "width": 720,
+      "height": 1003,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Discover-a-Boob-Wizard.jpg",
+      "width": 720,
+      "height": 1017,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Drink-an-Entire-Bottle-of-Bald-Eagle-Tears.jpg",
+      "width": 720,
+      "height": 1008,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Fear-Upon-a-Unicorn-Enchilada.jpg",
+      "width": 720,
+      "height": 1005,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Rub-the-Belly-of-a-Pig-a-Corn.jpg",
+      "width": 720,
+      "height": 1009,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Summon-the-Mantis-Shrimp.jpg",
+      "width": 720,
+      "height": 1019,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Weave-an-Infinity-Boner.jpg",
+      "width": 720,
+      "height": 1003,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/see-the-future-3x.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/see-the-future-5x/artworks/See-the-Future-Behold-the-Angler-Pig.jpg",
+      "width": 720,
+      "height": 1019,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/see-the-future-5x/see-the-future-5x.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/share-the-future-3x/artworks/Share-the-Future-Listen-to-the-Words-of-an-Emo-Emu.jpg",
+      "width": 720,
+      "height": 1033,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/share-the-future-3x/artworks/Share-the-Future-Send-in-the-Recon-Sloth.jpg",
+      "width": 720,
+      "height": 1036,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/share-the-future-3x/share-the-future-3x.png",
+      "width": 90,
+      "height": 90,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/shuffle/artworks/Shuffle-A-Kraken-Emerges-and-Hes-Super-Upset.jpg",
+      "width": 720,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/shuffle/artworks/Shuffle-A-Plague-of-Bat-Farts.jpg",
+      "width": 720,
+      "height": 1000,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/shuffle/artworks/Shuffle-A-Transdimensional-Litter-Box-Materializes.jpg",
+      "width": 720,
+      "height": 999,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/shuffle/artworks/Shuffle-Abracrab-Lincoln.jpg",
+      "width": 720,
+      "height": 1007,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/shuffle/artworks/Shuffle-An-Asparagus-Bun-Dragon-Appears.jpg",
+      "width": 720,
+      "height": 1017,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/shuffle/artworks/Shuffle-An-Electromagnetic-Pomeranian-Storm.jpg",
+      "width": 720,
+      "height": 1010,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/shuffle/artworks/Shuffle-Discover-You-Have-a-Toilet-Werewolf.jpg",
+      "width": 720,
+      "height": 1021,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/shuffle/artworks/Shuffle-Smoke-Some-Crack-with-a-Baby-Owl.jpg",
+      "width": 720,
+      "height": 1028,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/shuffle/shuffle.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/shuffle-now/artworks/Shuffle-Now-Don-t-Completely-Unravel.jpg",
+      "width": 720,
+      "height": 1006,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/shuffle-now/artworks/Shuffle-Now-Watch-An-Unimpressive-Magic-Show.jpg",
+      "width": 720,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/shuffle-now/shuffle-now.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/skip/artworks/Skip-Commandeer-a-Bunnyraptor.jpg",
+      "width": 720,
+      "height": 1005,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/skip/artworks/Skip-Crab-Walk-with-Some-Crabs.jpg",
+      "width": 720,
+      "height": 1002,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/skip/artworks/Skip-Don-a-Portable-Cheetah-Butt.jpg",
+      "width": 720,
+      "height": 999,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/skip/artworks/Skip-Engage-the-Hypergoat.jpg",
+      "width": 720,
+      "height": 1005,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/skip/artworks/Skip-Evade-Dirty-Sasquatch-Underpants.jpg",
+      "width": 720,
+      "height": 1012,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/skip/artworks/Skip-Go-Base-Jumping-Using-a-Pair-of-Old-Lady-Boobs.jpg",
+      "width": 720,
+      "height": 1011,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/skip/artworks/Skip-Play-a-Game-of-Whale-Boner-Tetherball.jpg",
+      "width": 720,
+      "height": 1015,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/skip/artworks/Skip-Sail-Away-on-Your-Penis-Balloon.jpg",
+      "width": 720,
+      "height": 1020,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/skip/skip.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/streaking-kitten/artworks/Streaking-Kitten.jpg",
+      "width": 720,
+      "height": 1017,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/streaking-kitten/streaking-kitten.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/super-skip/artworks/Super-Skip-Hitch-A-Ride-on-a-Corgihorse.jpg",
+      "width": 720,
+      "height": 1022,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/super-skip/artworks/Super-Skip.jpg",
+      "width": 720,
+      "height": 1038,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/super-skip/super-skip.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/swap-top-and-bottom/artworks/Swap-Top-and-Bottom.jpg",
+      "width": 720,
+      "height": 1016,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/swap-top-and-bottom/swap-top-and-bottom.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/targeted-attack-2x/artworks/Targeted-Attack-2x-Deploy-The-Groin-Kicking-Panda-Bear.jpg",
+      "width": 720,
+      "height": 1015,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/targeted-attack-2x/artworks/Targeted-Attack-2x-Fire-The-Fat-Hamster-Crossbow.jpg",
+      "width": 720,
+      "height": 1021,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/targeted-attack-2x/artworks/Targeted-Attack-Unleash-a-Shark-Who-Hurts-with-Words-Instead-of-Teeth.jpg",
+      "width": 720,
+      "height": 1010,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/targeted-attack-2x/targeted-attack-2x.png",
+      "width": 91,
+      "height": 91,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/cards/tower-of-power/artworks/Tower-of-Power.jpg",
+      "width": 720,
+      "height": 1035,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/tower-of-power/tower-of-power.png",
+      "width": 90,
+      "height": 90,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/cards/zombie-kitten/artworks/Zombie-Kitten-Always-Land-On-Your-Feet.jpg",
+      "width": 720,
+      "height": 1038,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/zombie-kitten/artworks/Zombie-Kitten-Become-An-Alien-Incubator.jpg",
+      "width": 720,
+      "height": 991,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/zombie-kitten/artworks/Zombie-Kitten-Cough-Up-A-Hairball-With-A-Hairdo.jpg",
+      "width": 720,
+      "height": 1000,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/zombie-kitten/artworks/Zombie-Kitten-Friendship-Lasts-All-Weekend.jpg",
+      "width": 720,
+      "height": 1031,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/zombie-kitten/artworks/Zombie-Kitten-Learn-To-Entertain-Yourself.jpg",
+      "width": 720,
+      "height": 989,
+      "mode": "RGB"
+    },
+    {
+      "path": "Assets/cards/zombie-kitten/zombie-kitten.png",
+      "width": 91,
+      "height": 91,
+      "mode": "P"
+    },
+    {
+      "path": "Assets/decks/barking-kittens-expansion/logo.webp",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/barking-kittens-expansion/photo.webp",
+      "width": 959,
+      "height": 985,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-2-player-edition/logo.webp",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-2-player-edition/photo.webp",
+      "width": 554,
+      "height": 936,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-cat-burglar-edition/logo.webp",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-cat-burglar-edition/photo.webp",
+      "width": 585,
+      "height": 932,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-good-vs-evil/logo.webp",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-good-vs-evil/photo.webp",
+      "width": 1026,
+      "height": 712,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-nsfw-edition/logo.webp",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-nsfw-edition/photo.webp",
+      "width": 879,
+      "height": 716,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-original-edition/logo.webp",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-original-edition/photo.webp",
+      "width": 960,
+      "height": 663,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-party-pack-edition/logo.webp",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-party-pack-edition/photo.webp",
+      "width": 1019,
+      "height": 674,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/logo.webp",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/photo.webp",
+      "width": 1080,
+      "height": 758,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-zombie-kittens/logo.webp",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-zombie-kittens/photo.webp",
+      "width": 952,
+      "height": 658,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/imploding-kittens-expansion/logo.webp",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/imploding-kittens-expansion/photo.webp",
+      "width": 722,
+      "height": 1018,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/streaking-kittens-expansion/logo.webp",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "Assets/decks/streaking-kittens-expansion/photo.webp",
+      "width": 774,
+      "height": 1086,
+      "mode": "RGBA"
+    }
+  ],
+  "pdfs": [
+    {
+      "path": "Assets/decks/barking-kittens-expansion/rules.pdf",
+      "pages": 2,
+      "text_characters_per_page": [
+        116,
+        11
+      ],
+      "needs_visual_review_pages": [
+        2
+      ],
+      "text_preview": "contents: 20 cards, Tower of Power Crown\nthis is the third expansion of \nexploding kittens\nthe rules\nBARKING\nKITTENS\n\nGUIDE\nFIELD \n"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-2-player-edition/rules.pdf",
+      "pages": 2,
+      "text_characters_per_page": [
+        3580,
+        4355
+      ],
+      "needs_visual_review_pages": [],
+      "text_preview": "2 PLAYER EDITION!\nEXPLODING KITTENS\nTHE RULES\nPLAYERS: 2\nCONTENTS: 32 CARDS\n© EXPLODING KITTENS 2021\nCRUNCH\nMUNCH\nMUNCH\nCRUNCH\nMUNCH\nMUNCH\nhow it works\nIn the deck of cards is an \nExploding Kitten. You play the game  by \nputting the deck face down and taking  turns \ndrawing cards until someone draws  the \nExploding Kitten.\nbasically\nif you explode, you lose.\nand you are full of incendiary loser sadsauce.\nif you don’t explode, YOU WIN.\nand you are full of greatness. good job, buddy.\nand all of the other cards\nWill Lessen Your Chances of Getting\nExploded by the Exploding Kitten.\nFOR EXAMPLE\nremember\nthree more things\ndefuse cards\nWhen that happens, that person explodes \nand they are out of the game.\nThe remaining player wins the game.\nAll the other cards will give you powerful \ntools to help you avoid exploding!\nSETUP\ntaking your turn\nIf it was your turn to draw, you could \nplay a See the Future Card to peek \nat the top few cards in the Draw Pile \nbefore drawing.\nIf you saw an Exploding "
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-cat-burglar-edition/rules.pdf",
+      "pages": 2,
+      "text_characters_per_page": [
+        4455,
+        4898
+      ],
+      "needs_visual_review_pages": [],
+      "text_preview": "taking your turn\nsetup\nhow it works\nWhen that happens, that person \nexplodes and they are out of the game.\nIn the deck of cards are some Exploding \nKittens. You play the game by putting the \ndeck facedown and taking turns drawing \ncards until someone draws an\nExploding Kitten. \nwill lessen your chances of getting \nexploded by Exploding Kittens.\nif you don’t explode, YOU WIN.\nand you are full of greatness. good job, buddy.\nand you are full of incendiary loser sadsauce.\nif you explode, you lose.\nBASICALLY\nand all of the other cards\nCRUNCH\nMUNCH\nMUNCH\nAll of the other cards will give you powerful \ntools to help you avoid exploding!\nThis process continues until there's only \n1 player left who wins the game.\nIf it was your turn to draw, you could \nplay a See the Future Card to peek \nat the top few cards in the Draw Pile \nbefore drawing.\nIf you saw an Exploding Kitten, you \ncould then play a Skip Card to end \nyour turn without drawing a card \ninstead of exploding.\nFor example\nskip\nsee the fu"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-good-vs-evil/rules.pdf",
+      "pages": 2,
+      "text_characters_per_page": [
+        6753,
+        6756
+      ],
+      "needs_visual_review_pages": [],
+      "text_preview": "The Playmat (and Godcat and \nDevilcat that live on top of it) are \nused to play Armageddon:\na battle of good vs. evil between \n2 players. This is triggered when \nsomeone plays the Armageddon Card, \nand the stakes are:\nGrab Godcat and Devilcat from the Playmat.\nShuffle and look at the two cards in secret, \nthen place one face down in front of you and \none in front of any other player so that only you \nknow which is which. \nWithout looking at the cards, the other player \nmust decide to keep the card in front of them \nOR swap with the card in front of you. \nOnce they’ve made their decision, flip over \nboth cards. The player with Godcat in front of \nthem gets to add it to their hand. The player \nwith Devilcat in front of them immediately \nexplodes, and must play a Defuse Card or die.\nEither way (if a player exploded or played a \nDefuse to save themselves), put Devilcat back \non its spot on the Playmat. The player who got \nGodcat gets to keep it in their hand.\nYour turn is now over. You do "
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-nsfw-edition/rules.pdf",
+      "pages": 2,
+      "text_characters_per_page": [
+        4508,
+        5384
+      ],
+      "needs_visual_review_pages": [],
+      "text_preview": "see the future (   )\n3x\n3x\nskip\nWHAT I DO\nexploding KITTENS\nTHE RULES\nplayers: 2 - 5\ncontents: 56 cards\nnsfw edition\nIf you have questions about specific cards, flip this sheet over.\n(Be sure to leave some space for a Discard Pile as well.)\nThis is your Draw Pile.\nSETUP\nTaking your turn\nending the game\nStop reading! go play!\nHow it works\nBasically\nA good strategy generally is to save your cards early \nin the game while your chance of exploding is low.\nFor example\nFor example\nDefuses\nremember\nor\nthree more things\n2\n2\nplay\npass\n4\n5\n6\n1\n1\n3\nIn the deck of cards are some Exploding Kittens. \nYou play the game by putting the deck face down \nand taking turns drawing cards until someone \ndraws an Exploding Kitten.\nWhen that happens, that person \nexplodes and they are out of the game.\nAll of the other cards will give you powerful \ntools to help you avoid exploding!\nThis process continues until there’s only \n1 player left who wins the game.\nIf you explode, you lose. \nand you are full of incendia"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-original-edition/rules.pdf",
+      "pages": 2,
+      "text_characters_per_page": [
+        4188,
+        4401
+      ],
+      "needs_visual_review_pages": [],
+      "text_preview": "the rules\nexploding kittens\nplayers: 2-5\ncontents: 56 cards\nORIGINAL EDITION!\nWhen that happens, that person \nexplodes and they are out of the game.\nhow it works\nIn the deck of cards are some Exploding Kittens. \nYou play the game by putting the deck face down \nand taking turns drawing cards until someone \ndraws an Exploding Kitten. \nsetup\n1\n2\n6\n7\nShuffle the deck, and put it face down in the \nmiddle of the table.\nPick a player to go first. (Some sample criteria: \nmost excited to go first, most intimidating odor, \nshortest spleen, etc.)\nTo start, remove all the Exploding Kittens (4) \nfrom the deck and set them aside. \nRemove all of the Defuse Cards (6) from the \ndeck and deal 1 to each player. \n(Be sure to leave some space for a Discard Pile as well.)\n1\ntaking your turn\n2\nCopyright Exploding Kittens 2022\nwill lessen your chances of getting \nexploded by Exploding Kittens.\nif you don’t explode, YOU WIN.\nand you are full of greatness. good job, buddy.\nand you are full of incendiary loser s"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-party-pack-edition/rules.pdf",
+      "pages": 2,
+      "text_characters_per_page": [
+        4729,
+        7899
+      ],
+      "needs_visual_review_pages": [],
+      "text_preview": "SKIP\ncommandeer a bunnyraptor.\nSKIP\ncommandeer a bunnyraptor.\nDEFUSE\nvia laser pointer.\nDEFUSE\nvia laser pointer.\nNOPE\nfeed your opponent a nope sandwich \nwith extra nopesauce.\nNOPE\nfeed your opponent a nope sandwich \nwith extra nopesauce.\n \nCRUNCH\nMUNCH\nMUNCH\nPlay-or-Pass then Draw.\nPlay-or-Pass then Draw.\n    \nwhat I  do\nSHUFFLE\nEXPLODING KITTENS RULES\nPARTY PACK!\nHEY! DON’T READ THESE RULES!\nREADING IS THE WORST WAY TO\nLEARN HOW TO PLAY A GAME.\nINSTEAD, GO ONLINE and watch\nour instructional video:\nWWW.EXPLODINGKITTENS.COM/HOW\nEXPLODING KITTENS\nTHE RULES\nplayers: 2 -10\ncontents: 120 cards\nhow it works\nIn the deck of cards are some \nExploding Kittens. You play the game \n by putting the deck face down and taking \n turns drawing cards until someone draws  an \nExploding Kitten.\nWhen that happens, that person explodes \nand they are out of the game.\nAll the other cards will give you powerful \ntools to help you avoid exploding!\nThis process continues until there’s only 1 \nplayer left, who w"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/field-guide.pdf",
+      "pages": 2,
+      "text_characters_per_page": [
+        5385,
+        5523
+      ],
+      "needs_visual_review_pages": [],
+      "text_preview": "3x\n3x\n3x\n5x\n3x\nALTER the future (3X)    NOW 2 cards\n Exploding Kitten  6 cards\nYou must show this card immediately. Unless \nyou can play a Defuse, you’re dead. When you \ndie, put the Kitten that killed you face up in front \nof you so everyone can see that you’re dead, \nand put the rest of your cards face down in front \nof you. \nDEFUSE   8 cards\nIf you drew an Exploding Kitten, you can play \nthis card instead of dying. Place your Defuse in \nthe Discard Pile.\nThen take the Exploding Kitten, and without \nreordering or viewing the other cards, secretly \nput it back in the Draw Pile anywhere you’d like.\nYour turn is over after playing this card. \nIMploding Kitten    4 cards\nWhen this card is drawn, \nput it back into the Draw \nPile FACE UP anywhere \nyou’d like in secret. Do not use a Defuse.  \nThe card has a white border, so when it’s face up \neveryone can see it coming.\nWhen you have no choice but to draw this card \nface up, you immediately die. This card cannot \nbe Defused nor can it be No"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/rules.pdf",
+      "pages": 2,
+      "text_characters_per_page": [
+        4280,
+        5610
+      ],
+      "needs_visual_review_pages": [],
+      "text_preview": "each player starts with\n7 CARDS\nPLUS 1 DEFUSE\neach player starts with\n7 CARDS\nPLUS 1 DEFUSE\nWhen that happens, the person who drew the card \nexplodes. They are now dead and out of the game.\nThe game is played by shuffling a few \nExploding Kittens into the Draw Pile.\nThen players takes turns drawing a card until \nsomeone draws an Exploding Kitten.\nsetup\n1\n7\nPick a player to go first. (Some sample criteria: \nmost excited about going first, most intimidating \nodor, shortest spleen, etc.)\n8\nYou’re ready to start!\nExploding Kittens: Recipes for Disaster \nincludes 13 Recipe Booklets describing different \nways to play. The Recipe Booklets are explained \nin detail on the other side of this sheet, but for \nnow just pick one that looks interesting to you \nand matches the number of players you have.\nIf this is your first time opening the box, we’ve \nalready put the Recipe “Nope Sauce” in its own \nbundle so you can get started immediately.\nPick a Recipe Booklet and open it. Build a \ndeck using the"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-zombie-kittens/rules.pdf",
+      "pages": 2,
+      "text_characters_per_page": [
+        7130,
+        9003
+      ],
+      "needs_visual_review_pages": [],
+      "text_preview": "SKIP\ncommandeer a bunnyraptor.\nDEFUSE\nvia laser pointer.\nenjoy a sip of a frothy cappuccinope.\nNOPE\nSKIP\ncommandeer a bunnyraptor.\nDEFUSE\nvia laser pointer.\nenjoy a sip of a frothy cappuccinope.\nNOPE\nPlay-or-Pass, then Draw.\nPlay-or-Pass, then Draw.\nnow\nZOMBIE\nNOPE\nwhat I do\nHEY! \nDON’T READ THESE RULES!\nREADING IS THE WORST WAY TO \nLEARN HOW TO PLAY A GAME.\nINSTEAD, GO ONLINE and watch \nour instructional video:\nwww.ekzombiekittens.com/how\nUnlock the Zombie Apocalypse \n(2-9 Players)\nCombine all the cards from Zombie Kittens \nwith any other Exploding Kittens game to \nplay a new intense version with up to 9 \nplayers. If you have any questions about \nsetup or how specific cards interact, please \nvisit www.ekzombiekittens.com/how\nzombie KITTENS\nTHE RULES\nplayers: 2 - 5\ncontents: 61 cards\nPass\nPlay no cards.\nPlay\nPlay a card by placing it FACE UP on top of the \nDiscard Pile and follow the instructions on the card.\nAfter you follow the instructions on the card, you can play \nanother card. Yo"
+    },
+    {
+      "path": "Assets/decks/imploding-kittens-expansion/rules.pdf",
+      "pages": 2,
+      "text_characters_per_page": [
+        0,
+        0
+      ],
+      "needs_visual_review_pages": [
+        1,
+        2
+      ],
+      "text_preview": "\n"
+    },
+    {
+      "path": "Assets/decks/streaking-kittens-expansion/rules.pdf",
+      "pages": 2,
+      "text_characters_per_page": [
+        2305,
+        5297
+      ],
+      "needs_visual_review_pages": [],
+      "text_preview": "Remove any extra Exploding Kittens \nfrom the game.\nShuffle the deck and put it face down\nin the middle of the table to form a\nDraw Pile.\nPick a player to go first and start\nplaying as usual.\n(Be sure to leave some space\nfor a Discard Pile as well.)\nRemove the Exploding Kittens (4) \nand Defuse Cards (6) from your \nExploding Kittens deck as normal.\n1\n7\n8\n9\nRemove the Exploding Kitten (1) from \nthe Streaking Kittens expansion deck.\n2\nDeal 1 Defuse Card to each player. \n3\nCombine the remaining Defuse Cards \nwith the 14 remaining Streaking Kittens \nexpansion cards and shuffle the cards \ninto the main deck.\n4\t\nDeal 7 cards face down to each player \nfor a total of 8 cards per player. Keep \nyour hand secret.\n5\t\nInsert enough Exploding Kittens back \ninto the deck so that the total number \nof Kittens is equal to the number of \nplayers - this is 1 more Exploding Kitten \nthan normal because the Streaking Kitten \nCard allows a player to hold an Exploding \nKitten in their hand without exploding!\n6\t\n"
+    }
+  ],
+  "files": [
+    {
+      "path": ".codex/audit_repository.py",
+      "bytes": 9188,
+      "sha256": "9380c305c9bcf483c3349d21330fc717d9a73e041adca8182959385349dc41f4"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 469,
+      "sha256": "62f2ab462bf0db0fec83ec7d5fb8765bbc987333f3ba0ec5f959cbe153c3d854"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-3x/alter-the-future-3x.png",
+      "bytes": 6732,
+      "sha256": "1a1609fd4d0c216e23f9c74d516525a4dd03f43b5ff619e262e3a2f4addc423f"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-3x/artworks/Alter-the-Future-Cat-Wizard.jpg",
+      "bytes": 92449,
+      "sha256": "c90ff8e2bdd09cfddff3228c3da2c3b2bc1c8974e81fdf1421598a4629a0ccb1"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-3x/artworks/Alter-the-Future-Furmaid.jpg",
+      "bytes": 84717,
+      "sha256": "deead53d923ea5b2d2b7c4132f7c43b92722021239b03eaf69fa52e3a51360b0"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-3x/artworks/Alter-the-Future-Golden-Haired-Manatee.jpg",
+      "bytes": 76115,
+      "sha256": "b64812c1ea24381c38b52828c416629c68997cd64ae6b5d8885a77eb50996ae2"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-3x/artworks/Alter-the-Future-Time-Traveling-Crab.jpg",
+      "bytes": 82424,
+      "sha256": "948fe8ea9ab711e03d8e81d593e1787a5e91d683ff4e140c2b6a973f25c7e6a9"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-3x-now/alter-the-future-3x-now.png",
+      "bytes": 6627,
+      "sha256": "7be81591934f9b3544ebfbae13b4e3086bcbd2cc50b42d59dac84d3b8d84f08d"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-3x-now/artworks/Alter-the-Future-Get-That-Perm-Youve-Always-Wanted.jpg",
+      "bytes": 101080,
+      "sha256": "ea3e44a83f9fea5d4cb95b0418f514428f15bde78bbca59461ff7db98cd82d29"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-5x/alter-the-future-5x.png",
+      "bytes": 7944,
+      "sha256": "c0167e29b81bceb3d6aa4b80899825becd8b33c930bfd7e6ce447886823009ef"
+    },
+    {
+      "path": "Assets/cards/alter-the-future-5x/artworks/Alter-the-Future-Nikola-Telsa.jpg",
+      "bytes": 77399,
+      "sha256": "66b2c01aaaf55614fd280c7c9cad369b56041e093ad84b14daf4ecb8579c40c6"
+    },
+    {
+      "path": "Assets/cards/armageddon/armageddon.png",
+      "bytes": 11778,
+      "sha256": "b1a002f2e8a15d485e8c5f0d84c879970f30ec176f8c1234b77d9f43fd50b26b"
+    },
+    {
+      "path": "Assets/cards/armageddon/artworks/Armageddon-Anything-Can-Become-Armor.jpg",
+      "bytes": 130317,
+      "sha256": "443e44e3be501bb1ff2ee330cb965514835192970e37731be43b4636fa7b5e8d"
+    },
+    {
+      "path": "Assets/cards/armageddon/artworks/Armageddon-Fight-Outside.jpg",
+      "bytes": 112392,
+      "sha256": "99783cc4fcdd958d4a8f56e4fad8dd820af40dabe317f8612d286ae004cd04ce"
+    },
+    {
+      "path": "Assets/cards/armageddon/artworks/Armageddon-Showdown.jpg",
+      "bytes": 117000,
+      "sha256": "886bb23e07fc3b942def655d6b9259bf39d05700641ceacfff52ea5cfd170fd9"
+    },
+    {
+      "path": "Assets/cards/attack-2x/artworks/Attack-Bear-o-Dactyl.jpg",
+      "bytes": 94745,
+      "sha256": "64349c7150d5cbc03829f4d6cd0c9fa6cdaadd10125cd85e9a491d9348c5a232"
+    },
+    {
+      "path": "Assets/cards/attack-2x/artworks/Attack-Catterwocky.jpg",
+      "bytes": 91938,
+      "sha256": "607debcead2950fbddfa8bbf128455ab993848d29d9670721a5da22ac0b6781f"
+    },
+    {
+      "path": "Assets/cards/attack-2x/artworks/Attack-Crab-a-Pult.jpg",
+      "bytes": 98808,
+      "sha256": "a1461a9e8137cce11c8c36db5a87124fa6c359e39b28c4ba6bf1a1d2b9476b85"
+    },
+    {
+      "path": "Assets/cards/attack-2x/artworks/Attack-Grow-a-Magnifient-Squid-Arm-and-Start-Slapping-Fat-Babies.jpg",
+      "bytes": 94096,
+      "sha256": "de7d13fd8b03ed5580e608d516e46b8dfa19623d5ea9f56022d9ed877aba6ba1"
+    },
+    {
+      "path": "Assets/cards/attack-2x/artworks/Attack-Penguin-Diarrhea.jpg",
+      "bytes": 94286,
+      "sha256": "299d4b169851d6474f1c9521b6dcc98d1dd5d2e45d6435d551e0e6322d435530"
+    },
+    {
+      "path": "Assets/cards/attack-2x/artworks/Attack-Rubber-Duck-Collection.jpg",
+      "bytes": 95688,
+      "sha256": "114e03f3c4b254b746378d6adaf7d2602eaebd42e90f8f3f9072199c941d8ca7"
+    },
+    {
+      "path": "Assets/cards/attack-2x/artworks/Attack-Thousand-Year-Back-Hair.jpg",
+      "bytes": 113879,
+      "sha256": "dcd4495dabd5a873ea4ccb03266a4f8799284349f9ac88a4b4f7d7c5673bc83a"
+    },
+    {
+      "path": "Assets/cards/attack-2x/artworks/Attack-Torture-Bunnies.jpg",
+      "bytes": 87999,
+      "sha256": "d6aed9b696efacc651204cdc9055605eb2096ae2c76de1f449687456e963d4cd"
+    },
+    {
+      "path": "Assets/cards/attack-2x/attack-2x.png",
+      "bytes": 5669,
+      "sha256": "aefbc6f66c1ebdd3594c1dab0662eae66f5f0a23c03344a6fed91b1858ba8ef9"
+    },
+    {
+      "path": "Assets/cards/attack-of-the-dead/artworks/Attack-Of-The-Dead-Burn-Some-Bread-To-Summon-A-Toast-Ghost.jpg",
+      "bytes": 179026,
+      "sha256": "158318a28a43c8fcd10aee31c50d60e284ac991bb642f63fc6a9ba11293b760b"
+    },
+    {
+      "path": "Assets/cards/attack-of-the-dead/artworks/Attack-Of-The-Dead-Gift-Tickets-To-Some-Terrible-Zombie-Stand-Up.jpg",
+      "bytes": 178263,
+      "sha256": "3c0ccdcf49f06195128ee8d0d8557a4be8fee94e7e0698134c8e0b08e5c4a564"
+    },
+    {
+      "path": "Assets/cards/attack-of-the-dead/artworks/Attack-Of-The-Dead-Release-A-Swam-Of-Zom-Bees.jpg",
+      "bytes": 194116,
+      "sha256": "898adcd5044577935db593c3583db5b81f79b5700054ebc5ddfe29e2c79e5054"
+    },
+    {
+      "path": "Assets/cards/attack-of-the-dead/attack-of-the-dead.png",
+      "bytes": 7507,
+      "sha256": "3119afa7c361246030509b898c071ee14a5eb43ac742ee9ca2f3795e339e42cf"
+    },
+    {
+      "path": "Assets/cards/barking-kitten/artworks/1-Barking-Kitten-Dog-House-New.jpg",
+      "bytes": 84437,
+      "sha256": "c8714615828fb5e8f286e1fc05a860d91875de4e160ffdff9e985cb6035a644a"
+    },
+    {
+      "path": "Assets/cards/barking-kitten/artworks/2-Barking-Kitten-Fence-New.jpg",
+      "bytes": 75431,
+      "sha256": "f305db8ddb1d052fefe6f46d4f6047bf7e4ea848721b7e866b7f0ae47ebd7222"
+    },
+    {
+      "path": "Assets/cards/barking-kitten/artworks/Barking-Kitten-Dog-House.jpg",
+      "bytes": 83376,
+      "sha256": "b1b610bb5d398b0c7a4e31fc86221f60ce09a8e26cec973887dbdc29a2a282b4"
+    },
+    {
+      "path": "Assets/cards/barking-kitten/artworks/Barking-Kitten-Fence.jpg",
+      "bytes": 99672,
+      "sha256": "c733a53b38023d3895563444902743d66ae6f899aa063fa8c4da53c8779ac5c2"
+    },
+    {
+      "path": "Assets/cards/barking-kitten/barking-kitten.png",
+      "bytes": 2047,
+      "sha256": "9dd6c8f05d57861d58eec5cce3d6a5718dcb9addf25e6da8156b916780054825"
+    },
+    {
+      "path": "Assets/cards/bury/artworks/Bury-Bury-Something-That-Probably-Shouldnt-be-Buried.jpg",
+      "bytes": 93260,
+      "sha256": "af201bc56afd9a61f90c13286d8512b3809ea34c49daec2b428102d5fa8ace69"
+    },
+    {
+      "path": "Assets/cards/bury/artworks/Bury-Clean-Up-While-Your-Cat-Watches.jpg",
+      "bytes": 90489,
+      "sha256": "27935586f31a33078c6851d1183b6375756dfde459962ca5c1ce7d112f547cab"
+    },
+    {
+      "path": "Assets/cards/bury/bury.png",
+      "bytes": 1540,
+      "sha256": "dd0baca61454a5d06cace0ad8d64671eace79da59dba7d938aff4de9ee6b87af"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Beard-Cat.jpg",
+      "bytes": 86840,
+      "sha256": "1b3db6f18af6ccb9c3189d43e33c26399dd41316f55c626c7c1bb9a4eede3d82"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Bikini-Cat.jpg",
+      "bytes": 196200,
+      "sha256": "56a90dd9e039c4cd811960ec000ac850bf47a7bfb46869ec0c639af428a90129"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Cat-Henge.jpg",
+      "bytes": 49451,
+      "sha256": "f527c43f97450f4631f66284fa730fe9a8c446b97b4a9782f0719ce6e6ff3dc8"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Cat-O-Lantern.jpg",
+      "bytes": 141373,
+      "sha256": "dc9c5b140730656f287d6b30b725e24018403e450b497cac00963a62bec9d7f6"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Cats-Schrodinger.jpg",
+      "bytes": 66470,
+      "sha256": "46c8c5ff7f4de534b819b947028c22cca4cb024d589354d81b113d69d87debd4"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Cattermelon.jpg",
+      "bytes": 55400,
+      "sha256": "db4a92080561ce2d1f677f1315bd323fe97dd93902e64e9c98461d21d48890c5"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/De-Cat-Ipated.jpg",
+      "bytes": 136211,
+      "sha256": "3e30a31da2c91670abb25965e7e1a4b58ec0d4e162bfcdd60f4f2a46a624fbec"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Electrocat.jpg",
+      "bytes": 171178,
+      "sha256": "18273da46f9e1396ad8cdd49444a576654740b6ac547cccd12a5c2bea7c58ff4"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Football-Cat.jpg",
+      "bytes": 53291,
+      "sha256": "ca60cd6dcc3ba8b0b84cd7d13086b08caa46b310d13084ee59c0f4f090093e36"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Hairy-Potato-Cat.jpg",
+      "bytes": 54437,
+      "sha256": "e945ea285ab880d4652db6594484c814fe8eb944cfd8f87cb2c6d0f80d0b7c61"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Horse-Cat.jpg",
+      "bytes": 83071,
+      "sha256": "93cdc48245bb09f87eebe0ada1f063bdc63423416a6b5ad8cc9959058b2bf939"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Kit-Tea-Cat.jpg",
+      "bytes": 100305,
+      "sha256": "7aab3cb760a32ca9f94ccd9bdd1d1c87e83eceef643bd20e00b516f58a1b6869"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Knight-Cat.jpg",
+      "bytes": 84850,
+      "sha256": "26fdc33fd867a1c6654692a8d45d8704a039b19a502c77bb551b1c939a6aea35"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Loch-Ness-Kitty.jpg",
+      "bytes": 56781,
+      "sha256": "06cf99c3776acded5b6a368d485f2cdf716b2d12adaedc1c757f6570df72b609"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Mercat.jpg",
+      "bytes": 95138,
+      "sha256": "4df261f81f133f7db616f27d64403fd02bcbaaad07485ed4c5ca3bfa41ea5cba"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Momma-Cat.jpg",
+      "bytes": 86111,
+      "sha256": "455fc6e75db1bb6e930b24c93172a4db5046c650b0ca2dc7958eb129ad2bf0d4"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Rainbow-Ralphing-Cat.jpg",
+      "bytes": 58122,
+      "sha256": "ef8337c020d07e6795a7a030ef8c4351c8573e045d36c4a8daf214f2685479b0"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Shy-Bladder-Cat.jpg",
+      "bytes": 83410,
+      "sha256": "f52a50957d1e45198e4ead325e26f17535848f32405f6eabd9c27f14ed9584fa"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Tacocat.jpg",
+      "bytes": 58077,
+      "sha256": "eeb01eed0e34b12525999aac2d4f38bf18ecb2eb709adbee28c0adeef35d68b2"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Telephone-Boxcat.jpg",
+      "bytes": 66722,
+      "sha256": "c6725669c7392da95acd7e8dbf615492ca97a660e2addfa7f990aeb78a8e1757"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Troll-Cat.jpg",
+      "bytes": 70940,
+      "sha256": "5a73674492c0f3904c9f708b6d1377b6eebfb25ed6a1743ace1260d217ea0781"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Vampire-Cat.jpg",
+      "bytes": 142219,
+      "sha256": "ca7b477017df615df1a75387755a759a3825a3432f10cf1cdeb76c530752638a"
+    },
+    {
+      "path": "Assets/cards/cat-card/artworks/Zombie-Cat.jpg",
+      "bytes": 66689,
+      "sha256": "1c1089dd79fdbeda811ae5a0d575d680c1135f539f9f5312ac24613786be1c39"
+    },
+    {
+      "path": "Assets/cards/cat-card/beard-cat.png",
+      "bytes": 4450,
+      "sha256": "9d74ecd73bb0ffce4f696f1f8a5e8ca21c2e56d159c111f846d42e57ac24784e"
+    },
+    {
+      "path": "Assets/cards/cat-card/bikini-cat.png",
+      "bytes": 6355,
+      "sha256": "5bfc35fad210fd07eabc7c749794b3893e0c1bb11fa6f4e09ddaf6e5d12c1aa3"
+    },
+    {
+      "path": "Assets/cards/cat-card/cat-o-lantern.png",
+      "bytes": 6422,
+      "sha256": "05599beddd6f74a209ed14e3229576aa84269e8dac3eb5110f5d5d14585a3b2f"
+    },
+    {
+      "path": "Assets/cards/cat-card/cat-s-schrodinger.png",
+      "bytes": 9045,
+      "sha256": "a720c325bb3ca5df5e6c7a36646995837fafb969e6f0c28e88f21a945037908b"
+    },
+    {
+      "path": "Assets/cards/cat-card/cattermelon.png",
+      "bytes": 8118,
+      "sha256": "8ea5bdbb459e4d30f1940ea0deed6eea62a5721c1b7f4ec4f0d4551fbe2a53a9"
+    },
+    {
+      "path": "Assets/cards/cat-card/de-cat-ipated.png",
+      "bytes": 5055,
+      "sha256": "9c1338794ec46100d7c8c30fa6023d9220229295d90cd114264fb26b0286d590"
+    },
+    {
+      "path": "Assets/cards/cat-card/electrocat.png",
+      "bytes": 9477,
+      "sha256": "5e490e52017a6040405dad3b84e53b80ccbc9a265fe1e19abe13abef74937d58"
+    },
+    {
+      "path": "Assets/cards/cat-card/hairy-potato-cat.png",
+      "bytes": 3113,
+      "sha256": "683ed07be1808e3d6188d782d1184f78cd56df5affdc56750db3a52d232e8af8"
+    },
+    {
+      "path": "Assets/cards/cat-card/horse-cat.png",
+      "bytes": 9306,
+      "sha256": "f465728b13ed62769c0156e69451eb4a23ab6be204ab58ae42ae802bbaad7514"
+    },
+    {
+      "path": "Assets/cards/cat-card/knight-cat.png",
+      "bytes": 8537,
+      "sha256": "d19c728bd6bf05ffcd075416015db152e29f9ab35ee0974b2127f966b1122d3d"
+    },
+    {
+      "path": "Assets/cards/cat-card/mercat.png",
+      "bytes": 7459,
+      "sha256": "3518e4a129227356e7ed0525a32a5addce5d9c4788116ab6963b415c90ff323a"
+    },
+    {
+      "path": "Assets/cards/cat-card/momma-cat.png",
+      "bytes": 10157,
+      "sha256": "eb6b4862c6b4e166dd2bfe2f1afceb4400d797fac83b19ff3add55f586777814"
+    },
+    {
+      "path": "Assets/cards/cat-card/rainbow-ralphing-cat.png",
+      "bytes": 4220,
+      "sha256": "0ed5799c9f35578dde573c7d1ead8a748b3c32d0082d4363b33045c1df54e96e"
+    },
+    {
+      "path": "Assets/cards/cat-card/shy-bladder-cat.png",
+      "bytes": 6140,
+      "sha256": "1b5e059d39d9af9ab5e633ea254abe6aced049a14f4213a1da48af3826e6b3c6"
+    },
+    {
+      "path": "Assets/cards/cat-card/tacocat.png",
+      "bytes": 4948,
+      "sha256": "4d827864902b65398e375914bb097a28b514307057f25bc47ef91cd60f1a4c3c"
+    },
+    {
+      "path": "Assets/cards/cat-card/troll-cat.png",
+      "bytes": 7495,
+      "sha256": "4eafb06c6748515f92e1331160f6410d2ad937a2323d1b741138455fee7c473e"
+    },
+    {
+      "path": "Assets/cards/cat-card/vampire-cat.png",
+      "bytes": 4805,
+      "sha256": "520e8092a20818aa40f5bbbc93e37c9a17edc50228a00e56cd24b557cc6b28f6"
+    },
+    {
+      "path": "Assets/cards/cat-card/zombie-cat.png",
+      "bytes": 5852,
+      "sha256": "c00fb0aec17ae2e91500ba86d6ce27e02f40ed1bdb5e631d7ca0985bd5341529"
+    },
+    {
+      "path": "Assets/cards/catomic-bomb/artworks/Catomic-Bomb.jpg",
+      "bytes": 87948,
+      "sha256": "9fe324535f25c3bd7ed88970870ea9dc3c99995dc1cb11bf6143629daf13cf65"
+    },
+    {
+      "path": "Assets/cards/catomic-bomb/catomic-bomb.png",
+      "bytes": 1238,
+      "sha256": "86b0a0e46f78a23d681cdf3252152e43679d7ab40faece4cedf5bd6328073489"
+    },
+    {
+      "path": "Assets/cards/clairvoyance/artworks/Clairvoyance-Now-Get-Stronger-Wifi-For-Your-Cauldron.jpg",
+      "bytes": 180546,
+      "sha256": "f27c0d31ec8aed4fbd0f55321a3542d4dd96fa03660af883955f343037b3373a"
+    },
+    {
+      "path": "Assets/cards/clairvoyance/artworks/Clairvoyance-Now-See-Right-Through-Your-Friends.jpg",
+      "bytes": 172440,
+      "sha256": "473ca69aee4303c7051a6c1f1fb53264dc616e0c162f24b733afe45ab56b0739"
+    },
+    {
+      "path": "Assets/cards/clairvoyance/clairvoyance.png",
+      "bytes": 11360,
+      "sha256": "565fa44063f5be4ab1e191a7ad1fb5786ef11c4b5ea99286b65b38ff065fbecd"
+    },
+    {
+      "path": "Assets/cards/clone/artworks/Clone-Find-A-Pair-Of-Nosfera-Twos.jpg",
+      "bytes": 181819,
+      "sha256": "6a0161ecdd8cc2e3b808de523d3dd841415b0253a7d5e5e6c9b16b24606cae99"
+    },
+    {
+      "path": "Assets/cards/clone/artworks/Clone-Make-Your-Voodoo-Dolls-Do-All-The-Dirty-Work.jpg",
+      "bytes": 173789,
+      "sha256": "046ce6b1d634f51dea9a8522bcfbc84ebb25c065062623ab9d2ae5a288c752c0"
+    },
+    {
+      "path": "Assets/cards/clone/artworks/Clone-Work-Out-The-Kinks-Later.jpg",
+      "bytes": 182070,
+      "sha256": "95c704a9520d3512fa4d2e1e34e6aad2a9493eee7a221c0de6d5ba633f27f4c8"
+    },
+    {
+      "path": "Assets/cards/clone/clone.png",
+      "bytes": 10575,
+      "sha256": "6d33ee0b8eb2df8e30b0a40561328d994fc62cfd300223418d787ef6e87e23eb"
+    },
+    {
+      "path": "Assets/cards/curse-of-the-cat-butt/artworks/1-Curse-of-the-Cat-Butt.jpg",
+      "bytes": 95010,
+      "sha256": "7e746bcce071654bc1f5359c0397f7b180071dd5c2b0a9e15605067c4d4b089e"
+    },
+    {
+      "path": "Assets/cards/curse-of-the-cat-butt/artworks/2-Blind-As-A-Bat.jpg",
+      "bytes": 95030,
+      "sha256": "a4fa63608b27dd2eaaec863002ebf927a9d59659cd79fff9d767cc20076c2419"
+    },
+    {
+      "path": "Assets/cards/curse-of-the-cat-butt/curse-of-the-cat-butt.png",
+      "bytes": 4076,
+      "sha256": "704308efc94c1980dd548b90e82e273d2fec935efcfe2e04e98a99663b09df25"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-3AM-Flatulence.jpg",
+      "bytes": 68746,
+      "sha256": "6395314da495c8c12e1d77c32fb25de3c69275105270b6081d73bbb9c1bee9f0"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Belly-Rubs.jpg",
+      "bytes": 65863,
+      "sha256": "b5c95d7c670b1a9b564b7d73f74734ddaf8de1973686aab2a968618ba0fec1e9"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Catnip-Sandwiches.jpg",
+      "bytes": 81056,
+      "sha256": "412420f02c0e3e6004900635c1430ab893539fde21260f031f4c57f1bc5aacfd"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Catnip-Sweater.jpg",
+      "bytes": 111801,
+      "sha256": "b2bd1bd5a7431cae012cbdb5f09f3bc5a1282b16d9bae2a748eb247e40d1043c"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Crate.jpg",
+      "bytes": 81961,
+      "sha256": "b283b33bec9eca506895a00dd8902b5bc323aad8488f594acb60460e87db828e"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Excessive-Ball-Cleaning.jpg",
+      "bytes": 67280,
+      "sha256": "6fc65db2d0e9eb7718bcf119eeddc6b1b31f4b59ff282dfdb6b1a7e211f7377a"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Flattering-LARP.jpg",
+      "bytes": 118444,
+      "sha256": "4a882781c4c548e3ca0e56c44939944c8f28fa85c50f7187a03b32d2bd07a346"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Kitten-Therapy.jpg",
+      "bytes": 68839,
+      "sha256": "a86f742a0e0eb10a1121c2fea3f665f78e566183cf0fcf394ef58d10dea73e67"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Laser-Pointer.jpg",
+      "bytes": 61612,
+      "sha256": "82e7aab2ea0a5d1b68c302d69021d7ee06a77bd8fe6cf12e799fb14ce1609d9f"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Laser-Tag.jpg",
+      "bytes": 105589,
+      "sha256": "183c94c0151b453afa9edbe5b2c7e8fd979b02be5748a37652b5155c81f7b469"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Mauling-a-Baby.jpg",
+      "bytes": 77302,
+      "sha256": "ddba79a2dadc21699c6324c91bf2ee50a5a2c8cfdb00b1ef30ea0b136b6cf611"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Nature-Documentaries.jpg",
+      "bytes": 73440,
+      "sha256": "427589577749959c655a782a58a09dacab6e46033ae8290a82c29632a68a436d"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Participation-in-Kitten-Yoga.jpg",
+      "bytes": 64487,
+      "sha256": "c3ff57f032ae36c21f98524774e5cb3a61f4ba49b2bd2e65aed5feb07fcd2a4c"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Porkback-Riding-into-the-Sunset-Together.jpg",
+      "bytes": 83212,
+      "sha256": "b0c5d48d4285f6c1902a99d268f7fc20711371c142df2a9077673adc0e9fdae4"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Scratching.jpg",
+      "bytes": 110541,
+      "sha256": "9914ec3cb26ef9a57eafc127b406ae0da561f71959ac0e98d83f99accd66f46e"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Spay-Neuter.jpg",
+      "bytes": 72040,
+      "sha256": "e57b460c7ddc1dd62c50e280ffe7fcbd85b8f4d91ce27b9df23bef1e9c3c0789"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Tummy-Rubs.jpg",
+      "bytes": 107007,
+      "sha256": "c1f3a552f957d27e94a81d4168b5086b5225ba7355a9ce2b863928f7e0891c4e"
+    },
+    {
+      "path": "Assets/cards/defuse/artworks/Defuse-Via-Turning-Into-Tuna.jpg",
+      "bytes": 113688,
+      "sha256": "e04da4a5148ffc9cf1d58ee320d586f23895f1725f8301e0616f763a6f240906"
+    },
+    {
+      "path": "Assets/cards/defuse/defuse.png",
+      "bytes": 3954,
+      "sha256": "9e387448c2867653f4dbffed0572a508161c7d39cae11a77438948487951d63b"
+    },
+    {
+      "path": "Assets/cards/devilcat/artworks/Devilcat-The-Worst-Of-The-Cursed.jpg",
+      "bytes": 118257,
+      "sha256": "33a528003faa66dde0d6ef71db338dd3651d2a2cddd92a15881278bb2b9029eb"
+    },
+    {
+      "path": "Assets/cards/devilcat/devilcat.png",
+      "bytes": 9942,
+      "sha256": "b3345882799196a2c297b768651fd64e93a54ad72b77742d9a09e50f982ffaaf"
+    },
+    {
+      "path": "Assets/cards/dig-deeper/artworks/Dig-Deeper-Get-More-Than-You-Bargained-For.jpg",
+      "bytes": 193878,
+      "sha256": "2fe2d80644e3fddac498ab691a6165ab27ef9c3f5048a9340fd33fd74147ab20"
+    },
+    {
+      "path": "Assets/cards/dig-deeper/artworks/Dig-Deeper-Make-A-Deal-With-A-Devil-In-A-Bad-Disguise.jpg",
+      "bytes": 185499,
+      "sha256": "3dbbe4639cfb16434d4fe06fe217c780bab1d031739b5b2bd5b496ea17fc9421"
+    },
+    {
+      "path": "Assets/cards/dig-deeper/artworks/Dig-Deeper-Pity-The-Zombie-With-Zero-Upper-Body-Strength.jpg",
+      "bytes": 178134,
+      "sha256": "d3a730c0d138eb2df354bdb22380623485e9d11b067fdeae2cfa996a3753727a"
+    },
+    {
+      "path": "Assets/cards/dig-deeper/artworks/Dig-Deeper-Tend-To-Your-Dying-Garden.jpg",
+      "bytes": 190419,
+      "sha256": "27d1d38b68ee241b8198257b3561238101a3da2fef7a6a48449c2310fed715ed"
+    },
+    {
+      "path": "Assets/cards/dig-deeper/dig-deeper.png",
+      "bytes": 11052,
+      "sha256": "08cedf80cf9b653b4e8bc17723903c0450b97c062db0f7984760a5c3023a815a"
+    },
+    {
+      "path": "Assets/cards/draw-from-the-bottom/artworks/Draw-from-the-Bottom-Take-a-Big-Bite-of-Your-Coward-Sandwich.jpg",
+      "bytes": 88877,
+      "sha256": "078200144e88a70cc6615cc45f9fc5a457cc064ad6f70ba0c2b77714437ed1c2"
+    },
+    {
+      "path": "Assets/cards/draw-from-the-bottom/draw-from-the-bottom.png",
+      "bytes": 1931,
+      "sha256": "0458dd0980e68dac0fc8ffc1b0cac1016190c9540cf14a369fa1936f471a81e2"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Alien.jpg",
+      "bytes": 84117,
+      "sha256": "4460d97c9e3cf7b475f06d87df29034ba79c35736c354b7976f32f0e43fcc214"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-C4.jpg",
+      "bytes": 95050,
+      "sha256": "65ea1e5641edb87995a67ababab8fc4ec464dd2f4d1ebbcc4b5a5732be71e75b"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Car-Off-Cliff.jpg",
+      "bytes": 81168,
+      "sha256": "0e7187afeca68ae11e774365776f86ecd4623e03d28e9ae50d905fa089f618cb"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-House-Grenade.jpg",
+      "bytes": 89529,
+      "sha256": "8bf0157dec1297a79996c74413ee799df6bbba87e1cbbee648e6fe357e57717e"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Nuclear-Bombs.jpg",
+      "bytes": 73340,
+      "sha256": "1c1276c9937ad9b6dd5ad8887fa84bdf9636a6e4d2ce8ff94e51b2d93bee53fb"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Playground.jpg",
+      "bytes": 74120,
+      "sha256": "ccc987eac28e4cf97c6a7c8408d9594d2a8538e7f85859b669ec8354bff30c09"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Science.jpg",
+      "bytes": 91609,
+      "sha256": "f542fbb95eadcc830d37a9c9217181a432195b24df07553529450cde3f0a5311"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-TNT-Ship.jpg",
+      "bytes": 90047,
+      "sha256": "05cc54ac61222b52ad62766955ea9f05cb3b39de6ba1c34214b07e0a7a3241fc"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Warp-Core.jpg",
+      "bytes": 101700,
+      "sha256": "700454dc4e5b59087ae96d68bad3e64df020c2e04c50a60add83920d42cae16a"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Balloon-Bomb.jpg",
+      "bytes": 123329,
+      "sha256": "9f703e654722ea5621439f45cc96cdd96fc4296ffe208ce5171a51992da0ea20"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Divide-By-Zero.jpg",
+      "bytes": 123110,
+      "sha256": "0cf223ac28c7351ede9ca717df4a92d80a44479c6e970116f1a906776eed4e19"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Holy-Water-Balloons.jpg",
+      "bytes": 125596,
+      "sha256": "f12d86761afe6e5c5cc0394765f3ed8c25980ea53281a74d5bcb9333f8b2bd0d"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Pepper.jpg",
+      "bytes": 114490,
+      "sha256": "9ef1fb66ebda7f13aabbf8bd9da8dc3ec7a6f9fd2d92236e71830c0a61ab03f4"
+    },
+    {
+      "path": "Assets/cards/exploding-kitten/exploding-kitten.png",
+      "bytes": 9453,
+      "sha256": "ef2977e560fd49b7627eb7cd5e1871f1ea5235644ee9b77b3aa4d1621d5d7378"
+    },
+    {
+      "path": "Assets/cards/favor/artworks/Favor-Fall-So-Deeply-in-Love.jpg",
+      "bytes": 85075,
+      "sha256": "949e2f41c30d84bfa8c48d125785a8fd6caa2ba3f28d6adf0d4ca42e5debed83"
+    },
+    {
+      "path": "Assets/cards/favor/artworks/Favor-Get-Enslaved-by-Party-Squirrels.jpg",
+      "bytes": 78921,
+      "sha256": "b93cae8334b58bcce835832333e685c80254f7a267f78d4ebf6990a0a2103e1a"
+    },
+    {
+      "path": "Assets/cards/favor/artworks/Favor-Rub-Peanut-Butter-on-Your-Belly-Button.jpg",
+      "bytes": 82756,
+      "sha256": "1e975cd4e3ed572eff2141c38831c33744298d10b9502eb8bd888308e4ffc1e9"
+    },
+    {
+      "path": "Assets/cards/favor/artworks/Favor-Take-Your-Friends-Beard-Sailing.jpg",
+      "bytes": 84636,
+      "sha256": "9c293abe7bd982a4dd00ea8ad23a7456f3c097e7c653b3516c8c81ed24be34b4"
+    },
+    {
+      "path": "Assets/cards/favor/artworks/Favor-Teach-Someone-a-New-Palindrome.jpg",
+      "bytes": 90939,
+      "sha256": "11228d1b4feade71ef19dae5c41c53648755df71ecdadc8888308519b498d2c3"
+    },
+    {
+      "path": "Assets/cards/favor/artworks/Favour-Give-A-Horsey-Ride-To-A-Horse.jpg",
+      "bytes": 92521,
+      "sha256": "ec1eecb40d3aa074fca1165562505b8ed2c38e59e188f96b5e6f6b490f86f7e3"
+    },
+    {
+      "path": "Assets/cards/favor/favor.png",
+      "bytes": 2290,
+      "sha256": "8c4392ac36abb827b092ff314fb15dc2a406d5bb779232ab35f469f6b9ed9d3e"
+    },
+    {
+      "path": "Assets/cards/feed-the-dead/artworks/Feed-The-Dead-Give-Your-Friend-A-Hand.jpg",
+      "bytes": 179706,
+      "sha256": "d58d77ae143313714d03f416ed2e0e04020e026c1806622e533ec1c4e63221d4"
+    },
+    {
+      "path": "Assets/cards/feed-the-dead/artworks/Feed-The-Dead-Take-Special-Care-Of-A-Picky-Zombie.jpg",
+      "bytes": 195076,
+      "sha256": "2f358b17120fb16cd37413405b6c4cc3ffceef61534fe4056e223503ede46e52"
+    },
+    {
+      "path": "Assets/cards/feed-the-dead/feed-the-dead.png",
+      "bytes": 10192,
+      "sha256": "da1ee7b31fe7f4ee4f2b93abc66db2798e7856b3e24f6052d0b80d852be7ddf5"
+    },
+    {
+      "path": "Assets/cards/feral-cat/artworks/Feral-Cat.jpg",
+      "bytes": 55130,
+      "sha256": "ba7942887bedf5566eaad0338277eeebccedc26d126ebed0c49cb592b515ea4c"
+    },
+    {
+      "path": "Assets/cards/feral-cat/feral-cat.png",
+      "bytes": 2679,
+      "sha256": "0ca779eb1ac2610f8a6e6368880168ba89fbc714592a43dad4b04b8dc8fc25c6"
+    },
+    {
+      "path": "Assets/cards/garbage-collection/artworks/Garbage-Collection.jpg",
+      "bytes": 95369,
+      "sha256": "e20cebeb4e7916d4c428442a091a1463f384481179eb01f61e6dab8483d95175"
+    },
+    {
+      "path": "Assets/cards/garbage-collection/garbage-collection.png",
+      "bytes": 1456,
+      "sha256": "88d6734e3a42ffbeda037ee86f6ff76fced6a31b36c23a79e0260244f2fba415"
+    },
+    {
+      "path": "Assets/cards/godcat/artworks/Godcat-The-Best-Of-The-Blessed.jpg",
+      "bytes": 90067,
+      "sha256": "1e1b8ae9549e50d58acc17ce20d1129b3e6c52cea33209d33e9d988722ac1cbb"
+    },
+    {
+      "path": "Assets/cards/godcat/godcat.png",
+      "bytes": 9846,
+      "sha256": "edb9ec6733c1e9a40cdf494a74a3f254bd9bfd5f41c2d274860454c01311a39d"
+    },
+    {
+      "path": "Assets/cards/grave-robber/artworks/Grave-Robber-Return-The-Terrible-Tie-You-Were-Buried-With.jpg",
+      "bytes": 183940,
+      "sha256": "656f2037d09cad731e927051c8fd1b081fc5d8cb52950afe619fa4337a667f1a"
+    },
+    {
+      "path": "Assets/cards/grave-robber/grave-robber.png",
+      "bytes": 12660,
+      "sha256": "a4e9b38f2c175573c347d0e1ebab68325fd39118ee536d57954d1dcb7215a4fd"
+    },
+    {
+      "path": "Assets/cards/i-ll-take-that/artworks/Ill-Take-That-A-Hedgehog-Hogs-the-Blankets.jpg",
+      "bytes": 96345,
+      "sha256": "331f000cf13fd80f7c694b39e21cc1fa4e34659ac8cfd7f87b116e80631ddb1e"
+    },
+    {
+      "path": "Assets/cards/i-ll-take-that/artworks/Ill-Take-That-Send-in-a-Seagull-Who-Steals-Things.jpg",
+      "bytes": 82352,
+      "sha256": "5b4d5329392d1d57720cd36d98c18f554d97b22ed5a07be79a446aa020cfb413"
+    },
+    {
+      "path": "Assets/cards/i-ll-take-that/artworks/Ill-Take-That-Send-in-a-Vampug.jpg",
+      "bytes": 86220,
+      "sha256": "5ff003c2a06913ddd6802b6d8facc0a7b11f82d37d41a0b7fd8bd3d912355824"
+    },
+    {
+      "path": "Assets/cards/i-ll-take-that/artworks/Ill-Take-That-Send-the-Klepto-Cat.jpg",
+      "bytes": 79883,
+      "sha256": "4f47b8b70d6b66300f42f04a259d0913921ce140d2e2712b81ac0d767230465c"
+    },
+    {
+      "path": "Assets/cards/i-ll-take-that/i-ll-take-that.png",
+      "bytes": 1593,
+      "sha256": "80d6b28730f7fa18276ab4be916f377765eb5408ac00215d2621cf9b09a97ff8"
+    },
+    {
+      "path": "Assets/cards/imploding-kitten/artworks/Imploding-Kitten.jpg",
+      "bytes": 77847,
+      "sha256": "f181cdb609a7fcb4dffd5085a3b24a4798e1e0c37e827c3d27708231e97901a2"
+    },
+    {
+      "path": "Assets/cards/imploding-kitten/imploding-kitten.png",
+      "bytes": 4370,
+      "sha256": "97615f6fb029c74bfd2479d89ccbac96ad6b3c85bf398faea2e07fb8f3f36d2b"
+    },
+    {
+      "path": "Assets/cards/mark/artworks/Mark.jpg",
+      "bytes": 78680,
+      "sha256": "56352a0c7960428d3874885cbd55e8cbcd12608fe49a481f67b48685acd551fd"
+    },
+    {
+      "path": "Assets/cards/mark/mark.png",
+      "bytes": 977,
+      "sha256": "f893e169ebe85ebacb95458da677e18d11385cac17b87080aa8e83e0fd94bc5f"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-A-Jackanope-Bounds-into-the-Room.jpg",
+      "bytes": 68693,
+      "sha256": "181c98ef8dd0950ad3d51a7b54c46f71ee3353c5ccf46085dfbf933dbc168868"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-a-Nope-Ninja.jpg",
+      "bytes": 73617,
+      "sha256": "8b570b70609641791f3bea3085d34f301eafac70011fc9b0d9b2a83a4927f9df"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-Awaken-the-Narnope.jpg",
+      "bytes": 89797,
+      "sha256": "e747c24c82d82cca737a077bd527bfb80dc10a8294b9faa0adaf83f2a0ca7af8"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-Deliver-some-Nope-on-Your-Jump-Rope.jpg",
+      "bytes": 85723,
+      "sha256": "e9100f91f7317dc139e37c8c26771461b351af9106ced6ab34652858ef647087"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-Feed-your-Apponent-Some-Cantanope.jpg",
+      "bytes": 85809,
+      "sha256": "26da06d0b994a17a94be4a1bcaab0ba09945731e218ff66732d21f12f53b6056"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-Feed-your-Opponent-a-Nope-Sandwich.jpg",
+      "bytes": 82382,
+      "sha256": "8e7c0f5c20c48a33a094c95ddb5a0ec5601c9ae126568f41d302805f3563e610"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-Nopestradamus-Speaks-the-Truth.jpg",
+      "bytes": 78610,
+      "sha256": "aa5c7b472c6f4328bd9e4fb4108a4516cc303bde837d375df1988b30412e154b"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-Put-on-Your-Necktie-of-Nope.jpg",
+      "bytes": 83067,
+      "sha256": "1ba4f33d5ab8474746903d01344ed8e65d129d701f8ec8b6a3764d7d5b3496d1"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-The-Pope-of-Nope-has-Spoken.jpg",
+      "bytes": 96295,
+      "sha256": "4a38c5ff45763769a32f4a8f287ebd80936b989bb314f2cb9e81543b61844190"
+    },
+    {
+      "path": "Assets/cards/nope/artworks/Nope-Win-the-Nopebell-Peace-Prize.jpg",
+      "bytes": 73288,
+      "sha256": "74a02923a550599d00f7216ac0c8b624bcbed502888be58370a88d17b4831b5a"
+    },
+    {
+      "path": "Assets/cards/nope/nope.png",
+      "bytes": 3554,
+      "sha256": "c0c95df2a510099a7553db89d6478ede8682974671b0387859dc1894886c34d7"
+    },
+    {
+      "path": "Assets/cards/personal-attack-3x/artworks/Personal-Attack-Finally-Throw-Up-All-the-Crayons-You-Ate-When-You-Were-A-Kid.jpg",
+      "bytes": 104031,
+      "sha256": "dad8452b03053af952ff50fb2bfed2227878aa5c3344d067cb3713905033a98c"
+    },
+    {
+      "path": "Assets/cards/personal-attack-3x/artworks/Personal-Attack-Get-Cursed-at-by-a-Heck-Beaver.jpg",
+      "bytes": 90273,
+      "sha256": "fc8e4bd5861b0e8944ae8aacce77c80aaeff6ce5775c3debf6df052e1aaafc48"
+    },
+    {
+      "path": "Assets/cards/personal-attack-3x/artworks/Personal-Attack-Give-Yourself-a-Fierce-Spankin.jpg",
+      "bytes": 89510,
+      "sha256": "c48a56e37b8e36eea261c6315b44b1491b26f8447709ce6fe8e7746509fe5cfb"
+    },
+    {
+      "path": "Assets/cards/personal-attack-3x/artworks/Personal-Attack-Listen-to-the-Boastings-of-Some-Very-Accomplished-Trout.jpg",
+      "bytes": 97369,
+      "sha256": "6d08c6a81de64498c0312bdc0083cff9d912428f8e49fc0d0151353c459d8cb7"
+    },
+    {
+      "path": "Assets/cards/personal-attack-3x/personal-attack-3x.png",
+      "bytes": 6034,
+      "sha256": "ff3c91945dfb6f8aeca0d4efe4859435b7417eaaa01a75d199355103d0f0f469"
+    },
+    {
+      "path": "Assets/cards/potluck/artworks/Pot-Luck-Dog-Pile-Until-it-Reaches-the-Stars.jpg",
+      "bytes": 102917,
+      "sha256": "830cafcb993e45c8009441dc628576da04fd8e99985e7e7b435770ee40dcfd51"
+    },
+    {
+      "path": "Assets/cards/potluck/artworks/Potluck-Share-with-the-Group-at-Catnip-Anonymous.jpg",
+      "bytes": 94403,
+      "sha256": "315402557163409211247bb43d855727fec4f604e4632323a2af2d93e07eb934"
+    },
+    {
+      "path": "Assets/cards/potluck/potluck.png",
+      "bytes": 2950,
+      "sha256": "41d796d408daf3e43e90213d078271f35902b60b858544f1546ee7102598f782"
+    },
+    {
+      "path": "Assets/cards/raising-heck/artworks/Raising-Heck-Demon.jpg",
+      "bytes": 127438,
+      "sha256": "049b323a542324688e46cb331de97d5a4b32769e9560f8742fbfef419f19cad9"
+    },
+    {
+      "path": "Assets/cards/raising-heck/artworks/Raising-Heck-Flushed-Goldfish.jpg",
+      "bytes": 125029,
+      "sha256": "11e5af3454379cab7d3c33b6682910a6f4d6abaf2675f51cb2c1b42460cd7499"
+    },
+    {
+      "path": "Assets/cards/raising-heck/raising-heck.png",
+      "bytes": 7742,
+      "sha256": "ebf75a4ba19badb4f1f4ebde41253ebdd5518b1f57cc1dea78c2d84b500f99b3"
+    },
+    {
+      "path": "Assets/cards/README.md",
+      "bytes": 2278,
+      "sha256": "ed0c55259dc3e523d899851bfe31959e3d25bb1171762073ac2c914014e83ad9"
+    },
+    {
+      "path": "Assets/cards/reveal-the-future-3x/artworks/Reveal-The-Future-Extra-Pair-of-Eyes.jpg",
+      "bytes": 126528,
+      "sha256": "1c4d41feb3eb7d8341892656e345b500bb951593c076cbff92653a8534601171"
+    },
+    {
+      "path": "Assets/cards/reveal-the-future-3x/artworks/Reveal-The-Future-Go-Back-In-Time.jpg",
+      "bytes": 119297,
+      "sha256": "f7aeae3e36332b729b3133243fd91203e0a641cf4261098a4e02c3b6bea6f0c3"
+    },
+    {
+      "path": "Assets/cards/reveal-the-future-3x/artworks/Reveal-The-Future-Particle-Accelerator.jpg",
+      "bytes": 118317,
+      "sha256": "b7a845397d2ec371384a8a21dc9889e63fe108815a10701d8782b2af76c5ad73"
+    },
+    {
+      "path": "Assets/cards/reveal-the-future-3x/reveal-the-future-3x.png",
+      "bytes": 9219,
+      "sha256": "1c973ddedfdb8ea16cd07d3787e242aab37718635762f1d7323051b4af8cf6f4"
+    },
+    {
+      "path": "Assets/cards/reverse/artworks/Reverse-Go-Back-In-Time-And-Steal-A-Pregnant-Dinosaur.jpg",
+      "bytes": 167001,
+      "sha256": "3fef638b81181a30350b9ba205db53133295144c8de819418c833bad23d2f12b"
+    },
+    {
+      "path": "Assets/cards/reverse/artworks/Reverse-Receive-A-Hairy-Tummy-Massage.jpg",
+      "bytes": 145545,
+      "sha256": "3c570087988e46a2826884dccf3e871e392fdde199676a9e82c07a59b7e95875"
+    },
+    {
+      "path": "Assets/cards/reverse/artworks/Reverse-Return-From-An-Unpleasant-Doctor-s-Visit.jpg",
+      "bytes": 172127,
+      "sha256": "68933232462b2e7ab450421bcb1f21566a4a2494088c615cd608f58854cb6e9b"
+    },
+    {
+      "path": "Assets/cards/reverse/artworks/Reverse-Try-Something-New-Today.jpg",
+      "bytes": 171843,
+      "sha256": "6c29e8f08ffe104b230e0ff6885e7ca36ca9ea7e8bdf93f2dafdf540005bca4d"
+    },
+    {
+      "path": "Assets/cards/reverse/reverse.png",
+      "bytes": 3030,
+      "sha256": "e9f19e3329f1878a61fb272ed20bba26c39b891315e0e2df6460e5c3551dd2d3"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Ask-the-All-Seeing-Goat-Wizard.jpg",
+      "bytes": 87798,
+      "sha256": "3478da361d4f8dab6ba4f83d9e90a1d48baa61e436104d3c44638fc8a6bc0fe8"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Attach-a-Butterfly-to-Your-Genitals.jpg",
+      "bytes": 73244,
+      "sha256": "9df149a3d4db7b16691244229783f6a9793d1a9f23abf200754793615ebd3850"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Crawl-Inside-a-Goat-Butt.jpg",
+      "bytes": 78331,
+      "sha256": "611ab26c1c91288123209c18774fbe5a9e3d08ff7ee57c781b9a9c968fa72710"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Deploy-the-Special-Ops-Bunnies.jpg",
+      "bytes": 64294,
+      "sha256": "0c11ca512264945b15e26a92f7d7bd9a4d9f3d186be92dba418bfa32d182b6e6"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Discover-a-Boob-Wizard.jpg",
+      "bytes": 83214,
+      "sha256": "db9deb47e00a7a0a40a3b2fd21df965ab1447a88bb5c35eb5485b75bc53f8b89"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Drink-an-Entire-Bottle-of-Bald-Eagle-Tears.jpg",
+      "bytes": 74912,
+      "sha256": "fec790789abced39ac74c358114c72c4a4f9aa96843be67ab5938b4c8a097a2e"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Fear-Upon-a-Unicorn-Enchilada.jpg",
+      "bytes": 68362,
+      "sha256": "ded11ed3c535f5cf59fa435a8138b33ad56348c429296bea326cc0f28001fd18"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Rub-the-Belly-of-a-Pig-a-Corn.jpg",
+      "bytes": 81689,
+      "sha256": "81deb93ec0e4a7e43843ae79556d44c3c16ebf34ca2d0a23ae088de561639aab"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Summon-the-Mantis-Shrimp.jpg",
+      "bytes": 70172,
+      "sha256": "6767e5bab0b0b7a3d1925273d0ae2a9de3e01de3b9693b7731095b46f4ad8924"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/artworks/See-the-Future-Weave-an-Infinity-Boner.jpg",
+      "bytes": 76606,
+      "sha256": "a4fd1399643004312602db8957973664af739dae9255d9ab84f853eaac717dfd"
+    },
+    {
+      "path": "Assets/cards/see-the-future-3x/see-the-future-3x.png",
+      "bytes": 7216,
+      "sha256": "ca6902176725e0530e24bb87d49357c0983aef398d0fb91c3127b60ac6a71e5a"
+    },
+    {
+      "path": "Assets/cards/see-the-future-5x/artworks/See-the-Future-Behold-the-Angler-Pig.jpg",
+      "bytes": 70642,
+      "sha256": "ebed3255737f6c6c1ab5d6952522fac3d3ed7cdbf844dc94c75ecaf2074ef0fd"
+    },
+    {
+      "path": "Assets/cards/see-the-future-5x/see-the-future-5x.png",
+      "bytes": 9391,
+      "sha256": "6ac6876e81358ec54cd06298f9858f26797df9b43945a4ef1b244804d331ac49"
+    },
+    {
+      "path": "Assets/cards/share-the-future-3x/artworks/Share-the-Future-Listen-to-the-Words-of-an-Emo-Emu.jpg",
+      "bytes": 93529,
+      "sha256": "42a49de25f7839e76c76e4ab477f8b04aa0a3329eec1653e88f47cd913fe57b9"
+    },
+    {
+      "path": "Assets/cards/share-the-future-3x/artworks/Share-the-Future-Send-in-the-Recon-Sloth.jpg",
+      "bytes": 96705,
+      "sha256": "56f5fadc785471607581703ba401cb624ace19008376ca23f32a67dcf5a62d0e"
+    },
+    {
+      "path": "Assets/cards/share-the-future-3x/share-the-future-3x.png",
+      "bytes": 6948,
+      "sha256": "e9bd1e5d80de0ee7957a799a6abf6c3733d93f7c14e6752997c600222c5b9c0a"
+    },
+    {
+      "path": "Assets/cards/shuffle/artworks/Shuffle-A-Kraken-Emerges-and-Hes-Super-Upset.jpg",
+      "bytes": 102070,
+      "sha256": "03c10599b5bd5bf11eaac5fd207616bb12f06005f559c8f283d21b0cafa5b04a"
+    },
+    {
+      "path": "Assets/cards/shuffle/artworks/Shuffle-A-Plague-of-Bat-Farts.jpg",
+      "bytes": 63379,
+      "sha256": "2edb248f7c9506d801880bdc9f9a26334a9a4bb52f2ea1baf71574982165b1c6"
+    },
+    {
+      "path": "Assets/cards/shuffle/artworks/Shuffle-A-Transdimensional-Litter-Box-Materializes.jpg",
+      "bytes": 86520,
+      "sha256": "196c35a3e63e2940cbe7f7882ad1abd7ca40b7a51823332ae43eb72a20ae51ab"
+    },
+    {
+      "path": "Assets/cards/shuffle/artworks/Shuffle-Abracrab-Lincoln.jpg",
+      "bytes": 95392,
+      "sha256": "06b62167d58ab5d49d828f95b64d886fd4d404751807eea6567574c9c1a3f78e"
+    },
+    {
+      "path": "Assets/cards/shuffle/artworks/Shuffle-An-Asparagus-Bun-Dragon-Appears.jpg",
+      "bytes": 75783,
+      "sha256": "afd543fca83274719f8cb7f76d31889b116aae278ebe1eb87c7eff9b7c0bc6eb"
+    },
+    {
+      "path": "Assets/cards/shuffle/artworks/Shuffle-An-Electromagnetic-Pomeranian-Storm.jpg",
+      "bytes": 85763,
+      "sha256": "7c0890113e82237de0c79213eaac6118af3a11936bd9acf915fa6a61946be3c1"
+    },
+    {
+      "path": "Assets/cards/shuffle/artworks/Shuffle-Discover-You-Have-a-Toilet-Werewolf.jpg",
+      "bytes": 70218,
+      "sha256": "dbc5387039be149774fa36c80cfe6542a1a23533e93cef899e82e827c15358df"
+    },
+    {
+      "path": "Assets/cards/shuffle/artworks/Shuffle-Smoke-Some-Crack-with-a-Baby-Owl.jpg",
+      "bytes": 75800,
+      "sha256": "38c43bbb48b74db81179a230a6f3abb6a3c9dd579b6c552a74489ce927e7ba46"
+    },
+    {
+      "path": "Assets/cards/shuffle/shuffle.png",
+      "bytes": 1962,
+      "sha256": "ce103418288fffe7dc191488da7ef15d12c67395ae8cecbb6fd37fa52f7760ba"
+    },
+    {
+      "path": "Assets/cards/shuffle-now/artworks/Shuffle-Now-Don-t-Completely-Unravel.jpg",
+      "bytes": 182595,
+      "sha256": "71cf684c16f64bf4910860a286411b5af0bf6f448b610b1187369fa9039fc0ac"
+    },
+    {
+      "path": "Assets/cards/shuffle-now/artworks/Shuffle-Now-Watch-An-Unimpressive-Magic-Show.jpg",
+      "bytes": 149126,
+      "sha256": "037c5fec3add11c712d0a4b72354cd22596ffee398f1061b877a873e80bb5f43"
+    },
+    {
+      "path": "Assets/cards/shuffle-now/shuffle-now.png",
+      "bytes": 7231,
+      "sha256": "14c19aad664b820a54bbc413d7b65507e41dd3348913b1fef3453d03f54c43f9"
+    },
+    {
+      "path": "Assets/cards/skip/artworks/Skip-Commandeer-a-Bunnyraptor.jpg",
+      "bytes": 74359,
+      "sha256": "09ef2aadee4ed68fa2b0b4d2a416f086db34dd9c30dc78b60057a97bff45e9b0"
+    },
+    {
+      "path": "Assets/cards/skip/artworks/Skip-Crab-Walk-with-Some-Crabs.jpg",
+      "bytes": 73782,
+      "sha256": "3802c752829c50b92da57134e495bf775ceb7ddf2d838bf0bb6edc238851c609"
+    },
+    {
+      "path": "Assets/cards/skip/artworks/Skip-Don-a-Portable-Cheetah-Butt.jpg",
+      "bytes": 74230,
+      "sha256": "0a279fd95335294003fcabc6d8712c3eec8ee9345a63d6bb4d0acb7cd4663a0c"
+    },
+    {
+      "path": "Assets/cards/skip/artworks/Skip-Engage-the-Hypergoat.jpg",
+      "bytes": 69981,
+      "sha256": "988f1b9e1050f029ad480ebeef81abcd232d2046c51daa03e14c52bd82d7f646"
+    },
+    {
+      "path": "Assets/cards/skip/artworks/Skip-Evade-Dirty-Sasquatch-Underpants.jpg",
+      "bytes": 85470,
+      "sha256": "6f7a71dd4883ede9b53de54ac67c8c74a6e1e73d5fc281db63663ea1d6370317"
+    },
+    {
+      "path": "Assets/cards/skip/artworks/Skip-Go-Base-Jumping-Using-a-Pair-of-Old-Lady-Boobs.jpg",
+      "bytes": 78519,
+      "sha256": "72023f5f33cd2804ca218bcd72efa0f073eed5bab0f93f373a6cc7979541bc63"
+    },
+    {
+      "path": "Assets/cards/skip/artworks/Skip-Play-a-Game-of-Whale-Boner-Tetherball.jpg",
+      "bytes": 71906,
+      "sha256": "61e60eaa69af2cfa12aecef0abda75f84f13ba36b845c2fd0f2c8e46535f67ac"
+    },
+    {
+      "path": "Assets/cards/skip/artworks/Skip-Sail-Away-on-Your-Penis-Balloon.jpg",
+      "bytes": 73039,
+      "sha256": "74299a1b95bfca1e1dcfb03d02f3667eff29889af6eccc96e4503bb783dbfcba"
+    },
+    {
+      "path": "Assets/cards/skip/skip.png",
+      "bytes": 3381,
+      "sha256": "90cad29d563fb908d7521c7aeeac2503b0e08dc263527cdab441c829e332fb4e"
+    },
+    {
+      "path": "Assets/cards/streaking-kitten/artworks/Streaking-Kitten.jpg",
+      "bytes": 86544,
+      "sha256": "8793fb604cb80707b2fb1eb041f7fae42b4215d8095f2c8b64f670e1c9d26943"
+    },
+    {
+      "path": "Assets/cards/streaking-kitten/streaking-kitten.png",
+      "bytes": 1876,
+      "sha256": "085a4abc4bc0749338f65f3f2ecd3fa1fbac2f27158ff95bca9cd60388ccb395"
+    },
+    {
+      "path": "Assets/cards/super-skip/artworks/Super-Skip-Hitch-A-Ride-on-a-Corgihorse.jpg",
+      "bytes": 93518,
+      "sha256": "6352d70cc78b669823891882b1a5026c217b6a1097f9c55f63e76c5b82c43648"
+    },
+    {
+      "path": "Assets/cards/super-skip/artworks/Super-Skip.jpg",
+      "bytes": 81756,
+      "sha256": "5e6b37d33c8305ce225a7b0dd9f77ab823bea3a0bbaa7459926c32e62f22099c"
+    },
+    {
+      "path": "Assets/cards/super-skip/super-skip.png",
+      "bytes": 3833,
+      "sha256": "6596ca04b731e64ffa89022914e458cc47188a4b34550bdf9c38e36ed07f6c09"
+    },
+    {
+      "path": "Assets/cards/swap-top-and-bottom/artworks/Swap-Top-and-Bottom.jpg",
+      "bytes": 86954,
+      "sha256": "1dfa8781eccf3f31cb0fd88f87a99fbfef4990475050750bc643c260403b9312"
+    },
+    {
+      "path": "Assets/cards/swap-top-and-bottom/swap-top-and-bottom.png",
+      "bytes": 822,
+      "sha256": "71bf09424c0b5ddffd9e7d0a993b4ed69324ff7c32b7bfcee0134bd06c2f619e"
+    },
+    {
+      "path": "Assets/cards/targeted-attack-2x/artworks/Targeted-Attack-2x-Deploy-The-Groin-Kicking-Panda-Bear.jpg",
+      "bytes": 177123,
+      "sha256": "0ca061489218f15f1969ef36a504b5c60cbda9e3654e60f180e0b93717686b3d"
+    },
+    {
+      "path": "Assets/cards/targeted-attack-2x/artworks/Targeted-Attack-2x-Fire-The-Fat-Hamster-Crossbow.jpg",
+      "bytes": 184057,
+      "sha256": "dad0665e8ae9729a94098b9066d8aa50e068f17b0956ecf6fd01095b6eebdd62"
+    },
+    {
+      "path": "Assets/cards/targeted-attack-2x/artworks/Targeted-Attack-Unleash-a-Shark-Who-Hurts-with-Words-Instead-of-Teeth.jpg",
+      "bytes": 82710,
+      "sha256": "331ede247133dae51084d6a05015a282206bf2f736ff439b233b69e3c0976d5c"
+    },
+    {
+      "path": "Assets/cards/targeted-attack-2x/targeted-attack-2x.png",
+      "bytes": 10721,
+      "sha256": "de91d3d9157a0566c1f4f66a58d2733183f78e4179dd3c3a8e490e2597015f8a"
+    },
+    {
+      "path": "Assets/cards/tower-of-power/artworks/Tower-of-Power.jpg",
+      "bytes": 111672,
+      "sha256": "fd87d00b6248c98389685837677a51f72b17194363c724ace3e8f89554e11317"
+    },
+    {
+      "path": "Assets/cards/tower-of-power/tower-of-power.png",
+      "bytes": 3483,
+      "sha256": "e38019d562736f4ecf8ebf6a1a5a20d29022bc21ce8271e295e39ebb3c079736"
+    },
+    {
+      "path": "Assets/cards/zombie-kitten/artworks/Zombie-Kitten-Always-Land-On-Your-Feet.jpg",
+      "bytes": 165975,
+      "sha256": "1f2e0cb77297ce4fecadda44419dfe4df2d4fa37e28451a6258b2d98f7c2e38f"
+    },
+    {
+      "path": "Assets/cards/zombie-kitten/artworks/Zombie-Kitten-Become-An-Alien-Incubator.jpg",
+      "bytes": 197474,
+      "sha256": "3e0728cc02856208c94fcca0d5f141490bd07e3f59a8a2be9004acfad7d6fa2a"
+    },
+    {
+      "path": "Assets/cards/zombie-kitten/artworks/Zombie-Kitten-Cough-Up-A-Hairball-With-A-Hairdo.jpg",
+      "bytes": 178847,
+      "sha256": "2c26b2554923ccdaa33da53bea2e4bbe71011097338aa84b34fab3e498e58511"
+    },
+    {
+      "path": "Assets/cards/zombie-kitten/artworks/Zombie-Kitten-Friendship-Lasts-All-Weekend.jpg",
+      "bytes": 163311,
+      "sha256": "7cb2286f35171163a6baa46ce3c1c0b339f98acef03711bf2fb0ceb0bf6ac2f8"
+    },
+    {
+      "path": "Assets/cards/zombie-kitten/artworks/Zombie-Kitten-Learn-To-Entertain-Yourself.jpg",
+      "bytes": 188709,
+      "sha256": "9b93abc1f88fcec16fac80e84d5f1952238eb504c671500353d89a1851267c9d"
+    },
+    {
+      "path": "Assets/cards/zombie-kitten/zombie-kitten.png",
+      "bytes": 7263,
+      "sha256": "51531d8ad1237d57bcfabe8e9c95c8a31ec7e6d64a2040031bb8277d9db5b170"
+    },
+    {
+      "path": "Assets/decks/barking-kittens-expansion/asset-map.md",
+      "bytes": 4879,
+      "sha256": "493b6f30e1875b54662af5d412ed399a67853f88d8615ee263620f6c6f3f89fa"
+    },
+    {
+      "path": "Assets/decks/barking-kittens-expansion/cards.csv",
+      "bytes": 1405,
+      "sha256": "4de1a3389564c53380f2431fa2c70c7a08f722e59b4971d7d2d438a1da92f765"
+    },
+    {
+      "path": "Assets/decks/barking-kittens-expansion/deck.json",
+      "bytes": 9623,
+      "sha256": "578414185e878be485696d56ffb559c88fe415d9439c9d5d768f250935262f9d"
+    },
+    {
+      "path": "Assets/decks/barking-kittens-expansion/instructions.md",
+      "bytes": 8862,
+      "sha256": "9d23471b9fd0eba9ea8e7590cda03d6771a6c6d3d1b9633471a04c7d3f5a3cac"
+    },
+    {
+      "path": "Assets/decks/barking-kittens-expansion/logo.webp",
+      "bytes": 12232,
+      "sha256": "08919d1fe0e24393d24c3125fefb9d0b1f9c082713f4ae75b465af1e60583f1b"
+    },
+    {
+      "path": "Assets/decks/barking-kittens-expansion/photo.webp",
+      "bytes": 54468,
+      "sha256": "45f68f2279dfe8fbdea01e406ca509bb2c24227a2958b4182376b59fc2d99e20"
+    },
+    {
+      "path": "Assets/decks/barking-kittens-expansion/README.md",
+      "bytes": 4222,
+      "sha256": "951563a391ecc87abee1f846ff87f60fcfadb4040ad1376513fdb763ce4071b8"
+    },
+    {
+      "path": "Assets/decks/barking-kittens-expansion/rules.pdf",
+      "bytes": 8239516,
+      "sha256": "1e4d6013316861083e46ad528de5ce5ad51bc85924117cc12b0aadf5c8e6ef01"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-2-player-edition/asset-map.md",
+      "bytes": 11329,
+      "sha256": "30234fe9eeae562b8b4ed950cbffd59243711e3bcb824177c2d18c9f09bf99ee"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-2-player-edition/cards.csv",
+      "bytes": 1496,
+      "sha256": "d512959c926b9506468e08e072d3de23e38058c8eaa73c6d6b94df5aef0c1175"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-2-player-edition/deck.json",
+      "bytes": 15564,
+      "sha256": "7c43eb2c565396bd121023b5c9bf7dc7478815ec2144bb30a730bed0b7ea83a5"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-2-player-edition/instructions.md",
+      "bytes": 6415,
+      "sha256": "ccb7f4cbdf77fae83271e15ece2f287d4e01ea366c3bba294c7d8d186962bd0f"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-2-player-edition/logo.webp",
+      "bytes": 39140,
+      "sha256": "555ff45043cd080a45d8acb191afc391861d52c8b7e01142a109e193e5792fd9"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-2-player-edition/photo.webp",
+      "bytes": 110420,
+      "sha256": "27fee39ab9454b0d6473440a5434de6b7dd0fae9e5105335b408673cac31a8ee"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-2-player-edition/README.md",
+      "bytes": 4078,
+      "sha256": "1b7913ca550feba21328221956e647c7bce2487e0a0dc939466a54c32f5ab862"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-2-player-edition/rules.pdf",
+      "bytes": 7610248,
+      "sha256": "61fad037080560d4edee578a32934878b28fe0962f703c80716231a5c3929fc7"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-cat-burglar-edition/asset-map.md",
+      "bytes": 11768,
+      "sha256": "39fd416db0321d43e56c1a3af76d04dbd70ba5f9efc704e80adeecbcf0fe600e"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-cat-burglar-edition/cards.csv",
+      "bytes": 1829,
+      "sha256": "6d5bcf2e0cffe446dc151d445c60649becdfe4c50c345f1563f73758d554cfac"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-cat-burglar-edition/deck.json",
+      "bytes": 17352,
+      "sha256": "e86bf0f2c07eff641181a06a38e814079656959293356da6679e6cee33a76058"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-cat-burglar-edition/instructions.md",
+      "bytes": 6830,
+      "sha256": "8cda365be7e5aebc2518702cc3720c3ed6f55785cfe48c00fe4d36417f413acb"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-cat-burglar-edition/logo.webp",
+      "bytes": 25990,
+      "sha256": "300147b4a59a7874759501a9d2c64c1e23c4bba2a40511b14d0fe5a5cb436c22"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-cat-burglar-edition/photo.webp",
+      "bytes": 62416,
+      "sha256": "c07afb9569b90dcf4422d3ec03dd2e23d22d6849f9daa9cfb4327e025b7242c5"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-cat-burglar-edition/README.md",
+      "bytes": 4446,
+      "sha256": "dd29f772f31900d66588d6e6ce1b004c5b689fbf17018c28989faaa404679394"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-cat-burglar-edition/rules.pdf",
+      "bytes": 22133176,
+      "sha256": "6a26984bceb9ba3b017a9ddf016933ae28e2a0214d4e96698862a31886cb3075"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-good-vs-evil/asset-map.md",
+      "bytes": 11727,
+      "sha256": "c03477de5e61fb76f61626af2351dd34119ea96c1144072f4e8462f08e46a287"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-good-vs-evil/cards.csv",
+      "bytes": 2319,
+      "sha256": "0431a666142900ed116aa0475bc724ee31dafd6a8bf742f689bf68c56aae198f"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-good-vs-evil/deck.json",
+      "bytes": 19822,
+      "sha256": "234c95cd20a4b797e192db87582b087b21ee319470063ead01f27e396bf0d50a"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-good-vs-evil/instructions.md",
+      "bytes": 9200,
+      "sha256": "c4348b33048e8400ecf1c55689d8d33141b9db97b96bb88d48eb4f169820c528"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-good-vs-evil/logo.webp",
+      "bytes": 11628,
+      "sha256": "57111f223fc66ea49f6f35c238f759889427c99cd76754a88eb59a1f26b53c95"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-good-vs-evil/photo.webp",
+      "bytes": 94802,
+      "sha256": "a39f4fb1f05fd4f5380d1651c96996e4191f3c3cde51fd2181080afdceee9379"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-good-vs-evil/README.md",
+      "bytes": 5347,
+      "sha256": "c23731fd4567ff79609fac184859adff292e4cb84d12b0f968a635213b0545ae"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-good-vs-evil/rules.pdf",
+      "bytes": 8390284,
+      "sha256": "455c27886e52cab73740c4c77bffafe3907ba621a8ac5f78ced7e992768c2fa6"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-nsfw-edition/asset-map.md",
+      "bytes": 11749,
+      "sha256": "35babd7dabea6897625141ba57167877763ad82ffc1b1bd4204ad27ac33f5bf3"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-nsfw-edition/cards.csv",
+      "bytes": 1823,
+      "sha256": "ee5567deb82484a9f86ca6dc8412ad55bb1478cbceae779ccd2ba4885b98b8f3"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-nsfw-edition/deck.json",
+      "bytes": 17393,
+      "sha256": "d56d4ce593f08de648f5fc2618a76a758a8f808bc9631869b3c7f6f83a2de09d"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-nsfw-edition/instructions.md",
+      "bytes": 7102,
+      "sha256": "a5d506f79e1768e856a1760c82356687319a4d4baebb2416391d0386aa67c1fe"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-nsfw-edition/logo.webp",
+      "bytes": 9338,
+      "sha256": "34ee66453d6efeadfa8c889ea86979f1758f0ef790b1d32043752c3464227ac8"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-nsfw-edition/photo.webp",
+      "bytes": 44710,
+      "sha256": "4b56afea34727b6c92b7d107dfd1ff1b2372c060dc0d7cd0b5b23ce34abe5464"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-nsfw-edition/README.md",
+      "bytes": 4662,
+      "sha256": "e4edffba69c32badc3e0768c892bfeb75612c04fe39efdb5d89a3f3e36dd8b1f"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-nsfw-edition/rules.pdf",
+      "bytes": 7644572,
+      "sha256": "a7036869eff2442ccf4982f5d617d29dddbf1169b19515fa7a6a14bcd76c51e3"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-original-edition/asset-map.md",
+      "bytes": 11765,
+      "sha256": "2b637880cda25ec6cc3e7ea5e3946ae1d8dbc965080c9c086625a18e204f780e"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-original-edition/cards.csv",
+      "bytes": 1829,
+      "sha256": "6d5bcf2e0cffe446dc151d445c60649becdfe4c50c345f1563f73758d554cfac"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-original-edition/deck.json",
+      "bytes": 17291,
+      "sha256": "9e2c0e21a37cbb927d677bf535d7a65ffc1e9246405e3d88553fe4f74631812e"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-original-edition/instructions.md",
+      "bytes": 6690,
+      "sha256": "514fe9d430a7676d830157bc1532abaaa5b0fc1a5bce16e8b9ef13e08f2c9e81"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-original-edition/logo.webp",
+      "bytes": 39022,
+      "sha256": "6213bde2fb60963358322430298eb37495dc22e3816d2c073d9d8fc242c1e283"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-original-edition/photo.webp",
+      "bytes": 65026,
+      "sha256": "f4b707296fa13b72dd39e0f8a788809617af833e94258f12f59307ff8d4266d0"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-original-edition/README.md",
+      "bytes": 4444,
+      "sha256": "da082bedc439d2196191fab061884b0a045742a7db4985986743ca76af3123f1"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-original-edition/rules.pdf",
+      "bytes": 5233521,
+      "sha256": "93729c182cf5daf86a19e8cc673a587974f44ffbb125fa23896a67624b79fc67"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-party-pack-edition/asset-map.md",
+      "bytes": 13796,
+      "sha256": "a027fd2112c3a422ca202aa9a6432f292ba203ef89beb89820f7975825600df7"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-party-pack-edition/cards.csv",
+      "bytes": 2487,
+      "sha256": "1cbe0b6bd05a796753eb4c41ea735e18448bedcf3515af60088be026ac5dc5b8"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-party-pack-edition/deck.json",
+      "bytes": 21025,
+      "sha256": "650477159fd1b9c1fc89ee861fc493de5a28a87ac3d0d165c4dfe4081789287a"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-party-pack-edition/instructions.md",
+      "bytes": 8208,
+      "sha256": "c836a5975a0aa32fd4590fb10663fea4b19ebfea93b619dfe61f1e9fc6276115"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-party-pack-edition/logo.webp",
+      "bytes": 26324,
+      "sha256": "0ef4995ed355456ab48625cfb1ed7515205e67150195cf1ada82237e3e67ea86"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-party-pack-edition/photo.webp",
+      "bytes": 92846,
+      "sha256": "f3b6d5788267f4987fb539dc46ef21d3ca23f45fd58942ea08101c05e2fca004"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-party-pack-edition/README.md",
+      "bytes": 5469,
+      "sha256": "54c1a883ff7e0fcf703bfcac2f131f917ac07a92db29a91f31d1db1c641e3d95"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-party-pack-edition/rules.pdf",
+      "bytes": 5381357,
+      "sha256": "adf631850d7c44aa818ca690a85095096cda398c3f0463bfe9d46148ac6004d4"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/asset-map.md",
+      "bytes": 19216,
+      "sha256": "885709d33734bda78948abe207bceae02c2f2d81a41a751194117dce6f5d34ae"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/cards.csv",
+      "bytes": 4428,
+      "sha256": "1bc6815fb9cfea6e244010039f3940bb6675acddb7228df4ae847147cfe1e4c0"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/deck.json",
+      "bytes": 33285,
+      "sha256": "4c991dd1e93a1eac3a5a2fcd72b6290e52a3192d38124cf049bd83edb81404e4"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/field-guide.pdf",
+      "bytes": 1377020,
+      "sha256": "cfce607e1a9d3a67a1cf81d4f86aa33baf76b159ea6d1cf7c296cb2658659510"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/instructions.md",
+      "bytes": 13448,
+      "sha256": "3d3bda83769c0faf1e9e1c2bf57de56768c54370d2bc8d3c210f9020e48890b4"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/logo.webp",
+      "bytes": 12472,
+      "sha256": "89e664df730915b074526eb46a0bf51ef7409ebda4f12154faefd91b50a86c74"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/photo.webp",
+      "bytes": 79810,
+      "sha256": "1db269e4e97b56f10a6e8deb3ea94ef08914d9e99eebe4e8300f669e5f18b659"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/README.md",
+      "bytes": 8907,
+      "sha256": "5328d834ab8f359615a35afcbad1741e350857b1610b1ce242b99a0fe24f1f53"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/attack-of-the-attacks.md",
+      "bytes": 4670,
+      "sha256": "8a80eb94c5e4d5e0c8b307abc218f76060b019b42dea28f1c1f5ec883b60c052"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/black-hole.md",
+      "bytes": 3329,
+      "sha256": "fc42ec8edffc4a8eca9fbe7c129d4229bbca3e8e430f164edb0c2cda61345161"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/card-hoarders.md",
+      "bytes": 3389,
+      "sha256": "1d97167bbc080c8b67c58de84662134f930fb9c418ccd7365158dc222a85c18e"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/cat-fight.md",
+      "bytes": 2381,
+      "sha256": "4fdd1d368b1da0e03f9b19b5e8be4879e493d602fa3bed8f56ec8ec7742a8f81"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/danger-mode.md",
+      "bytes": 3463,
+      "sha256": "1cb5af88c9b64198a069420ff2169231757a918d18f01dac8ce96713a9ba8428"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/exploding-kittens-classic-mode.md",
+      "bytes": 3840,
+      "sha256": "bcd2334db98a2c8252082b804637832cd788820aa2a61a9530db09c054a74c0d"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/eye-for-an-eye.md",
+      "bytes": 3715,
+      "sha256": "29e47db430f22e0a6d1f7870dc6d5ad4b4f8b7660e7618243674ab85f56112f8"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/lightning-kittens.md",
+      "bytes": 1893,
+      "sha256": "134c48038de903e722eae05273f6a802f25c121e5956998065636c20fec9443b"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/meowsochist.md",
+      "bytes": 4535,
+      "sha256": "51294809943d5bfe8295925add49c9090106084d1a954c7c6038273049b138a6"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/mind-games.md",
+      "bytes": 3909,
+      "sha256": "836df5678ae08781e85bcb2924c78afbe41f7888551600a7d5e587c78e9ee21e"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/nope-sauce.md",
+      "bytes": 4661,
+      "sha256": "185dea6c63a00b4251dc2cecf3144d884a7fd70149bb44dbb8b0d33165c1ee3f"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/power-play.md",
+      "bytes": 3851,
+      "sha256": "68fa8e8a90dc6c0879aff1ce39fae2d5cc16a4a36b4146beb1690b2ed522d3bf"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/README.md",
+      "bytes": 1669,
+      "sha256": "72e3744225766f8fc53f875fd1d6354a2042974ad70516bfdb47a1ba243f479b"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/recipes.json",
+      "bytes": 111427,
+      "sha256": "165b198008f8d51c8442d442c3500715df29b8b21c8d46065878bc228737feab"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/sharing-is-caring.md",
+      "bytes": 3055,
+      "sha256": "4698d63a955a31ea609cc7db9a886310651a7f3f8e10251b1fb2dfaa055ad9bb"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/sticky-fingers.md",
+      "bytes": 4429,
+      "sha256": "073e257cdd45669b675f673b95a28a6e819be414256a92d2548f82a90dd7af87"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/recipes/the-purrrge.md",
+      "bytes": 3220,
+      "sha256": "9b5501431a0c2a1d8fb0f6f9ab4a5a97832d866f53e282bef540c7bc6701acee"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-recipes-for-disaster/rules.pdf",
+      "bytes": 5378306,
+      "sha256": "c18b81cd671b4115ac7b347d54e29af527e38a3cc32cd54bf076c3b866560cb5"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-zombie-kittens/asset-map.md",
+      "bytes": 13368,
+      "sha256": "87db9e77a99e6823a9c456e1f9c68b15f17388c5bdd64ff9195ca08397061da5"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-zombie-kittens/cards.csv",
+      "bytes": 2656,
+      "sha256": "a63b61a023322c4cee0f7ecf2ce7e4850533a7e50e84388587e3f5c921641291"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-zombie-kittens/deck.json",
+      "bytes": 21492,
+      "sha256": "6c6108471a7fe63405a13f2360d7875203a4664db87ffb26b82cee048daa8483"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-zombie-kittens/instructions.md",
+      "bytes": 9703,
+      "sha256": "3faeac78f54a5936476dd8d7f843506cc92d538c6cc2ccbcda56c2b472b74fde"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-zombie-kittens/logo.webp",
+      "bytes": 10930,
+      "sha256": "5dbc42b91c637ee9bf74653690d0b97e66db92c0efd3b74567342be31a4de246"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-zombie-kittens/photo.webp",
+      "bytes": 61976,
+      "sha256": "c890a1edfe01a60109404c53f3397e56bb99db7595e8de72a63dcf1cb068fd1b"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-zombie-kittens/README.md",
+      "bytes": 6136,
+      "sha256": "5c897d60ba49e627b3e4a9cda1398bcd8fdb872b091f96759512dd85e5cf746a"
+    },
+    {
+      "path": "Assets/decks/exploding-kittens-zombie-kittens/rules.pdf",
+      "bytes": 6795677,
+      "sha256": "b3998920bc6144944054a12f0a42d566decf7cdfcd616803c9e8b0fba78c8229"
+    },
+    {
+      "path": "Assets/decks/imploding-kittens-expansion/asset-map.md",
+      "bytes": 3292,
+      "sha256": "0076ef07bd13c9802dd33782ed48eea5d3e7fe5a2a1c7efb6a536cc2e1c45597"
+    },
+    {
+      "path": "Assets/decks/imploding-kittens-expansion/cards.csv",
+      "bytes": 1006,
+      "sha256": "94ec130b0facff54fe37a2577228f58fa0b9b871e1df87739ab65fdda25856b8"
+    },
+    {
+      "path": "Assets/decks/imploding-kittens-expansion/deck.json",
+      "bytes": 6440,
+      "sha256": "fae68807666f875bcb471bf8cfbbf324b22ff2e39f9ad00822457482b37a373d"
+    },
+    {
+      "path": "Assets/decks/imploding-kittens-expansion/instructions.md",
+      "bytes": 6982,
+      "sha256": "bffe2c8f69fb99be2422c2c5eef31684fa2c3e856a8cd022281206590d7a279a"
+    },
+    {
+      "path": "Assets/decks/imploding-kittens-expansion/logo.webp",
+      "bytes": 24494,
+      "sha256": "0107ebd52a5ede5abf34a86ed6b866dd96bb734b474b129c1ce184a26f921bb9"
+    },
+    {
+      "path": "Assets/decks/imploding-kittens-expansion/photo.webp",
+      "bytes": 42542,
+      "sha256": "003864c1ef710ce2d5944a45da950921584a54ac0ae6c6568829712b93ce97f7"
+    },
+    {
+      "path": "Assets/decks/imploding-kittens-expansion/README.md",
+      "bytes": 3424,
+      "sha256": "b5fa5c82a30b56da64d413754b25c6990ebdcf0caa06e732f906e9da547d6fa9"
+    },
+    {
+      "path": "Assets/decks/imploding-kittens-expansion/rules.pdf",
+      "bytes": 2162146,
+      "sha256": "27de135a97e15fa2d53345708add8d6beada0232782de5da337f3a8b91f30c67"
+    },
+    {
+      "path": "Assets/decks/streaking-kittens-expansion/asset-map.md",
+      "bytes": 4668,
+      "sha256": "2854af83a9863d7f006b90e8d960d8bdd4fbbe827c0fa2fa92e24151b00e1ce5"
+    },
+    {
+      "path": "Assets/decks/streaking-kittens-expansion/cards.csv",
+      "bytes": 1644,
+      "sha256": "285e23ebf9767007ef3baf58ded228ae66d3d67fd9f975cd751a403a5f147fed"
+    },
+    {
+      "path": "Assets/decks/streaking-kittens-expansion/deck.json",
+      "bytes": 10183,
+      "sha256": "c0b2d344e057a13af910285d38cff4fe08df2ba3a6013e93213b3420330e5999"
+    },
+    {
+      "path": "Assets/decks/streaking-kittens-expansion/instructions.md",
+      "bytes": 8329,
+      "sha256": "26f43f496896cf1e5454288e809283f7ee9ea85cd9a87dd91c19cfba560ee97d"
+    },
+    {
+      "path": "Assets/decks/streaking-kittens-expansion/logo.webp",
+      "bytes": 12492,
+      "sha256": "d99bb419174db99a544505bf43fed227c844efcee12b6404e2f9867754b41a39"
+    },
+    {
+      "path": "Assets/decks/streaking-kittens-expansion/photo.webp",
+      "bytes": 56560,
+      "sha256": "22d1e78d46fad09337a39690e745c4551c5eb9cbcd074ca3019c2a3ebf6d6d7f"
+    },
+    {
+      "path": "Assets/decks/streaking-kittens-expansion/README.md",
+      "bytes": 4229,
+      "sha256": "8bb82f1498bf6640d8315ef9cee2351cb26c7462fb6ffefea89529d040d3a3b6"
+    },
+    {
+      "path": "Assets/decks/streaking-kittens-expansion/rules.pdf",
+      "bytes": 3309406,
+      "sha256": "ce48d35f942feacc0b228468bf3a1ab4b7c65aebf6998c7bc6b907c1bd51ad8e"
+    },
+    {
+      "path": "Assets/README.md",
+      "bytes": 957,
+      "sha256": "742f4b8b5a4b0812a9cd0870ba55d97540878c1138cd41ec0187bda75a8f4f39"
+    },
+    {
+      "path": "Requirement/update_memories.txt",
+      "bytes": 291,
+      "sha256": "f42e023c07ae5600f55f179c38ca26a29d875ed9fa1d6a35918482bdc6b58172"
+    }
+  ]
+}

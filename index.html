@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#df8b33">
+  <title>Exploding Kittens · Original Edition</title>
+  <link rel="icon" href="/Assets/cards/exploding-kitten/exploding-kitten.png">
+  <link rel="stylesheet" href="/app/styles.css">
+  <link rel="stylesheet" href="/app/update2.css">
+  <link rel="stylesheet" href="/app/presentation/steam-table.css">
+  <link rel="stylesheet" href="/app/presentation/steam-scenes.css">
+  <link rel="stylesheet" href="/app/presentation/card-art.css">
+  <script type="module" src="/app/main.js"></script>
+</head>
+<body>
+  <main id="game" aria-label="Exploding Kittens game table">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Exploding Kittens home"><img src="/Assets/cards/exploding-kitten/exploding-kitten.png" alt=""><span>EXPLODING<br>KITTENS<small>ORIGINAL EDITION</small></span></a>
+      <div class="toolbar">
+        <a class="text-button" href="/app/editor/index.html" title="Developer dashboard">EDITOR</a>
+        <span class="save-status" id="saveStatus">LOCAL PLAY</span>
+        <button class="icon-button" id="soundButton" aria-label="Turn sound on" title="Sound">♪</button>
+        <button class="icon-button" id="pauseButton" aria-label="Pause game" title="Pause">Ⅱ</button>
+        <button class="icon-button" id="rulesButton" aria-label="How to play" title="How to play">?</button>
+        <button class="icon-button" id="settingsButton" aria-label="Settings" title="Settings">⚙</button>
+      </div>
+    </header>
+    <section id="opponents" class="opponents" aria-label="Bot opponents"></section>
+    <section class="table" aria-label="Draw and discard piles">
+      <div class="table-motto" aria-hidden="true">A LITTLE STRATEGY.<br>A LOT OF EXPLOSIONS.</div>
+      <div class="turn-label" id="turnLabel" aria-live="polite">YOUR TABLE. YOUR LUCK.</div>
+      <aside class="meter" aria-label="Match status"><strong id="survivors">4 ALIVE</strong><span aria-hidden="true">·</span><strong id="turnCount">TURN 1</strong><span id="turnHint" class="sr-only">draw at the end</span></aside>
+      <div class="piles">
+        <div class="pile-group"><button class="deck card-back" id="drawPile" aria-label="Draw a card"><span class="deck-layers" aria-hidden="true"></span><span class="back-stars" aria-hidden="true">✦</span><span class="back-title">EXPLODING<br>KITTENS</span><span class="back-paw" aria-hidden="true">✳</span><span class="deck-count" id="deckCount">—</span></button><span class="pile-caption">DRAW PILE <span>unknown, on purpose</span></span></div>
+        <div class="pile-arrow" aria-hidden="true">↗</div>
+        <div class="pile-group"><div class="discard-zone" id="discardPile" aria-label="Discard pile"><span class="discard-placeholder">PLAY IT<br>SAFE-ISH.<small>your cards go here</small></span></div><span class="pile-caption">DISCARD PILE <span id="discardCount">0 cards played</span></span></div>
+      </div>
+      <button class="history-button" id="historyButton">↗ GAME LOG <span id="historyCount">0</span></button>
+    </section>
+    <section class="hand-area" aria-label="Your hand">
+      <div class="hand-toolbar"><div class="you" id="humanSeat"><span class="avatar human-avatar" id="humanAvatar"></span><div><strong id="humanName">YOU</strong><span id="handCount">0 cards in hand</span></div><span class="you-badge">YOU</span></div><div class="action-controls"><button class="button light" id="clearButton">Clear selection</button><button class="button ink" id="playButton" disabled>Play selected</button><button class="button yellow" id="drawButton" disabled>Draw & end turn ↗</button></div></div>
+      <div class="selection-info" id="selectionInfo">Play a card, or draw to end your turn. Pick matching titles for a pair or triple.</div>
+      <div class="hand-scroll" id="handScroll"><div id="hand" class="hand"></div></div>
+      <button id="cardPlayAction" class="card-play-action" hidden>PLAY ↗</button>
+      <div id="handNopeActions" class="hand-nope-actions"></div>
+      <footer class="table-footer"><span id="footerStatus">One human. A few suspicious cats.</span><span><kbd>D</kbd> draw · <kbd>Enter</kbd> play · <kbd>Esc</kbd> clear</span></footer>
+    </section>
+  </main>
+  <div id="targetLayer" class="target-layer"></div>
+  <div id="interactionLayer" class="interaction-layer"></div>
+  <section id="dangerPanel" class="danger-stage" hidden aria-label="Exploding Kitten"><div id="dangerCard"></div><strong id="dangerTitle">EXPLODING KITTEN!</strong><p id="dangerHint"></p><button class="button danger" id="explodeButton" hidden>Accept my explosive fate</button></section>
+  <aside id="reactionBar" class="reaction-bar" hidden aria-label="Three-second Nope window"><div class="reaction-art" id="reactionArt" aria-hidden="true"></div><div class="reaction-copy"><strong id="reactionHeading">RESPONSE WINDOW</strong><span id="reactionText" role="status"></span><div class="reaction-track"><div id="reactionProgress"></div></div><span id="reactionNopes" class="reaction-nopes" aria-hidden="true"></span></div><button class="button danger" id="nopeButton">NOPE!</button></aside>
+  <div id="fx" class="fx-layer" aria-hidden="true"></div>
+  <div id="toast" class="toast" role="status"></div>
+  <dialog id="modal" aria-labelledby="modalTitle"><div id="modalContent"></div></dialog>
+  <noscript>This game needs JavaScript. Launch it using the Play Original Edition shortcut.</noscript>
+</body>
+</html>

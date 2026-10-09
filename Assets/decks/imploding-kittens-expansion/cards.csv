@@ -1,0 +1,7 @@
+﻿id,name,family,count,with_paw,without_paw,zone,icon,asset_folder,count_source
+alter-the-future-3x,Alter the Future 3x,alter-the-future-3x,4,0,4,deck,Assets/cards/alter-the-future-3x/alter-the-future-3x.png,Assets/cards/alter-the-future-3x,rules.pdf page 2
+draw-from-the-bottom,Draw From the Bottom,draw-from-the-bottom,4,0,4,deck,Assets/cards/draw-from-the-bottom/draw-from-the-bottom.png,Assets/cards/draw-from-the-bottom,rules.pdf page 2
+feral-cat,Feral Cat,feral-cat,4,0,4,deck,Assets/cards/feral-cat/feral-cat.png,Assets/cards/feral-cat,rules.pdf page 2
+imploding-kitten,Imploding Kitten,imploding-kitten,1,0,1,deck,Assets/cards/imploding-kitten/imploding-kitten.png,Assets/cards/imploding-kitten,rules.pdf page 2
+reverse,Reverse,reverse,4,0,4,deck,Assets/cards/reverse/reverse.png,Assets/cards/reverse,rules.pdf page 2
+targeted-attack-2x,Targeted Attack 2x,targeted-attack-2x,3,0,3,deck,Assets/cards/targeted-attack-2x/targeted-attack-2x.png,Assets/cards/targeted-attack-2x,rules.pdf page 2

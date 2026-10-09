@@ -1,0 +1,4 @@
+/* Keep supplied card scans clear. Decorative inspection/hover accents are removed.
+   Existing accent markup remains inert for old saves and editor previews. */
+.steam-card-art { display: none; opacity: 0 !important; pointer-events: none; }
+.steam-card-art svg, .steam-card-art svg * { pointer-events: none; animation: none !important; }

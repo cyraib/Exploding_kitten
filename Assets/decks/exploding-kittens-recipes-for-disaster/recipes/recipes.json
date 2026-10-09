@@ -1,0 +1,4114 @@
+[
+  {
+    "id": "mind-games",
+    "name": "Mind Games",
+    "source_url": "https://www.explodingkittens.com/pages/recipes?name=mind-games",
+    "play_time_minutes": 15,
+    "variants": [
+      {
+        "players": 2,
+        "starting_regular_cards": 5,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 1,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 2,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "bury",
+            "name": "Bury",
+            "count": 4,
+            "source_label": "BURY"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 6,
+            "source_label": "SEE THE FUTURE"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "mark",
+            "name": "Mark",
+            "count": 4,
+            "source_label": "MARK"
+          },
+          {
+            "id": "draw-from-the-bottom",
+            "name": "Draw From the Bottom",
+            "count": 2,
+            "source_label": "DRAW FROM THE BOTTOM"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 4,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          }
+        ],
+        "total_cards": 39
+      },
+      {
+        "players": 3,
+        "starting_regular_cards": 5,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 2,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 3,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "bury",
+            "name": "Bury",
+            "count": 4,
+            "source_label": "BURY"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 6,
+            "source_label": "SEE THE FUTURE"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "mark",
+            "name": "Mark",
+            "count": 4,
+            "source_label": "MARK"
+          },
+          {
+            "id": "draw-from-the-bottom",
+            "name": "Draw From the Bottom",
+            "count": 2,
+            "source_label": "DRAW FROM THE BOTTOM"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 4,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          }
+        ],
+        "total_cards": 41
+      },
+      {
+        "players": 4,
+        "starting_regular_cards": 5,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 3,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 4,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "bury",
+            "name": "Bury",
+            "count": 4,
+            "source_label": "BURY"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 6,
+            "source_label": "SEE THE FUTURE"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "mark",
+            "name": "Mark",
+            "count": 4,
+            "source_label": "MARK"
+          },
+          {
+            "id": "draw-from-the-bottom",
+            "name": "Draw From the Bottom",
+            "count": 2,
+            "source_label": "DRAW FROM THE BOTTOM"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 4,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          }
+        ],
+        "total_cards": 43
+      },
+      {
+        "players": 5,
+        "starting_regular_cards": 5,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 4,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 5,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "bury",
+            "name": "Bury",
+            "count": 4,
+            "source_label": "BURY"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 6,
+            "source_label": "SEE THE FUTURE"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "mark",
+            "name": "Mark",
+            "count": 4,
+            "source_label": "MARK"
+          },
+          {
+            "id": "draw-from-the-bottom",
+            "name": "Draw From the Bottom",
+            "count": 2,
+            "source_label": "DRAW FROM THE BOTTOM"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 4,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          }
+        ],
+        "total_cards": 45
+      }
+    ],
+    "issues": []
+  },
+  {
+    "id": "card-hoarders",
+    "name": "Card Hoarders",
+    "source_url": "https://www.explodingkittens.com/pages/recipes?name=card-hoarders",
+    "play_time_minutes": 10,
+    "variants": [
+      {
+        "players": 2,
+        "starting_regular_cards": 5,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 1,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 2,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "imploding-kitten",
+            "name": "Imploding Kitten",
+            "count": 1,
+            "source_label": "IMPLODING KITTEN"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 4,
+            "source_label": "SEE THE FUTURE(3X)"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 4,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "swap-top-and-bottom",
+            "name": "Swap Top and Bottom",
+            "count": 3,
+            "source_label": "SWAP TOP AND BOTTOM"
+          },
+          {
+            "id": "draw-from-the-bottom",
+            "name": "Draw From the Bottom",
+            "count": 2,
+            "source_label": "DRAW FROM THE BOTTOM"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 3,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 4,
+            "source_label": "NOPE"
+          }
+        ],
+        "total_cards": 36
+      },
+      {
+        "players": 3,
+        "starting_regular_cards": 5,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 1,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 3,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "imploding-kitten",
+            "name": "Imploding Kitten",
+            "count": 1,
+            "source_label": "IMPLODING KITTEN"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 4,
+            "source_label": "SEE THE FUTURE(3X)"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 4,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "swap-top-and-bottom",
+            "name": "Swap Top and Bottom",
+            "count": 3,
+            "source_label": "SWAP TOP AND BOTTOM"
+          },
+          {
+            "id": "draw-from-the-bottom",
+            "name": "Draw From the Bottom",
+            "count": 2,
+            "source_label": "DRAW FROM THE BOTTOM"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 3,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 4,
+            "source_label": "NOPE"
+          }
+        ],
+        "total_cards": 37
+      },
+      {
+        "players": 4,
+        "starting_regular_cards": 5,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 2,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 4,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "imploding-kitten",
+            "name": "Imploding Kitten",
+            "count": 1,
+            "source_label": "IMPLODING KITTEN"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 4,
+            "source_label": "SEE THE FUTURE(3X)"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 4,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "swap-top-and-bottom",
+            "name": "Swap Top and Bottom",
+            "count": 3,
+            "source_label": "SWAP TOP AND BOTTOM"
+          },
+          {
+            "id": "draw-from-the-bottom",
+            "name": "Draw From the Bottom",
+            "count": 2,
+            "source_label": "DRAW FROM THE BOTTOM"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 3,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 4,
+            "source_label": "NOPE"
+          }
+        ],
+        "total_cards": 39
+      }
+    ],
+    "issues": []
+  },
+  {
+    "id": "cat-fight",
+    "name": "Cat Fight",
+    "source_url": "https://www.explodingkittens.com/pages/recipes?name=cat-fight",
+    "play_time_minutes": 5,
+    "variants": [
+      {
+        "players": 2,
+        "starting_regular_cards": 2,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 1,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 2,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 2,
+            "source_label": "TARGETED ATTACK (2X)"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 3,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "alter-the-future-3x-now",
+            "name": "Alter the Future 3x NOW",
+            "count": 2,
+            "source_label": "ALTER THE FUTURE (3X) NOW"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 3,
+            "source_label": "REVERSE"
+          }
+        ],
+        "total_cards": 17
+      },
+      {
+        "players": 3,
+        "starting_regular_cards": 2,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 2,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 3,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 2,
+            "source_label": "TARGETED ATTACK (2X)"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 3,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "alter-the-future-3x-now",
+            "name": "Alter the Future 3x NOW",
+            "count": 2,
+            "source_label": "ALTER THE FUTURE (3X) NOW"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 3,
+            "source_label": "REVERSE"
+          }
+        ],
+        "total_cards": 19
+      },
+      {
+        "players": 4,
+        "starting_regular_cards": 2,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 3,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 4,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 2,
+            "source_label": "TARGETED ATTACK (2X)"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 3,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "alter-the-future-3x-now",
+            "name": "Alter the Future 3x NOW",
+            "count": 2,
+            "source_label": "ALTER THE FUTURE (3X) NOW"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 3,
+            "source_label": "REVERSE"
+          }
+        ],
+        "total_cards": 21
+      }
+    ],
+    "issues": []
+  },
+  {
+    "id": "attack-of-the-attacks",
+    "name": "Attack Of The Attacks",
+    "source_url": "https://www.explodingkittens.com/pages/recipes?name=attack-of-the-attacks",
+    "play_time_minutes": 15,
+    "variants": [
+      {
+        "players": 2,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 1,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 3,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 6,
+            "source_label": "ATTACK(2x)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 4,
+            "source_label": "TARGETED ATTACK (2X)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "super-skip",
+            "name": "Super Skip",
+            "count": 2,
+            "source_label": "SUPER SKIP"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 3,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 3,
+            "source_label": "SEE THE FUTURE(3X)"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 4,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "catomic-bomb",
+            "name": "Catomic Bomb",
+            "count": 1,
+            "source_label": "CATOMIC BOMB"
+          }
+        ],
+        "total_cards": 43
+      },
+      {
+        "players": 3,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 2,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 4,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 6,
+            "source_label": "ATTACK(2x)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 4,
+            "source_label": "TARGETED ATTACK (2x)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "super-skip",
+            "name": "Super Skip",
+            "count": 4,
+            "source_label": "SUPER SKIP"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 3,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 3,
+            "source_label": "SEE THE FUTURE(3x)"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 4,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "catomic-bomb",
+            "name": "Catomic Bomb",
+            "count": 1,
+            "source_label": "CATOMIC BOMB"
+          }
+        ],
+        "total_cards": 47
+      },
+      {
+        "players": 4,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 3,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 5,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 6,
+            "source_label": "ATTACK(2x)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 4,
+            "source_label": "TARGETED ATTACK (x2)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "super-skip",
+            "name": "Super Skip",
+            "count": 2,
+            "source_label": "SUPER SKIP"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 3,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 3,
+            "source_label": "SEE THE FUTURE(3x)"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 4,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "catomic-bomb",
+            "name": "Catomic Bomb",
+            "count": 1,
+            "source_label": "CATOMIC BOMB"
+          }
+        ],
+        "total_cards": 47
+      },
+      {
+        "players": 5,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 4,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 6,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 6,
+            "source_label": "ATTACK(2x)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 6,
+            "source_label": "TARGETED ATTACK (x2)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "super-skip",
+            "name": "Super Skip",
+            "count": 2,
+            "source_label": "SUPER SKIP"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 3,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 3,
+            "source_label": "SEE THE FUTURE(3x)"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 4,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "catomic-bomb",
+            "name": "Catomic Bomb",
+            "count": 1,
+            "source_label": "CATOMIC BOMB"
+          }
+        ],
+        "total_cards": 51
+      }
+    ],
+    "issues": [
+      "3 players: Super Skip requests 4; box contains 2.",
+      "5 players: Targeted Attack 2x requests 6; box contains 4."
+    ]
+  },
+  {
+    "id": "black-hole",
+    "name": "Black Hole",
+    "source_url": "https://www.explodingkittens.com/pages/recipes?name=black-hole",
+    "play_time_minutes": 15,
+    "variants": [
+      {
+        "players": 3,
+        "starting_regular_cards": 7,
+        "starting_defuses": 0,
+        "cards": [
+          {
+            "id": "imploding-kitten",
+            "name": "Imploding Kitten",
+            "count": 2,
+            "source_label": "IMPLODING KITTEN"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 5,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 4,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 5,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "alter-the-future-3x",
+            "name": "Alter the Future 3x",
+            "count": 3,
+            "source_label": "Alter the Future (3x)"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 4,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "swap-top-and-bottom",
+            "name": "Swap Top and Bottom",
+            "count": 3,
+            "source_label": "SWAP TOP AND BOTTOM"
+          },
+          {
+            "id": "draw-from-the-bottom",
+            "name": "Draw From the Bottom",
+            "count": 3,
+            "source_label": "DRAW FROM THE BOTTOM"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 4,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 3,
+            "source_label": "Tacocat"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 3,
+            "source_label": "Rainbow-Ralphing Cat"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 4,
+            "source_label": "FERAL CAT"
+          }
+        ],
+        "total_cards": 43
+      },
+      {
+        "players": 4,
+        "starting_regular_cards": 7,
+        "starting_defuses": 0,
+        "cards": [
+          {
+            "id": "imploding-kitten",
+            "name": "Imploding Kitten",
+            "count": 3,
+            "source_label": "IMPLODING KITTEN"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 5,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 4,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 5,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "alter-the-future-3x",
+            "name": "Alter the Future 3x",
+            "count": 3,
+            "source_label": "Alter the Future (3x)"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 4,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "swap-top-and-bottom",
+            "name": "Swap Top and Bottom",
+            "count": 3,
+            "source_label": "SWAP TOP AND BOTTOM"
+          },
+          {
+            "id": "draw-from-the-bottom",
+            "name": "Draw From the Bottom",
+            "count": 3,
+            "source_label": "DRAW FROM THE BOTTOM"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 4,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 3,
+            "source_label": "Tacocat"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 3,
+            "source_label": "Rainbow-Ralphing Cat"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 4,
+            "source_label": "FERAL CAT"
+          }
+        ],
+        "total_cards": 44
+      },
+      {
+        "players": 5,
+        "starting_regular_cards": 7,
+        "starting_defuses": 0,
+        "cards": [
+          {
+            "id": "imploding-kitten",
+            "name": "Imploding Kitten",
+            "count": 4,
+            "source_label": "IMPLODING KITTEN"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 5,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 4,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 5,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "alter-the-future-3x",
+            "name": "Alter the Future 3x",
+            "count": 3,
+            "source_label": "Alter the Future (3x)"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 4,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "swap-top-and-bottom",
+            "name": "Swap Top and Bottom",
+            "count": 3,
+            "source_label": "Swap Top and Bottom"
+          },
+          {
+            "id": "draw-from-the-bottom",
+            "name": "Draw From the Bottom",
+            "count": 3,
+            "source_label": "DRAW FROM THE BOTTOM"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 4,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 3,
+            "source_label": "Tacocat"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 3,
+            "source_label": "Rainbow-Ralphing Cat"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 4,
+            "source_label": "FERAL CAT"
+          }
+        ],
+        "total_cards": 45
+      }
+    ],
+    "issues": []
+  },
+  {
+    "id": "danger-mode",
+    "name": "Danger Mode",
+    "source_url": "https://www.explodingkittens.com/pages/recipes?name=danger-mode",
+    "play_time_minutes": 10,
+    "variants": [
+      {
+        "players": 2,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 6,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 2,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 4,
+            "source_label": "TARGETED ATTACK (2X)"
+          },
+          {
+            "id": "super-skip",
+            "name": "Super Skip",
+            "count": 1,
+            "source_label": "SUPER SKIP"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 3,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 5,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "draw-from-the-bottom",
+            "name": "Draw From the Bottom",
+            "count": 2,
+            "source_label": "DRAW FROM THE BOTTOM"
+          },
+          {
+            "id": "streaking-kitten",
+            "name": "Streaking Kitten",
+            "count": 1,
+            "source_label": "STREAKING KITTEN"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 4,
+            "source_label": "FERAL CAT"
+          }
+        ],
+        "total_cards": 44
+      },
+      {
+        "players": 3,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 6,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 3,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 3,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 4,
+            "source_label": "TARGETED ATTACK (2X)"
+          },
+          {
+            "id": "super-skip",
+            "name": "Super Skip",
+            "count": 1,
+            "source_label": "SUPER SKIP"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 3,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 5,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "draw-from-the-bottom",
+            "name": "Draw From the Bottom",
+            "count": 2,
+            "source_label": "DRAW FROM THE BOTTOM"
+          },
+          {
+            "id": "streaking-kitten",
+            "name": "Streaking Kitten",
+            "count": 1,
+            "source_label": "STREAKING KITTEN"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 4,
+            "source_label": "FERAL CAT"
+          }
+        ],
+        "total_cards": 44
+      },
+      {
+        "players": 4,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 6,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 4,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 2,
+            "source_label": "TARGETED ATTACK (2X)"
+          },
+          {
+            "id": "super-skip",
+            "name": "Super Skip",
+            "count": 1,
+            "source_label": "SUPER SKIP"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 3,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 5,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "draw-from-the-bottom",
+            "name": "Draw From the Bottom",
+            "count": 2,
+            "source_label": "DRAW FROM THE BOTTOM"
+          },
+          {
+            "id": "streaking-kitten",
+            "name": "Streaking Kitten",
+            "count": 1,
+            "source_label": "STREAKING KITTEN"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 4,
+            "source_label": "FERAL CAT"
+          }
+        ],
+        "total_cards": 44
+      }
+    ],
+    "issues": []
+  },
+  {
+    "id": "exploding-kittens-classic-mode",
+    "name": "Exploding Kittens Classic Mode",
+    "source_url": "https://www.explodingkittens.com/pages/recipes?name=exploding-kittens-classic-mode",
+    "play_time_minutes": 5,
+    "variants": [
+      {
+        "players": 2,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 1,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 3,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 3,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 2,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 3,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 2,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 2,
+            "source_label": "SEE THE FUTURE(3X)"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "beard-cat",
+            "name": "Beard Cat",
+            "count": 4,
+            "source_label": "BEARD CAT"
+          }
+        ],
+        "total_cards": 28
+      },
+      {
+        "players": 3,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 2,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 4,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 5,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 4,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 5,
+            "source_label": "SEE THE FUTURE(3X)"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "beard-cat",
+            "name": "Beard Cat",
+            "count": 4,
+            "source_label": "BEARD CAT"
+          }
+        ],
+        "total_cards": 44
+      },
+      {
+        "players": 4,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 3,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 5,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 5,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 4,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 5,
+            "source_label": "SEE THE FUTURE(3X)"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "beard-cat",
+            "name": "Beard Cat",
+            "count": 4,
+            "source_label": "BEARD CAT"
+          }
+        ],
+        "total_cards": 46
+      },
+      {
+        "players": 5,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 4,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 6,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 5,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 4,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 5,
+            "source_label": "SEE THE FUTURE(3X)"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "beard-cat",
+            "name": "Beard Cat",
+            "count": 4,
+            "source_label": "BEARD CAT"
+          }
+        ],
+        "total_cards": 48
+      }
+    ],
+    "issues": []
+  },
+  {
+    "id": "eye-for-an-eye",
+    "name": "Eye For An Eye",
+    "source_url": "https://www.explodingkittens.com/pages/recipes?name=eye-for-an-eye",
+    "play_time_minutes": 15,
+    "variants": [
+      {
+        "players": 3,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 1,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 4,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "imploding-kitten",
+            "name": "Imploding Kitten",
+            "count": 1,
+            "source_label": "IMPLODING KITTEN"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 5,
+            "source_label": "SEE THE FUTURE(3X)"
+          },
+          {
+            "id": "alter-the-future-3x",
+            "name": "Alter the Future 3x",
+            "count": 3,
+            "source_label": "ALTER THE FUTURE (3X)"
+          },
+          {
+            "id": "alter-the-future-3x-now",
+            "name": "Alter the Future 3x NOW",
+            "count": 2,
+            "source_label": "ALTER THE FUTURE(3X) NOW"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 4,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "mark",
+            "name": "Mark",
+            "count": 4,
+            "source_label": "MARK"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 2,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          }
+        ],
+        "total_cards": 46
+      },
+      {
+        "players": 4,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 2,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 5,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "imploding-kitten",
+            "name": "Imploding Kitten",
+            "count": 1,
+            "source_label": "IMPLODING KITTEN"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 5,
+            "source_label": "SEE THE FUTURE(3X)"
+          },
+          {
+            "id": "alter-the-future-3x",
+            "name": "Alter the Future 3x",
+            "count": 3,
+            "source_label": "ALTER THE FUTURE (3X)"
+          },
+          {
+            "id": "alter-the-future-3x-now",
+            "name": "Alter the Future 3x NOW",
+            "count": 2,
+            "source_label": "ALTER THE FUTURE(3X) NOW"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 4,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "mark",
+            "name": "Mark",
+            "count": 4,
+            "source_label": "MARK"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 2,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          }
+        ],
+        "total_cards": 48
+      },
+      {
+        "players": 5,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 3,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 6,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "imploding-kitten",
+            "name": "Imploding Kitten",
+            "count": 1,
+            "source_label": "IMPLODING KITTEN"
+          },
+          {
+            "id": "see-the-future-3x",
+            "name": "See the Future 3x",
+            "count": 5,
+            "source_label": "SEE THE FUTURE(3X)"
+          },
+          {
+            "id": "alter-the-future-3x",
+            "name": "Alter the Future 3x",
+            "count": 3,
+            "source_label": "ALTER THE FUTURE (3X)"
+          },
+          {
+            "id": "alter-the-future-3x-now",
+            "name": "Alter the Future 3x NOW",
+            "count": 2,
+            "source_label": "ALTER THE FUTURE(3X) NOW"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 4,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "mark",
+            "name": "Mark",
+            "count": 4,
+            "source_label": "MARK"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 2,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          }
+        ],
+        "total_cards": 50
+      }
+    ],
+    "issues": []
+  },
+  {
+    "id": "lightning-kittens",
+    "name": "Lightning Kittens",
+    "source_url": "https://www.explodingkittens.com/pages/recipes?name=lightning-kittens",
+    "play_time_minutes": 2,
+    "variants": [
+      {
+        "players": 2,
+        "starting_regular_cards": 1,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 1,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 2,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 2,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 2,
+            "source_label": "NOPE"
+          }
+        ],
+        "total_cards": 11
+      },
+      {
+        "players": 3,
+        "starting_regular_cards": 1,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 2,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 3,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 2,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 2,
+            "source_label": "NOPE"
+          }
+        ],
+        "total_cards": 13
+      },
+      {
+        "players": 4,
+        "starting_regular_cards": 1,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 3,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 4,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 2,
+            "source_label": "reverse"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 2,
+            "source_label": "NOPE"
+          }
+        ],
+        "total_cards": 15
+      }
+    ],
+    "issues": []
+  },
+  {
+    "id": "nope-sauce",
+    "name": "Nope Sauce",
+    "source_url": "https://www.explodingkittens.com/pages/recipes?name=nope-sauce",
+    "play_time_minutes": 15,
+    "variants": [
+      {
+        "players": 2,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 1,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 2,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 8,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 4,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "alter-the-future-3x-now",
+            "name": "Alter the Future 3x NOW",
+            "count": 2,
+            "source_label": "ALTER THE FUTURE (3X) NOW"
+          },
+          {
+            "id": "swap-top-and-bottom",
+            "name": "Swap Top and Bottom",
+            "count": 2,
+            "source_label": "SWAP TOP AND BOTTOM"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 3,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 2,
+            "source_label": "TARGETED ATTACK (2X)"
+          },
+          {
+            "id": "catomic-bomb",
+            "name": "Catomic Bomb",
+            "count": 1,
+            "source_label": "CATOMIC BOMB"
+          },
+          {
+            "id": "bury",
+            "name": "Bury",
+            "count": 3,
+            "source_label": "BURY"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 6,
+            "source_label": "FERAL CAT"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 4,
+            "source_label": "REVERSE"
+          }
+        ],
+        "total_cards": 46
+      },
+      {
+        "players": 3,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 2,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 3,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 8,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 4,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "alter-the-future-3x-now",
+            "name": "Alter the Future 3x NOW",
+            "count": 2,
+            "source_label": "ALTER THE FUTURE (3X) NOW"
+          },
+          {
+            "id": "swap-top-and-bottom",
+            "name": "Swap Top and Bottom",
+            "count": 2,
+            "source_label": "SWAP TOP AND BOTTOM"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 3,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 2,
+            "source_label": "TARGETED ATTACK (2X)"
+          },
+          {
+            "id": "catomic-bomb",
+            "name": "Catomic Bomb",
+            "count": 1,
+            "source_label": "CATOMIC BOMB"
+          },
+          {
+            "id": "bury",
+            "name": "Bury",
+            "count": 3,
+            "source_label": "BURY"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 6,
+            "source_label": "FERAL CAT"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 4,
+            "source_label": "REVERSE"
+          }
+        ],
+        "total_cards": 48
+      },
+      {
+        "players": 4,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 3,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 4,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 8,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 4,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "alter-the-future-3x-now",
+            "name": "Alter the Future 3x NOW",
+            "count": 2,
+            "source_label": "ALTER THE FUTURE (3X) NOW"
+          },
+          {
+            "id": "swap-top-and-bottom",
+            "name": "Swap Top and Bottom",
+            "count": 2,
+            "source_label": "SWAP TOP AND BOTTOM"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 3,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 2,
+            "source_label": "TARGETED ATTACK (2X)"
+          },
+          {
+            "id": "catomic-bomb",
+            "name": "Catomic Bomb",
+            "count": 1,
+            "source_label": "CATOMIC BOMB"
+          },
+          {
+            "id": "bury",
+            "name": "Bury",
+            "count": 3,
+            "source_label": "BURY"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 6,
+            "source_label": "FERAL CAT"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 4,
+            "source_label": "REVERSE"
+          }
+        ],
+        "total_cards": 50
+      },
+      {
+        "players": 5,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 4,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 5,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 8,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 4,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "alter-the-future-3x-now",
+            "name": "Alter the Future 3x NOW",
+            "count": 2,
+            "source_label": "ALTER THE FUTURE (3X) NOW"
+          },
+          {
+            "id": "swap-top-and-bottom",
+            "name": "Swap Top and Bottom",
+            "count": 2,
+            "source_label": "SWAP TOP AND BOTTOM"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 3,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 2,
+            "source_label": "TARGETED ATTACK (2X)"
+          },
+          {
+            "id": "catomic-bomb",
+            "name": "Catomic Bomb",
+            "count": 1,
+            "source_label": "CATOMIC BOMB"
+          },
+          {
+            "id": "bury",
+            "name": "Bury",
+            "count": 3,
+            "source_label": "BURY"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 6,
+            "source_label": "FERAL CAT"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 4,
+            "source_label": "REVERSE"
+          }
+        ],
+        "total_cards": 52
+      }
+    ],
+    "issues": []
+  },
+  {
+    "id": "power-play",
+    "name": "Power Play",
+    "source_url": "https://www.explodingkittens.com/pages/recipes?name=power-play",
+    "play_time_minutes": 15,
+    "variants": [
+      {
+        "players": 3,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 2,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 5,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "imploding-kitten",
+            "name": "Imploding Kitten",
+            "count": 1,
+            "source_label": "IMPLODING KITTEN"
+          },
+          {
+            "id": "streaking-kitten",
+            "name": "Streaking Kitten",
+            "count": 1,
+            "source_label": "STREAKING KITTEN"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 4,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "see-the-future-5x",
+            "name": "See the Future 5x",
+            "count": 3,
+            "source_label": "See the Future (5x)"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 4,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "bury",
+            "name": "Bury",
+            "count": 2,
+            "source_label": "BURY"
+          },
+          {
+            "id": "draw-from-the-bottom",
+            "name": "Draw From the Bottom",
+            "count": 2,
+            "source_label": "DRAW FROM THE BOTTOM"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "super-skip",
+            "name": "Super Skip",
+            "count": 2,
+            "source_label": "SUPER SKIP"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 6,
+            "source_label": "FERAL CAT"
+          },
+          {
+            "id": "garbage-collection",
+            "name": "Garbage Collection",
+            "count": 2,
+            "source_label": "GARBAGE COLLECTION"
+          }
+        ],
+        "total_cards": 46
+      },
+      {
+        "players": 4,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 3,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 6,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "imploding-kitten",
+            "name": "Imploding Kitten",
+            "count": 1,
+            "source_label": "IMPLODING KITTEN"
+          },
+          {
+            "id": "streaking-kitten",
+            "name": "Streaking Kitten",
+            "count": 1,
+            "source_label": "STREAKING KITTEN"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 4,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "see-the-future-5x",
+            "name": "See the Future 5x",
+            "count": 3,
+            "source_label": "See the Future (5x)"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 4,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "bury",
+            "name": "Bury",
+            "count": 2,
+            "source_label": "BURY"
+          },
+          {
+            "id": "draw-from-the-bottom",
+            "name": "Draw From the Bottom",
+            "count": 2,
+            "source_label": "DRAW FROM THE BOTTOM"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "super-skip",
+            "name": "Super Skip",
+            "count": 2,
+            "source_label": "SUPER SKIP"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 6,
+            "source_label": "FERAL CAT"
+          },
+          {
+            "id": "garbage-collection",
+            "name": "Garbage Collection",
+            "count": 2,
+            "source_label": "GARBAGE COLLECTION"
+          }
+        ],
+        "total_cards": 48
+      },
+      {
+        "players": 5,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 4,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 7,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "imploding-kitten",
+            "name": "Imploding Kitten",
+            "count": 1,
+            "source_label": "IMPLODING KITTEN"
+          },
+          {
+            "id": "streaking-kitten",
+            "name": "Streaking Kitten",
+            "count": 1,
+            "source_label": "STREAKING KITTEN"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 4,
+            "source_label": "NOPE"
+          },
+          {
+            "id": "see-the-future-5x",
+            "name": "See the Future 5x",
+            "count": 3,
+            "source_label": "See the Future (5x)"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 4,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "bury",
+            "name": "Bury",
+            "count": 2,
+            "source_label": "BURY"
+          },
+          {
+            "id": "draw-from-the-bottom",
+            "name": "Draw From the Bottom",
+            "count": 2,
+            "source_label": "DRAW FROM THE BOTTOM"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "super-skip",
+            "name": "Super Skip",
+            "count": 2,
+            "source_label": "SUPER SKIP"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 6,
+            "source_label": "FERAL CAT"
+          },
+          {
+            "id": "garbage-collection",
+            "name": "Garbage Collection",
+            "count": 2,
+            "source_label": "GARBAGE COLLECTION"
+          }
+        ],
+        "total_cards": 50
+      }
+    ],
+    "issues": []
+  },
+  {
+    "id": "sharing-is-caring",
+    "name": "Sharing Is Caring",
+    "source_url": "https://www.explodingkittens.com/pages/recipes?name=sharing-is-caring",
+    "play_time_minutes": 10,
+    "variants": [
+      {
+        "players": 3,
+        "starting_regular_cards": 5,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 2,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 4,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "mark",
+            "name": "Mark",
+            "count": 4,
+            "source_label": "MARK"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 4,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "i-ll-take-that",
+            "name": "I'll Take That",
+            "count": 4,
+            "source_label": "I’LL TAKE THAT"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 4,
+            "source_label": "FERAL CAT"
+          },
+          {
+            "id": "barking-kitten",
+            "name": "Barking Kitten",
+            "count": 2,
+            "source_label": "BARKING KITTEN"
+          }
+        ],
+        "total_cards": 40
+      },
+      {
+        "players": 4,
+        "starting_regular_cards": 5,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 3,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 5,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "mark",
+            "name": "Mark",
+            "count": 4,
+            "source_label": "MARK"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 4,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "i-ll-take-that",
+            "name": "I'll Take That",
+            "count": 4,
+            "source_label": "I’LL TAKE THAT"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 4,
+            "source_label": "FERAL CAT"
+          },
+          {
+            "id": "barking-kitten",
+            "name": "Barking Kitten",
+            "count": 2,
+            "source_label": "BARKING KITTEN"
+          }
+        ],
+        "total_cards": 42
+      },
+      {
+        "players": 5,
+        "starting_regular_cards": 5,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 4,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 6,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "mark",
+            "name": "Mark",
+            "count": 4,
+            "source_label": "MARK"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 4,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "i-ll-take-that",
+            "name": "I'll Take That",
+            "count": 4,
+            "source_label": "I’LL TAKE THAT"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 4,
+            "source_label": "FERAL CAT"
+          },
+          {
+            "id": "barking-kitten",
+            "name": "Barking Kitten",
+            "count": 2,
+            "source_label": "BARKING KITTEN"
+          }
+        ],
+        "total_cards": 44
+      }
+    ],
+    "issues": []
+  },
+  {
+    "id": "sticky-fingers",
+    "name": "Sticky Fingers",
+    "source_url": "https://www.explodingkittens.com/pages/recipes?name=sticky-fingers",
+    "play_time_minutes": 15,
+    "variants": [
+      {
+        "players": 2,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 2,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 3,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "i-ll-take-that",
+            "name": "I'll Take That",
+            "count": 4,
+            "source_label": "I’LL TAKE THAT"
+          },
+          {
+            "id": "mark",
+            "name": "Mark",
+            "count": 4,
+            "source_label": "MARK"
+          },
+          {
+            "id": "streaking-kitten",
+            "name": "Streaking Kitten",
+            "count": 1,
+            "source_label": "STREAKING KITTEN"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "beard-cat",
+            "name": "Beard Cat",
+            "count": 4,
+            "source_label": "BEARD CAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 6,
+            "source_label": "FERAL CAT"
+          }
+        ],
+        "total_cards": 44
+      },
+      {
+        "players": 3,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 3,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 4,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "i-ll-take-that",
+            "name": "I'll Take That",
+            "count": 4,
+            "source_label": "I’LL TAKE THAT"
+          },
+          {
+            "id": "mark",
+            "name": "Mark",
+            "count": 4,
+            "source_label": "MARK"
+          },
+          {
+            "id": "streaking-kitten",
+            "name": "Streaking Kitten",
+            "count": 1,
+            "source_label": "STREAKING KITTEN"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "beard-cat",
+            "name": "Beard Cat",
+            "count": 4,
+            "source_label": "BEARD CAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 6,
+            "source_label": "FERAL CAT"
+          }
+        ],
+        "total_cards": 46
+      },
+      {
+        "players": 4,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 4,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 5,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "i-ll-take-that",
+            "name": "I'll Take That",
+            "count": 4,
+            "source_label": "I’LL TAKE THAT"
+          },
+          {
+            "id": "mark",
+            "name": "Mark",
+            "count": 4,
+            "source_label": "MARK"
+          },
+          {
+            "id": "streaking-kitten",
+            "name": "Streaking Kitten",
+            "count": 1,
+            "source_label": "STREAKING KITTEN"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "beard-cat",
+            "name": "Beard Cat",
+            "count": 4,
+            "source_label": "BEARD CAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 6,
+            "source_label": "FERAL CAT"
+          }
+        ],
+        "total_cards": 48
+      },
+      {
+        "players": 5,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 5,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 6,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 4,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 4,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "i-ll-take-that",
+            "name": "I'll Take That",
+            "count": 4,
+            "source_label": "I’LL TAKE THAT"
+          },
+          {
+            "id": "mark",
+            "name": "Mark",
+            "count": 4,
+            "source_label": "MARK"
+          },
+          {
+            "id": "streaking-kitten",
+            "name": "Streaking Kitten",
+            "count": 1,
+            "source_label": "STREAKING KITTEN"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "zombie-cat",
+            "name": "Zombie Cat",
+            "count": 4,
+            "source_label": "ZOMBIE CAT"
+          },
+          {
+            "id": "beard-cat",
+            "name": "Beard Cat",
+            "count": 4,
+            "source_label": "BEARD CAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 6,
+            "source_label": "FERAL CAT"
+          }
+        ],
+        "total_cards": 50
+      }
+    ],
+    "issues": [
+      "The 2021 PDF example shows a five-player starting-hand exception of five regular cards; online data uses seven for all player counts. Check the printed recipe booklet."
+    ]
+  },
+  {
+    "id": "the-purrrge",
+    "name": "The Purrrge",
+    "source_url": "https://www.explodingkittens.com/pages/recipes?name=the-purrrge",
+    "play_time_minutes": 10,
+    "variants": [
+      {
+        "players": 3,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 2,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 3,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "imploding-kitten",
+            "name": "Imploding Kitten",
+            "count": 1,
+            "source_label": "IMPLODING KITTEN"
+          },
+          {
+            "id": "catomic-bomb",
+            "name": "Catomic Bomb",
+            "count": 1,
+            "source_label": "CATOMIC BOMB"
+          },
+          {
+            "id": "super-skip",
+            "name": "Super Skip",
+            "count": 2,
+            "source_label": "SUPER SKIP"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 5,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 5,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 6,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 4,
+            "source_label": "TARGETED ATTACK (2X)"
+          },
+          {
+            "id": "personal-attack-3x",
+            "name": "Personal Attack 3x",
+            "count": 4,
+            "source_label": "Personal Attack (3x)"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 5,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 8,
+            "source_label": "NOPE"
+          }
+        ],
+        "total_cards": 46
+      },
+      {
+        "players": 4,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 3,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 4,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "imploding-kitten",
+            "name": "Imploding Kitten",
+            "count": 1,
+            "source_label": "IMPLODING KITTEN"
+          },
+          {
+            "id": "catomic-bomb",
+            "name": "Catomic Bomb",
+            "count": 1,
+            "source_label": "CATOMIC BOMB"
+          },
+          {
+            "id": "super-skip",
+            "name": "Super Skip",
+            "count": 2,
+            "source_label": "SUPER SKIP"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 5,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 5,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 6,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 4,
+            "source_label": "TARGETED ATTACK (2X)"
+          },
+          {
+            "id": "personal-attack-3x",
+            "name": "Personal Attack 3x",
+            "count": 4,
+            "source_label": "Personal Attack (3x)"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 5,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 8,
+            "source_label": "NOPE"
+          }
+        ],
+        "total_cards": 48
+      },
+      {
+        "players": 5,
+        "starting_regular_cards": 7,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 4,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 5,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "imploding-kitten",
+            "name": "Imploding Kitten",
+            "count": 1,
+            "source_label": "IMPLODING KITTEN"
+          },
+          {
+            "id": "catomic-bomb",
+            "name": "Catomic Bomb",
+            "count": 1,
+            "source_label": "CATOMIC BOMB"
+          },
+          {
+            "id": "super-skip",
+            "name": "Super Skip",
+            "count": 2,
+            "source_label": "SUPER SKIP"
+          },
+          {
+            "id": "skip",
+            "name": "Skip",
+            "count": 5,
+            "source_label": "SKIP"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 5,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "attack-2x",
+            "name": "Attack 2x",
+            "count": 6,
+            "source_label": "ATTACK(2X)"
+          },
+          {
+            "id": "targeted-attack-2x",
+            "name": "Targeted Attack 2x",
+            "count": 4,
+            "source_label": "TARGETED ATTACK (2X)"
+          },
+          {
+            "id": "personal-attack-3x",
+            "name": "Personal Attack 3x",
+            "count": 4,
+            "source_label": "Personal Attack (3x)"
+          },
+          {
+            "id": "shuffle",
+            "name": "Shuffle",
+            "count": 5,
+            "source_label": "SHUFFLE"
+          },
+          {
+            "id": "nope",
+            "name": "Nope",
+            "count": 8,
+            "source_label": "NOPE"
+          }
+        ],
+        "total_cards": 50
+      }
+    ],
+    "issues": []
+  },
+  {
+    "id": "meowsochist",
+    "name": "Meowsochist",
+    "source_url": "https://www.explodingkittens.com/pages/recipes?name=meowsochist",
+    "play_time_minutes": 10,
+    "variants": [
+      {
+        "players": 2,
+        "starting_regular_cards": 5,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 2,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 5,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "personal-attack-3x",
+            "name": "Personal Attack 3x",
+            "count": 4,
+            "source_label": "PERSONAL ATTACK (3X)"
+          },
+          {
+            "id": "i-ll-take-that",
+            "name": "I'll Take That",
+            "count": 2,
+            "source_label": "I’ll Take That"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 3,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "alter-the-future-3x-now",
+            "name": "Alter the Future 3x NOW",
+            "count": 2,
+            "source_label": "ALTER THE FUTURE (3X) NOW"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 3,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "garbage-collection",
+            "name": "Garbage Collection",
+            "count": 2,
+            "source_label": "GARBAGE COLLECTION"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 6,
+            "source_label": "FERAL CAT"
+          },
+          {
+            "id": "streaking-kitten",
+            "name": "Streaking Kitten",
+            "count": 1,
+            "source_label": "STREAKING KITTEN"
+          }
+        ],
+        "total_cards": 38
+      },
+      {
+        "players": 3,
+        "starting_regular_cards": 5,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 3,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 6,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "personal-attack-3x",
+            "name": "Personal Attack 3x",
+            "count": 4,
+            "source_label": "PERSONAL ATTACK (3X)"
+          },
+          {
+            "id": "i-ll-take-that",
+            "name": "I'll Take That",
+            "count": 2,
+            "source_label": "I’LL TAKE THAT"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 3,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "alter-the-future-3x-now",
+            "name": "Alter the Future 3x NOW",
+            "count": 2,
+            "source_label": "ALTER THE FUTURE (3X) NOW"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 3,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "garbage-collection",
+            "name": "Garbage Collection",
+            "count": 2,
+            "source_label": "GARBAGE COLLECTION"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 6,
+            "source_label": "FERAL CAT"
+          },
+          {
+            "id": "streaking-kitten",
+            "name": "Streaking Kitten",
+            "count": 1,
+            "source_label": "STREAKING KITTEN"
+          }
+        ],
+        "total_cards": 40
+      },
+      {
+        "players": 4,
+        "starting_regular_cards": 5,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 4,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 7,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "personal-attack-3x",
+            "name": "Personal Attack 3x",
+            "count": 4,
+            "source_label": "PERSONAL ATTACK (3X)"
+          },
+          {
+            "id": "i-ll-take-that",
+            "name": "I'll Take That",
+            "count": 2,
+            "source_label": "I’LL TAKE THAT"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 3,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "alter-the-future-3x-now",
+            "name": "Alter the Future 3x NOW",
+            "count": 2,
+            "source_label": "ALTER THE FUTURE (3X) NOW"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 3,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "garbage-collection",
+            "name": "Garbage Collection",
+            "count": 2,
+            "source_label": "GARBAGE COLLECTION"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 6,
+            "source_label": "FERAL CAT"
+          },
+          {
+            "id": "streaking-kitten",
+            "name": "Streaking Kitten",
+            "count": 1,
+            "source_label": "STREAKING KITTEN"
+          }
+        ],
+        "total_cards": 42
+      },
+      {
+        "players": 5,
+        "starting_regular_cards": 5,
+        "starting_defuses": 1,
+        "cards": [
+          {
+            "id": "exploding-kitten",
+            "name": "Exploding Kitten",
+            "count": 5,
+            "source_label": "EXPLODING KITTEN"
+          },
+          {
+            "id": "defuse",
+            "name": "Defuse",
+            "count": 8,
+            "source_label": "DEFUSE"
+          },
+          {
+            "id": "personal-attack-3x",
+            "name": "Personal Attack 3x",
+            "count": 4,
+            "source_label": "PERSONAL ATTACK (3X)"
+          },
+          {
+            "id": "i-ll-take-that",
+            "name": "I'll Take That",
+            "count": 2,
+            "source_label": "I’LL TAKE THAT"
+          },
+          {
+            "id": "reverse",
+            "name": "Reverse",
+            "count": 3,
+            "source_label": "REVERSE"
+          },
+          {
+            "id": "alter-the-future-3x-now",
+            "name": "Alter the Future 3x NOW",
+            "count": 2,
+            "source_label": "ALTER THE FUTURE (3X) NOW"
+          },
+          {
+            "id": "share-the-future-3x",
+            "name": "Share the Future 3x",
+            "count": 3,
+            "source_label": "SHARE THE FUTURE (3X)"
+          },
+          {
+            "id": "garbage-collection",
+            "name": "Garbage Collection",
+            "count": 2,
+            "source_label": "GARBAGE COLLECTION"
+          },
+          {
+            "id": "tacocat",
+            "name": "Tacocat",
+            "count": 4,
+            "source_label": "TACOCAT"
+          },
+          {
+            "id": "rainbow-ralphing-cat",
+            "name": "Rainbow-Ralphing Cat",
+            "count": 4,
+            "source_label": "RAINBOW-RALPHING CAT"
+          },
+          {
+            "id": "feral-cat",
+            "name": "Feral Cat",
+            "count": 6,
+            "source_label": "FERAL CAT"
+          },
+          {
+            "id": "streaking-kitten",
+            "name": "Streaking Kitten",
+            "count": 1,
+            "source_label": "STREAKING KITTEN"
+          }
+        ],
+        "total_cards": 44
+      }
+    ],
+    "issues": []
+  }
+]

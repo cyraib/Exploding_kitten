@@ -1,0 +1,12 @@
+Requirement:
+    - Remove unnecessary animation 
+    - remake the shuffle animation
+    - fix disappear card when play the card to deck (it disappear for a momment)
+    - fix when move to other tab, the game suspend
+    - add Auto scale UI - responsive ui
+    - confirm the card to give when favor
+    - can arrange the card on hand (the card when steal is matching with the card on hand queue)
+    - double click to play the card
+    - dont have to choose target for attack
+    - remake the animation when put the bomb back to the deck same as original game
+

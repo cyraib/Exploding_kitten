@@ -1,0 +1,187 @@
+{
+  "id": "barking-kittens-expansion",
+  "name": "Barking Kittens: Expansion",
+  "kind": "Expansion",
+  "players": "base-game player range; illustrated Original-deck setup supports 2-5",
+  "total_cards": 20,
+  "draw_deck_inventory_cards": 20,
+  "card_families": 9,
+  "distinct_named_card_types": 9,
+  "components": [
+    "Tower of Power crown",
+    "requires an Exploding Kittens base deck"
+  ],
+  "rules_pdf": "rules.pdf",
+  "rules_source_url": "https://dumekj556jp75.cloudfront.net/barking-kittens/barking-kittens-rules.pdf",
+  "inventory_source_url": "https://explodi.ng/decks/barking-kittens-expansion",
+  "inventory_definition": "Box contents, before removing unused cards or dealing. Cat identities are distinct types; artwork variants do not add types or copies.",
+  "cards": [
+    {
+      "id": "alter-the-future-3x-now",
+      "name": "Alter the Future 3x NOW",
+      "family": "alter-the-future-3x-now",
+      "count": 2,
+      "with_paw": 0,
+      "without_paw": 2,
+      "zone": "deck",
+      "icon": "Assets/cards/alter-the-future-3x-now/alter-the-future-3x-now.png",
+      "artwork_files": [
+        "Assets/cards/alter-the-future-3x-now/artworks/Alter-the-Future-Get-That-Perm-Youve-Always-Wanted.jpg"
+      ],
+      "asset_folder": "Assets/cards/alter-the-future-3x-now",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Privately inspect/reorder the top three cards and return them face down. May be played between actions even outside your turn. Does not change whose turn it is; cannot interrupt an action already in progress."
+    },
+    {
+      "id": "barking-kitten",
+      "name": "Barking Kitten",
+      "family": "barking-kitten",
+      "count": 2,
+      "with_paw": 0,
+      "without_paw": 2,
+      "zone": "deck",
+      "icon": "Assets/cards/barking-kitten/barking-kitten.png",
+      "artwork_files": [
+        "Assets/cards/barking-kitten/artworks/1-Barking-Kitten-Dog-House-New.jpg",
+        "Assets/cards/barking-kitten/artworks/2-Barking-Kitten-Fence-New.jpg",
+        "Assets/cards/barking-kitten/artworks/Barking-Kitten-Dog-House.jpg",
+        "Assets/cards/barking-kitten/artworks/Barking-Kitten-Fence.jpg"
+      ],
+      "asset_folder": "Assets/cards/barking-kitten",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Put it face up before you and ask who has its mate. If someone has it, that player must Defuse or explode; discard both Barking Kittens at the end of the turn. If nobody has the mate, your card stays before you outside your hand and makes you the target when the mate is played. If you obtain both, choose any target. Playing it does not end your turn. Cannot be Noped. Defusing this effect does not put a card into the draw pile. This is the explosion version in the supplied PDFs, not the older hand-exchange printing."
+    },
+    {
+      "id": "bury",
+      "name": "Bury",
+      "family": "bury",
+      "count": 2,
+      "with_paw": 0,
+      "without_paw": 2,
+      "zone": "deck",
+      "icon": "Assets/cards/bury/bury.png",
+      "artwork_files": [
+        "Assets/cards/bury/artworks/Bury-Bury-Something-That-Probably-Shouldnt-be-Buried.jpg",
+        "Assets/cards/bury/artworks/Bury-Clean-Up-While-Your-Cat-Watches.jpg"
+      ],
+      "asset_folder": "Assets/cards/bury",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Draw a card to end one turn, inspect it, then secretly reinsert it anywhere in the draw pile rather than retaining it. Cannot be used while I'll Take That is in front of you. When burying an Imploding Kitten, preserve the face-up/face-down orientation in which it was drawn."
+    },
+    {
+      "id": "i-ll-take-that",
+      "name": "I'll Take That",
+      "family": "i-ll-take-that",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/i-ll-take-that/i-ll-take-that.png",
+      "artwork_files": [
+        "Assets/cards/i-ll-take-that/artworks/Ill-Take-That-A-Hedgehog-Hogs-the-Blankets.jpg",
+        "Assets/cards/i-ll-take-that/artworks/Ill-Take-That-Send-in-a-Seagull-Who-Steals-Things.jpg",
+        "Assets/cards/i-ll-take-that/artworks/Ill-Take-That-Send-in-a-Vampug.jpg",
+        "Assets/cards/i-ll-take-that/artworks/Ill-Take-That-Send-the-Klepto-Cat.jpg"
+      ],
+      "asset_folder": "Assets/cards/i-ll-take-that",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Put it face up before another player who does not already have one. On their next draw, they inspect the drawn card privately and give it to you; then discard I'll Take That. If it is an Exploding Kitten, you must resolve it. The targeted player has still completed their draw and turn."
+    },
+    {
+      "id": "personal-attack-3x",
+      "name": "Personal Attack 3x",
+      "family": "personal-attack-3x",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/personal-attack-3x/personal-attack-3x.png",
+      "artwork_files": [
+        "Assets/cards/personal-attack-3x/artworks/Personal-Attack-Finally-Throw-Up-All-the-Crayons-You-Ate-When-You-Were-A-Kid.jpg",
+        "Assets/cards/personal-attack-3x/artworks/Personal-Attack-Get-Cursed-at-by-a-Heck-Beaver.jpg",
+        "Assets/cards/personal-attack-3x/artworks/Personal-Attack-Give-Yourself-a-Fierce-Spankin.jpg",
+        "Assets/cards/personal-attack-3x/artworks/Personal-Attack-Listen-to-the-Boastings-of-Some-Very-Accomplished-Trout.jpg"
+      ],
+      "asset_folder": "Assets/cards/personal-attack-3x",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Attack yourself for three turns: continue the current turn normally and take two more after it ends. If another Attack is played while turns are still outstanding, transfer the remaining turns and add the new Attack's amount."
+    },
+    {
+      "id": "potluck",
+      "name": "Potluck",
+      "family": "potluck",
+      "count": 2,
+      "with_paw": 0,
+      "without_paw": 2,
+      "zone": "deck",
+      "icon": "Assets/cards/potluck/potluck.png",
+      "artwork_files": [
+        "Assets/cards/potluck/artworks/Pot-Luck-Dog-Pile-Until-it-Reaches-the-Stars.jpg",
+        "Assets/cards/potluck/artworks/Potluck-Share-with-the-Group-at-Catnip-Anonymous.jpg"
+      ],
+      "asset_folder": "Assets/cards/potluck",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Starting with you and following current play direction, each player places one chosen card from their hand face down on top of the draw pile. This does not itself end your turn."
+    },
+    {
+      "id": "share-the-future-3x",
+      "name": "Share the Future 3x",
+      "family": "share-the-future-3x",
+      "count": 2,
+      "with_paw": 0,
+      "without_paw": 2,
+      "zone": "deck",
+      "icon": "Assets/cards/share-the-future-3x/share-the-future-3x.png",
+      "artwork_files": [
+        "Assets/cards/share-the-future-3x/artworks/Share-the-Future-Listen-to-the-Words-of-an-Emo-Emu.jpg",
+        "Assets/cards/share-the-future-3x/artworks/Share-the-Future-Send-in-the-Recon-Sloth.jpg"
+      ],
+      "asset_folder": "Assets/cards/share-the-future-3x",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Privately inspect/reorder the top three cards, show them to the next player only, then return them face down and continue your turn."
+    },
+    {
+      "id": "super-skip",
+      "name": "Super Skip",
+      "family": "super-skip",
+      "count": 1,
+      "with_paw": 0,
+      "without_paw": 1,
+      "zone": "deck",
+      "icon": "Assets/cards/super-skip/super-skip.png",
+      "artwork_files": [
+        "Assets/cards/super-skip/artworks/Super-Skip-Hitch-A-Ride-on-a-Corgihorse.jpg",
+        "Assets/cards/super-skip/artworks/Super-Skip.jpg"
+      ],
+      "asset_folder": "Assets/cards/super-skip",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "End all your required turns without drawing, including outstanding turns from an Attack."
+    },
+    {
+      "id": "tower-of-power",
+      "name": "Tower of Power",
+      "family": "tower-of-power",
+      "count": 1,
+      "with_paw": 0,
+      "without_paw": 1,
+      "zone": "deck",
+      "icon": "Assets/cards/tower-of-power/tower-of-power.png",
+      "artwork_files": [
+        "Assets/cards/tower-of-power/artworks/Tower-of-Power.jpg"
+      ],
+      "asset_folder": "Assets/cards/tower-of-power",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Put on the crown and move the six stash cards into it without looking. Theft from you takes random cards from the stash instead of your hand until the stash is empty, including Favor, pairs, triples, and other stealing. Never transfer stash cards into your own hand. Keep wearing the crown for the rest of the game."
+    }
+  ],
+  "limitations": []
+}

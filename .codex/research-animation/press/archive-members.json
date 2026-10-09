@@ -1,0 +1,86 @@
+[
+  {
+    "path": "press/extracted/Icon/Exploding_Kittens2_App_Icon_1024x1024.png",
+    "archive_member": "Icon/Exploding_Kittens2_App_Icon_1024x1024.png",
+    "bytes": 473434,
+    "sha256": "6eb3942e9a76c9e8857120b88a40ec61dc0ac85343bce6f3caccb4a23f4ed92c"
+  },
+  {
+    "path": "press/extracted/KeyArt/Exploding_Kittens2_Key_Art_4K.png",
+    "archive_member": "KeyArt/Exploding_Kittens2_Key_Art_4K.png",
+    "bytes": 4796167,
+    "sha256": "333b10a478a8481f42aff284017c1cef72fa9e052fec4bad71a8bc8af45a21d1"
+  },
+  {
+    "path": "press/extracted/Logo/Exploding_Kittens2_R_logo_color_black_long (1).png",
+    "archive_member": "Logo/Exploding_Kittens2_R_logo_color_black_long (1).png",
+    "bytes": 224173,
+    "sha256": "53da8369c92f790dc4040db13b7b671b6500e5c62ac7f5d7330a3a68761e8126"
+  },
+  {
+    "path": "press/extracted/Logo/Exploding_Kittens2_R_logo_color_black_long (2).png",
+    "archive_member": "Logo/Exploding_Kittens2_R_logo_color_black_long (2).png",
+    "bytes": 233901,
+    "sha256": "b90bbe9568fb3f36fb9e4763ab16fd1be98c18e2a83474b6fe7b384761e51903"
+  },
+  {
+    "path": "press/extracted/Logo/Exploding_Kittens2_R_logo_color_black_long (3).png",
+    "archive_member": "Logo/Exploding_Kittens2_R_logo_color_black_long (3).png",
+    "bytes": 221082,
+    "sha256": "575ca1246aae5a6108b4ac07d9ebd729faa2d8ff69bf6ca6381661c2ebbcd3cc"
+  },
+  {
+    "path": "press/extracted/Logo/Exploding_Kittens2_R_logo_color_black_long (4).png",
+    "archive_member": "Logo/Exploding_Kittens2_R_logo_color_black_long (4).png",
+    "bytes": 231397,
+    "sha256": "3158ba457e63452a89e9b7efddf9e5717b2234a44874705b8e44e0c562d0d17b"
+  },
+  {
+    "path": "press/extracted/Screenshots/Exploding_Kittens_2_Out_Now_1920x1080_01.png",
+    "archive_member": "Screenshots/Exploding_Kittens_2_Out_Now_1920x1080_01.png",
+    "bytes": 1610969,
+    "sha256": "d0d2ec0cbb7cc58bc5f652e3499386ec3e104432a3cc397003bcee8da2e34ee8"
+  },
+  {
+    "path": "press/extracted/Screenshots/Exploding_Kittens_2_Out_Now_1920x1080_02.png",
+    "archive_member": "Screenshots/Exploding_Kittens_2_Out_Now_1920x1080_02.png",
+    "bytes": 1933823,
+    "sha256": "3c490039e508c55592ff81516d1d5244ff655822b1a5df0dfec9aefc6a201f2c"
+  },
+  {
+    "path": "press/extracted/Screenshots/Exploding_Kittens_2_Out_Now_1920x1080_03.png",
+    "archive_member": "Screenshots/Exploding_Kittens_2_Out_Now_1920x1080_03.png",
+    "bytes": 1654305,
+    "sha256": "94e60c6a9928b7a4ed35bab0e393debd655ac94bc7cf4e86e5f1b9a5f0ca0e99"
+  },
+  {
+    "path": "press/extracted/Screenshots/Exploding_Kittens_2_Out_Now_1920x1080_04.png",
+    "archive_member": "Screenshots/Exploding_Kittens_2_Out_Now_1920x1080_04.png",
+    "bytes": 1546806,
+    "sha256": "607795590149e4750eff92360144a8cad9955f2b3493b1b8146dad235274b29a"
+  },
+  {
+    "path": "press/extracted/Screenshots/Exploding_Kittens_2_Out_Now_1920x1080_05.png",
+    "archive_member": "Screenshots/Exploding_Kittens_2_Out_Now_1920x1080_05.png",
+    "bytes": 1654857,
+    "sha256": "7d84c1662096b6094b7c9c216d0f11f484792c9436089772b1576cc17effdbb5"
+  },
+  {
+    "path": "press/extracted/Screenshots/Exploding_Kittens_2_Out_Now_1920x1080_06.png",
+    "archive_member": "Screenshots/Exploding_Kittens_2_Out_Now_1920x1080_06.png",
+    "bytes": 1760041,
+    "sha256": "e92ff8131edf868dac94210976782fc786d4866ed6d7a1b27fdcc61005b267cb"
+  },
+  {
+    "path": "press/extracted/PR_Exploding_Kittens2_1200x628.png",
+    "archive_member": "PR_Exploding_Kittens2_1200x628.png",
+    "bytes": 753770,
+    "sha256": "cebdc5e1b224a47053c2039d03e859e2400c1b069cb02198722349f5c904be8f"
+  },
+  {
+    "path": "press/extracted/EXPLODING KITTENS 2_PRESS RELEASE - OUT NOW.pdf",
+    "archive_member": "EXPLODING KITTENS 2_PRESS RELEASE - OUT NOW.pdf",
+    "bytes": 73866,
+    "sha256": "c96979a25cdb57ffd90bba41d5533c3d398abddf11a1bc3fd4d55a2e37bea7bf"
+  }
+]

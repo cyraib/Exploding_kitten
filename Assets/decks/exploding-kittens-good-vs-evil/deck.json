@@ -1,0 +1,374 @@
+{
+  "id": "exploding-kittens-good-vs-evil",
+  "name": "Exploding Kittens: Good vs. Evil",
+  "kind": "Standalone",
+  "players": "2-5",
+  "total_cards": 55,
+  "draw_deck_inventory_cards": 53,
+  "card_families": 14,
+  "distinct_named_card_types": 17,
+  "components": [
+    "Good vs. Evil playmat",
+    "Godcat and Devilcat are included in the 55 physical cards, but begin on the playmat"
+  ],
+  "rules_pdf": "rules.pdf",
+  "rules_source_url": "https://cdn.shopify.com/s/files/1/0345/9180/1483/files/EK-GVE-6_Instructions_09NOV2022_R2.pdf",
+  "inventory_source_url": "https://explodi.ng/decks/exploding-kittens-good-vs-evil",
+  "inventory_definition": "Box contents, before removing unused cards or dealing. Cat identities are distinct types; artwork variants do not add types or copies.",
+  "cards": [
+    {
+      "id": "armageddon",
+      "name": "Armageddon",
+      "family": "armageddon",
+      "count": 3,
+      "with_paw": 0,
+      "without_paw": 3,
+      "zone": "deck",
+      "icon": "Assets/cards/armageddon/armageddon.png",
+      "artwork_files": [
+        "Assets/cards/armageddon/artworks/Armageddon-Anything-Can-Become-Armor.jpg",
+        "Assets/cards/armageddon/artworks/Armageddon-Fight-Outside.jpg",
+        "Assets/cards/armageddon/artworks/Armageddon-Showdown.jpg"
+      ],
+      "asset_folder": "Assets/cards/armageddon",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Playable only when Godcat and Devilcat are both on the playmat. Secretly shuffle/look at them and assign one face down to you and one to another player. That player chooses to keep or swap without inspecting. Reveal: Godcat goes to its holder's hand; Devilcat's holder must discard a Defuse or die. Return Devilcat to the mat. This ends one turn without drawing. A Nope must be played before the two special cards are taken from the mat."
+    },
+    {
+      "id": "attack-2x",
+      "name": "Attack 2x",
+      "family": "attack-2x",
+      "count": 2,
+      "with_paw": 0,
+      "without_paw": 2,
+      "zone": "deck",
+      "icon": "Assets/cards/attack-2x/attack-2x.png",
+      "artwork_files": [
+        "Assets/cards/attack-2x/artworks/Attack-Bear-o-Dactyl.jpg",
+        "Assets/cards/attack-2x/artworks/Attack-Catterwocky.jpg",
+        "Assets/cards/attack-2x/artworks/Attack-Crab-a-Pult.jpg",
+        "Assets/cards/attack-2x/artworks/Attack-Grow-a-Magnifient-Squid-Arm-and-Start-Slapping-Fat-Babies.jpg",
+        "Assets/cards/attack-2x/artworks/Attack-Penguin-Diarrhea.jpg",
+        "Assets/cards/attack-2x/artworks/Attack-Rubber-Duck-Collection.jpg",
+        "Assets/cards/attack-2x/artworks/Attack-Thousand-Year-Back-Hair.jpg",
+        "Assets/cards/attack-2x/artworks/Attack-Torture-Bunnies.jpg"
+      ],
+      "asset_folder": "Assets/cards/attack-2x",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "End your turn without drawing and give the next player two turns. If played while under an Attack, transfer all current/remaining untaken turns and add two. Each required turn is played or passed, then ended by drawing or a valid turn-ending card."
+    },
+    {
+      "id": "horse-cat",
+      "name": "Horse Cat",
+      "family": "cat-card",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/cat-card/horse-cat.png",
+      "artwork_files": [
+        "Assets/cards/cat-card/artworks/Horse-Cat.jpg"
+      ],
+      "asset_folder": "Assets/cards/cat-card",
+      "artwork_mapping": "named cat identity",
+      "count_source": "explodi.ng structured card inventory; named cat split",
+      "rule": "A single cat has no effect. Discard two with the same cat name to steal one random card. The optional pair/triple combos extend matching to any shared title; a triple requests a named card and fails if the target lacks it. Feral Cat can replace a powerless cat. Cat identities are not interchangeable without a wildcard."
+    },
+    {
+      "id": "knight-cat",
+      "name": "Knight Cat",
+      "family": "cat-card",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/cat-card/knight-cat.png",
+      "artwork_files": [
+        "Assets/cards/cat-card/artworks/Knight-Cat.jpg"
+      ],
+      "asset_folder": "Assets/cards/cat-card",
+      "artwork_mapping": "named cat identity",
+      "count_source": "explodi.ng structured card inventory; named cat split",
+      "rule": "A single cat has no effect. Discard two with the same cat name to steal one random card. The optional pair/triple combos extend matching to any shared title; a triple requests a named card and fails if the target lacks it. Feral Cat can replace a powerless cat. Cat identities are not interchangeable without a wildcard."
+    },
+    {
+      "id": "mercat",
+      "name": "Mercat",
+      "family": "cat-card",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/cat-card/mercat.png",
+      "artwork_files": [
+        "Assets/cards/cat-card/artworks/Mercat.jpg"
+      ],
+      "asset_folder": "Assets/cards/cat-card",
+      "artwork_mapping": "named cat identity",
+      "count_source": "explodi.ng structured card inventory; named cat split",
+      "rule": "A single cat has no effect. Discard two with the same cat name to steal one random card. The optional pair/triple combos extend matching to any shared title; a triple requests a named card and fails if the target lacks it. Feral Cat can replace a powerless cat. Cat identities are not interchangeable without a wildcard."
+    },
+    {
+      "id": "troll-cat",
+      "name": "Troll Cat",
+      "family": "cat-card",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/cat-card/troll-cat.png",
+      "artwork_files": [
+        "Assets/cards/cat-card/artworks/Troll-Cat.jpg"
+      ],
+      "asset_folder": "Assets/cards/cat-card",
+      "artwork_mapping": "named cat identity",
+      "count_source": "explodi.ng structured card inventory; named cat split",
+      "rule": "A single cat has no effect. Discard two with the same cat name to steal one random card. The optional pair/triple combos extend matching to any shared title; a triple requests a named card and fails if the target lacks it. Feral Cat can replace a powerless cat. Cat identities are not interchangeable without a wildcard."
+    },
+    {
+      "id": "defuse",
+      "name": "Defuse",
+      "family": "defuse",
+      "count": 6,
+      "with_paw": 0,
+      "without_paw": 6,
+      "zone": "deck",
+      "icon": "Assets/cards/defuse/defuse.png",
+      "artwork_files": [
+        "Assets/cards/defuse/artworks/Defuse-Via-3AM-Flatulence.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Belly-Rubs.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Catnip-Sandwiches.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Catnip-Sweater.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Crate.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Excessive-Ball-Cleaning.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Flattering-LARP.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Kitten-Therapy.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Laser-Pointer.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Laser-Tag.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Mauling-a-Baby.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Nature-Documentaries.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Participation-in-Kitten-Yoga.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Porkback-Riding-into-the-Sunset-Together.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Scratching.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Spay-Neuter.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Tummy-Rubs.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Turning-Into-Tuna.jpg"
+      ],
+      "asset_folder": "Assets/cards/defuse",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "After drawing an Exploding Kitten, discard this to survive and secretly reinsert that Kitten anywhere in the draw pile without inspecting or rearranging other cards. Ends one turn, not every outstanding attacked turn. Cannot be Noped. Special Barking/Devilcat explosions consume a Defuse without reinserting a card."
+    },
+    {
+      "id": "devilcat",
+      "name": "Devilcat",
+      "family": "devilcat",
+      "count": 1,
+      "with_paw": 0,
+      "without_paw": 1,
+      "zone": "playmat",
+      "icon": "Assets/cards/devilcat/devilcat.png",
+      "artwork_files": [
+        "Assets/cards/devilcat/artworks/Devilcat-The-Worst-Of-The-Cursed.jpg"
+      ],
+      "asset_folder": "Assets/cards/devilcat",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "The player receiving it at Armageddon's reveal must discard a Defuse or die. Return Devilcat to the playmat afterward; never shuffle it into the draw pile. Defusing Devilcat does not reinsert a Kitten because no draw-pile Kitten was drawn."
+    },
+    {
+      "id": "exploding-kitten",
+      "name": "Exploding Kitten",
+      "family": "exploding-kitten",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/exploding-kitten/exploding-kitten.png",
+      "artwork_files": [
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Alien.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-C4.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Car-Off-Cliff.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-House-Grenade.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Nuclear-Bombs.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Playground.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Science.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-TNT-Ship.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Warp-Core.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Balloon-Bomb.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Divide-By-Zero.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Holy-Water-Balloons.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Pepper.jpg"
+      ],
+      "asset_folder": "Assets/cards/exploding-kitten",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Reveal immediately. Defuse or die. Under the Original/Party Pack/Cat Burglar rules, discard your whole hand and the lethal Kitten when eliminated. A Streaking Kitten changes whether one Exploding Kitten may be held; see its exceptions. This is not a normal action you can Nope."
+    },
+    {
+      "id": "favor",
+      "name": "Favor",
+      "family": "favor",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/favor/favor.png",
+      "artwork_files": [
+        "Assets/cards/favor/artworks/Favor-Fall-So-Deeply-in-Love.jpg",
+        "Assets/cards/favor/artworks/Favor-Get-Enslaved-by-Party-Squirrels.jpg",
+        "Assets/cards/favor/artworks/Favor-Rub-Peanut-Butter-on-Your-Belly-Button.jpg",
+        "Assets/cards/favor/artworks/Favor-Take-Your-Friends-Beard-Sailing.jpg",
+        "Assets/cards/favor/artworks/Favor-Teach-Someone-a-New-Palindrome.jpg",
+        "Assets/cards/favor/artworks/Favour-Give-A-Horsey-Ride-To-A-Horse.jpg"
+      ],
+      "asset_folder": "Assets/cards/favor",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Choose another player; they choose one card from their hand to give you. In Zombie Kittens, the target must be living. A held Exploding Kitten can be given away under Streaking rules, which makes the recipient resolve its explosion."
+    },
+    {
+      "id": "feral-cat",
+      "name": "Feral Cat",
+      "family": "feral-cat",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/feral-cat/feral-cat.png",
+      "artwork_files": [
+        "Assets/cards/feral-cat/artworks/Feral-Cat.jpg"
+      ],
+      "asset_folder": "Assets/cards/feral-cat",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "A wildcard for powerless cat cards in matching cat combos. It cannot stand in for a non-cat action card such as Attack or Shuffle."
+    },
+    {
+      "id": "godcat",
+      "name": "Godcat",
+      "family": "godcat",
+      "count": 1,
+      "with_paw": 0,
+      "without_paw": 1,
+      "zone": "playmat",
+      "icon": "Assets/cards/godcat/godcat.png",
+      "artwork_files": [
+        "Assets/cards/godcat/artworks/Godcat-The-Best-Of-The-Blessed.jpg"
+      ],
+      "asset_folder": "Assets/cards/godcat",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Win it through Armageddon. May act as any card in the deck except Nope, including Defuse when needed. After use, return it to the playmat rather than discarding it. Its distinctive back means thieves can deliberately select it even during a nominally random steal."
+    },
+    {
+      "id": "nope",
+      "name": "Nope",
+      "family": "nope",
+      "count": 5,
+      "with_paw": 0,
+      "without_paw": 5,
+      "zone": "deck",
+      "icon": "Assets/cards/nope/nope.png",
+      "artwork_files": [
+        "Assets/cards/nope/artworks/Nope-A-Jackanope-Bounds-into-the-Room.jpg",
+        "Assets/cards/nope/artworks/Nope-a-Nope-Ninja.jpg",
+        "Assets/cards/nope/artworks/Nope-Awaken-the-Narnope.jpg",
+        "Assets/cards/nope/artworks/Nope-Deliver-some-Nope-on-Your-Jump-Rope.jpg",
+        "Assets/cards/nope/artworks/Nope-Feed-your-Apponent-Some-Cantanope.jpg",
+        "Assets/cards/nope/artworks/Nope-Feed-your-Opponent-a-Nope-Sandwich.jpg",
+        "Assets/cards/nope/artworks/Nope-Nopestradamus-Speaks-the-Truth.jpg",
+        "Assets/cards/nope/artworks/Nope-Put-on-Your-Necktie-of-Nope.jpg",
+        "Assets/cards/nope/artworks/Nope-The-Pope-of-Nope-has-Spoken.jpg",
+        "Assets/cards/nope/artworks/Nope-Win-the-Nopebell-Peace-Prize.jpg"
+      ],
+      "asset_folder": "Assets/cards/nope",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Cancel an action or combo before it begins, even outside your turn. Another Nope cancels a Nope, with successive Nopes alternating cancellation. The action's cards and all Nopes remain discarded. Exploding Kittens and Defuses cannot be Noped. Do not interrupt an action after it has begun."
+    },
+    {
+      "id": "raising-heck",
+      "name": "Raising Heck",
+      "family": "raising-heck",
+      "count": 2,
+      "with_paw": 0,
+      "without_paw": 2,
+      "zone": "deck",
+      "icon": "Assets/cards/raising-heck/raising-heck.png",
+      "artwork_files": [
+        "Assets/cards/raising-heck/artworks/Raising-Heck-Demon.jpg",
+        "Assets/cards/raising-heck/artworks/Raising-Heck-Flushed-Goldfish.jpg"
+      ],
+      "asset_folder": "Assets/cards/raising-heck",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Draw the bottom card, inspect it, and choose to keep it or place it on top of the draw pile. Either decision ends one turn."
+    },
+    {
+      "id": "reveal-the-future-3x",
+      "name": "Reveal the Future 3x",
+      "family": "reveal-the-future-3x",
+      "count": 3,
+      "with_paw": 0,
+      "without_paw": 3,
+      "zone": "deck",
+      "icon": "Assets/cards/reveal-the-future-3x/reveal-the-future-3x.png",
+      "artwork_files": [
+        "Assets/cards/reveal-the-future-3x/artworks/Reveal-The-Future-Extra-Pair-of-Eyes.jpg",
+        "Assets/cards/reveal-the-future-3x/artworks/Reveal-The-Future-Go-Back-In-Time.jpg",
+        "Assets/cards/reveal-the-future-3x/artworks/Reveal-The-Future-Particle-Accelerator.jpg"
+      ],
+      "asset_folder": "Assets/cards/reveal-the-future-3x",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Show the top three draw-pile cards to all players, then return them in the same order. Continue your turn."
+    },
+    {
+      "id": "shuffle",
+      "name": "Shuffle",
+      "family": "shuffle",
+      "count": 2,
+      "with_paw": 0,
+      "without_paw": 2,
+      "zone": "deck",
+      "icon": "Assets/cards/shuffle/shuffle.png",
+      "artwork_files": [
+        "Assets/cards/shuffle/artworks/Shuffle-A-Kraken-Emerges-and-Hes-Super-Upset.jpg",
+        "Assets/cards/shuffle/artworks/Shuffle-A-Plague-of-Bat-Farts.jpg",
+        "Assets/cards/shuffle/artworks/Shuffle-A-Transdimensional-Litter-Box-Materializes.jpg",
+        "Assets/cards/shuffle/artworks/Shuffle-Abracrab-Lincoln.jpg",
+        "Assets/cards/shuffle/artworks/Shuffle-An-Asparagus-Bun-Dragon-Appears.jpg",
+        "Assets/cards/shuffle/artworks/Shuffle-An-Electromagnetic-Pomeranian-Storm.jpg",
+        "Assets/cards/shuffle/artworks/Shuffle-Discover-You-Have-a-Toilet-Werewolf.jpg",
+        "Assets/cards/shuffle/artworks/Shuffle-Smoke-Some-Crack-with-a-Baby-Owl.jpg"
+      ],
+      "asset_folder": "Assets/cards/shuffle",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "Randomize the draw pile without learning its final order. The Original/Party Pack/2-Player/Cat Burglar PDFs say to shuffle thoroughly; NSFW and Good vs. Evil say until the next player tells you to stop. If an Imploding Kitten is face up, shuffle out of sight so its resulting position is unknown."
+    },
+    {
+      "id": "targeted-attack-2x",
+      "name": "Targeted Attack 2x",
+      "family": "targeted-attack-2x",
+      "count": 2,
+      "with_paw": 0,
+      "without_paw": 2,
+      "zone": "deck",
+      "icon": "Assets/cards/targeted-attack-2x/targeted-attack-2x.png",
+      "artwork_files": [
+        "Assets/cards/targeted-attack-2x/artworks/Targeted-Attack-2x-Deploy-The-Groin-Kicking-Panda-Bear.jpg",
+        "Assets/cards/targeted-attack-2x/artworks/Targeted-Attack-2x-Fire-The-Fat-Hamster-Crossbow.jpg",
+        "Assets/cards/targeted-attack-2x/artworks/Targeted-Attack-Unleash-a-Shark-Who-Hurts-with-Words-Instead-of-Teeth.jpg"
+      ],
+      "asset_folder": "Assets/cards/targeted-attack-2x",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "rules.pdf page 2",
+      "rule": "End your current turn(s) without drawing and choose another player to take two turns; play continues from that victim. If responding to an Attack, transfer all untaken turns and add two. Does not require targeting your immediate neighbor."
+    }
+  ],
+  "limitations": []
+}

@@ -1,0 +1,42 @@
+{
+  "retrieved_date": "2026-10-06",
+  "sources": [
+    {
+      "url": "https://thelostpixels.com/wp-content/uploads/2025/02/ExplodingKittensAnim_1.mp4",
+      "file": "vendor/ExplodingKittensAnim_1.mp4",
+      "bytes": 1148832,
+      "sha256": "894dd1d3bf36b3bb5f7e2e6d3a622499f66f911cd284d85483deb1d02b6aec63",
+      "authority": "The Lost Pixels official production-vendor portfolio",
+      "page": "https://thelostpixels.com/art/",
+      "caption": "EXPLODING KITTENS 2 - CARD ANIMATION",
+      "scope": "Edited production-vendor portfolio montage of in-game card inspections; platform/build unverified, not a complete Steam gameplay recording",
+      "media": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 30,
+        "duration_seconds": 9.1,
+        "audio_streams": 0
+      }
+    },
+    {
+      "url": "https://thelostpixels.com/art/",
+      "file": "vendor/art-page.html",
+      "bytes": 127705,
+      "sha256": "af4a92786dc49c70c8e87db8a823ca3feb3c268596c4f5d59f472b6ae8f0a7ee",
+      "authority": "The Lost Pixels official production-vendor portfolio"
+    }
+  ],
+  "derived_evidence": {
+    "contact_sheet": "vendor/contact-01.jpg",
+    "frames_directory": "vendor/frames",
+    "frame_count": 36,
+    "extraction_fps": 4,
+    "frame_size": [
+      960,
+      540
+    ],
+    "method": "imageio_ffmpeg bundled FFmpeg via root .codex/research-animation/tools; fps=4,scale=960:-1",
+    "timestamp_uncertainty_seconds": 0.25,
+    "timings_are_gameplay_durations": false
+  }
+}

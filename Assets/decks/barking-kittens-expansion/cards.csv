@@ -1,0 +1,10 @@
+﻿id,name,family,count,with_paw,without_paw,zone,icon,asset_folder,count_source
+alter-the-future-3x-now,Alter the Future 3x NOW,alter-the-future-3x-now,2,0,2,deck,Assets/cards/alter-the-future-3x-now/alter-the-future-3x-now.png,Assets/cards/alter-the-future-3x-now,rules.pdf page 2
+barking-kitten,Barking Kitten,barking-kitten,2,0,2,deck,Assets/cards/barking-kitten/barking-kitten.png,Assets/cards/barking-kitten,rules.pdf page 2
+bury,Bury,bury,2,0,2,deck,Assets/cards/bury/bury.png,Assets/cards/bury,rules.pdf page 2
+i-ll-take-that,I'll Take That,i-ll-take-that,4,0,4,deck,Assets/cards/i-ll-take-that/i-ll-take-that.png,Assets/cards/i-ll-take-that,rules.pdf page 2
+personal-attack-3x,Personal Attack 3x,personal-attack-3x,4,0,4,deck,Assets/cards/personal-attack-3x/personal-attack-3x.png,Assets/cards/personal-attack-3x,rules.pdf page 2
+potluck,Potluck,potluck,2,0,2,deck,Assets/cards/potluck/potluck.png,Assets/cards/potluck,rules.pdf page 2
+share-the-future-3x,Share the Future 3x,share-the-future-3x,2,0,2,deck,Assets/cards/share-the-future-3x/share-the-future-3x.png,Assets/cards/share-the-future-3x,rules.pdf page 2
+super-skip,Super Skip,super-skip,1,0,1,deck,Assets/cards/super-skip/super-skip.png,Assets/cards/super-skip,rules.pdf page 2
+tower-of-power,Tower of Power,tower-of-power,1,0,1,deck,Assets/cards/tower-of-power/tower-of-power.png,Assets/cards/tower-of-power,rules.pdf page 2

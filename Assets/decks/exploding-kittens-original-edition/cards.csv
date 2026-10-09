@@ -1,0 +1,14 @@
+﻿id,name,family,count,with_paw,without_paw,zone,icon,asset_folder,count_source
+attack-2x,Attack 2x,attack-2x,4,0,4,deck,Assets/cards/attack-2x/attack-2x.png,Assets/cards/attack-2x,rules.pdf page 2
+beard-cat,Beard Cat,cat-card,4,0,4,deck,Assets/cards/cat-card/beard-cat.png,Assets/cards/cat-card,explodi.ng structured card inventory; named cat split
+cattermelon,Cattermelon,cat-card,4,0,4,deck,Assets/cards/cat-card/cattermelon.png,Assets/cards/cat-card,explodi.ng structured card inventory; named cat split
+hairy-potato-cat,Hairy Potato Cat,cat-card,4,0,4,deck,Assets/cards/cat-card/hairy-potato-cat.png,Assets/cards/cat-card,explodi.ng structured card inventory; named cat split
+rainbow-ralphing-cat,Rainbow-Ralphing Cat,cat-card,4,0,4,deck,Assets/cards/cat-card/rainbow-ralphing-cat.png,Assets/cards/cat-card,explodi.ng structured card inventory; named cat split
+tacocat,Tacocat,cat-card,4,0,4,deck,Assets/cards/cat-card/tacocat.png,Assets/cards/cat-card,explodi.ng structured card inventory; named cat split
+defuse,Defuse,defuse,6,0,6,deck,Assets/cards/defuse/defuse.png,Assets/cards/defuse,rules.pdf page 2
+exploding-kitten,Exploding Kitten,exploding-kitten,4,0,4,deck,Assets/cards/exploding-kitten/exploding-kitten.png,Assets/cards/exploding-kitten,rules.pdf page 2
+favor,Favor,favor,4,0,4,deck,Assets/cards/favor/favor.png,Assets/cards/favor,rules.pdf page 2
+nope,Nope,nope,5,0,5,deck,Assets/cards/nope/nope.png,Assets/cards/nope,rules.pdf page 2
+see-the-future-3x,See the Future 3x,see-the-future-3x,5,0,5,deck,Assets/cards/see-the-future-3x/see-the-future-3x.png,Assets/cards/see-the-future-3x,rules.pdf page 2
+shuffle,Shuffle,shuffle,4,0,4,deck,Assets/cards/shuffle/shuffle.png,Assets/cards/shuffle,rules.pdf page 2
+skip,Skip,skip,4,0,4,deck,Assets/cards/skip/skip.png,Assets/cards/skip,rules.pdf page 2

@@ -1,0 +1,368 @@
+## Admin Editor / Developer Dashboard
+
+When the game is finished, I want the project to include a powerful **Editor / Developer Dashboard** that allows me to manually customize almost everything related to the game without having to search through the source code.
+
+The editor must be designed so that future visual changes, asset replacements, animation tuning, and entity updates can be done easily.
+
+### 1. Interface Editor
+
+I must be able to manually modify UI-related elements, including:
+
+- Images and assets
+- Icons
+- Card artwork
+- Backgrounds
+- Buttons
+- Text
+- Fonts
+- Colors
+- Sizes
+- Positions
+- Opacity
+- Borders
+- Shadows
+- Hover effects
+- Active/disabled states
+- Z-index / layer order
+- Responsive behavior
+- Visibility
+
+Where possible, changes should have a **live preview**.
+
+---
+
+### 2. Animation Dashboard
+
+Create a dedicated dashboard containing **every animation used in the game**.
+
+For each animation, show:
+
+- Animation name
+- Description
+- Trigger
+- Source component/entity
+- Duration
+- Delay
+- Easing
+- Keyframes
+- Sound effect, if any
+- Related UI element
+- Source file
+- Function/class responsible for it
+- Direct link/reference to the relevant code
+
+I should be able to modify common animation properties directly from the dashboard, such as:
+
+- Duration
+- Delay
+- Speed
+- Easing
+- Distance
+- Scale
+- Rotation
+- Opacity
+- Intensity
+- Enable/disable
+
+Also provide:
+
+- **Play**
+- **Replay**
+- **Pause**
+- **Slow motion**
+- **Reset**
+
+buttons so I can test animations without playing an entire game.
+
+---
+
+### 3. Feature Dashboard
+
+Create a dashboard showing **all major game features and mechanics**.
+
+Examples:
+
+- Draw card
+- Play card
+- End turn
+- Attack
+- Skip
+- Favor
+- Shuffle
+- See the Future
+- Nope
+- Exploding Kitten
+- Defuse
+- Bot actions
+- Player elimination
+- Turn transitions
+- Deck interactions
+- Hand interactions
+- Notifications
+- Game-over sequence
+
+Each feature should show:
+
+- Feature name
+- Description
+- Current status
+- Related entities
+- Related animations
+- Related sounds
+- Related UI components
+- Source file
+- Main functions/classes
+- Dependencies
+- Direct code reference
+
+The purpose is to make the dashboard act as a **visual map of the entire game architecture**.
+
+---
+
+### 4. Entity Editor
+
+I must be able to:
+
+- Add entities
+- Remove entities
+- Duplicate entities
+- Edit entities
+- Enable/disable entities
+- Replace assets
+- Modify properties
+- Modify behavior configuration
+
+Examples of entities include:
+
+- Cards
+- Card types
+- Players
+- Bots
+- Decks
+- UI components
+- Effects
+- Sounds
+- Animations
+- Notifications
+- Game objects
+
+Do not hard-code entity data unnecessarily.
+
+Use structured configuration/data files so new content can be added without rewriting the core engine.
+
+---
+
+### 5. Card Editor
+
+Provide a dedicated card-management interface.
+
+For every card, allow editing:
+
+- Name
+- ID
+- Image
+- Description
+- Card family/type
+- Quantity
+- Effect
+- Animation
+- Sound
+- Play conditions
+- Target requirements
+- UI behavior
+- Deck membership
+
+I should also be able to:
+
+- Create a new card
+- Duplicate an existing card
+- Delete a card
+- Add/remove cards from a deck
+- Create new decks
+- Change card quantities
+- Preview cards
+
+This is important because I plan to support **multiple Exploding Kittens decks and expansions later**.
+
+---
+
+### 6. Asset Manager
+
+Create a central asset browser for:
+
+- Images
+- Card artwork
+- Icons
+- Backgrounds
+- Audio
+- Music
+- Fonts
+- Animation assets
+
+Show where each asset is currently being used.
+
+Example:
+
+`attack.png → AttackCard → HandCard → Attack animation`
+
+I should be able to replace an asset and have all references update correctly.
+
+---
+
+### 7. Code Mapping
+
+This is extremely important.
+
+For every item shown in the editor/dashboard, provide references to its implementation.
+
+For example:
+
+`Draw Card Animation`
+→ `src/animations/cardAnimations.js`
+→ `drawCardAnimation()`
+
+`Attack Effect`
+→ `src/game/effects/attack.js`
+→ `resolveAttack()`
+
+`Player Hand`
+→ `src/ui/components/PlayerHand.js`
+
+Do not duplicate game logic inside the editor.
+
+The editor should inspect or reference the actual systems used by the game.
+
+The goal is that I can click something in the dashboard and immediately understand:
+
+**what it is → where it is used → what controls it → where its code lives.**
+
+---
+
+### 8. Visual Inspector
+
+Add a developer inspection mode.
+
+When enabled, I should be able to click a visible UI element in the game.
+
+The editor should then show:
+
+- Element/component name
+- Entity ID
+- Current asset
+- CSS/styles
+- Position
+- Size
+- Animation
+- Event handlers
+- Feature it belongs to
+- Source file
+- Relevant function/component
+
+Similar to browser DevTools, but specialized for this game.
+
+---
+
+### 9. Search
+
+Provide a global search.
+
+For example, searching:
+
+`attack`
+
+should return:
+
+- Attack card
+- Attack effect
+- Attack animation
+- Attack sound
+- Attack UI
+- Relevant source files
+- Related functions
+
+Searching:
+
+`draw`
+
+should return all components and systems related to drawing cards.
+
+---
+
+### 10. Relationship View
+
+Where practical, provide a dependency/relationship view such as:
+
+`Attack Card`
+→ `Attack Effect`
+→ `Turn Manager`
+→ `Opponent Turn`
+→ `Attack Animation`
+→ `Attack Sound`
+→ `Game Log`
+
+This will make debugging and future development significantly easier.
+
+---
+
+### 11. Debug / Test Controls
+
+The editor should allow me to trigger game situations manually.
+
+Examples:
+
+- Give player a specific card
+- Remove a card
+- Force an Exploding Kitten draw
+- Force a Defuse
+- Trigger Attack
+- Trigger Nope
+- Trigger See the Future
+- Change current player
+- Change deck order
+- Set player HP/state if applicable
+- Eliminate a player
+- Spawn bots
+- Force bot action
+- Trigger game over
+
+This should make it possible to test a feature immediately rather than playing through a full game.
+
+---
+
+### 12. Architecture Requirement
+
+Keep the **game engine, UI, assets, animations, and editor separated**.
+
+Prefer an architecture similar to:
+
+```text
+/src
+    /engine
+    /entities
+    /cards
+    /effects
+    /bots
+    /ui
+    /animations
+    /audio
+    /config
+    /editor
+```
+
+The Editor must NOT become part of the core game logic.
+
+The game must still work normally if the editor is disabled or removed.
+
+---
+
+## Main Goal
+
+After development is complete, I should not need to search randomly through the repository whenever I want to change something.
+
+I want one central developer dashboard where I can:
+
+**Inspect → Preview → Test → Edit → Replace → Add → Remove → Trace to Code**
+
+for almost every visual or configurable part of the game.
+
+Build the project architecture with this future editor in mind from the beginning, instead of trying to bolt the editor onto a heavily hard-coded game later.

@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-05",
+  "timezone": "Asia/Bangkok",
+  "requirement": "Requirement/Original_Edition/uiux_editor.txt",
+  "tests": {
+    "passed": 43,
+    "failed": 0,
+    "original_complete_simulated_matches": 140,
+    "custom_complete_simulated_matches": 24,
+    "syntax_checks": "passed"
+  },
+  "browser": {
+    "name": "Brave",
+    "dashboard_url": "http://127.0.0.1:4177/app/editor/index.html",
+    "observed_checks": [
+      "dashboard loads and lists every section",
+      "live CSS draft edit",
+      "Save project writes backup and saved configuration",
+      "default styling restored and saved",
+      "duplicate card, edit name and deck quantity",
+      "custom card appears in real sandbox hand",
+      "global Attack search returns cards, mechanics, animation and assets",
+      "visual inspector maps draw pile to source",
+      "source dialog opens actual game source",
+      "animation play, pause, slow motion and reset",
+      "forced Kitten draw displays rescue controls",
+      "forced Defuse reaches secret reinsertion dialog",
+      "sandbox resets with original inventory",
+      "mobile 390x844 and desktop 1366x768 preview viewport selection",
+      "normal port-4177 dashboard delivery",
+      "Trigger Attack opens response window",
+      "Trigger Nope cancels Attack and displays counter-Nope prompt",
+      "self-Nope rejected with engine error displayed in dashboard",
+      "Make seat winner produces gameover state and victory dialog",
+      "saved card configuration opens through project.json source reference",
+      "fresh sandbox restored for delivery"
+    ],
+    "console_warnings_errors": [],
+    "continuation_recovery": "The local server had stopped between turns, causing initial fetch/import failures. Restarted it using .codex/launch.ps1 -NoBrowser, reloaded the dashboard, and completed the additional checks successfully.",
+    "not_manually_exercised": [
+      "uploaded font/music playback",
+      "all cross-browser and assistive-technology combinations",
+      "every sandbox control and imported configuration permutation"
+    ]
+  },
+  "persistence": {
+    "configuration": "app/config/project.json",
+    "baseline": "app/config/defaults.json",
+    "backups": ".codex/editor-backups",
+    "normal_and_preview_storage_are_separate": true,
+    "test_customizations_removed": true
+  },
+  "limitations": [
+    "Novel expansion mechanics require engine code",
+    "CSS and transition animation previews use samples",
+    "Handler descriptions use maintained mappings",
+    "Bot count changes reset sandbox",
+    "Original asset provenance gaps remain"
+  ],
+  "integrity": {
+    "original_files_checked": 351,
+    "changed_originals": [],
+    "source_mapping_errors": [],
+    "asset_errors": [],
+    "documentation_links_checked": 111,
+    "missing_links": [],
+    "screenshots": {
+      "uiux-editor-desktop.png": {
+        "width": 2560,
+        "height": 917
+      },
+      "uiux-editor-mobile-preview.png": {
+        "width": 2560,
+        "height": 917
+      }
+    },
+    "catalog_counts": {
+      "cards": 13,
+      "decks": 1,
+      "ui": 26,
+      "animations": 28,
+      "sounds": 6,
+      "entities": 5,
+      "features": 22
+    }
+  }
+}

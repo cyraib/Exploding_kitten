@@ -1,0 +1,274 @@
+Act as a professional game tester, QA engineer, and UX reviewer.
+
+Your task is to inspect and play-test the current game as if you were a real first-time player. Do NOT focus only on code quality. Focus primarily on what a player would actually experience.
+
+Play through the game multiple times and actively try to break it.
+
+Evaluate the game in these areas:
+
+1. GAMEPLAY
+- Are the game rules implemented correctly?
+- Can any action produce an invalid game state?
+- Are there situations where the game gets stuck or cannot continue?
+- Can players perform actions that should not be allowed?
+- Are turn transitions correct?
+- Are win/loss conditions correct?
+- Are special cards/actions/effects resolved correctly?
+- Check edge cases, unusual combinations, and unexpected player behavior.
+
+2. PLAYER EXPERIENCE
+Imagine you know nothing about the project.
+
+Ask yourself:
+- Do I immediately understand what I am supposed to do?
+- Is it obvious whose turn it is?
+- Is it obvious which cards/buttons/items are clickable?
+- After clicking something, do I understand what happened?
+- Do I know what I am allowed to do next?
+- Is important information missing?
+- Are there moments where I feel confused, uncertain, or forced to guess?
+
+Treat every confusing moment as a UX issue.
+
+3. UI
+Check:
+- layout
+- spacing
+- alignment
+- visual hierarchy
+- text readability
+- card readability
+- button size
+- hover states
+- selected states
+- disabled states
+- overlapping elements
+- clipping
+- unnecessary empty space
+- information density
+- consistency between screens/components
+
+Identify anything that looks temporary, unfinished, inconsistent, or visually awkward.
+
+4. ANIMATION AND FEEDBACK
+Check every important action such as:
+- playing a card
+- drawing a card
+- selecting a target
+- changing turns
+- attacking
+- skipping
+- stealing
+- shuffling
+- revealing cards
+- eliminating a player
+- winning/losing
+- opening/closing dialogs
+- invalid actions
+
+For each action, determine whether the player receives enough visual feedback.
+
+Look for:
+- animations that are missing
+- animations that are too fast
+- animations that are too slow
+- actions that happen instantly and are difficult to follow
+- lack of delays between important events
+- lack of highlighting
+- lack of confirmation
+- lack of sound/visual feedback placeholders
+- animations that block gameplay unnecessarily
+
+5. GAME FLOW AND PACING
+Determine whether the game feels smooth.
+
+Look for:
+- abrupt transitions
+- unnecessary waiting
+- actions happening too quickly
+- too many clicks
+- repetitive interactions
+- unclear phases
+- confusing target-selection flows
+- dialogs appearing at bad times
+- information disappearing too early
+- the player losing track of what happened
+
+6. BOT / AI BEHAVIOR
+If bots exist:
+- Check whether bots always make legal moves.
+- Check whether bots understand card effects.
+- Check whether bots make obviously irrational decisions.
+- Check whether bot turns feel natural.
+- Check whether bot actions happen too quickly for the human player to understand.
+- Check whether bot actions need animation, logs, highlights, or delays.
+- Try to cause the bot to enter edge cases.
+
+7. GAME STATE VISIBILITY
+At every moment, the player should be able to understand:
+- whose turn it is
+- current phase
+- player order
+- cards in hand
+- deck state
+- discard state
+- active effects
+- pending effects
+- selected player/card
+- eliminated players
+- winner
+- what action is expected from them
+
+Report anything that is hidden, ambiguous, or difficult to understand.
+
+8. ERROR HANDLING
+Try incorrect actions intentionally:
+- double click
+- click very quickly
+- click during animations
+- click disabled actions
+- select wrong targets
+- perform actions in the wrong order
+- refresh during gameplay if applicable
+- trigger multiple effects quickly
+
+Check whether this causes:
+- duplicated actions
+- skipped turns
+- broken UI
+- incorrect state
+- crashes
+- frozen controls
+- console errors
+
+9. POLISH
+Find everything that makes the game feel like a prototype instead of a finished game.
+
+Examples:
+- debug-looking text
+- default browser buttons
+- abrupt state changes
+- missing transitions
+- unclear notifications
+- inconsistent terminology
+- placeholder UI
+- missing hover effects
+- weak feedback
+- awkward positioning
+- excessive logs
+- technical wording shown to players
+
+10. RESPONSIVENESS / WINDOW SIZE
+The current priority is desktop, but test several desktop resolutions.
+
+Check whether:
+- cards remain visible
+- controls remain reachable
+- player areas overlap
+- text becomes unreadable
+- dialogs leave the viewport
+- the game board scales badly
+
+Do not spend time optimizing mobile unless mobile behavior directly breaks desktop code.
+
+TESTING METHOD
+
+Do not just inspect the source code.
+
+Actually simulate complete matches from beginning to end.
+
+Perform at least:
+- one normal match
+- one aggressive/fast-clicking test
+- one edge-case-focused match
+- one match intentionally attempting unusual actions
+- one bot-heavy match if bots are available
+
+Whenever you encounter a problem, record it.
+
+OUTPUT
+
+Create a GAME_TEST_REPORT.md with the following structure:
+
+# Game Test Report
+
+## Critical Issues
+Problems that can break the game, corrupt state, prevent progression, or produce incorrect game rules.
+
+For every issue include:
+- Problem
+- How to reproduce
+- Expected behavior
+- Current behavior
+- Likely cause
+- Suggested fix
+- Related file/component if identifiable
+
+## Major Issues
+Problems that significantly damage gameplay or user understanding.
+
+## Minor Issues
+Smaller UX, visual, animation, or polish problems.
+
+## Missing Feedback / Animation
+List actions where the player does not clearly understand what happened.
+
+For each one suggest a specific animation or UI response.
+
+Example:
+
+Action: Opponent plays Attack  
+Current: Turn counter suddenly changes  
+Problem: Player may not notice what happened  
+Recommended:
+- move Attack card toward discard pile
+- highlight affected player
+- show “2 Turns” indicator
+- 500–800ms transition before continuing
+
+## UX Confusion Points
+List every moment where a first-time player may ask:
+- “What should I click?”
+- “What just happened?”
+- “Why can't I do this?”
+- “Whose turn is it?”
+- “What am I waiting for?”
+
+## Bot Issues
+
+## Visual / UI Issues
+
+## Edge Cases Found
+
+## Suggested Improvements
+
+Classify recommendations as:
+
+P0 — game-breaking  
+P1 — important gameplay/UX issue  
+P2 — polish improvement  
+P3 — optional enhancement
+
+Finally create:
+
+## Top 10 Things To Fix Next
+
+Rank the 10 changes that would produce the largest improvement to the game.
+
+IMPORTANT RULES
+
+- Be critical. Do not assume the existing implementation is correct.
+- Do not praise features unless the observation helps identify a problem.
+- Do not modify code yet.
+- Do not redesign the entire game unnecessarily.
+- Prioritize concrete, reproducible problems.
+- Prefer player-facing observations over theoretical code concerns.
+- If something feels confusing even though technically functional, report it.
+- Distinguish between BUG, UX ISSUE, ANIMATION ISSUE, RULE ISSUE, and POLISH ISSUE.
+- Include exact reproduction steps whenever possible.
+- Inspect the browser console for errors during testing.
+- If you cannot directly interact with some part of the game, inspect the relevant implementation and clearly mark the finding as “Code Review Finding” rather than claiming you reproduced it.
+
+The final goal is to answer this question:
+
+“If this game were released to players today, what would make it feel broken, confusing, annoying, unfinished, or less fun — and exactly what should be fixed first?”

@@ -1,0 +1,27 @@
+﻿/* Short functional card scenes and compact feedback. No decorative paw rigs. */
+.steam-bean,.steam-paw,.steam-symbol{display:block;width:100%;height:100%;overflow:visible;pointer-events:none}
+.steam-scene{position:fixed;pointer-events:none;box-sizing:border-box;will-change:transform,opacity}
+.steam-scene *{pointer-events:none;box-sizing:border-box}
+.steam-flight-rig,.steam-shuffle,.steam-reinsert{width:0;height:0;transform-origin:0 0;perspective:900px}
+.steam-flight-rig .steam-flight-card,.steam-shuffle .steam-flight-card,.steam-reinsert .steam-flight-card{position:absolute;left:-66px;top:-92px;width:132px;height:184px;margin:0;transform-origin:center;z-index:2;box-shadow:0 5px 8px #30282140;border-radius:8px;backface-visibility:hidden}
+.steam-flight-card .card-image{border-radius:6px}
+.steam-flight-card.card-back{border:4px solid #fff6dd;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#b6352f;box-shadow:0 5px 8px #291b2140}
+.steam-flight-card.card-back .back-title{font:24px/.91 Impact,'Arial Narrow',sans-serif;text-align:center;color:#fff7e9;letter-spacing:.5px}
+.steam-reinsert .steam-deck-packet::before,.steam-reinsert .steam-deck-packet::after{content:"";position:absolute;inset:-4px;border:2px solid #eadfbe;border-radius:8px;background:#a62c2c;z-index:-1;transform:translate(3px,3px)}
+.steam-reinsert .steam-deck-packet::after{transform:translate(5px,5px)}
+.steam-reinsert .steam-deck-lower{z-index:1}
+.steam-reinsert .steam-insert-card{z-index:2}
+.steam-reinsert .steam-deck-upper{z-index:3}
+.steam-cue{transform:translate(-50%,-50%);width:max-content;max-width:calc(100vw - 24px);filter:drop-shadow(0 4px 3px #30211c20)}
+.steam-cue-content{display:flex;align-items:center;gap:7px}
+.steam-cue-symbol{width:52px;height:62px;flex:0 0 52px}
+.steam-bubble{display:block;padding:10px 18px;background:#292321;color:#fff6e4;border-radius:12px;border:2px solid #1f1b18;font-family:Impact,'Arial Narrow',sans-serif;letter-spacing:.5px;text-align:center;max-width:min(420px,calc(100vw - 86px))}
+.steam-bubble strong{display:block;font-size:clamp(22px,2.4vw,34px);font-weight:400;line-height:1.08;text-transform:uppercase;overflow-wrap:anywhere}
+.steam-bubble small{display:block;font-size:clamp(10px,.9vw,12px);font-weight:400;line-height:1.2;margin-top:5px;color:#f8d975;letter-spacing:.8px}
+.steam-cue-turn .steam-bubble{background:#f6e7c6;color:#302921;border-color:#473328}
+.steam-cue-turn .steam-bubble small{color:#795635}
+.steam-cue-defuse .steam-bubble strong{color:#b7df95}
+.steam-cue-danger .steam-bubble strong,.steam-cue-explode .steam-bubble strong{color:#f39a68}
+.steam-cue-win .steam-bubble strong{color:#f5d976}
+@media(max-width:700px){.steam-cue-symbol{width:38px;height:48px;flex-basis:38px}.steam-bubble{padding:9px 13px;max-width:calc(100vw - 68px)}.steam-bubble strong{font-size:22px}.steam-bubble small{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.steam-scene{will-change:opacity}}

@@ -1,0 +1,11 @@
+﻿id,name,family,count,with_paw,without_paw,zone,icon,asset_folder,count_source
+alter-the-future-5x,Alter the Future 5x,alter-the-future-5x,1,0,1,deck,Assets/cards/alter-the-future-5x/alter-the-future-5x.png,Assets/cards/alter-the-future-5x,rules.pdf page 2
+catomic-bomb,Catomic Bomb,catomic-bomb,1,0,1,deck,Assets/cards/catomic-bomb/catomic-bomb.png,Assets/cards/catomic-bomb,rules.pdf page 2
+curse-of-the-cat-butt,Curse of the Cat Butt,curse-of-the-cat-butt,2,0,2,deck,Assets/cards/curse-of-the-cat-butt/curse-of-the-cat-butt.png,Assets/cards/curse-of-the-cat-butt,rules.pdf page 2
+exploding-kitten,Exploding Kitten,exploding-kitten,1,0,1,deck,Assets/cards/exploding-kitten/exploding-kitten.png,Assets/cards/exploding-kitten,rules.pdf page 2
+garbage-collection,Garbage Collection,garbage-collection,1,0,1,deck,Assets/cards/garbage-collection/garbage-collection.png,Assets/cards/garbage-collection,rules.pdf page 2
+mark,Mark,mark,3,0,3,deck,Assets/cards/mark/mark.png,Assets/cards/mark,rules.pdf page 2
+see-the-future-5x,See the Future 5x,see-the-future-5x,1,0,1,deck,Assets/cards/see-the-future-5x/see-the-future-5x.png,Assets/cards/see-the-future-5x,rules.pdf page 2
+streaking-kitten,Streaking Kitten,streaking-kitten,1,0,1,deck,Assets/cards/streaking-kitten/streaking-kitten.png,Assets/cards/streaking-kitten,rules.pdf page 2
+super-skip,Super Skip,super-skip,1,0,1,deck,Assets/cards/super-skip/super-skip.png,Assets/cards/super-skip,rules.pdf page 2
+swap-top-and-bottom,Swap Top and Bottom,swap-top-and-bottom,3,0,3,deck,Assets/cards/swap-top-and-bottom/swap-top-and-bottom.png,Assets/cards/swap-top-and-bottom,rules.pdf page 2

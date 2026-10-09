@@ -1,0 +1,101 @@
+{
+  "completed_date": "2026-10-07",
+  "timezone": "Asia/Bangkok",
+  "request": "Update Original Edition presentation toward Exploding Kittens 2 Steam; user approved closest reconstruction and explicit remaining differences.",
+  "scope": "Existing Original Edition only; presentation layer; no exact parity claim.",
+  "changed_existing_runtime": [
+    "index.html",
+    "package.json",
+    "app/main.js",
+    "app/config/defaults.json",
+    "app/config/project.json",
+    "app/config/runtime.js",
+    "app/editor/bridge.js"
+  ],
+  "new_presentation_files": [
+    "app/presentation/card-art.css",
+    "app/presentation/card-art.js",
+    "app/presentation/steam-scenes.css",
+    "app/presentation/steam-scenes.js",
+    "app/presentation/steam-table.css",
+    "app/presentation/steam-visuals.js",
+    "app/presentation/tabletop.svg"
+  ],
+  "commands": {
+    "npm test": {
+      "passed": 43,
+      "failed": 0,
+      "complete_simulations": 164
+    },
+    "npm run check": "passed including new presentation modules",
+    "node .codex/steam-scene-check.mjs": {
+      "passed": 9,
+      "failed": 0
+    },
+    "python .codex/verify_steam_animation.py --output .codex/steam-animation-integrity.json": "passed",
+    "python .codex/verify_uiux_editor.py": "passed 28 motion and 22 feature source mappings",
+    "python .codex/verify_playtest.py": "passed asset/document integrity; existing match screenshots not repeated"
+  },
+  "browser": {
+    "browser": "Windows Brave",
+    "origin": "http://127.0.0.1:4181 (isolated fixture saves); editor sandbox at4177",
+    "observations": [
+      "One moving card and one paw on play and Favor transfer; source/destination copies hidden until arrival.",
+      "Future modal shows three private faces in fixed order with TOP/2/3 labels.",
+      "Normal/Fast/Calm and counter-Nope have fresh3.0s response status; self-Nope control unavailable; subsequent action resolves.",
+      "Calm has zero foreground scene nodes and overlay motion opt-ins disabled.",
+      "Kitten starts as a single back; Defuse flies once; secret bottom reinsertion has zero face images.",
+      "Pair target and gesture work; five selectable backs contain zero face/overlay images before theft; selected card alone reveals in transfer.",
+      "Normal draw double-click consumes one card: deck19 to18 and hand13 to14. Pause leaves PAUSED and effects0 after completion.",
+      "Fresh five-player deal has five sprites per round, eight cards each, deck16.",
+      "Reconstructed death precedes hand-back discard and victory; final effects0, dead hand0, discard9 in seeded fixture.",
+      "Editor turn and Nope previews show new scenes; Pause holds them, Reset removes all scene nodes.",
+      "Rainbow card close-up preserves720px image and enables inert vector accent overlay.",
+      "1920x1080,1366x768,390x844 have no page overflow or broken images; mobile hand scrolls299px viewport over766px contents; Draw button height36px.",
+      "Inspected browser warning/error logs were empty."
+    ],
+    "screenshots": {
+      "steam-animation-desktop.png": {
+        "width": 1920,
+        "height": 1080,
+        "sha256": "c72fadb77262610e9c34677233f0e93246032c46cac4f231a5a3e2f6e1dec49f"
+      },
+      "steam-animation-editor-preview.png": {
+        "width": 1366,
+        "height": 768,
+        "sha256": "3521ae62cee7dad89d2fbe87c68d19d3c6ee356645624cc13b83a7ac36fac70d"
+      },
+      "steam-animation-elimination.png": {
+        "width": 1366,
+        "height": 768,
+        "sha256": "fa6163d617dd9ca7483e917f7bd70aa3e6bb897134eabe06457d3e056bc0b8a0"
+      },
+      "steam-animation-laptop.png": {
+        "width": 1366,
+        "height": 768,
+        "sha256": "a889f356926b1e2443d796f552278878f008f15325b7060614f1385f85cfa3a2"
+      },
+      "steam-animation-mobile.png": {
+        "width": 390,
+        "height": 844,
+        "sha256": "9cff999d81989ef00da13bcf847738ebf085ed1074c248f2e250283d9a7427d4"
+      },
+      "steam-animation-victory.png": {
+        "width": 1366,
+        "height": 768,
+        "sha256": "7b2abd80d3f7459564e1950b517e0ff5b8a03ec2f67c42ad098ce6263cd2f69d"
+      }
+    }
+  },
+  "limitations": [
+    "Authored vector Beans/props/paws/accents, not official layered or3D assets.",
+    "Flattened supplied scans prevent exact internal character motion.",
+    "System condensed font and existing audio differ from official production assets.",
+    "Local durations/easing are choices; no controlled current-Steam frame parity comparison.",
+    "Expansion mechanics, selectable cosmetic packs, recipes and online modes are outside approved scope.",
+    "System reduced-motion CSS/branches reviewed; OS setting not changed in this browser pass.",
+    "No new complete browser match or forced watchdog-stall replay; isolated fixtures, scene cancellation tests and existing full simulation regression were used."
+  ],
+  "integrity_report": "steam-animation-integrity.json",
+  "implementation_note": "steam-animation-implementation.md"
+}

@@ -1,0 +1,2379 @@
+{
+  "version": 1,
+  "theme": {},
+  "cards": [
+    {
+      "id": "attack-2x",
+      "name": "Attack 2x",
+      "family": "attack-2x",
+      "count": 4,
+      "icon": "/Assets/cards/attack-2x/attack-2x.png",
+      "art": "/Assets/cards/attack-2x/artworks/Attack-Bear-o-Dactyl.jpg",
+      "color": "#f4a050",
+      "description": "End your turn. Give the next player two turns. Attacks stack.",
+      "rule": "End your turn without drawing and give the next player two turns. If played while under an Attack, transfer all current/remaining untaken turns and add two. Each required turn is played or passed, then ended by drawing or a valid turn-ending card.",
+      "enabled": true,
+      "effect": "attack-2x",
+      "animation": "flight",
+      "sound": "play",
+      "playCondition": "turn",
+      "targetRequirement": "clockwise",
+      "uiBehavior": "card-face",
+      "source": {
+        "file": "app/catalog.js",
+        "symbol": "\"attack-2x\""
+      }
+    },
+    {
+      "id": "beard-cat",
+      "name": "Beard Cat",
+      "family": "cat-card",
+      "count": 4,
+      "icon": "/Assets/cards/cat-card/beard-cat.png",
+      "art": "/Assets/cards/cat-card/artworks/Beard-Cat.jpg",
+      "color": "#e9c278",
+      "description": "Two matching cards steal randomly. Three request a named card.",
+      "rule": "A single cat has no effect. Discard two with the same cat name to steal one random card. The optional pair/triple combos extend matching to any shared title; a triple requests a named card and fails if the target lacks it. Feral Cat can replace a powerless cat. Cat identities are not interchangeable without a wildcard.",
+      "enabled": true,
+      "effect": "cat-card",
+      "animation": "flight",
+      "sound": "play",
+      "playCondition": "turn",
+      "targetRequirement": "none",
+      "uiBehavior": "card-face",
+      "source": {
+        "file": "app/catalog.js",
+        "symbol": "\"beard-cat\""
+      }
+    },
+    {
+      "id": "cattermelon",
+      "name": "Cattermelon",
+      "family": "cat-card",
+      "count": 4,
+      "icon": "/Assets/cards/cat-card/cattermelon.png",
+      "art": "/Assets/cards/cat-card/artworks/Cattermelon.jpg",
+      "color": "#e9c278",
+      "description": "Two matching cards steal randomly. Three request a named card.",
+      "rule": "A single cat has no effect. Discard two with the same cat name to steal one random card. The optional pair/triple combos extend matching to any shared title; a triple requests a named card and fails if the target lacks it. Feral Cat can replace a powerless cat. Cat identities are not interchangeable without a wildcard.",
+      "enabled": true,
+      "effect": "cat-card",
+      "animation": "flight",
+      "sound": "play",
+      "playCondition": "turn",
+      "targetRequirement": "none",
+      "uiBehavior": "card-face",
+      "source": {
+        "file": "app/catalog.js",
+        "symbol": "\"cattermelon\""
+      }
+    },
+    {
+      "id": "hairy-potato-cat",
+      "name": "Hairy Potato Cat",
+      "family": "cat-card",
+      "count": 4,
+      "icon": "/Assets/cards/cat-card/hairy-potato-cat.png",
+      "art": "/Assets/cards/cat-card/artworks/Hairy-Potato-Cat.jpg",
+      "color": "#e9c278",
+      "description": "Two matching cards steal randomly. Three request a named card.",
+      "rule": "A single cat has no effect. Discard two with the same cat name to steal one random card. The optional pair/triple combos extend matching to any shared title; a triple requests a named card and fails if the target lacks it. Feral Cat can replace a powerless cat. Cat identities are not interchangeable without a wildcard.",
+      "enabled": true,
+      "effect": "cat-card",
+      "animation": "flight",
+      "sound": "play",
+      "playCondition": "turn",
+      "targetRequirement": "none",
+      "uiBehavior": "card-face",
+      "source": {
+        "file": "app/catalog.js",
+        "symbol": "\"hairy-potato-cat\""
+      }
+    },
+    {
+      "id": "rainbow-ralphing-cat",
+      "name": "Rainbow-Ralphing Cat",
+      "family": "cat-card",
+      "count": 4,
+      "icon": "/Assets/cards/cat-card/rainbow-ralphing-cat.png",
+      "art": "/Assets/cards/cat-card/artworks/Rainbow-Ralphing-Cat.jpg",
+      "color": "#e9c278",
+      "description": "Two matching cards steal randomly. Three request a named card.",
+      "rule": "A single cat has no effect. Discard two with the same cat name to steal one random card. The optional pair/triple combos extend matching to any shared title; a triple requests a named card and fails if the target lacks it. Feral Cat can replace a powerless cat. Cat identities are not interchangeable without a wildcard.",
+      "enabled": true,
+      "effect": "cat-card",
+      "animation": "flight",
+      "sound": "play",
+      "playCondition": "turn",
+      "targetRequirement": "none",
+      "uiBehavior": "card-face",
+      "source": {
+        "file": "app/catalog.js",
+        "symbol": "\"rainbow-ralphing-cat\""
+      }
+    },
+    {
+      "id": "tacocat",
+      "name": "Tacocat",
+      "family": "cat-card",
+      "count": 4,
+      "icon": "/Assets/cards/cat-card/tacocat.png",
+      "art": "/Assets/cards/cat-card/artworks/Tacocat.jpg",
+      "color": "#e9c278",
+      "description": "Two matching cards steal randomly. Three request a named card.",
+      "rule": "A single cat has no effect. Discard two with the same cat name to steal one random card. The optional pair/triple combos extend matching to any shared title; a triple requests a named card and fails if the target lacks it. Feral Cat can replace a powerless cat. Cat identities are not interchangeable without a wildcard.",
+      "enabled": true,
+      "effect": "cat-card",
+      "animation": "flight",
+      "sound": "play",
+      "playCondition": "turn",
+      "targetRequirement": "none",
+      "uiBehavior": "card-face",
+      "source": {
+        "file": "app/catalog.js",
+        "symbol": "\"tacocat\""
+      }
+    },
+    {
+      "id": "defuse",
+      "name": "Defuse",
+      "family": "defuse",
+      "count": 6,
+      "icon": "/Assets/cards/defuse/defuse.png",
+      "art": "/Assets/cards/defuse/artworks/Defuse-Via-3AM-Flatulence.jpg",
+      "color": "#92be68",
+      "description": "Survive a Kitten, then secretly return it to the draw pile.",
+      "rule": "After drawing an Exploding Kitten, discard this to survive and secretly reinsert that Kitten anywhere in the draw pile without inspecting or rearranging other cards. Ends one turn, not every outstanding attacked turn. Cannot be Noped. Special Barking/Devilcat explosions consume a Defuse without reinserting a card.",
+      "enabled": true,
+      "effect": "defuse",
+      "animation": "flight",
+      "sound": "defuse",
+      "playCondition": "danger",
+      "targetRequirement": "none",
+      "uiBehavior": "card-face",
+      "source": {
+        "file": "app/catalog.js",
+        "symbol": "\"defuse\""
+      }
+    },
+    {
+      "id": "exploding-kitten",
+      "name": "Exploding Kitten",
+      "family": "exploding-kitten",
+      "count": 4,
+      "icon": "/Assets/cards/exploding-kitten/exploding-kitten.png",
+      "art": "/Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Alien.jpg",
+      "color": "#e85e50",
+      "description": "Defuse it immediately, or you are out.",
+      "rule": "Reveal immediately. Defuse or die. Under the Original/Party Pack/Cat Burglar rules, discard your whole hand and the lethal Kitten when eliminated. A Streaking Kitten changes whether one Exploding Kitten may be held; see its exceptions. This is not a normal action you can Nope.",
+      "enabled": true,
+      "effect": "exploding-kitten",
+      "animation": "flight",
+      "sound": "play",
+      "playCondition": "danger",
+      "targetRequirement": "none",
+      "uiBehavior": "card-face",
+      "source": {
+        "file": "app/catalog.js",
+        "symbol": "\"exploding-kitten\""
+      }
+    },
+    {
+      "id": "favor",
+      "name": "Favor",
+      "family": "favor",
+      "count": 4,
+      "icon": "/Assets/cards/favor/favor.png",
+      "art": "/Assets/cards/favor/artworks/Favor-Fall-So-Deeply-in-Love.jpg",
+      "color": "#88b4e5",
+      "description": "Choose a player. They choose one card to give you.",
+      "rule": "Choose another player; they choose one card from their hand to give you. In Zombie Kittens, the target must be living. A held Exploding Kitten can be given away under Streaking rules, which makes the recipient resolve its explosion.",
+      "enabled": true,
+      "effect": "favor",
+      "animation": "flight",
+      "sound": "play",
+      "playCondition": "turn",
+      "targetRequirement": "other-player",
+      "uiBehavior": "card-face",
+      "source": {
+        "file": "app/catalog.js",
+        "symbol": "\"favor\""
+      }
+    },
+    {
+      "id": "nope",
+      "name": "Nope",
+      "family": "nope",
+      "count": 5,
+      "icon": "/Assets/cards/nope/nope.png",
+      "art": "/Assets/cards/nope/artworks/Nope-A-Jackanope-Bounds-into-the-Room.jpg",
+      "color": "#e77b89",
+      "description": "Cancel an action before it starts. Nope a Nope to restore it.",
+      "rule": "Cancel an action or combo before it begins, even outside your turn. Another Nope cancels a Nope, with successive Nopes alternating cancellation. The action's cards and all Nopes remain discarded. Exploding Kittens and Defuses cannot be Noped. Do not interrupt an action after it has begun.",
+      "enabled": true,
+      "effect": "nope",
+      "animation": "flight",
+      "sound": "nope",
+      "playCondition": "reaction",
+      "targetRequirement": "none",
+      "uiBehavior": "card-face",
+      "source": {
+        "file": "app/catalog.js",
+        "symbol": "\"nope\""
+      }
+    },
+    {
+      "id": "see-the-future-3x",
+      "name": "See the Future 3x",
+      "family": "see-the-future-3x",
+      "count": 5,
+      "icon": "/Assets/cards/see-the-future-3x/see-the-future-3x.png",
+      "art": "/Assets/cards/see-the-future-3x/artworks/See-the-Future-Ask-the-All-Seeing-Goat-Wizard.jpg",
+      "color": "#c68eb9",
+      "description": "Privately peek at the top three cards. Keep their order.",
+      "rule": "Privately inspect the top three cards of the draw pile and return them in the same order. Do not reveal them to others. Continue your turn; this does not replace your final draw.",
+      "enabled": true,
+      "effect": "see-the-future-3x",
+      "animation": "flight",
+      "sound": "play",
+      "playCondition": "turn",
+      "targetRequirement": "none",
+      "uiBehavior": "card-face",
+      "source": {
+        "file": "app/catalog.js",
+        "symbol": "\"see-the-future-3x\""
+      }
+    },
+    {
+      "id": "shuffle",
+      "name": "Shuffle",
+      "family": "shuffle",
+      "count": 4,
+      "icon": "/Assets/cards/shuffle/shuffle.png",
+      "art": "/Assets/cards/shuffle/artworks/Shuffle-A-Kraken-Emerges-and-Hes-Super-Upset.jpg",
+      "color": "#aaa0d1",
+      "description": "Shuffle the draw pile. Your turn continues.",
+      "rule": "Randomize the draw pile without learning its final order. The Original/Party Pack/2-Player/Cat Burglar PDFs say to shuffle thoroughly; NSFW and Good vs. Evil say until the next player tells you to stop. If an Imploding Kitten is face up, shuffle out of sight so its resulting position is unknown.",
+      "enabled": true,
+      "effect": "shuffle",
+      "animation": "flight",
+      "sound": "play",
+      "playCondition": "turn",
+      "targetRequirement": "none",
+      "uiBehavior": "card-face",
+      "source": {
+        "file": "app/catalog.js",
+        "symbol": "\"shuffle\""
+      }
+    },
+    {
+      "id": "skip",
+      "name": "Skip",
+      "family": "skip",
+      "count": 4,
+      "icon": "/Assets/cards/skip/skip.png",
+      "art": "/Assets/cards/skip/artworks/Skip-Commandeer-a-Bunnyraptor.jpg",
+      "color": "#70bbc6",
+      "description": "End one turn without drawing.",
+      "rule": "End one turn without drawing. An Attack with two required turns needs two Skips to avoid both draws.",
+      "enabled": true,
+      "effect": "skip",
+      "animation": "flight",
+      "sound": "play",
+      "playCondition": "turn",
+      "targetRequirement": "none",
+      "uiBehavior": "card-face",
+      "source": {
+        "file": "app/catalog.js",
+        "symbol": "\"skip\""
+      }
+    }
+  ],
+  "decks": [
+    {
+      "id": "original",
+      "name": "Original Edition",
+      "enabled": true,
+      "description": "56 cards · 2–5 players",
+      "cards": {
+        "attack-2x": 4,
+        "beard-cat": 4,
+        "cattermelon": 4,
+        "hairy-potato-cat": 4,
+        "rainbow-ralphing-cat": 4,
+        "tacocat": 4,
+        "defuse": 6,
+        "exploding-kitten": 4,
+        "favor": 4,
+        "nope": 5,
+        "see-the-future-3x": 5,
+        "shuffle": 4,
+        "skip": 4
+      },
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "createGame"
+      }
+    }
+  ],
+  "ui": [
+    {
+      "id": "table",
+      "name": "Game table",
+      "selector": "#game",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "render"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "background",
+      "name": "Background",
+      "selector": "body",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "writePrefs"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "brand",
+      "name": "Brand",
+      "selector": ".brand",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "render"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "brand-image",
+      "name": "Brand icon",
+      "selector": ".brand img",
+      "enabled": true,
+      "text": "",
+      "asset": "/Assets/cards/exploding-kitten/exploding-kitten.png",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "render"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "buttons",
+      "name": "Buttons",
+      "selector": ".button",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "render"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "toolbar",
+      "name": "Toolbar",
+      "selector": ".toolbar",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "render"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "opponents",
+      "name": "Opponents",
+      "selector": ".opponents",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "render"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "avatar",
+      "name": "Bot avatar",
+      "selector": ".avatar img",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "render"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "hand",
+      "name": "Player hand",
+      "selector": "#hand",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "renderHand"
+      },
+      "feature": "hand-interactions"
+    },
+    {
+      "id": "cards",
+      "name": "Card faces",
+      "selector": ".card",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "cardFace"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "card-image",
+      "name": "Card artwork",
+      "selector": ".card-image",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "cardFace"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "deck",
+      "name": "Draw pile",
+      "selector": "#drawPile",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "renderHand"
+      },
+      "feature": "draw"
+    },
+    {
+      "id": "discard",
+      "name": "Discard pile",
+      "selector": "#discardPile",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "render"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "turn",
+      "name": "Turn banner",
+      "selector": "#turnLabel",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "render"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "selection",
+      "name": "Selection hint",
+      "selector": "#selectionInfo",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "renderHand"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "reaction",
+      "name": "Nope response",
+      "selector": "#reactionBar",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "renderReaction"
+      },
+      "feature": "nope"
+    },
+    {
+      "id": "targets",
+      "name": "Target arrows",
+      "selector": "#targetLayer",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "renderTarget"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "gesture",
+      "name": "Favor gesture",
+      "selector": "#interactionLayer",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "renderInteraction"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "danger",
+      "name": "Kitten rescue",
+      "selector": "#dangerPanel",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "renderDanger"
+      },
+      "feature": "kitten"
+    },
+    {
+      "id": "toast",
+      "name": "Notifications",
+      "selector": "#toast",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "toast"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "dialog",
+      "name": "Dialogs",
+      "selector": "#modal",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "renderModal"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "effects",
+      "name": "Effects layer",
+      "selector": "#fx",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "eventFx"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "draw-button",
+      "name": "Draw button",
+      "selector": "#drawButton",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "dispatch"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "play-button",
+      "name": "Play button",
+      "selector": "#playButton",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "playSelected"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "log-button",
+      "name": "Game log button",
+      "selector": "#historyButton",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "renderModal"
+      },
+      "feature": "interface"
+    },
+    {
+      "id": "human",
+      "name": "Human seat",
+      "selector": "#humanSeat",
+      "enabled": true,
+      "text": "",
+      "asset": "",
+      "styles": {},
+      "hover": {},
+      "active": {},
+      "disabled": {},
+      "mobile": {},
+      "tablet": {},
+      "desktop": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "render"
+      },
+      "feature": "interface"
+    }
+  ],
+  "animations": [
+    {
+      "id": "flight",
+      "name": "Card flight",
+      "description": "Played, stolen or reinserted card",
+      "trigger": "Played, stolen or reinserted card",
+      "component": "cards",
+      "source": {
+        "file": "app/main.js",
+        "symbol": "fly"
+      },
+      "duration": 420,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "play",
+      "keyframes": null
+    },
+    {
+      "id": "deal",
+      "name": "Initial deal",
+      "description": "New table",
+      "trigger": "New table",
+      "component": "hand",
+      "source": {
+        "file": "app/main.js",
+        "symbol": "fly"
+      },
+      "duration": 200,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "draw",
+      "keyframes": null
+    },
+    {
+      "id": "draw-reveal",
+      "name": "Draw / flip / hold",
+      "description": "Visible draw",
+      "trigger": "Visible draw",
+      "component": "deck",
+      "source": {
+        "file": "app/main.js",
+        "symbol": "drawReveal"
+      },
+      "duration": 820,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "draw",
+      "keyframes": null
+    },
+    {
+      "id": "turn-banner",
+      "name": "Turn transition",
+      "description": "Current seat changes",
+      "trigger": "Current seat changes",
+      "component": "turn",
+      "source": {
+        "file": "app/main.js",
+        "symbol": "presentTurn"
+      },
+      "duration": 200,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "",
+      "keyframes": null
+    },
+    {
+      "id": "stamp",
+      "name": "Action stamp",
+      "description": "Attack / Nope / elimination",
+      "trigger": "Attack / Nope / elimination",
+      "component": "effects",
+      "source": {
+        "file": "app/main.js",
+        "symbol": "stamp"
+      },
+      "duration": 850,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "nope",
+      "keyframes": null
+    },
+    {
+      "id": "danger-flash",
+      "name": "Kitten flash",
+      "description": "Kitten drawn",
+      "trigger": "Kitten drawn",
+      "component": "danger",
+      "source": {
+        "file": "app/main.js",
+        "symbol": "dangerMoment"
+      },
+      "duration": 850,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "danger",
+      "keyframes": null
+    },
+    {
+      "id": "danger-shake",
+      "name": "Table shake",
+      "description": "Kitten drawn",
+      "trigger": "Kitten drawn",
+      "component": "table",
+      "source": {
+        "file": "app/main.js",
+        "symbol": "dangerMoment"
+      },
+      "duration": 850,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "danger",
+      "keyframes": null
+    },
+    {
+      "id": "defuse-cancel",
+      "name": "Defuse cancellation",
+      "description": "Defuse played",
+      "trigger": "Defuse played",
+      "component": "danger",
+      "source": {
+        "file": "app/main.js",
+        "symbol": "defuseMoment"
+      },
+      "duration": 850,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "defuse",
+      "keyframes": null
+    },
+    {
+      "id": "shuffle-flight",
+      "name": "Shuffle fan",
+      "description": "Shuffle resolved",
+      "trigger": "Shuffle resolved",
+      "component": "deck",
+      "source": {
+        "file": "app/main.js",
+        "symbol": "eventFx"
+      },
+      "duration": 420,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "",
+      "keyframes": null
+    },
+    {
+      "id": "confetti",
+      "name": "Victory confetti",
+      "description": "Last survivor",
+      "trigger": "Last survivor",
+      "component": "effects",
+      "source": {
+        "file": "app/main.js",
+        "symbol": "confetti"
+      },
+      "duration": 850,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "win",
+      "keyframes": null
+    },
+    {
+      "id": "dialogIn",
+      "name": "dialog In",
+      "description": "CSS animation in the actual game stylesheet",
+      "trigger": "Component state / visibility",
+      "component": "dialog[open]",
+      "selector": "dialog[open]",
+      "source": {
+        "file": "app/styles.css",
+        "symbol": "@keyframes dialogIn"
+      },
+      "duration": 240,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "",
+      "cssFrames": {
+        "from": {
+          "opacity": "0",
+          "transform": "translateY(15px) scale(.98)"
+        },
+        "to": {
+          "opacity": "1",
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "id": "futureIn",
+      "name": "future In",
+      "description": "CSS animation in the actual game stylesheet",
+      "trigger": "Component state / visibility",
+      "component": ".future-cards .card",
+      "selector": ".future-cards .card",
+      "source": {
+        "file": "app/presentation/steam-table.css",
+        "symbol": "futureIn"
+      },
+      "duration": 500,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "",
+      "cssFrames": {
+        "from": {
+          "transform": "perspective(800px) rotateY(-90deg)",
+          "opacity": "0"
+        },
+        "55%": {
+          "transform": "perspective(800px) rotateY(0deg)",
+          "opacity": "1"
+        },
+        "to": {
+          "transform": "perspective(800px) rotateY(0deg)",
+          "opacity": "1"
+        }
+      }
+    },
+    {
+      "id": "transition-s-1",
+      "name": "Transition · .icon-button",
+      "description": "transform .18s var(--ease)",
+      "trigger": "Hover, selection or component state",
+      "component": ".icon-button",
+      "selector": ".icon-button",
+      "kind": "transition",
+      "source": {
+        "file": "app/styles.css",
+        "symbol": ".icon-button"
+      },
+      "duration": 180,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": ""
+    },
+    {
+      "id": "transition-s-2",
+      "name": "Transition · .opponent",
+      "description": "opacity .3s",
+      "trigger": "Hover, selection or component state",
+      "component": ".opponent",
+      "selector": ".opponent",
+      "kind": "transition",
+      "source": {
+        "file": "app/styles.css",
+        "symbol": ".opponent"
+      },
+      "duration": 300,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": ""
+    },
+    {
+      "id": "transition-s-3",
+      "name": "Transition · .deck",
+      "description": "transform .24s var(--ease)",
+      "trigger": "Hover, selection or component state",
+      "component": ".deck",
+      "selector": ".deck",
+      "kind": "transition",
+      "source": {
+        "file": "app/styles.css",
+        "symbol": ".deck"
+      },
+      "duration": 240,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": ""
+    },
+    {
+      "id": "transition-s-4",
+      "name": "Transition · .button",
+      "description": "transform .15s var(--ease)",
+      "trigger": "Hover, selection or component state",
+      "component": ".button",
+      "selector": ".button",
+      "kind": "transition",
+      "source": {
+        "file": "app/styles.css",
+        "symbol": ".button"
+      },
+      "duration": 150,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": ""
+    },
+    {
+      "id": "transition-s-5",
+      "name": "Transition · .card",
+      "description": "transform .22s var(--ease),box-shadow .22s var(--ease)",
+      "trigger": "Hover, selection or component state",
+      "component": ".card",
+      "selector": ".card",
+      "kind": "transition",
+      "source": {
+        "file": "app/styles.css",
+        "symbol": ".card"
+      },
+      "duration": 220,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": ""
+    },
+    {
+      "id": "transition-s-6",
+      "name": "Transition · .toast",
+      "description": "transform .2s,opacity .2s",
+      "trigger": "Hover, selection or component state",
+      "component": ".toast",
+      "selector": ".toast",
+      "kind": "transition",
+      "source": {
+        "file": "app/styles.css",
+        "symbol": ".toast"
+      },
+      "duration": 200,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": ""
+    },
+    {
+      "id": "transition-s-7",
+      "name": "Transition · #reactionProgress",
+      "description": "width .1s linear",
+      "trigger": "Hover, selection or component state",
+      "component": "#reactionProgress",
+      "selector": "#reactionProgress",
+      "kind": "transition",
+      "source": {
+        "file": "app/styles.css",
+        "symbol": "#reactionProgress"
+      },
+      "duration": 100,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": ""
+    },
+    {
+      "id": "transition-s-8",
+      "name": "Transition · .steal-back",
+      "description": "transform .2s",
+      "trigger": "Hover, selection or component state",
+      "component": ".steal-back",
+      "selector": ".steal-back",
+      "kind": "transition",
+      "source": {
+        "file": "app/styles.css",
+        "symbol": ".steal-back"
+      },
+      "duration": 200,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": ""
+    },
+    {
+      "id": "activeGlow",
+      "name": "active Glow",
+      "description": "CSS animation in the actual game stylesheet",
+      "trigger": "Component state / visibility",
+      "component": ".opponent.active .avatar,.you.active>.avatar",
+      "selector": ".opponent.active .avatar,.you.active>.avatar",
+      "source": {
+        "file": "app/update2.css",
+        "symbol": "@keyframes activeGlow"
+      },
+      "duration": 1600,
+      "delay": 0,
+      "easing": "ease-in-out",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "",
+      "cssFrames": {
+        "50%": {
+          "box-shadow": "0 0 0 11px #ffda551c"
+        }
+      }
+    },
+    {
+      "id": "thinkRock",
+      "name": "think Rock",
+      "description": "CSS animation in the actual game stylesheet",
+      "trigger": "Component state / visibility",
+      "component": ".thinking .avatar img",
+      "selector": ".thinking .steam-bean",
+      "source": {
+        "file": "app/update2.css",
+        "symbol": "@keyframes thinkRock"
+      },
+      "duration": 800,
+      "delay": 0,
+      "easing": "ease-in-out",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "",
+      "cssFrames": {
+        "50%": {
+          "transform": "rotate(6deg)"
+        }
+      }
+    },
+    {
+      "id": "deckPulse",
+      "name": "deck Pulse",
+      "description": "CSS animation in the actual game stylesheet",
+      "trigger": "Component state / visibility",
+      "component": ".deck.ready-to-draw",
+      "selector": ".deck.ready-to-draw",
+      "source": {
+        "file": "app/update2.css",
+        "symbol": "@keyframes deckPulse"
+      },
+      "duration": 1800,
+      "delay": 0,
+      "easing": "ease-in-out",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "",
+      "cssFrames": {
+        "50%": {
+          "filter": "brightness(1.1)",
+          "transform": "rotate(-5deg) translateY(-3px)"
+        }
+      }
+    },
+    {
+      "id": "nopePulse",
+      "name": "nope Pulse",
+      "description": "CSS animation in the actual game stylesheet",
+      "trigger": "Component state / visibility",
+      "component": ".hand-nope-button",
+      "selector": ".hand-nope-button",
+      "source": {
+        "file": "app/update2.css",
+        "symbol": "@keyframes nopePulse"
+      },
+      "duration": 1000,
+      "delay": 0,
+      "easing": "ease-in-out",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "",
+      "cssFrames": {
+        "50%": {
+          "box-shadow": "0 3px 0 #84212b,0 0 0 5px #d83c4738"
+        }
+      }
+    },
+    {
+      "id": "handPath",
+      "name": "hand Path",
+      "description": "CSS animation in the actual game stylesheet",
+      "trigger": "Component state / visibility",
+      "component": ".interaction-path path",
+      "selector": ".interaction-path path",
+      "source": {
+        "file": "app/update2.css",
+        "symbol": "@keyframes handPath"
+      },
+      "duration": 800,
+      "delay": 0,
+      "easing": "linear",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "",
+      "cssFrames": {
+        "to": {
+          "stroke-dashoffset": "-32"
+        }
+      }
+    },
+    {
+      "id": "point",
+      "name": "point",
+      "description": "CSS animation in the actual game stylesheet",
+      "trigger": "Component state / visibility",
+      "component": ".pointing-hand",
+      "selector": ".pointing-hand",
+      "source": {
+        "file": "app/update2.css",
+        "symbol": "@keyframes point"
+      },
+      "duration": 500,
+      "delay": 0,
+      "easing": "ease",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "",
+      "cssFrames": {
+        "50%": {
+          "transform": "translate(-50%,-58%) rotate(-10deg)"
+        }
+      }
+    },
+    {
+      "id": "defuseGlow",
+      "name": "defuse Glow",
+      "description": "CSS animation in the actual game stylesheet",
+      "trigger": "Component state / visibility",
+      "component": ".hand.rescuing .defuse-ready",
+      "selector": ".hand.rescuing .defuse-ready",
+      "source": {
+        "file": "app/update2.css",
+        "symbol": "@keyframes defuseGlow"
+      },
+      "duration": 1000,
+      "delay": 0,
+      "easing": "ease-in-out",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": "",
+      "cssFrames": {
+        "50%": {
+          "box-shadow": "0 0 0 12px #7dcc6e22,0 10px 20px #0004"
+        }
+      }
+    },
+    {
+      "id": "transition-u-1",
+      "name": "Transition · .deck",
+      "description": "transform .2s var(--ease),filter .2s",
+      "trigger": "Hover, selection or component state",
+      "component": ".deck",
+      "selector": ".deck",
+      "kind": "transition",
+      "source": {
+        "file": "app/update2.css",
+        "symbol": ".deck"
+      },
+      "duration": 200,
+      "delay": 0,
+      "easing": "cubic-bezier(.22,.75,.22,1)",
+      "enabled": true,
+      "speed": 1,
+      "distance": 1,
+      "scale": 1,
+      "rotation": 0,
+      "opacity": 1,
+      "intensity": 1,
+      "sound": ""
+    }
+  ],
+  "sounds": [
+    {
+      "id": "play",
+      "name": "play sound",
+      "frequency": 400,
+      "volume": 0.045,
+      "enabled": true,
+      "asset": "",
+      "source": {
+        "file": "app/main.js",
+        "symbol": "sound"
+      }
+    },
+    {
+      "id": "draw",
+      "name": "draw sound",
+      "frequency": 540,
+      "volume": 0.045,
+      "enabled": true,
+      "asset": "",
+      "source": {
+        "file": "app/main.js",
+        "symbol": "sound"
+      }
+    },
+    {
+      "id": "nope",
+      "name": "nope sound",
+      "frequency": 180,
+      "volume": 0.045,
+      "enabled": true,
+      "asset": "",
+      "source": {
+        "file": "app/main.js",
+        "symbol": "sound"
+      }
+    },
+    {
+      "id": "danger",
+      "name": "danger sound",
+      "frequency": 115,
+      "volume": 0.045,
+      "enabled": true,
+      "asset": "",
+      "source": {
+        "file": "app/main.js",
+        "symbol": "sound"
+      }
+    },
+    {
+      "id": "defuse",
+      "name": "defuse sound",
+      "frequency": 750,
+      "volume": 0.045,
+      "enabled": true,
+      "asset": "",
+      "source": {
+        "file": "app/main.js",
+        "symbol": "sound"
+      }
+    },
+    {
+      "id": "win",
+      "name": "win sound",
+      "frequency": 920,
+      "volume": 0.045,
+      "enabled": true,
+      "asset": "",
+      "source": {
+        "file": "app/main.js",
+        "symbol": "sound"
+      }
+    }
+  ],
+  "entities": [
+    {
+      "id": "human-player",
+      "name": "You",
+      "kind": "player",
+      "enabled": true,
+      "asset": "",
+      "properties": {},
+      "behavior": {},
+      "source": {
+        "file": "app/main.js",
+        "symbol": "renderSetup"
+      }
+    },
+    {
+      "id": "bot-1",
+      "name": "Peachy",
+      "kind": "bot",
+      "enabled": true,
+      "asset": "/Assets/cards/cat-card/tacocat.png",
+      "properties": {},
+      "behavior": {
+        "difficulty": "inherit"
+      },
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "createGame"
+      }
+    },
+    {
+      "id": "bot-2",
+      "name": "Prootzel",
+      "kind": "bot",
+      "enabled": true,
+      "asset": "/Assets/cards/cat-card/beard-cat.png",
+      "properties": {},
+      "behavior": {
+        "difficulty": "inherit"
+      },
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "createGame"
+      }
+    },
+    {
+      "id": "bot-3",
+      "name": "Jazzy",
+      "kind": "bot",
+      "enabled": true,
+      "asset": "/Assets/cards/cat-card/hairy-potato-cat.png",
+      "properties": {},
+      "behavior": {
+        "difficulty": "inherit"
+      },
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "createGame"
+      }
+    },
+    {
+      "id": "bot-4",
+      "name": "Dolores",
+      "kind": "bot",
+      "enabled": true,
+      "asset": "/Assets/cards/cat-card/rainbow-ralphing-cat.png",
+      "properties": {},
+      "behavior": {
+        "difficulty": "inherit"
+      },
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "createGame"
+      }
+    }
+  ],
+  "features": [
+    {
+      "id": "draw",
+      "name": "Draw card",
+      "description": "DRAW → card to hand or danger",
+      "status": "Implemented",
+      "entities": [
+        "deck"
+      ],
+      "animations": [
+        "draw-reveal"
+      ],
+      "sounds": [
+        "draw"
+      ],
+      "components": [
+        "deck"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "transition"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "end-turn",
+        "kitten"
+      ]
+    },
+    {
+      "id": "play",
+      "name": "Play card",
+      "description": "PLAY → discard → reaction → resolve",
+      "status": "Implemented",
+      "entities": [
+        "cards"
+      ],
+      "animations": [
+        "flight"
+      ],
+      "sounds": [
+        "play"
+      ],
+      "components": [
+        "cards"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "transition"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "turns"
+      ]
+    },
+    {
+      "id": "end-turn",
+      "name": "End turn",
+      "description": "Draw or Skip consumes exactly one turn",
+      "status": "Implemented",
+      "entities": [
+        "turn"
+      ],
+      "animations": [
+        "turn-banner"
+      ],
+      "sounds": [],
+      "components": [
+        "turn"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "endTurn"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "turns"
+      ]
+    },
+    {
+      "id": "attack",
+      "name": "Attack",
+      "description": "Clockwise target; transfer debt plus two",
+      "status": "Implemented",
+      "entities": [
+        "turn"
+      ],
+      "animations": [
+        "stamp"
+      ],
+      "sounds": [],
+      "components": [
+        "turn"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "resolve"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "turns"
+      ]
+    },
+    {
+      "id": "skip",
+      "name": "Skip",
+      "description": "End one turn without drawing",
+      "status": "Implemented",
+      "entities": [
+        "turn"
+      ],
+      "animations": [
+        "turn-banner"
+      ],
+      "sounds": [],
+      "components": [
+        "turn"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "resolve"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "turns"
+      ]
+    },
+    {
+      "id": "favor",
+      "name": "Favor",
+      "description": "Target chooses a gift",
+      "status": "Implemented",
+      "entities": [
+        "gesture"
+      ],
+      "animations": [
+        "flight"
+      ],
+      "sounds": [],
+      "components": [
+        "gesture"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "giveCard"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "turns"
+      ]
+    },
+    {
+      "id": "shuffle",
+      "name": "Shuffle",
+      "description": "Seeded deck shuffle clears peek memory",
+      "status": "Implemented",
+      "entities": [
+        "deck"
+      ],
+      "animations": [
+        "shuffle-flight"
+      ],
+      "sounds": [],
+      "components": [
+        "deck"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "shuffle"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "turns"
+      ]
+    },
+    {
+      "id": "future",
+      "name": "See the Future",
+      "description": "Private top-three preview",
+      "status": "Implemented",
+      "entities": [
+        "dialog"
+      ],
+      "animations": [
+        "futureIn"
+      ],
+      "sounds": [],
+      "components": [
+        "dialog"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "resolve"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "turns"
+      ]
+    },
+    {
+      "id": "nope",
+      "name": "Nope",
+      "description": "Three-second response; counter-Nope supported",
+      "status": "Implemented",
+      "entities": [
+        "reaction"
+      ],
+      "animations": [
+        "stamp"
+      ],
+      "sounds": [
+        "nope"
+      ],
+      "components": [
+        "reaction"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "canNope"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "play",
+        "turns"
+      ]
+    },
+    {
+      "id": "kitten",
+      "name": "Exploding Kitten",
+      "description": "Immediate rescue or elimination",
+      "status": "Implemented",
+      "entities": [
+        "danger"
+      ],
+      "animations": [
+        "danger-flash"
+      ],
+      "sounds": [
+        "danger"
+      ],
+      "components": [
+        "danger"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "transition"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "turns"
+      ]
+    },
+    {
+      "id": "defuse",
+      "name": "Defuse",
+      "description": "Spend rescue; secretly reinsert Kitten",
+      "status": "Implemented",
+      "entities": [
+        "danger"
+      ],
+      "animations": [
+        "defuse-cancel"
+      ],
+      "sounds": [
+        "defuse"
+      ],
+      "components": [
+        "danger"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "transition"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "turns"
+      ]
+    },
+    {
+      "id": "bots",
+      "name": "Bot actions",
+      "description": "Restricted botView; Casual / Clever decisions",
+      "status": "Implemented",
+      "entities": [
+        "opponents"
+      ],
+      "animations": [
+        "thinkRock"
+      ],
+      "sounds": [],
+      "components": [
+        "opponents"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "botView"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "schedule"
+        },
+        {
+          "file": "app/bots.js",
+          "symbol": "chooseBotAction"
+        }
+      ],
+      "dependencies": [
+        "turns"
+      ]
+    },
+    {
+      "id": "elimination",
+      "name": "Player elimination",
+      "description": "Discard hand, remove player, next seat",
+      "status": "Implemented",
+      "entities": [
+        "opponents"
+      ],
+      "animations": [
+        "stamp"
+      ],
+      "sounds": [
+        "danger"
+      ],
+      "components": [
+        "opponents"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "transition"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "turns"
+      ]
+    },
+    {
+      "id": "turns",
+      "name": "Turn transitions",
+      "description": "Living seats and Attack debt",
+      "status": "Implemented",
+      "entities": [
+        "turn"
+      ],
+      "animations": [
+        "turn-banner"
+      ],
+      "sounds": [],
+      "components": [
+        "turn"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "nextLiving"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "turns"
+      ]
+    },
+    {
+      "id": "deck-interactions",
+      "name": "Deck interactions",
+      "description": "Draw, shuffle, reinsertion and peeks",
+      "status": "Implemented",
+      "entities": [
+        "deck"
+      ],
+      "animations": [
+        "deckPulse"
+      ],
+      "sounds": [
+        "draw"
+      ],
+      "components": [
+        "deck"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "transition"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "turns"
+      ]
+    },
+    {
+      "id": "hand-interactions",
+      "name": "Hand interactions",
+      "description": "Selection, matching combos, gift, Defuse",
+      "status": "Implemented",
+      "entities": [
+        "hand"
+      ],
+      "animations": [
+        "flight"
+      ],
+      "sounds": [
+        "play"
+      ],
+      "components": [
+        "hand"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "transition"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "turns"
+      ]
+    },
+    {
+      "id": "notifications",
+      "name": "Notifications",
+      "description": "Public log and transient toast",
+      "status": "Implemented",
+      "entities": [
+        "toast"
+      ],
+      "animations": [
+        "transition-s-6"
+      ],
+      "sounds": [],
+      "components": [
+        "toast"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "log"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "toast"
+        }
+      ],
+      "dependencies": [
+        "turns"
+      ]
+    },
+    {
+      "id": "game-over",
+      "name": "Game over",
+      "description": "Last survivor, results, confetti",
+      "status": "Implemented",
+      "entities": [
+        "dialog"
+      ],
+      "animations": [
+        "confetti"
+      ],
+      "sounds": [
+        "win"
+      ],
+      "components": [
+        "dialog"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "transition"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "elimination"
+      ]
+    },
+    {
+      "id": "saves",
+      "name": "Save / resume",
+      "description": "Validate schema and every phase",
+      "status": "Implemented",
+      "entities": [
+        "table"
+      ],
+      "animations": [],
+      "sounds": [],
+      "components": [
+        "table"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "assertState"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "dispatch"
+        }
+      ],
+      "dependencies": [
+        "turns"
+      ]
+    },
+    {
+      "id": "interface",
+      "name": "Game interface",
+      "description": "Rendering, layouts, menus and controls",
+      "status": "Implemented",
+      "entities": [
+        "table",
+        "buttons"
+      ],
+      "animations": [
+        "dialogIn"
+      ],
+      "sounds": [],
+      "components": [
+        "table",
+        "dialog"
+      ],
+      "source": {
+        "file": "app/main.js",
+        "symbol": "render"
+      },
+      "references": [
+        {
+          "file": "app/styles.css",
+          "symbol": ":root"
+        }
+      ],
+      "dependencies": [
+        "saves"
+      ]
+    },
+    {
+      "id": "pair",
+      "name": "Matching pair",
+      "description": "Two matching titles enter a hidden-card steal choice.",
+      "status": "Implemented",
+      "entities": [
+        "cards",
+        "hand"
+      ],
+      "animations": [
+        "flight"
+      ],
+      "sounds": [
+        "play"
+      ],
+      "components": [
+        "targets",
+        "dialog"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "resolve"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "renderTarget"
+        }
+      ],
+      "dependencies": [
+        "play",
+        "nope"
+      ]
+    },
+    {
+      "id": "triple",
+      "name": "Matching triple",
+      "description": "Three matching titles request a named card from another seat.",
+      "status": "Implemented",
+      "entities": [
+        "cards",
+        "hand"
+      ],
+      "animations": [
+        "flight"
+      ],
+      "sounds": [
+        "play"
+      ],
+      "components": [
+        "targets",
+        "dialog"
+      ],
+      "source": {
+        "file": "app/engine.js",
+        "symbol": "resolve"
+      },
+      "references": [
+        {
+          "file": "app/main.js",
+          "symbol": "renderTarget"
+        }
+      ],
+      "dependencies": [
+        "play",
+        "nope"
+      ]
+    }
+  ]
+}

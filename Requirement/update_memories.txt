@@ -1,0 +1,5 @@
+Read whole repo for understanding the structure of the current repo.
+Save to memory.md for saving token in the future
+any thing need to note, note to .codex
+update memory right after done 
+whenever i start new chat, read the memory.md to catch up with current status and for saving token

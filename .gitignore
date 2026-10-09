@@ -1,0 +1,16 @@
+# Local runtime state
+.codex/*.log
+.codex/*.pid
+
+# Generated editor recovery snapshots
+.codex/editor-backups/
+
+# Downloaded research tooling (recreate with the documented collectors)
+.codex/research-animation/tools/
+
+# Language and OS caches
+**/__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+

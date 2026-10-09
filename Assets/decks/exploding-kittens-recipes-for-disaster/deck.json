@@ -1,0 +1,625 @@
+{
+  "id": "exploding-kittens-recipes-for-disaster",
+  "name": "Exploding Kittens: Recipes for Disaster",
+  "kind": "Standalone",
+  "players": "2-5; selected recipe may narrow the range",
+  "total_cards": 121,
+  "draw_deck_inventory_cards": 121,
+  "card_families": 27,
+  "distinct_named_card_types": 30,
+  "components": [
+    "13 printed recipe booklets/cards",
+    "5 blank recipe booklets/cards",
+    "Cone of Shame",
+    "separate Field Guide"
+  ],
+  "rules_pdf": "rules.pdf",
+  "rules_source_url": "https://dumekj556jp75.cloudfront.net/recipes-for-disaster/RFD_instructions.pdf",
+  "inventory_source_url": "https://explodi.ng/decks/exploding-kittens-recipes-for-disaster",
+  "inventory_definition": "Box contents, before removing unused cards or dealing. Cat identities are distinct types; artwork variants do not add types or copies.",
+  "cards": [
+    {
+      "id": "alter-the-future-3x",
+      "name": "Alter the Future 3x",
+      "family": "alter-the-future-3x",
+      "count": 3,
+      "with_paw": 0,
+      "without_paw": 3,
+      "zone": "deck",
+      "icon": "Assets/cards/alter-the-future-3x/alter-the-future-3x.png",
+      "artwork_files": [
+        "Assets/cards/alter-the-future-3x/artworks/Alter-the-Future-Cat-Wizard.jpg",
+        "Assets/cards/alter-the-future-3x/artworks/Alter-the-Future-Furmaid.jpg",
+        "Assets/cards/alter-the-future-3x/artworks/Alter-the-Future-Golden-Haired-Manatee.jpg",
+        "Assets/cards/alter-the-future-3x/artworks/Alter-the-Future-Time-Traveling-Crab.jpg"
+      ],
+      "asset_folder": "Assets/cards/alter-the-future-3x",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Privately inspect and reorder the top three draw-pile cards, return them face down, and continue your turn. Do not show them to others."
+    },
+    {
+      "id": "alter-the-future-3x-now",
+      "name": "Alter the Future 3x NOW",
+      "family": "alter-the-future-3x-now",
+      "count": 2,
+      "with_paw": 0,
+      "without_paw": 2,
+      "zone": "deck",
+      "icon": "Assets/cards/alter-the-future-3x-now/alter-the-future-3x-now.png",
+      "artwork_files": [
+        "Assets/cards/alter-the-future-3x-now/artworks/Alter-the-Future-Get-That-Perm-Youve-Always-Wanted.jpg"
+      ],
+      "asset_folder": "Assets/cards/alter-the-future-3x-now",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Privately inspect/reorder the top three cards and return them face down. May be played between actions even outside your turn. Does not change whose turn it is; cannot interrupt an action already in progress."
+    },
+    {
+      "id": "attack-2x",
+      "name": "Attack 2x",
+      "family": "attack-2x",
+      "count": 6,
+      "with_paw": 0,
+      "without_paw": 6,
+      "zone": "deck",
+      "icon": "Assets/cards/attack-2x/attack-2x.png",
+      "artwork_files": [
+        "Assets/cards/attack-2x/artworks/Attack-Bear-o-Dactyl.jpg",
+        "Assets/cards/attack-2x/artworks/Attack-Catterwocky.jpg",
+        "Assets/cards/attack-2x/artworks/Attack-Crab-a-Pult.jpg",
+        "Assets/cards/attack-2x/artworks/Attack-Grow-a-Magnifient-Squid-Arm-and-Start-Slapping-Fat-Babies.jpg",
+        "Assets/cards/attack-2x/artworks/Attack-Penguin-Diarrhea.jpg",
+        "Assets/cards/attack-2x/artworks/Attack-Rubber-Duck-Collection.jpg",
+        "Assets/cards/attack-2x/artworks/Attack-Thousand-Year-Back-Hair.jpg",
+        "Assets/cards/attack-2x/artworks/Attack-Torture-Bunnies.jpg"
+      ],
+      "asset_folder": "Assets/cards/attack-2x",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "End your turn without drawing and give the next player two turns. If played while under an Attack, transfer all current/remaining untaken turns and add two. Each required turn is played or passed, then ended by drawing or a valid turn-ending card."
+    },
+    {
+      "id": "barking-kitten",
+      "name": "Barking Kitten",
+      "family": "barking-kitten",
+      "count": 2,
+      "with_paw": 0,
+      "without_paw": 2,
+      "zone": "deck",
+      "icon": "Assets/cards/barking-kitten/barking-kitten.png",
+      "artwork_files": [
+        "Assets/cards/barking-kitten/artworks/1-Barking-Kitten-Dog-House-New.jpg",
+        "Assets/cards/barking-kitten/artworks/2-Barking-Kitten-Fence-New.jpg",
+        "Assets/cards/barking-kitten/artworks/Barking-Kitten-Dog-House.jpg",
+        "Assets/cards/barking-kitten/artworks/Barking-Kitten-Fence.jpg"
+      ],
+      "asset_folder": "Assets/cards/barking-kitten",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Put it face up before you and ask who has its mate. If someone has it, that player must Defuse or explode; discard both Barking Kittens at the end of the turn. If nobody has the mate, your card stays before you outside your hand and makes you the target when the mate is played. If you obtain both, choose any target. Playing it does not end your turn. Cannot be Noped. Defusing this effect does not put a card into the draw pile. This is the explosion version in the supplied PDFs, not the older hand-exchange printing."
+    },
+    {
+      "id": "bury",
+      "name": "Bury",
+      "family": "bury",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/bury/bury.png",
+      "artwork_files": [
+        "Assets/cards/bury/artworks/Bury-Bury-Something-That-Probably-Shouldnt-be-Buried.jpg",
+        "Assets/cards/bury/artworks/Bury-Clean-Up-While-Your-Cat-Watches.jpg"
+      ],
+      "asset_folder": "Assets/cards/bury",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Draw a card to end one turn, inspect it, then secretly reinsert it anywhere in the draw pile rather than retaining it. Cannot be used while I'll Take That is in front of you. When burying an Imploding Kitten, preserve the face-up/face-down orientation in which it was drawn."
+    },
+    {
+      "id": "beard-cat",
+      "name": "Beard Cat",
+      "family": "cat-card",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/cat-card/beard-cat.png",
+      "artwork_files": [
+        "Assets/cards/cat-card/artworks/Beard-Cat.jpg"
+      ],
+      "asset_folder": "Assets/cards/cat-card",
+      "artwork_mapping": "named cat identity",
+      "count_source": "explodi.ng structured card inventory; named cat split",
+      "rule": "A single cat has no effect. Discard two with the same cat name to steal one random card. The optional pair/triple combos extend matching to any shared title; a triple requests a named card and fails if the target lacks it. Feral Cat can replace a powerless cat. Cat identities are not interchangeable without a wildcard."
+    },
+    {
+      "id": "rainbow-ralphing-cat",
+      "name": "Rainbow-Ralphing Cat",
+      "family": "cat-card",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/cat-card/rainbow-ralphing-cat.png",
+      "artwork_files": [
+        "Assets/cards/cat-card/artworks/Rainbow-Ralphing-Cat.jpg"
+      ],
+      "asset_folder": "Assets/cards/cat-card",
+      "artwork_mapping": "named cat identity",
+      "count_source": "explodi.ng structured card inventory; named cat split",
+      "rule": "A single cat has no effect. Discard two with the same cat name to steal one random card. The optional pair/triple combos extend matching to any shared title; a triple requests a named card and fails if the target lacks it. Feral Cat can replace a powerless cat. Cat identities are not interchangeable without a wildcard."
+    },
+    {
+      "id": "tacocat",
+      "name": "Tacocat",
+      "family": "cat-card",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/cat-card/tacocat.png",
+      "artwork_files": [
+        "Assets/cards/cat-card/artworks/Tacocat.jpg"
+      ],
+      "asset_folder": "Assets/cards/cat-card",
+      "artwork_mapping": "named cat identity",
+      "count_source": "explodi.ng structured card inventory; named cat split",
+      "rule": "A single cat has no effect. Discard two with the same cat name to steal one random card. The optional pair/triple combos extend matching to any shared title; a triple requests a named card and fails if the target lacks it. Feral Cat can replace a powerless cat. Cat identities are not interchangeable without a wildcard."
+    },
+    {
+      "id": "zombie-cat",
+      "name": "Zombie Cat",
+      "family": "cat-card",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/cat-card/zombie-cat.png",
+      "artwork_files": [
+        "Assets/cards/cat-card/artworks/Zombie-Cat.jpg"
+      ],
+      "asset_folder": "Assets/cards/cat-card",
+      "artwork_mapping": "named cat identity",
+      "count_source": "explodi.ng structured card inventory; named cat split",
+      "rule": "A single cat has no effect. Discard two with the same cat name to steal one random card. The optional pair/triple combos extend matching to any shared title; a triple requests a named card and fails if the target lacks it. Feral Cat can replace a powerless cat. Cat identities are not interchangeable without a wildcard."
+    },
+    {
+      "id": "catomic-bomb",
+      "name": "Catomic Bomb",
+      "family": "catomic-bomb",
+      "count": 1,
+      "with_paw": 0,
+      "without_paw": 1,
+      "zone": "deck",
+      "icon": "Assets/cards/catomic-bomb/catomic-bomb.png",
+      "artwork_files": [
+        "Assets/cards/catomic-bomb/artworks/Catomic-Bomb.jpg"
+      ],
+      "asset_folder": "Assets/cards/catomic-bomb",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Remove and reveal all Exploding Kittens from the draw pile, shuffle the remaining draw pile, and place those Exploding Kittens face down on top. End one turn without drawing. Do not remove Imploding Kittens."
+    },
+    {
+      "id": "defuse",
+      "name": "Defuse",
+      "family": "defuse",
+      "count": 8,
+      "with_paw": 0,
+      "without_paw": 8,
+      "zone": "deck",
+      "icon": "Assets/cards/defuse/defuse.png",
+      "artwork_files": [
+        "Assets/cards/defuse/artworks/Defuse-Via-3AM-Flatulence.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Belly-Rubs.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Catnip-Sandwiches.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Catnip-Sweater.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Crate.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Excessive-Ball-Cleaning.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Flattering-LARP.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Kitten-Therapy.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Laser-Pointer.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Laser-Tag.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Mauling-a-Baby.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Nature-Documentaries.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Participation-in-Kitten-Yoga.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Porkback-Riding-into-the-Sunset-Together.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Scratching.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Spay-Neuter.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Tummy-Rubs.jpg",
+        "Assets/cards/defuse/artworks/Defuse-Via-Turning-Into-Tuna.jpg"
+      ],
+      "asset_folder": "Assets/cards/defuse",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "After drawing an Exploding Kitten, discard this to survive and secretly reinsert that Kitten anywhere in the draw pile without inspecting or rearranging other cards. Ends one turn, not every outstanding attacked turn. Cannot be Noped. Special Barking/Devilcat explosions consume a Defuse without reinserting a card."
+    },
+    {
+      "id": "draw-from-the-bottom",
+      "name": "Draw From the Bottom",
+      "family": "draw-from-the-bottom",
+      "count": 3,
+      "with_paw": 0,
+      "without_paw": 3,
+      "zone": "deck",
+      "icon": "Assets/cards/draw-from-the-bottom/draw-from-the-bottom.png",
+      "artwork_files": [
+        "Assets/cards/draw-from-the-bottom/artworks/Draw-from-the-Bottom-Take-a-Big-Bite-of-Your-Coward-Sandwich.jpg"
+      ],
+      "asset_folder": "Assets/cards/draw-from-the-bottom",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Finish one turn by drawing the bottom card instead of the top. Resolve that card normally. Under an Attack, this satisfies only one of the required turns."
+    },
+    {
+      "id": "exploding-kitten",
+      "name": "Exploding Kitten",
+      "family": "exploding-kitten",
+      "count": 6,
+      "with_paw": 0,
+      "without_paw": 6,
+      "zone": "deck",
+      "icon": "Assets/cards/exploding-kitten/exploding-kitten.png",
+      "artwork_files": [
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Alien.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-C4.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Car-Off-Cliff.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-House-Grenade.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Nuclear-Bombs.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Playground.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Science.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-TNT-Ship.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploding-Kitten-Warp-Core.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Balloon-Bomb.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Divide-By-Zero.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Holy-Water-Balloons.jpg",
+        "Assets/cards/exploding-kitten/artworks/Exploing-Kitten-Pepper.jpg"
+      ],
+      "asset_folder": "Assets/cards/exploding-kitten",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Reveal immediately. Defuse it or die. The referenced field guide keeps the lethal Kitten face up in front of the dead player and the rest of their hand face down in front of them."
+    },
+    {
+      "id": "feral-cat",
+      "name": "Feral Cat",
+      "family": "feral-cat",
+      "count": 6,
+      "with_paw": 0,
+      "without_paw": 6,
+      "zone": "deck",
+      "icon": "Assets/cards/feral-cat/feral-cat.png",
+      "artwork_files": [
+        "Assets/cards/feral-cat/artworks/Feral-Cat.jpg"
+      ],
+      "asset_folder": "Assets/cards/feral-cat",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "A wildcard for powerless cat cards in matching cat combos. It cannot stand in for a non-cat action card such as Attack or Shuffle."
+    },
+    {
+      "id": "garbage-collection",
+      "name": "Garbage Collection",
+      "family": "garbage-collection",
+      "count": 2,
+      "with_paw": 0,
+      "without_paw": 2,
+      "zone": "deck",
+      "icon": "Assets/cards/garbage-collection/garbage-collection.png",
+      "artwork_files": [
+        "Assets/cards/garbage-collection/artworks/Garbage-Collection.jpg"
+      ],
+      "asset_folder": "Assets/cards/garbage-collection",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Every player with cards, including you, chooses one card to put secretly into the draw pile; shuffle the pile afterward. A protected held Exploding Kitten may be contributed. Players with empty hands do not contribute."
+    },
+    {
+      "id": "i-ll-take-that",
+      "name": "I'll Take That",
+      "family": "i-ll-take-that",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/i-ll-take-that/i-ll-take-that.png",
+      "artwork_files": [
+        "Assets/cards/i-ll-take-that/artworks/Ill-Take-That-A-Hedgehog-Hogs-the-Blankets.jpg",
+        "Assets/cards/i-ll-take-that/artworks/Ill-Take-That-Send-in-a-Seagull-Who-Steals-Things.jpg",
+        "Assets/cards/i-ll-take-that/artworks/Ill-Take-That-Send-in-a-Vampug.jpg",
+        "Assets/cards/i-ll-take-that/artworks/Ill-Take-That-Send-the-Klepto-Cat.jpg"
+      ],
+      "asset_folder": "Assets/cards/i-ll-take-that",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Put it face up before another player who does not already have one. On their next draw, they inspect the drawn card privately and give it to you; then discard I'll Take That. If it is an Exploding Kitten, you must resolve it. The targeted player has still completed their draw and turn."
+    },
+    {
+      "id": "imploding-kitten",
+      "name": "Imploding Kitten",
+      "family": "imploding-kitten",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/imploding-kitten/imploding-kitten.png",
+      "artwork_files": [
+        "Assets/cards/imploding-kitten/artworks/Imploding-Kitten.jpg"
+      ],
+      "asset_folder": "Assets/cards/imploding-kitten",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "If drawn face down, secretly reinsert it face up anywhere in the draw pile without spending a Defuse. Drawing it face up kills you immediately: neither Defuse nor Nope can save you. In the expansion PDF, discard it after it kills a player. It has a visible white border when face up. A Streaking Kitten cannot protect you from it. Shuffle face-up Imploding cards out of sight. The supplementary field guide keeps a lethal Imploding Kitten face up before the dead player and their other cards face down."
+    },
+    {
+      "id": "mark",
+      "name": "Mark",
+      "family": "mark",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/mark/mark.png",
+      "artwork_files": [
+        "Assets/cards/mark/artworks/Mark.jpg"
+      ],
+      "asset_folder": "Assets/cards/mark",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Randomly choose one card in a target player's hand and return it facing outward so others can see it. The owner may still look at it. Keep it marked until it leaves that hand; a stolen card does not stay marked."
+    },
+    {
+      "id": "nope",
+      "name": "Nope",
+      "family": "nope",
+      "count": 8,
+      "with_paw": 0,
+      "without_paw": 8,
+      "zone": "deck",
+      "icon": "Assets/cards/nope/nope.png",
+      "artwork_files": [
+        "Assets/cards/nope/artworks/Nope-A-Jackanope-Bounds-into-the-Room.jpg",
+        "Assets/cards/nope/artworks/Nope-a-Nope-Ninja.jpg",
+        "Assets/cards/nope/artworks/Nope-Awaken-the-Narnope.jpg",
+        "Assets/cards/nope/artworks/Nope-Deliver-some-Nope-on-Your-Jump-Rope.jpg",
+        "Assets/cards/nope/artworks/Nope-Feed-your-Apponent-Some-Cantanope.jpg",
+        "Assets/cards/nope/artworks/Nope-Feed-your-Opponent-a-Nope-Sandwich.jpg",
+        "Assets/cards/nope/artworks/Nope-Nopestradamus-Speaks-the-Truth.jpg",
+        "Assets/cards/nope/artworks/Nope-Put-on-Your-Necktie-of-Nope.jpg",
+        "Assets/cards/nope/artworks/Nope-The-Pope-of-Nope-has-Spoken.jpg",
+        "Assets/cards/nope/artworks/Nope-Win-the-Nopebell-Peace-Prize.jpg"
+      ],
+      "asset_folder": "Assets/cards/nope",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Cancel an action or combo before it begins, even outside your turn. Another Nope cancels a Nope, with successive Nopes alternating cancellation. The action's cards and all Nopes remain discarded. Exploding Kittens and Defuses cannot be Noped. Do not interrupt an action after it has begun."
+    },
+    {
+      "id": "personal-attack-3x",
+      "name": "Personal Attack 3x",
+      "family": "personal-attack-3x",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/personal-attack-3x/personal-attack-3x.png",
+      "artwork_files": [
+        "Assets/cards/personal-attack-3x/artworks/Personal-Attack-Finally-Throw-Up-All-the-Crayons-You-Ate-When-You-Were-A-Kid.jpg",
+        "Assets/cards/personal-attack-3x/artworks/Personal-Attack-Get-Cursed-at-by-a-Heck-Beaver.jpg",
+        "Assets/cards/personal-attack-3x/artworks/Personal-Attack-Give-Yourself-a-Fierce-Spankin.jpg",
+        "Assets/cards/personal-attack-3x/artworks/Personal-Attack-Listen-to-the-Boastings-of-Some-Very-Accomplished-Trout.jpg"
+      ],
+      "asset_folder": "Assets/cards/personal-attack-3x",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Attack yourself for three turns: continue the current turn normally and take two more after it ends. If another Attack is played while turns are still outstanding, transfer the remaining turns and add the new Attack's amount."
+    },
+    {
+      "id": "reverse",
+      "name": "Reverse",
+      "family": "reverse",
+      "count": 5,
+      "with_paw": 0,
+      "without_paw": 5,
+      "zone": "deck",
+      "icon": "Assets/cards/reverse/reverse.png",
+      "artwork_files": [
+        "Assets/cards/reverse/artworks/Reverse-Go-Back-In-Time-And-Steal-A-Pregnant-Dinosaur.jpg",
+        "Assets/cards/reverse/artworks/Reverse-Receive-A-Hairy-Tummy-Massage.jpg",
+        "Assets/cards/reverse/artworks/Reverse-Return-From-An-Unpleasant-Doctor-s-Visit.jpg",
+        "Assets/cards/reverse/artworks/Reverse-Try-Something-New-Today.jpg"
+      ],
+      "asset_folder": "Assets/cards/reverse",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Reverse play direction and end one turn without drawing. With two players it acts as Skip. During an Attack it reverses direction but only satisfies one required turn. Update the Cone of Shame's direction arrow if it is being used."
+    },
+    {
+      "id": "see-the-future-3x",
+      "name": "See the Future 3x",
+      "family": "see-the-future-3x",
+      "count": 6,
+      "with_paw": 0,
+      "without_paw": 6,
+      "zone": "deck",
+      "icon": "Assets/cards/see-the-future-3x/see-the-future-3x.png",
+      "artwork_files": [
+        "Assets/cards/see-the-future-3x/artworks/See-the-Future-Ask-the-All-Seeing-Goat-Wizard.jpg",
+        "Assets/cards/see-the-future-3x/artworks/See-the-Future-Attach-a-Butterfly-to-Your-Genitals.jpg",
+        "Assets/cards/see-the-future-3x/artworks/See-the-Future-Crawl-Inside-a-Goat-Butt.jpg",
+        "Assets/cards/see-the-future-3x/artworks/See-the-Future-Deploy-the-Special-Ops-Bunnies.jpg",
+        "Assets/cards/see-the-future-3x/artworks/See-the-Future-Discover-a-Boob-Wizard.jpg",
+        "Assets/cards/see-the-future-3x/artworks/See-the-Future-Drink-an-Entire-Bottle-of-Bald-Eagle-Tears.jpg",
+        "Assets/cards/see-the-future-3x/artworks/See-the-Future-Fear-Upon-a-Unicorn-Enchilada.jpg",
+        "Assets/cards/see-the-future-3x/artworks/See-the-Future-Rub-the-Belly-of-a-Pig-a-Corn.jpg",
+        "Assets/cards/see-the-future-3x/artworks/See-the-Future-Summon-the-Mantis-Shrimp.jpg",
+        "Assets/cards/see-the-future-3x/artworks/See-the-Future-Weave-an-Infinity-Boner.jpg"
+      ],
+      "asset_folder": "Assets/cards/see-the-future-3x",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Privately inspect the top three cards of the draw pile and return them in the same order. Do not reveal them to others. Continue your turn; this does not replace your final draw."
+    },
+    {
+      "id": "see-the-future-5x",
+      "name": "See the Future 5x",
+      "family": "see-the-future-5x",
+      "count": 3,
+      "with_paw": 0,
+      "without_paw": 3,
+      "zone": "deck",
+      "icon": "Assets/cards/see-the-future-5x/see-the-future-5x.png",
+      "artwork_files": [
+        "Assets/cards/see-the-future-5x/artworks/See-the-Future-Behold-the-Angler-Pig.jpg"
+      ],
+      "asset_folder": "Assets/cards/see-the-future-5x",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Privately inspect the top five cards and return them in the same order without showing others. Continue your turn."
+    },
+    {
+      "id": "share-the-future-3x",
+      "name": "Share the Future 3x",
+      "family": "share-the-future-3x",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/share-the-future-3x/share-the-future-3x.png",
+      "artwork_files": [
+        "Assets/cards/share-the-future-3x/artworks/Share-the-Future-Listen-to-the-Words-of-an-Emo-Emu.jpg",
+        "Assets/cards/share-the-future-3x/artworks/Share-the-Future-Send-in-the-Recon-Sloth.jpg"
+      ],
+      "asset_folder": "Assets/cards/share-the-future-3x",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Privately inspect/reorder the top three cards, show them to the next player only, then return them face down and continue your turn."
+    },
+    {
+      "id": "shuffle",
+      "name": "Shuffle",
+      "family": "shuffle",
+      "count": 5,
+      "with_paw": 0,
+      "without_paw": 5,
+      "zone": "deck",
+      "icon": "Assets/cards/shuffle/shuffle.png",
+      "artwork_files": [
+        "Assets/cards/shuffle/artworks/Shuffle-A-Kraken-Emerges-and-Hes-Super-Upset.jpg",
+        "Assets/cards/shuffle/artworks/Shuffle-A-Plague-of-Bat-Farts.jpg",
+        "Assets/cards/shuffle/artworks/Shuffle-A-Transdimensional-Litter-Box-Materializes.jpg",
+        "Assets/cards/shuffle/artworks/Shuffle-Abracrab-Lincoln.jpg",
+        "Assets/cards/shuffle/artworks/Shuffle-An-Asparagus-Bun-Dragon-Appears.jpg",
+        "Assets/cards/shuffle/artworks/Shuffle-An-Electromagnetic-Pomeranian-Storm.jpg",
+        "Assets/cards/shuffle/artworks/Shuffle-Discover-You-Have-a-Toilet-Werewolf.jpg",
+        "Assets/cards/shuffle/artworks/Shuffle-Smoke-Some-Crack-with-a-Baby-Owl.jpg"
+      ],
+      "asset_folder": "Assets/cards/shuffle",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Randomize the draw pile without learning its final order. The Original/Party Pack/2-Player/Cat Burglar PDFs say to shuffle thoroughly; NSFW and Good vs. Evil say until the next player tells you to stop. If an Imploding Kitten is face up, shuffle out of sight so its resulting position is unknown."
+    },
+    {
+      "id": "skip",
+      "name": "Skip",
+      "family": "skip",
+      "count": 5,
+      "with_paw": 0,
+      "without_paw": 5,
+      "zone": "deck",
+      "icon": "Assets/cards/skip/skip.png",
+      "artwork_files": [
+        "Assets/cards/skip/artworks/Skip-Commandeer-a-Bunnyraptor.jpg",
+        "Assets/cards/skip/artworks/Skip-Crab-Walk-with-Some-Crabs.jpg",
+        "Assets/cards/skip/artworks/Skip-Don-a-Portable-Cheetah-Butt.jpg",
+        "Assets/cards/skip/artworks/Skip-Engage-the-Hypergoat.jpg",
+        "Assets/cards/skip/artworks/Skip-Evade-Dirty-Sasquatch-Underpants.jpg",
+        "Assets/cards/skip/artworks/Skip-Go-Base-Jumping-Using-a-Pair-of-Old-Lady-Boobs.jpg",
+        "Assets/cards/skip/artworks/Skip-Play-a-Game-of-Whale-Boner-Tetherball.jpg",
+        "Assets/cards/skip/artworks/Skip-Sail-Away-on-Your-Penis-Balloon.jpg"
+      ],
+      "asset_folder": "Assets/cards/skip",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "End one turn without drawing. An Attack with two required turns needs two Skips to avoid both draws."
+    },
+    {
+      "id": "streaking-kitten",
+      "name": "Streaking Kitten",
+      "family": "streaking-kitten",
+      "count": 1,
+      "with_paw": 0,
+      "without_paw": 1,
+      "zone": "deck",
+      "icon": "Assets/cards/streaking-kitten/streaking-kitten.png",
+      "artwork_files": [
+        "Assets/cards/streaking-kitten/artworks/Streaking-Kitten.jpg"
+      ],
+      "asset_folder": "Assets/cards/streaking-kitten",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "While kept in your hand, protects one secretly held Exploding Kitten. If Streaking leaves while an unprotected Exploding Kitten remains, Defuse it or die. A player receiving a held Exploding Kitten must Defuse or die; this does not replace their normal turn draw. Playing a held Exploding Kitten into the discard also causes an explosion. Does not protect against Imploding Kittens. In editions with a five-card combo, neither Streaking nor Exploding Kittens can be spent or recovered through that combo."
+    },
+    {
+      "id": "super-skip",
+      "name": "Super Skip",
+      "family": "super-skip",
+      "count": 2,
+      "with_paw": 0,
+      "without_paw": 2,
+      "zone": "deck",
+      "icon": "Assets/cards/super-skip/super-skip.png",
+      "artwork_files": [
+        "Assets/cards/super-skip/artworks/Super-Skip-Hitch-A-Ride-on-a-Corgihorse.jpg",
+        "Assets/cards/super-skip/artworks/Super-Skip.jpg"
+      ],
+      "asset_folder": "Assets/cards/super-skip",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "End all your required turns without drawing, including outstanding turns from an Attack."
+    },
+    {
+      "id": "swap-top-and-bottom",
+      "name": "Swap Top and Bottom",
+      "family": "swap-top-and-bottom",
+      "count": 3,
+      "with_paw": 0,
+      "without_paw": 3,
+      "zone": "deck",
+      "icon": "Assets/cards/swap-top-and-bottom/swap-top-and-bottom.png",
+      "artwork_files": [
+        "Assets/cards/swap-top-and-bottom/artworks/Swap-Top-and-Bottom.jpg"
+      ],
+      "asset_folder": "Assets/cards/swap-top-and-bottom",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "Swap the top and bottom cards of the draw pile without looking at them. This does not end your turn."
+    },
+    {
+      "id": "targeted-attack-2x",
+      "name": "Targeted Attack 2x",
+      "family": "targeted-attack-2x",
+      "count": 4,
+      "with_paw": 0,
+      "without_paw": 4,
+      "zone": "deck",
+      "icon": "Assets/cards/targeted-attack-2x/targeted-attack-2x.png",
+      "artwork_files": [
+        "Assets/cards/targeted-attack-2x/artworks/Targeted-Attack-2x-Deploy-The-Groin-Kicking-Panda-Bear.jpg",
+        "Assets/cards/targeted-attack-2x/artworks/Targeted-Attack-2x-Fire-The-Fat-Hamster-Crossbow.jpg",
+        "Assets/cards/targeted-attack-2x/artworks/Targeted-Attack-Unleash-a-Shark-Who-Hurts-with-Words-Instead-of-Teeth.jpg"
+      ],
+      "asset_folder": "Assets/cards/targeted-attack-2x",
+      "artwork_mapping": "shared family candidates; edition print not established",
+      "count_source": "field-guide.pdf",
+      "rule": "End your current turn(s) without drawing and choose another player to take two turns; play continues from that victim. If responding to an Attack, transfer all untaken turns and add two. Does not require targeting your immediate neighbor."
+    }
+  ],
+  "limitations": [
+    "Exact scans of all 13 printed recipe booklets are not included in the supplied main PDF; the supplemental online catalog may differ and contains flagged source conflicts.",
+    "Shared card artwork is not a verified print-by-print Recipes for Disaster scan."
+  ],
+  "supplementary_field_guide": "field-guide.pdf"
+}

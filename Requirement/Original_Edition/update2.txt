@@ -1,0 +1,33 @@
+There is a bug that you nope your own card
+When someone is being steal or favor, show the handsign from one who play the card to the victim
+Turn indicator is not prominent enough → Make YOUR TURN / BOT TURN a clear animated banner and highlight the active player's avatar.
+
+Draw pile needs more emphasis → Make it slightly larger, add hover/pulse feedback, and animate cards from deck → reveal → hand.
+
+Discard pile feels too static → Show the latest played card on top, stack a few cards underneath, and animate cards flying into the pile.
+
+Survival Check feels too much like a dashboard → Simplify it to something like 5 ALIVE · TURN 3; prioritize 2 TURNS LEFT during Attack situations.
+
+Card selection is not visually strong enough → Hover lifts the card slightly; selected cards lift higher with stronger shadow/outline.
+
+Play button is too disconnected from the selected card → Show a small PLAY action near the selected card while keeping the main Play button.
+
+Instruction text is too generic → Make it contextual, e.g. ATTACK — Next player takes 2 turns or PAIR — Steal a random card.
+
+Target selection should be clearer → Dim unrelated areas, highlight valid opponents, and show CHOOSE A PLAYER in the center.
+
+Bot actions may feel too instant → Add short thinking delays, around 500–1200 ms, plus a THINKING... state.
+
+Exploding Kitten needs a major visual moment → Reveal it in the center, add screen shake/flash, then highlight available Defuse cards.
+
+Defuse needs its own interaction flow → Animate Defuse cancelling the explosion, then let the player choose where to reinsert the Kitten into the deck.
+
+Nope reaction window should be stronger → Show the played action, countdown bar, and a large NOPE! button; stack Nope cards visually.
+
+Rename Table Talk if there is no chat yet → Use GAME LOG and show recent actions/turn history.
+
+Animation timing should be consistent → Small UI actions: 150–250 ms; card movement: 300–500 ms; major reveals: 700–1000 ms.
+
+Prepare the UI for multiple decks later → Structure setup as Select Deck → Select Mode → Start Game, so expansions can be added without redesigning everything.
+
+The NOPE button now is like a red cicle in the rightside of the card on hand 

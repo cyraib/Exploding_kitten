@@ -1,0 +1,91 @@
+{
+  "completed": "2026-10-05 Asia/Bangkok",
+  "request": "Requirement/Original_Edition/playtest.txt",
+  "automated": {
+    "tests": 39,
+    "passed": 39,
+    "complete_simulated_matches": 140,
+    "syntax_check": "passed"
+  },
+  "browser": {
+    "browser": "Brave on Windows",
+    "full_matches": 6,
+    "ordinary_random_matches": 4,
+    "seeded_matches": [
+      {
+        "seed": 29,
+        "players": 2,
+        "winner": "Peachy"
+      },
+      {
+        "seed": 1019,
+        "players": 2,
+        "winner": "Human",
+        "bot_rng": 0.99
+      }
+    ],
+    "player_counts": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "random_match_winners": [
+      "Peachy",
+      "Prootzel",
+      "Prootzel",
+      "Peachy"
+    ],
+    "focused_checks": [
+      "counter-Nope restored original action, full reaction reset",
+      "6 -> 5 turns after double-play Skip; 5 -> 4 after Defuse",
+      "last-card empty-pile insertion",
+      "malformed-save setup fallback",
+      "stalled-animation watchdog recovery",
+      "danger, insertion, future and Attack reload",
+      "human and bot victories",
+      "rapid double draw/play/insert",
+      "sound toggles, Normal/Fast/Calm",
+      "clean five-player restart"
+    ],
+    "console_warning_error_logs": [],
+    "viewport_sizes": [
+      [
+        1920,
+        1080
+      ],
+      [
+        1366,
+        768
+      ]
+    ],
+    "notes": "See original-edition-playtest.md for exact scope and test-driver viewport issue."
+  },
+  "remaining_limitations": [
+    "Local bot-only Original Edition",
+    "Heuristic bot strategy",
+    "Exact artwork print assignments unverified",
+    "Other browsers and full assistive technology coverage not tested",
+    "Existing legacy provenance/document/recipe gaps"
+  ],
+  "integrity": {
+    "original_files_checked": 351,
+    "changed_originals": [],
+    "documentation_links_checked": 146,
+    "missing_links": [],
+    "screenshots": {
+      "original-edition-playtest-desktop.png": {
+        "width": 1920,
+        "height": 1080
+      },
+      "original-edition-playtest-laptop.png": {
+        "width": 1366,
+        "height": 768
+      },
+      "original-edition-playtest-victory.png": {
+        "width": 1366,
+        "height": 768
+      }
+    }
+  }
+}

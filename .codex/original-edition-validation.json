@@ -1,0 +1,72 @@
+{
+  "checked_date": "2026-10-04",
+  "timezone": "Asia/Bangkok",
+  "application": "Exploding Kittens Original Edition",
+  "url": "http://127.0.0.1:4177",
+  "automated": {
+    "npm_test": "passed",
+    "tests": 30,
+    "complete_simulated_games": 100,
+    "player_counts": [2, 3, 4, 5],
+    "bot_difficulties": ["casual", "clever"],
+    "npm_run_check": "passed",
+    "http_test": "passed: index, modules, all 13 icon/art routes, MIME, internal paths, encoded traversal, unsupported methods"
+  },
+  "browser": {
+    "browser": "Brave",
+    "interaction_method": "actual visible UI controls; no injected game fixtures",
+    "checks": [
+      "Initial four-player deal: eight cards each and 23-card draw pile",
+      "Human future peek and refresh/resume of the same private future phase",
+      "Normal draws and bot turn progression",
+      "Nope and counter-Nope responses",
+      "Favor target chooses a card to give",
+      "Matching pair selection and living-player target dialog",
+      "Attack turn debt and continuation after a rescued draw",
+      "Defuse and secret bottom reinsertion",
+      "Human elimination and bot spectating",
+      "Last-survivor modal: Jazzy survived",
+      "One more round opens setup and deals five players, eight cards each, deck 16",
+      "Normal, Fast, Calm settings",
+      "Pause disables gameplay; resume restores controls"
+    ],
+    "desktop": {
+      "viewport": [1366, 768],
+      "document_dimensions": [1366, 768],
+      "broken_images": 0,
+      "screenshot": ".codex/original-edition-preview.png"
+    },
+    "mobile": {
+      "viewport": [390, 844],
+      "document_height": 844,
+      "table_scroll_width": 382,
+      "table_scroll_left": 0,
+      "hand_viewport_width": 358,
+      "hand_content_width": 456,
+      "screenshot": ".codex/original-edition-mobile.png"
+    },
+    "warning_error_logs": [],
+    "temporary_viewport_override_reset": true
+  },
+  "launcher": {
+    "shortcut": "Play Original Edition.lnk",
+    "shortcut_metadata_verified": true,
+    "actual_shortcut_opened_default_browser": true,
+    "hidden_local_server_start": "passed",
+    "reuse_health_identity_check": "passed"
+  },
+  "preservation": {
+    "baseline": ".codex/repository-audit-before.json",
+    "original_assets_compared": 351,
+    "changed_or_missing_original_assets": [],
+    "requirements_and_reference_html": "preserved",
+    "original_pdf_used_for_implementation": false
+  },
+  "limitations": [
+    "One local human against bots; human multiplayer and online authority are future work",
+    "Bot strategy is heuristic",
+    "Shared illustration print assignments are unverified",
+    "Regenerate the shortcut after moving the project",
+    "Missing legacy files, 17 broken legacy links, and prior recipe conflicts remain"
+  ]
+}

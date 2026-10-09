@@ -1,0 +1,13 @@
+{
+  "name": "exploding-kittens-original-local",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node .codex/serve.mjs",
+    "test": "node --test .codex/tests/*.test.js",
+    "check": "node --check app/engine.js && node --check app/bots.js && node --check app/main.js && node --check app/hand-order.js && node --check app/decision-clock.js && node --check app/background-clock.js && node --check app/ui-config.js && node --check app/config/runtime.js && node --check app/config/validation.js && node --check app/editor/editor.js && node --check app/editor/bridge.js && node --check .codex/serve.mjs && node --check app/presentation/steam-visuals.js && node --check app/presentation/steam-scenes.js && node --check app/presentation/card-art.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

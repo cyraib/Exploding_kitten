@@ -1,0 +1,56 @@
+{
+  "completed_date": "2026-10-09",
+  "timezone": "Asia/Bangkok",
+  "implementation_started": "2026-10-07",
+  "requirement": "Requirement/Original_Edition/bug_fix_7.10.txt",
+  "passed": true,
+  "automated": {
+    "npm_test": { "passed": 52, "failed": 0, "complete_simulated_matches": 164 },
+    "npm_run_check": "passed",
+    "scene_checks": { "passed": 18, "failed": 0 },
+    "integrity_report": "bug-fix-7.10-integrity.json",
+    "unchanged_original_assets": 351,
+    "engine_and_bots_unchanged": true,
+    "reaction_ms": 3000
+  },
+  "browser": {
+    "family": "Brave",
+    "test_origin": "http://127.0.0.1:4181",
+    "normal_saves_preserved": true,
+    "checks": [
+      "Favor select and cancel preserve all 10 cards; confirmation transfers one",
+      "actual mouse drag and Alt+ArrowRight change display order",
+      "group and reload/resume preserve UID display order",
+      "double-click Attack consumes one card and opens no target picker",
+      "Attack has one flight and 3.0 second reaction status",
+      "human counter-Nope restores Skip and shows a fresh 3.0 second response status with self-Nope hidden",
+      "Shuffle ends with Draw enabled, one discard and zero effects",
+      "Kitten draw, Defuse, bottom reinsertion and continuation",
+      "reinsertion scene has three backs and zero face images",
+      "pair presents five hidden backs and zero face images",
+      "triple-received Defuse arrives adjacent to the existing Defuses",
+      "phone Favor confirmation has readable 36px buttons",
+      "inspected gameplay warning/error logs are empty"
+    ],
+    "viewport_checks": [
+      { "width": 1920, "height": 1080, "page_overflow": false, "broken_images": 0 },
+      { "width": 1366, "height": 768, "page_overflow": false, "broken_images": 0 },
+      { "width": 390, "height": 844, "page_overflow": false, "broken_images": 0 },
+      { "width": 320, "height": 568, "page_overflow": false, "broken_images": 0 },
+      { "width": 844, "height": 390, "page_overflow": false, "broken_images": 0 },
+      { "width": 568, "height": 320, "page_overflow": false, "broken_images": 0 }
+    ],
+    "background": {
+      "method": "explicit test-only simulated document.hidden because automation pins visibility",
+      "hidden_before": { "deck": 38, "turn": "BOT TURN", "paused": false },
+      "hidden_after": { "deck": 37, "turn": "YOUR TURN", "paused": false, "effects": 0 },
+      "native_browser_freeze_verified": false
+    },
+    "screenshots": [ "bug-fix-7.10-desktop.png", "bug-fix-7.10-mobile-favor.png" ]
+  },
+  "limitations": [
+    "Reinsertion animation is a closest authored reconstruction; exact official timing is unverified.",
+    "Browser/OS sleep or freezing may defer JavaScript; pending deadlines catch up on return.",
+    "Physical touchscreen dragging, additional browsers and a fresh complete manual match were not tested."
+  ]
+}

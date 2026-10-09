@@ -1,0 +1,11 @@
+Now, find on the internet about the game, note key out the animation, art style, movement, anything relate
+
+GOAL: To make a file for cloning exploding kitten animation, gameplay, art at perfectly same the official game ( on steam)
+
+Your can find the video on youtube or any source
+
+try to copy 100% same, to update the art and animation
+
+After research:
+- Have ability to clone the game exactly the same
+- any play have to same as the original game on steam 

@@ -1,0 +1,603 @@
+You are the final QA engineer, gameplay tester, UX reviewer, and implementation engineer for this Exploding Kittens web game.
+
+Your job is NOT only to inspect the code.
+
+Your job is to actually run the game, play it repeatedly, find problems yourself, fix them, retest them, and keep iterating until the game feels like a complete polished product.
+
+## MAIN OBJECTIVE
+
+Turn the current project into a stable, polished, enjoyable desktop Exploding Kittens game.
+
+The game should feel like a real digital card game, not just a functional web prototype.
+
+Do not stop after finding issues.
+
+For every issue you find:
+
+1. reproduce it,
+2. identify the cause,
+3. fix it,
+4. run the game again,
+5. verify the fix,
+6. check that the fix did not break another feature.
+
+Continue this loop until no important gameplay, UI, UX, animation, or state-management issues remain.
+
+---
+
+# 1. FIRST: UNDERSTAND THE PROJECT
+
+Read the existing project documentation and memory files first.
+
+Understand:
+
+- current game architecture,
+- game state,
+- card definitions,
+- gameplay rules,
+- bot logic,
+- UI structure,
+- animation system,
+- assets,
+- current limitations.
+
+Do not rewrite working systems unnecessarily.
+
+Prefer improving the current architecture rather than replacing the entire project.
+
+Only inspect additional source files when necessary to understand, reproduce, or fix an issue.
+
+---
+
+# 2. RUN THE GAME YOURSELF
+
+Launch the project locally using the existing development setup.
+
+Use the game as a real player would.
+
+Do not rely only on reading source code.
+
+Play complete matches from beginning to end.
+
+Test multiple games with different random outcomes.
+
+At minimum test:
+
+- 2 players,
+- 3 players,
+- 4 players,
+- 5 players.
+
+Test games where:
+
+- the human wins,
+- a bot wins,
+- the human explodes,
+- bots explode,
+- multiple Attack cards occur,
+- Nope is used,
+- Nope-on-Nope occurs,
+- Defuse is used,
+- Favor is used,
+- Shuffle is used,
+- Skip is used,
+- See the Future is used,
+- matching pairs are played,
+- matching triples are played,
+- cards are stolen,
+- the draw pile becomes small,
+- several players are eliminated.
+
+Do not assume a feature works just because its code exists.
+
+Actually trigger it.
+
+---
+
+# 3. GAMEPLAY VALIDATION
+
+Check every important gameplay rule.
+
+Verify:
+
+- correct starting hands,
+- correct Defuse distribution,
+- correct number of Exploding Kittens,
+- correct draw deck construction,
+- turn order,
+- drawing ends a normal turn,
+- Attack correctly modifies remaining turns,
+- stacked Attacks behave correctly,
+- Skip consumes the correct number of turns,
+- Favor targets the correct player,
+- pair stealing works,
+- triple stealing works,
+- requested card handling is correct,
+- Shuffle really changes deck order,
+- See the Future shows the correct cards without modifying deck order,
+- Nope cancels valid actions,
+- Nope-on-Nope restores the cancelled action,
+- Exploding Kitten resolution works,
+- Defuse removes the immediate explosion,
+- the Kitten is correctly reinserted,
+- eliminated players cannot act,
+- the last surviving player wins,
+- game-over state cannot continue accidentally.
+
+Look specifically for edge cases involving:
+
+- Attack + Skip,
+- Attack + another Attack,
+- Attack + Nope,
+- Defuse during multiple pending turns,
+- target player dying before an action resolves,
+- empty or nearly empty draw pile,
+- card selection remaining active after state changes,
+- animation finishing after game state has already changed.
+
+Fix any incorrect rule behavior you discover.
+
+---
+
+# 4. BOT PLAYTESTING
+
+Watch the bots carefully.
+
+Bots must:
+
+- take legal actions,
+- never select invalid targets,
+- never play impossible card combinations,
+- understand pending Attack turns,
+- use Defuse correctly,
+- react correctly to Nope,
+- make reasonable card choices,
+- eventually end their turn,
+- never get stuck.
+
+Look for:
+
+- infinite loops,
+- bots doing nothing,
+- instant actions that feel unnatural,
+- actions happening in the wrong order,
+- bots acting after elimination,
+- bots acting during another player's interaction,
+- bots interrupting animations incorrectly.
+
+Add natural bot delays where useful.
+
+Typical timing:
+
+- simple decision: 400–800 ms,
+- card play: 500–900 ms,
+- target decision: 600–1100 ms,
+- important decision: up to ~1400 ms.
+
+Do not make the game unnecessarily slow.
+
+---
+
+# 5. UI / UX REVIEW
+
+Evaluate the interface as if you had never seen the project before.
+
+The player should always understand:
+
+- whose turn it is,
+- what just happened,
+- what they can currently do,
+- which cards are selected,
+- whether they need to select a target,
+- whether they need to draw,
+- how many turns remain,
+- whether a Nope window is active,
+- whether an Exploding Kitten is being resolved.
+
+Fix confusing UX.
+
+Pay special attention to:
+
+## Turn feedback
+
+Make the active player obvious.
+
+Use:
+
+YOUR TURN
+
+or
+
+PLAYER NAME'S TURN
+
+When Attack is active, clearly show:
+
+2 TURNS LEFT
+
+or the correct remaining count.
+
+## Cards
+
+Cards should have clear states:
+
+- idle,
+- hover,
+- selected,
+- playable,
+- disabled.
+
+Hover should feel responsive.
+
+Selected cards should visibly lift above the hand.
+
+Invalid combinations must not look playable.
+
+## Draw pile
+
+The draw pile should clearly communicate:
+
+DRAW & END TURN
+
+when appropriate.
+
+Hover and click feedback should feel physical.
+
+## Discard pile
+
+The most recently played card should be clearly visible.
+
+Played cards should animate toward the discard pile.
+
+## Target selection
+
+When an action requires another player:
+
+- dim unrelated UI,
+- highlight legal targets,
+- show a clear instruction such as:
+
+CHOOSE A PLAYER
+
+Do not rely on the user guessing what to click.
+
+## Contextual instructions
+
+Replace generic help text when possible with contextual instructions.
+
+Examples:
+
+ATTACK — Give the next player 2 turns.
+
+PAIR — Choose a player and steal 1 random card.
+
+TRIPLE — Choose a player and request a specific card.
+
+DRAW — Draw a card to end your turn.
+
+---
+
+# 6. ANIMATION REVIEW
+
+Animations must communicate gameplay rather than exist only for decoration.
+
+Check:
+
+- card hover,
+- card selection,
+- card play,
+- draw animation,
+- discard animation,
+- turn transition,
+- target selection,
+- bot action,
+- Nope,
+- Exploding Kitten,
+- Defuse,
+- elimination,
+- victory.
+
+Recommended timing:
+
+small UI feedback:
+150–250 ms
+
+card movement:
+250–500 ms
+
+major card reveal:
+500–900 ms
+
+dramatic events:
+700–1200 ms
+
+Avoid excessive waiting.
+
+Animations must never block game state permanently.
+
+If an animation fails or is interrupted, gameplay must still recover safely.
+
+---
+
+# 7. EXPLODING KITTEN SEQUENCE
+
+Treat drawing an Exploding Kitten as a major event.
+
+Expected experience:
+
+draw card
+→ card moves toward center
+→ card reveals
+→ short dramatic pause
+→ screen impact / shake / flash
+→ EXPLODING KITTEN state appears
+
+If the player has Defuse:
+
+highlight the valid Defuse interaction clearly.
+
+After Defuse:
+
+Defuse resolves
+→ explosion is cancelled
+→ user chooses where to put the Exploding Kitten back into the deck
+→ game resumes correctly.
+
+If no Defuse exists:
+
+resolve elimination clearly.
+
+Do not immediately skip over this sequence.
+
+---
+
+# 8. NOPE INTERACTION
+
+Test the Nope system carefully.
+
+When a Nope-able action is played:
+
+show:
+
+- the action being challenged,
+- a visible reaction timer,
+- a clear NOPE button.
+
+Ensure the game cannot accidentally continue before the reaction window resolves.
+
+If another Nope cancels the first Nope, visually communicate that the original action is active again.
+
+Make the state deterministic and safe.
+
+---
+
+# 9. VISUAL POLISH
+
+Check for:
+
+- inconsistent spacing,
+- overlapping cards,
+- clipped text,
+- buttons moving unexpectedly,
+- incorrect z-index,
+- text that becomes unreadable,
+- hover flicker,
+- cursor inconsistencies,
+- animations appearing behind the wrong elements,
+- cards clipping outside containers,
+- elements shifting when text changes,
+- layout problems on common desktop sizes.
+
+Primary target:
+
+1920×1080 desktop.
+
+Also test reasonable smaller desktop browser sizes.
+
+Mobile support is NOT currently required.
+
+Do not redesign the entire visual identity unless necessary.
+
+Improve the existing design.
+
+---
+
+# 10. SOUND / MOTION SAFETY
+
+If sound exists:
+
+- do not play sounds repeatedly by mistake,
+- do not overlap excessive audio,
+- respect sound toggle state.
+
+If reduced-motion settings exist:
+
+make sure they work.
+
+Animations should never be required to understand the game.
+
+---
+
+# 11. STATE AND BUG TESTING
+
+Actively try to break the game.
+
+Click quickly.
+
+Click during animations.
+
+Spam buttons.
+
+Select and deselect cards rapidly.
+
+Try to:
+
+- double draw,
+- double play,
+- click disabled controls,
+- select players at the wrong time,
+- trigger actions while a modal is open,
+- play while bot is thinking,
+- play during the Nope window,
+- reload during a game,
+- reload during a special interaction.
+
+Make state transitions resistant to accidental double input.
+
+Prevent:
+
+- duplicated actions,
+- duplicated card draws,
+- duplicated cards,
+- lost cards,
+- impossible hand counts,
+- negative pending turns,
+- multiple turn transitions firing simultaneously.
+
+---
+
+# 12. SAVE / RESUME
+
+If local save exists, test it.
+
+Test save and reload during:
+
+- normal turn,
+- bot turn,
+- Attack state,
+- after a player dies,
+- late game.
+
+If some transient animation or modal state should not be restored directly, normalize it safely when loading.
+
+Never load into a broken or impossible state.
+
+---
+
+# 13. CONSOLE AND RUNTIME QUALITY
+
+During all tests, watch for:
+
+- JavaScript errors,
+- rejected promises,
+- undefined values,
+- stale DOM references,
+- event listener duplication,
+- broken asset paths,
+- missing images,
+- race conditions.
+
+Resolve meaningful runtime warnings and errors.
+
+Do not ignore errors just because gameplay appears to continue.
+
+---
+
+# 14. SELF-REVIEW LOOP
+
+After each meaningful batch of fixes:
+
+restart the game and perform another playthrough.
+
+Use this loop:
+
+PLAY
+→ OBSERVE
+→ LIST ISSUES
+→ FIX
+→ RELOAD
+→ REPLAY
+→ REGRESSION TEST
+
+Repeat until major issues are gone.
+
+Do not stop after only one testing pass.
+
+---
+
+# 15. PRIORITY ORDER
+
+Fix issues in this order:
+
+P0 — game-breaking bugs
+P0 — incorrect game rules
+P0 — stuck game states
+P0 — invalid bot actions
+
+P1 — incorrect interactions
+P1 — confusing targeting
+P1 — turn-state problems
+P1 — Draw / Attack / Nope / Defuse flow
+
+P2 — animation clarity
+P2 — visual feedback
+P2 — bot pacing
+P2 — game log / contextual feedback
+
+P3 — minor visual polish
+P3 — micro-animation improvements
+
+Do not spend significant time polishing minor visuals while important gameplay bugs remain.
+
+---
+
+# 16. DO NOT
+
+Do NOT:
+
+- rewrite the whole project just because another architecture is cleaner,
+- replace working code unnecessarily,
+- remove existing assets without reason,
+- change game rules for convenience,
+- add unrelated features,
+- add mobile support right now,
+- add new expansions right now,
+- stop after static code review,
+- declare something fixed without replaying the affected scenario.
+
+---
+
+# 17. DEFINITION OF DONE
+
+The task is complete only when:
+
+- a complete game can be played from setup to victory,
+- all major Original Edition card interactions work,
+- bots can finish games without getting stuck,
+- game state remains consistent,
+- Attack / Nope / Defuse flows work reliably,
+- card selection and targeting are obvious,
+- animations clearly communicate actions,
+- no important console errors remain,
+- rapid clicking does not break the game,
+- reload/save does not corrupt the match,
+- multiple full playthroughs complete successfully.
+
+The final result should feel like a finished desktop game rather than a development demo.
+
+---
+
+# 18. FINAL REPORT
+
+Only after finishing the implementation and retesting, provide a concise report containing:
+
+## Fixed
+List important bugs and UX problems you fixed.
+
+## Improved
+List major animation, UI, bot, or gameplay improvements.
+
+## Tested
+List the important scenarios you personally tested.
+
+## Remaining limitations
+Only list actual known limitations that still exist.
+
+Do not give me a theoretical review instead of implementing the fixes.
+
+Work autonomously.
+
+When you find a reasonable issue, fix it.
+
+Do not ask me for approval for ordinary bug fixes, UX fixes, animation improvements, or refactoring required to make the current game work correctly.
+
+Continue until the existing Original Edition game is stable and polished.

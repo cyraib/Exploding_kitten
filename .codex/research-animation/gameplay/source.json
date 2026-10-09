@@ -1,0 +1,20 @@
+{
+  "id": "gNPBdjKDHco",
+  "title": "IMPLODING KITTENS MODE!! - Exploding Kittens 2 (PC Gameplay)",
+  "channel": "Stumpt",
+  "upload_date": "20241019",
+  "duration": 1742,
+  "fps": 30,
+  "width": 640,
+  "height": 360,
+  "url": "https://www.youtube.com/watch?v=gNPBdjKDHco",
+  "status": "selected_samples_inspected",
+  "files": [
+    {
+      "path": "gameplay/gNPBdjKDHco.mp4",
+      "bytes": 101839551,
+      "sha256": "2d57f4892b8021ee47e69d5c7d5c2c1be18a1ce397888141b6e5028367f473b3"
+    }
+  ],
+  "inspection": "15-second overview and selected 0.25-second spans; gameplay/observations.md"
+}

@@ -1,0 +1,83 @@
+{
+  "checked_at": "2026-10-07T19:18:55.311517+07:00",
+  "root": "D:\\Project VS\\Exploding_kitten",
+  "scope": "Original Edition presentation integrity, syntax and isolated privacy guards; no browser parity claim.",
+  "passed": true,
+  "errors": [],
+  "original_assets": {
+    "baseline": ".codex/repository-audit-before.json",
+    "checked": 351,
+    "expected_count": 351,
+    "changed_or_missing": [],
+    "additional_files": [],
+    "passed": true
+  },
+  "protected_runtime": {
+    "baseline": ".codex/steam-animation-before.json",
+    "files": [
+      {
+        "path": "app/engine.js",
+        "expected": "455767c8ee95e77ca75d814dc496043f2c6d9712cbd06dcaca2a21a96ad79bf5",
+        "actual": "455767c8ee95e77ca75d814dc496043f2c6d9712cbd06dcaca2a21a96ad79bf5",
+        "passed": true
+      },
+      {
+        "path": "app/bots.js",
+        "expected": "477d5d744aa4aeda1f26d8672dc47c253febc9167b88f5bd05308acd11ddc98f",
+        "actual": "477d5d744aa4aeda1f26d8672dc47c253febc9167b88f5bd05308acd11ddc98f",
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "presentation_syntax": {
+    "files": [
+      {
+        "path": "app/presentation/card-art.js",
+        "passed": true,
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "path": "app/presentation/steam-scenes.js",
+        "passed": true,
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "path": "app/presentation/steam-visuals.js",
+        "passed": true,
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "passed": true
+  },
+  "card_art_privacy": {
+    "passed": true,
+    "exit_code": 0,
+    "stderr": "",
+    "assertions": {
+      "checks": [
+        "known visible face has decorative, inaccessible SVG",
+        "faceDown suppresses known-face artwork",
+        "hidden suppresses known-face artwork",
+        "revealed suppresses known-face artwork",
+        "unknown, absent, text, icon and replaced faces stay untouched",
+        "unrecognized caller artwork cannot enter SVG markup",
+        "inspection and motion opt-outs disable existing overlays"
+      ],
+      "passed": true
+    }
+  },
+  "reaction_constant": {
+    "path": "app/main.js",
+    "milliseconds": 3000,
+    "expected": 3000,
+    "passed": true,
+    "limitation": "Static constant check only; browser checks must confirm start/reset behavior and motion independence."
+  }
+}

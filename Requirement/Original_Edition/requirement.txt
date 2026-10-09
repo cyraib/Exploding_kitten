@@ -1,0 +1,35 @@
+Context
+Make a playable of exploding-kittens-original-edition version
+Engine: Read D:\Project VS\Exploding_kitten\Assets\decks\exploding-kittens-original-edition ( ignore pdf file due to extracted to txt file and saving token)
+UIUX: D:\Project VS\Exploding_kitten\Requirement\Original_Edition\exploding-kittens-animation-lab-en.html for reference ( just for reference ok), make the animation smoothier
+Play with bots ( may be with my friends in the future but now just bots)
+add any feature that you think it good
+
+
+
+Any question, ask me before implement
+
+When done:
+- Playable original edition version
+- Beautiful UIUX, smooth animation
+- Create a shortcut for runing the app
+- update memory
+
+
+
+
+17:00 10/4/2026
+
+update card
+using assets provided in assets folder,
+mapping of assets is in D:\Project VS\Exploding_kitten\Assets\decks\exploding-kittens-original-edition\asset-map.md
+When being favor, chose the card on hand to give to opponent
+When favor, attack or any thing that point to the opponent, show arrow point to all players, choose the target for using
+When steal, show the back of opponent cards and choose for steal
+Show the nope button to nope opponent if possible
+make each activity delay, 3s per activity for nope 
+make deal the card animation when start the game
+when play the card, there is an animation bug that double the card
+only few test needed, i will test manually
+
+update then save to memory

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-06",
+  "timezone": "Asia/Bangkok",
+  "research_only": true,
+  "passed": true,
+  "original_assets_checked": 351,
+  "changed_original_assets": [],
+  "retained_source_files_hash_checked": 58,
+  "source_hash_errors": [],
+  "source_download_errors": [],
+  "official_images_decoded": 45,
+  "recipes": 17,
+  "scene_capture_entries": 83,
+  "steam_exact_parity_claimed": false,
+  "markdown_local_links_checked": 93,
+  "markdown_link_errors": [],
+  "viewer_images": 45,
+  "viewer_videos": 3,
+  "viewer_link_errors": [],
+  "python_syntax_checked": [
+    ".codex\\research-animation\\build_reference_catalog.py",
+    ".codex\\research-animation\\collect_gameplay_video.py",
+    ".codex\\research-animation\\collect_references.py",
+    ".codex\\research-animation\\prepare_video.py",
+    ".codex\\research-animation\\sample_frames.py"
+  ],
+  "visual_evidence": {
+    "official_press_screenshots": "six visually inspected",
+    "steam_trailer": "60 samples at 2 fps visually inspected",
+    "vendor_montage": "36 samples at 4 fps visually inspected",
+    "pc_gameplay": "15-second overview and selected 0.25-second samples; observations.md",
+    "cosmetics": "selected retained screenshots visually inspected"
+  },
+  "runtime_checks": "Not run: no runtime code/config changed; artifact validation only",
+  "viewer_browser_check": {
+    "status": "passed_initial_load_and_filter",
+    "browser": "Brave",
+    "url": "http://127.0.0.1:4193/research-animation/index.html",
+    "media_durations_seconds": [
+      29.994667,
+      9.1,
+      1741.921
+    ],
+    "video_ready_states": [
+      4,
+      4,
+      4
+    ],
+    "all_reference_count": 45,
+    "mystic_filter_count": 5,
+    "speed_option_selected": 0.25,
+    "scene_seek_control": "Alter Future 992s issued; follow-up interrupted by next task",
+    "page_width": 2545,
+    "viewport_width": 2560
+  },
+  "limitations": [
+    "No current Steam build pinned",
+    "No exact per-recipe inventories or motion/input/audio measurements",
+    "No application implementation performed",
+    "Historical clips/press media do not prove universal Steam parity"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-04",
+  "timezone": "Asia/Bangkok",
+  "request": "Requirement/Original_Edition/update1.txt",
+  "attack_clarification": "Keep the clockwise target; show its arrow",
+  "launcher": {
+    "command": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File .codex/launch.ps1 -NoBrowser",
+    "passed": true,
+    "health": { "app": "exploding-kittens-original-local", "port": 4177 },
+    "isolated_test_server_stopped": true
+  },
+  "automated": {
+    "syntax": {
+      "command": "npm run check",
+      "passed": true
+    },
+    "focused_engine": {
+      "command": "node --test --test-name-pattern='human pair|human can Nope|Attack target|Favor target|matching action pair|Nope can cancel combos' .codex/tests/engine.test.js",
+      "passed": 6,
+      "failed": 0,
+      "new_tests": 3
+    },
+    "full_100_game_suite_rerun": false
+  },
+  "browser": {
+    "origin": "http://127.0.0.1:4179/",
+    "isolated_from_user_saved_game_on_4177": true,
+    "observed": [
+      "Animated start locks controls and finishes with eight-card hands; human cards reveal as flights land",
+      "Full supplied artwork visible on hand and discard",
+      "Attack target panel enables Peachy and disables other living opponents when Peachy is next clockwise",
+      "During Attack flight: one flying card, no Attack in hand, no Attack rendered in discard",
+      "Three-second reaction display and available human Nope button observed on a bot Favor",
+      "Timed Attack resolves to the next clockwise player with two turns",
+      "Bots continue after timed responses and return to the human turn",
+      "Resume restores the saved reaction and later the human turn",
+      "A human two-Nope matching pair targets Jazzy and opens five indistinguishable backs after the response window",
+      "The theft dialog contains only slot indices and generic back labels; zero artwork images",
+      "Selecting hidden slot 3 transfers one card: human count 5 to 6, Jazzy count 5 to 4, received See the Future 3x revealed after flight",
+      "Phone Favor targeting offers all three living opponents and visible Cancel",
+      "Cancelling targeting restores the playable human turn"
+    ],
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "page_scroll_width": 390,
+      "hand_client_width": 358,
+      "hand_scroll_width": 658,
+      "broken_images": 0
+    },
+    "warning_error_logs": [],
+    "temporary_viewport_reset": true,
+    "screenshots": [
+      ".codex/original-edition-update1-theft.png",
+      ".codex/original-edition-update1-mobile.png",
+      ".codex/original-edition-update1-desktop.png"
+    ]
+  },
+  "limitations": [
+    "Extensive manual play remains for the user, as requested",
+    "Human Nope/counter-Nope command semantics and Favor gift selection passed engine tests; their new UI paths were not exhaustively played",
+    "Exact edition print assignments for shared family artwork remain unverified",
+    "Local bot play only; existing legacy missing-asset documentation gaps remain"
+  ],
+  "integrity": {
+    "original_asset_files_checked": 351,
+    "original_asset_mismatches": [],
+    "documentation_links_checked": 74,
+    "missing_documentation_links": [],
+    "screenshots": {
+      "original-edition-update1-desktop.png": {
+        "width": 2545,
+        "height": 912
+      },
+      "original-edition-update1-mobile.png": {
+        "width": 390,
+        "height": 844
+      },
+      "original-edition-update1-theft.png": {
+        "width": 2545,
+        "height": 912
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-06",
+  "runtime_files": [
+    {
+      "path": "index.html",
+      "sha256": "1b92f5f8887b757948e8fe19571b7969b3650243302da0ed9bb545b31ada9bd4"
+    },
+    {
+      "path": "package.json",
+      "sha256": "38aa3fe7860f67716f726521c8abe8da77c0556dc9106ec96328fa2d61ef94c3"
+    },
+    {
+      "path": "app/bots.js",
+      "sha256": "477d5d744aa4aeda1f26d8672dc47c253febc9167b88f5bd05308acd11ddc98f"
+    },
+    {
+      "path": "app/catalog.js",
+      "sha256": "249a4207b6c72c0c263715953a8c43d6823bc0877cdff9ec318e51d1400d0db1"
+    },
+    {
+      "path": "app/engine.js",
+      "sha256": "455767c8ee95e77ca75d814dc496043f2c6d9712cbd06dcaca2a21a96ad79bf5"
+    },
+    {
+      "path": "app/main.js",
+      "sha256": "5f690c8574abddf444c00c3df99bb025b2390e9735f4d1c0c2573004c28c0b71"
+    },
+    {
+      "path": "app/styles.css",
+      "sha256": "933b3f445eabfe6cbe261c5dd4c9235253686d5d8fc41ec536429bfdabba437d"
+    },
+    {
+      "path": "app/ui-config.js",
+      "sha256": "a720bdbde06a48e49747382955eb1665473aedc98c4714f8c5b9a97b2142ef87"
+    },
+    {
+      "path": "app/update2.css",
+      "sha256": "3098d58f725db781ad3b1446baa9f02c9826499e4859797640bd785f90f56a17"
+    },
+    {
+      "path": "app/config/defaults.json",
+      "sha256": "e715859314850fb3b5d21fb3ce617a39078956214970d3582930d6d60b955954"
+    },
+    {
+      "path": "app/config/project.json",
+      "sha256": "e715859314850fb3b5d21fb3ce617a39078956214970d3582930d6d60b955954"
+    },
+    {
+      "path": "app/config/runtime.js",
+      "sha256": "c08e6bc629b3b03a26ef17f26a6611a19b0d608961a2e5352bd5fd4c82c42122"
+    },
+    {
+      "path": "app/config/validation.js",
+      "sha256": "f48be980aeefe6316a6c120dbc4d09f7443ddf08644679dff977a6f0193be53c"
+    },
+    {
+      "path": "app/editor/bridge.js",
+      "sha256": "dffd9643eab9245f5782f109a28f932147191cef7a4bd6a22b66cb6c3bd67669"
+    },
+    {
+      "path": "app/editor/editor.css",
+      "sha256": "dbdf9fde4611116a6ef6951f8c1592787e19af2ae64e734c524f251a57dafb70"
+    },
+    {
+      "path": "app/editor/editor.js",
+      "sha256": "eafe5d97686cdcc6c39043d0bb9e5ad3ae9a33ab8dfcd277abc5a177011bea13"
+    },
+    {
+      "path": "app/editor/index.html",
+      "sha256": "41c313f5a8f645cb4d6bb970010f382b96d27d52eedd33be150547e3d388b961"
+    }
+  ]
+}

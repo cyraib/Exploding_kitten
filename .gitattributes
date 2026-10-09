@@ -1,0 +1,14 @@
+# Retained source videos exceed or materially inflate normal Git object limits.
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+
+# Keep downloaded/reference binaries byte-for-byte and out of text diffs.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.lnk binary
+

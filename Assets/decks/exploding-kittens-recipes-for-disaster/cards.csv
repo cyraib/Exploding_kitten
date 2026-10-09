@@ -1,0 +1,31 @@
+﻿id,name,family,count,with_paw,without_paw,zone,icon,asset_folder,count_source
+alter-the-future-3x,Alter the Future 3x,alter-the-future-3x,3,0,3,deck,Assets/cards/alter-the-future-3x/alter-the-future-3x.png,Assets/cards/alter-the-future-3x,field-guide.pdf
+alter-the-future-3x-now,Alter the Future 3x NOW,alter-the-future-3x-now,2,0,2,deck,Assets/cards/alter-the-future-3x-now/alter-the-future-3x-now.png,Assets/cards/alter-the-future-3x-now,field-guide.pdf
+attack-2x,Attack 2x,attack-2x,6,0,6,deck,Assets/cards/attack-2x/attack-2x.png,Assets/cards/attack-2x,field-guide.pdf
+barking-kitten,Barking Kitten,barking-kitten,2,0,2,deck,Assets/cards/barking-kitten/barking-kitten.png,Assets/cards/barking-kitten,field-guide.pdf
+bury,Bury,bury,4,0,4,deck,Assets/cards/bury/bury.png,Assets/cards/bury,field-guide.pdf
+beard-cat,Beard Cat,cat-card,4,0,4,deck,Assets/cards/cat-card/beard-cat.png,Assets/cards/cat-card,explodi.ng structured card inventory; named cat split
+rainbow-ralphing-cat,Rainbow-Ralphing Cat,cat-card,4,0,4,deck,Assets/cards/cat-card/rainbow-ralphing-cat.png,Assets/cards/cat-card,explodi.ng structured card inventory; named cat split
+tacocat,Tacocat,cat-card,4,0,4,deck,Assets/cards/cat-card/tacocat.png,Assets/cards/cat-card,explodi.ng structured card inventory; named cat split
+zombie-cat,Zombie Cat,cat-card,4,0,4,deck,Assets/cards/cat-card/zombie-cat.png,Assets/cards/cat-card,explodi.ng structured card inventory; named cat split
+catomic-bomb,Catomic Bomb,catomic-bomb,1,0,1,deck,Assets/cards/catomic-bomb/catomic-bomb.png,Assets/cards/catomic-bomb,field-guide.pdf
+defuse,Defuse,defuse,8,0,8,deck,Assets/cards/defuse/defuse.png,Assets/cards/defuse,field-guide.pdf
+draw-from-the-bottom,Draw From the Bottom,draw-from-the-bottom,3,0,3,deck,Assets/cards/draw-from-the-bottom/draw-from-the-bottom.png,Assets/cards/draw-from-the-bottom,field-guide.pdf
+exploding-kitten,Exploding Kitten,exploding-kitten,6,0,6,deck,Assets/cards/exploding-kitten/exploding-kitten.png,Assets/cards/exploding-kitten,field-guide.pdf
+feral-cat,Feral Cat,feral-cat,6,0,6,deck,Assets/cards/feral-cat/feral-cat.png,Assets/cards/feral-cat,field-guide.pdf
+garbage-collection,Garbage Collection,garbage-collection,2,0,2,deck,Assets/cards/garbage-collection/garbage-collection.png,Assets/cards/garbage-collection,field-guide.pdf
+i-ll-take-that,I'll Take That,i-ll-take-that,4,0,4,deck,Assets/cards/i-ll-take-that/i-ll-take-that.png,Assets/cards/i-ll-take-that,field-guide.pdf
+imploding-kitten,Imploding Kitten,imploding-kitten,4,0,4,deck,Assets/cards/imploding-kitten/imploding-kitten.png,Assets/cards/imploding-kitten,field-guide.pdf
+mark,Mark,mark,4,0,4,deck,Assets/cards/mark/mark.png,Assets/cards/mark,field-guide.pdf
+nope,Nope,nope,8,0,8,deck,Assets/cards/nope/nope.png,Assets/cards/nope,field-guide.pdf
+personal-attack-3x,Personal Attack 3x,personal-attack-3x,4,0,4,deck,Assets/cards/personal-attack-3x/personal-attack-3x.png,Assets/cards/personal-attack-3x,field-guide.pdf
+reverse,Reverse,reverse,5,0,5,deck,Assets/cards/reverse/reverse.png,Assets/cards/reverse,field-guide.pdf
+see-the-future-3x,See the Future 3x,see-the-future-3x,6,0,6,deck,Assets/cards/see-the-future-3x/see-the-future-3x.png,Assets/cards/see-the-future-3x,field-guide.pdf
+see-the-future-5x,See the Future 5x,see-the-future-5x,3,0,3,deck,Assets/cards/see-the-future-5x/see-the-future-5x.png,Assets/cards/see-the-future-5x,field-guide.pdf
+share-the-future-3x,Share the Future 3x,share-the-future-3x,4,0,4,deck,Assets/cards/share-the-future-3x/share-the-future-3x.png,Assets/cards/share-the-future-3x,field-guide.pdf
+shuffle,Shuffle,shuffle,5,0,5,deck,Assets/cards/shuffle/shuffle.png,Assets/cards/shuffle,field-guide.pdf
+skip,Skip,skip,5,0,5,deck,Assets/cards/skip/skip.png,Assets/cards/skip,field-guide.pdf
+streaking-kitten,Streaking Kitten,streaking-kitten,1,0,1,deck,Assets/cards/streaking-kitten/streaking-kitten.png,Assets/cards/streaking-kitten,field-guide.pdf
+super-skip,Super Skip,super-skip,2,0,2,deck,Assets/cards/super-skip/super-skip.png,Assets/cards/super-skip,field-guide.pdf
+swap-top-and-bottom,Swap Top and Bottom,swap-top-and-bottom,3,0,3,deck,Assets/cards/swap-top-and-bottom/swap-top-and-bottom.png,Assets/cards/swap-top-and-bottom,field-guide.pdf
+targeted-attack-2x,Targeted Attack 2x,targeted-attack-2x,4,0,4,deck,Assets/cards/targeted-attack-2x/targeted-attack-2x.png,Assets/cards/targeted-attack-2x,field-guide.pdf
