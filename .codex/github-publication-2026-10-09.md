@@ -14,5 +14,11 @@ Publish the complete current Exploding Kittens project as a new private GitHub r
 
 ## Publication result
 
-The final repository URL, commit, remote checks, and limitations are recorded in the root `memory.md` task entry after publication.
+- Repository: <https://github.com/cyraib/Exploding_kitten>
+- Visibility: private
+- Default branch: `main`
+- Initial content commit: `9f9087a92c0abfc4ff46884df448d32dfd299ddb`
+- The initial local and remote `main` hashes matched after push. Git LFS reported all four tracked objects uploaded; a subsequent dry run reported no pending LFS object.
+- `npm test` passed 52/52 and `npm run check` passed immediately before publication.
+- A final documentation commit records this result and is pushed after this note is updated.
 
